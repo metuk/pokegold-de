@@ -115,6 +115,8 @@ ROMX $25
 	"Events"
 ROMX $26
 	"Title Screen"
+ROMX $27
+	"Landmarks"
 ROMX $2a
 	"Map Blocks 1"
 ROMX $2b
