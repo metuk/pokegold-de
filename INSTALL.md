@@ -1,6 +1,6 @@
 # Instructions
 
-These instructions explain how to set up the tools required to build **pokegold**, including [**rgbds**](https://github.com/gbdev/rgbds), which assembles the source files into a ROM.
+These instructions explain how to set up the tools required to build **pokegold-de**, including [**rgbds**](https://github.com/gbdev/rgbds), which assembles the source files into a ROM.
 
 If you run into trouble, ask for help on IRC or Discord (see [README.md](README.md)).
 
@@ -15,9 +15,9 @@ Update WSL's software before continuing. If you chose Debian, Ubuntu, or another
 apt-get update && apt-get upgrade
 ```
 
-WSL has its own file system that's not accessible from Windows, but Windows files *are* accessible from WSL. So you're going to want to install pokegold within Windows. You'll have to change the **current working directory** every time you open WSL.
+WSL has its own file system that's not accessible from Windows, but Windows files *are* accessible from WSL. So you're going to want to install pokegold-de within Windows. You'll have to change the **current working directory** every time you open WSL.
 
-For example, if you want to store pokegold in **C:\Users\\*\<user>*\Desktop**, enter this command:
+For example, if you want to store pokegold-de in **C:\Users\\*\<user>*\Desktop**, enter this command:
 
 ```bash
 cd /mnt/c/Users/<user>/Desktop
@@ -48,9 +48,9 @@ Then follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#pre-buil
 
 Now open the **Cygwin terminal** and enter the following commands.
 
-Cygwin has its own file system that's within Windows, at **C:\cygwin64\home\\*\<user>***. If you don't want to store pokegold there, you'll have to change the **current working directory** every time you open Cygwin.
+Cygwin has its own file system that's within Windows, at **C:\cygwin64\home\\*\<user>***. If you don't want to store pokegold-de there, you'll have to change the **current working directory** every time you open Cygwin.
 
-For example, if you want to store pokegold in **C:\Users\\*\<user>*\Desktop**:
+For example, if you want to store pokegold-de in **C:\Users\\*\<user>*\Desktop**:
 
 ```bash
 cd /cygdrive/c/Users/<user>/Desktop
@@ -58,7 +58,7 @@ cd /cygdrive/c/Users/<user>/Desktop
 
 (The Windows `C:\` drive is called `/cygdrive/c/` in Cygwin. Replace *\<user>* in the example path with your username.)
 
-Now you're ready to [build **pokegold**](#build-pokegold).
+Now you're ready to [build **pokegold-de**](#build-pokegold-de).
 
 
 ## macOS
@@ -69,7 +69,7 @@ Open **Terminal** and prepare to enter commands.
 
 Then follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#pre-built) for macOS to install **rgbds 1.0.4**.
 
-Now you're ready to [build **pokegold**](#build-pokegold).
+Now you're ready to [build **pokegold-de**](#build-pokegold-de).
 
 
 ## Linux
@@ -78,7 +78,7 @@ Open **Terminal** and enter the following commands, depending on which distro yo
 
 ### Debian or Ubuntu
 
-To install the software required for **pokegold**:
+To install the software required for **pokegold-de**:
 
 ```bash
 sudo apt-get install make gcc git
@@ -88,7 +88,7 @@ Then follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#building
 
 ### OpenSUSE
 
-To install the software required for **pokegold**:
+To install the software required for **pokegold-de**:
 
 ```bash
 sudo zypper install make gcc git
@@ -98,7 +98,7 @@ Then follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#building
 
 ### Arch Linux
 
-To install the software required for **pokegold**:
+To install the software required for **pokegold-de**:
 
 ```bash
 sudo pacman -S make gcc git rgbds
@@ -108,7 +108,7 @@ If you want to compile and install **rgbds** yourself instead, then follow the [
 
 ### Termux
 
-To install the software required for **pokegold**:
+To install the software required for **pokegold-de**:
 
 ```bash
 pkg install make clang git sed
@@ -133,25 +133,25 @@ If your distro is not listed here, try to find the required software in its repo
 
 If `rgbds` is not available, you'll need to follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#building-from-source) to build **rgbds 1.0.4** from source.
 
-Now you're ready to [build **pokegold**](#build-pokegold).
+Now you're ready to [build **pokegold-de**](#build-pokegold-de).
 
 
-## Build pokegold
+## Build pokegold-de
 
-To download the **pokegold** source files:
+To download the **pokegold-de** source files:
 
 ```bash
-git clone https://github.com/pret/pokegold
-cd pokegold
+git clone https://github.com/metuk/pokegold-de
+cd pokegold-de
 ```
 
-To build **pokegold.gbc**:
+To build **pokegold-de.gbc**:
 
 ```bash
 make gold
 ```
 
-To build **pokesilver.gbc**:
+To build **pokesilver-de.gbc**:
 
 ```bash
 make silver
@@ -163,9 +163,15 @@ To build both ROMs:
 make
 ```
 
+To check that they match the original ROMs (Pokemon - Goldene Edition (Germany), `sha1: 9254195d461ea942eaaa08cc4b83de3cf82aea0d`, and Pokemon - Silberne Edition (Germany), `sha1: 8ecc58d621faaedf2a934bd2583d527220df7bb9`):
+
+```bash
+make compare
+```
+
 ### Build with a local rgbds version
 
-If you have different projects that require different versions of `rgbds`, it might not be convenient to install rgbds 1.0.4 globally. Instead, you can put its files in a directory within pokegold, such as `pokegold/rgbds-1.0.4/`. Then specify it when you run `make`:
+If you have different projects that require different versions of `rgbds`, it might not be convenient to install rgbds 1.0.4 globally. Instead, you can put its files in a directory within pokegold-de, such as `pokegold-de/rgbds-1.0.4/`. Then specify it when you run `make`:
 
 ```bash
 make RGBDS=rgbds-1.0.4/ gold

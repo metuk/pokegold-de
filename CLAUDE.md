@@ -36,3 +36,12 @@ python3 ../pokecrystal-de-tools/romdiff.py
 ## Stand
 
 - 2026-10-02: Setup. Gold baut, 69,4 % positionsgenau, 72,6 % strukturell.
+
+- 2026-10-02 (abends): **Gold und Silber bit-genau** (`make compare` OK für beide, auch nach `make clean`).
+  Gold-spezifische Erkenntnisse: Landmarken-Code in eigener Section in Bank $27; "AP"-Kacheln per eigener
+  Schleife (`ListMovePP.load_ap`); Predef `DummyPredef2F + 1`; Paragraph-Cursor bei INNERH - 1;
+  unbenutzter String `"-<LF>@"` nach `String_Space`; Gold/Silber haben eigene Titel-Tilemaps.
+  Bei Silber schreiben retext/restring auch in `dex_entries/gold` → danach zurücksetzen und Silber-Dex
+  aus `PokedexDataPointerTable` erzeugen (Bank $68 + Index/64).
+  SGB-Rahmen: Quelle ist `*_border.bin` (inkl. Nullen im Mittelteil), nicht die erzeugte `.sgb.tilemap`.
+  `regfx.py`/`lzflags.py` finden bei `IF DEF(_GOLD)/ELIF` immer die Gold-Datei → Silber-Grafiken von Hand.

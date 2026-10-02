@@ -1,29 +1,44 @@
-# Pokémon Gold and Silver [![Build Status][ci-badge]][ci]
+# Pokémon - Goldene Edition & Silberne Edition [![Build Status][ci-badge]][ci]
 
-This is a disassembly of Pokémon Gold and Pokémon Silver.
+This is a disassembly of the German versions of Pokémon Gold and Silver: Pokémon - Goldene Edition and Pokémon - Silberne Edition.
 
 It builds the following ROMs:
 
-- Pokemon - Gold Version (UE) [C][!].gbc `sha1: d8b8a3600a465308c9953dfa04f0081c05bdcb94`
-- Pokemon - Silver Version (UE) [C][!].gbc `sha1: 49b163f7e57702bc939d642a18f591de55d92dae`
-- mons2_gld_ps3_debug.bin `sha1: 53783c57378122805c5b4859d19e1a224f02a1ed`
-- mons2_slv_ps3_debug.bin `sha1: 4c2fafebdbc7551f4cd3f348bdd17e420b93b6e7`
-- DMGAAUP0.J56.patch `sha1: b8253b915ade89c784c71adfdb11cf60bc1f7b59`
-- DMGAAXP0.J57.patch `sha1: a38c0dec807e8a9e3626a0ec0fdf96bfb795ef3a`
+- Pokemon - Goldene Edition (Germany) (SGB Enhanced).gbc `sha1: 9254195d461ea942eaaa08cc4b83de3cf82aea0d`
+- Pokemon - Silberne Edition (Germany) (SGB Enhanced).gbc `sha1: 8ecc58d621faaedf2a934bd2583d527220df7bb9`
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
+
+This repository does not contain a ROM. You need your own copy of the games only to verify the build with `make compare`.
+
+
+## About
+
+This project is based on [**pret/pokegold**][pokegold], the disassembly of the English versions. It contains the German text, graphics and the code changes of the European localization, such as the box checksums, the European mail fonts and the metric Pokédex.
+
+Many of these changes are shared with the German Crystal version, see [**pokecrystal-de**][pokecrystal-de].
+
+This is an unofficial fan project. It is not affiliated with pret, Nintendo, Game Freak or The Pokémon Company.
+
+
+## Deutsch
+
+Dies ist eine Disassembly der deutschen Goldenen und Silbernen Edition. `make` baut daraus beide ROMs, die Byte für Byte mit dem Original übereinstimmen. ROMs sind nicht enthalten. Anleitung: [INSTALL.md](INSTALL.md).
 
 
 ## See also
 
-- [**Symbols**][symbols]
-- [**Tools**][tools]
+Most of the documentation for pokegold and pokecrystal also applies here:
 
-You can find us on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
+- [**pokecrystal documentation**][docs]
+- [**pokecrystal wiki**][wiki] (includes [tutorials][tutorials])
+- [**Other pret projects**][pret]
 
-For other pret projects, see [pret.github.io](https://pret.github.io/).
-
-[symbols]: https://github.com/pret/pokegold/tree/symbols
-[tools]: https://github.com/pret/gb-asm-tools
-[ci]: https://github.com/pret/pokegold/actions
-[ci-badge]: https://github.com/pret/pokegold/actions/workflows/main.yml/badge.svg
+[pokegold]: https://github.com/pret/pokegold
+[pokecrystal-de]: https://github.com/metuk/pokecrystal-de
+[docs]: https://pret.github.io/pokecrystal/
+[wiki]: https://github.com/pret/pokecrystal/wiki
+[tutorials]: https://github.com/pret/pokecrystal/wiki/Tutorials
+[pret]: https://pret.github.io/
+[ci]: https://github.com/metuk/pokegold-de/actions
+[ci-badge]: https://github.com/metuk/pokegold-de/actions/workflows/main.yml/badge.svg
