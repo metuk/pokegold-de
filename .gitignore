@@ -32,3 +32,10 @@
 *.sn*
 *.sa*
 *.sg1
+
+# output of ../pokecrystal-de-tools (porting tools)
+*.de_syms.json
+*.de_syms_learned.json
+*.de_unmatched.json
+*.retext_problems.txt
+__pycache__/
