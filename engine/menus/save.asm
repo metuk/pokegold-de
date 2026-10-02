@@ -1,7 +1,6 @@
 SaveMenu:
 	call LoadStandardMenuHeader
-	lb de, 4, 0
-	farcall DisplayNormalContinueData
+	farcall DisplaySaveInfoOnSave
 	call SpeechTextbox
 	call UpdateSprites
 	farcall SaveMenu_CopyTilemapAtOnce
@@ -198,7 +197,7 @@ SaveTheGame_yesorno:
 	ld b, BANK(WouldYouLikeToSaveTheGameText)
 	call MapTextbox
 	call LoadMenuTextbox
-	lb bc, 0, 7
+	lb bc, 0, 9
 	call PlaceYesNoBox
 	ld a, [wMenuCursorY]
 	dec a
@@ -287,6 +286,7 @@ _SaveGameData:
 	call SaveBackupPokemonData
 	call SaveBackupChecksum
 	call UpdateStackTop
+	farcall UpdateBoxChecksums
 	farcall BackupPartyMonMail
 	farcall SaveRTC
 	ret
@@ -341,6 +341,8 @@ ErasePreviousSave:
 	ld [sStackTop + 0], a
 	ld [sStackTop + 1], a
 	call CloseSRAM
+	farcall ClearBoxChecksumErrors
+	farcall UpdateBoxChecksums
 	ld a, $1
 	ld [wSavedAtLeastOnce], a
 	ret
@@ -548,6 +550,7 @@ TryLoadSaveFile:
 	call SaveBackupPlayerData
 	call SaveBackupPokemonData
 	call SaveBackupChecksum
+	farcall CheckBoxChecksums
 	and a
 	ret
 

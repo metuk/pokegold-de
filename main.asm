@@ -363,6 +363,7 @@ INCLUDE "data/items/descriptions.asm"
 
 SECTION "bank70", ROMX
 
+INCLUDE "engine/menus/box_checksums.asm"
 INCLUDE "engine/printer/print_party.asm"
 IF DEF(_DEBUG)
 INCLUDE "engine/debug/debug_room.asm"

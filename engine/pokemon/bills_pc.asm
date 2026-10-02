@@ -2196,7 +2196,7 @@ PCString_Stored: db " abgel.!@"
 PCString_Got: db " erhal.!@"
 PCString_Non: db "Nein@" ; unreferenced
 PCString_BoxFull: db "Die Box ist voll!@"
-PCString_PartyFull: db "The party's full!@"
+PCString_PartyFull: db "Team ist voll!@"
 PCString_NoReleasingEGGS: db "EI ablegen verbt.!@"
 
 _ChangeBox:

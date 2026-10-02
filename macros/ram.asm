@@ -120,7 +120,7 @@ ENDM
 
 MACRO box
 	curbox \1
-	ds 2 ; padding
+\1Checksum:: dw ; European releases only
 ENDM
 
 MACRO map_connection_struct

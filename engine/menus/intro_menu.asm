@@ -178,17 +178,17 @@ SetDefaultBoxNames:
 	db "BOX@"
 
 InitializeMagikarpHouse:
-	ld hl, wBestMagikarpLengthFeet
-	ld a, $3
+	ld hl, wBestMagikarpLength
+	ld a, HIGH(1053) ; mm
 	ld [hli], a
-	ld a, $6
+	ld a, LOW(1053)
 	ld [hli], a
 	ld de, .Ralph
 	call CopyName2
 	ret
 
 .Ralph:
-	db "RALPH@"
+	db "ANGELO@"
 
 InitializeNPCNames:
 	ld hl, .Rival
@@ -360,14 +360,18 @@ DisplaySaveInfoOnContinue:
 	call CheckRTCStatus
 	and RTC_RESET
 	jr z, .clock_ok
-	lb de, 4, 8
+	lb de, 2, 8
 	call DisplayContinueDataWithRTCError
 	ret
 
 .clock_ok
-	lb de, 4, 8
+	lb de, 2, 8
 	call DisplayNormalContinueData
 	ret
+
+DisplaySaveInfoOnSave:
+	lb de, 2, 0
+	jr DisplayNormalContinueData
 
 DisplayNormalContinueData:
 	call Continue_LoadMenuHeader
@@ -431,25 +435,34 @@ Continue_LoadMenuHeader:
 Continue_DisplayBadgesDex:
 	call MenuBoxCoord2Tile
 	push hl
-	decoord 13, 4, 0
+	decoord 15, 4, 0
 	add hl, de
 	call Continue_DisplayBadgeCount
 	pop hl
 	push hl
-	decoord 12, 6, 0
+	decoord 14, 6, 0
 	add hl, de
 	call Continue_DisplayPokedexNumCaught
 	pop hl
+	push hl
+	decoord 10, 2, 0
+	add hl, de
+	ld de, .Player
+	call PlaceString
+	pop hl
 	ret
 
+.Player:
+	db "<PLAYER>@"
+
 Continue_PrintGameTime:
-	decoord 9, 8, 0
+	decoord 11, 8, 0
 	add hl, de
 	call Continue_DisplayGameTime
 	ret
 
 Continue_UnknownGameTime:
-	decoord 9, 8, 0
+	decoord 11, 8, 0
 	add hl, de
 	ld de, .three_question_marks
 	call PlaceString
