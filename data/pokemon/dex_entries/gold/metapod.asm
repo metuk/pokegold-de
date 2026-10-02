@@ -1,10 +1,10 @@
-	db "COCOON@" ; species name
-	dw 204, 220 ; height, weight
+	db "KOKON@" ; species name
+	dw 25351, 34816 ; height, weight
 
-	db   "Inside the shell,"
-	next "it is soft and"
-	next "weak as it pre-"
+	db   "m Inneren ist"
+	next "es weich, da es"
+	next "sich auf seine"
+	page "Entwicklung vorbe-"
+	next "reitet. Es bewegt"
+	next "sich dabei nicht.@"
 
-	page "pares to evolve."
-	next "It stays motion-"
-	next "less in the shell.@"

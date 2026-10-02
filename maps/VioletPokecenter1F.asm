@@ -53,7 +53,7 @@ VioletPokecenter1F_ElmsAideScript:
 	end
 
 .eggname
-	db "EGG@"
+	db "EI@"
 
 .AideGivesEgg:
 	jumpstd ReceiveTogepiEggScript
@@ -104,90 +104,107 @@ MovementData_AideFinishesLeavingPokecenter:
 	step_end
 
 VioletPokecenterElmsAideFavorText:
-	text "<PLAYER>, long"
-	line "time, no see."
+	text "<PLAYER>, lange"
+	line "nicht gesehen."
 
-	para "PROF.ELM asked me"
-	line "to find you."
+	para "PROF. LIND hat"
+	line "mich gebeten, nach"
+	cont "dir zu suchen."
 
-	para "He has another"
-	line "favor to ask."
+	para "Er hat noch eine"
+	line "Bitte an dich."
 
-	para "Would you take the"
-	line "#MON EGG?"
+	para "Nimm bitte das"
+	line "#MON-EI!"
 	done
 
 VioletPokecenterElmsAideGiveEggText:
-	text "We discovered that"
-	line "a #MON will not"
+	text "Wir haben ent-"
+	line "deckt, dass ein"
 
-	para "hatch until it"
-	line "grows in the EGG."
+	para "#MON erst"
+	line "schlüpft, nachdem"
 
-	para "It also has to be"
-	line "with other active"
-	cont "#MON to hatch."
+	para "es im EI gewachsen"
+	line "ist."
 
-	para "<PLAYER>, you're"
-	line "the only person"
-	cont "we can rely on."
+	para "Außerdem muss es"
+	line "sich in der Nähe"
+	cont "anderer #MON"
+	cont "befinden, um zu"
+	cont "schlüpfen."
 
-	para "Please call PROF."
-	line "ELM when that EGG"
-	cont "hatches!"
+	para "<PLAYER>, du bist"
+	line "die einzige Per-"
+	cont "son, auf die wir"
+	cont "uns verlassen"
+	cont "können."
+
+	para "Bitte ruf PROF."
+	line "LIND an, wenn das"
+	cont "EI so weit ist!"
 	done
 
 VioletCityElmsAideFullPartyText:
-	text "Oh, no. You can't"
-	line "carry any more"
-	cont "#MON with you."
+	text "Oh, du hast keinen"
+	line "Platz mehr für ein"
+	cont "weiteres #MON."
 
-	para "I'll wait here"
-	line "while you make"
-	cont "room for the EGG."
+	para "Ich warte hier,"
+	line "bis du Platz für"
+	cont "das EI geschaffen"
+	cont "hast."
 	done
 
 VioletPokecenterElmsAideRefuseText:
-	text "B-but… PROF.ELM"
-	line "asked for you…"
+	text "A-Aber… PROF."
+	line "LIND hat nach dir"
+	cont "gefragt…"
 	done
 
 VioletPokecenterElmsAideAskEggText:
-	text "<PLAYER>, will you"
-	line "take the EGG?"
+	text "<PLAYER>, nimmst du"
+	line "das EI?"
 	done
 
 VioletPokecenter1FSuperNerdText:
-	text "A guy named BILL"
-	line "made the #MON"
-	cont "PC storage system."
+	text "Ein Kerl namens"
+	line "BILL hat das"
+
+	para "#MON-PC-Lage-"
+	line "rungs-System"
+
+	para "erfunden."
 	done
 
 VioletPokecenter1FGentlemanText:
-	text "It was around"
-	line "three years ago."
+	text "Es war vor etwa"
+	line "drei Jahren."
 
-	para "TEAM ROCKET was up"
-	line "to no good with"
-	cont "#MON."
+	para "TEAM ROCKET hatte"
+	line "etwas Übles mit"
+	cont "den #MON vor."
 
-	para "But justice pre-"
-	line "vailed--a young"
-	cont "kid broke 'em up."
+	para "Aber die Gerech-"
+	line "tigkeit hat ge-"
+	cont "siegt! Ein junger"
+	cont "Trainer hat sie"
+	cont "zerschlagen."
 	done
 
 VioletPokecenter1FYoungsterText:
-	text "#MON are smart."
-	line "They won't obey a"
+	text "#MON sind"
+	line "schlau. Sie gehor-"
 
-	para "trainer they don't"
-	line "respect."
+	para "chen nur Trainern,"
+	line "vor denen sie auch"
+	cont "Respekt haben."
 
-	para "Without the right"
-	line "GYM BADGES, they"
+	para "Hat der Trainer"
+	line "nicht genug ORDEN,"
 
-	para "will just do as"
-	line "they please."
+	para "machen sie, was"
+	line "sie wollen."
 	done
 
 VioletPokecenter1F_MapEvents:

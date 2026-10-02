@@ -228,7 +228,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSetString:
-	db "TIME NOT SET@"
+	db "UHR NICHT GESTELLT@"
 
 .MainMenuTimeUnknownText: ; unreferenced
 	text_far _MainMenuTimeUnknownText
@@ -250,15 +250,15 @@ PrintDayOfWeek:
 	ret
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "SONNTAG@"
+	db "MONTAG@"
+	db "DIENSTAG@"
+	db "MITTWOCH@"
+	db "DONNERSTAG@"
+	db "FREITAG@"
+	db "SAMSTAG@"
 .Day:
-	db "DAY@"
+	db "@"
 
 ClearTilemapEtc:
 	xor a

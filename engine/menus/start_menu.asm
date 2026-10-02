@@ -188,49 +188,48 @@ StartMenu::
 
 .PokedexString:  db "#DEX@"
 .PartyString:    db "#MON@"
-.PackString:     db "PACK@"
+.PackString:     db "BEUTEL@"
 .StatusString:   db "<PLAYER>@"
-.SaveString:     db "SAVE@"
+.SaveString:     db "SICHERN@"
 .OptionString:   db "OPTION@"
-.ExitString:     db "EXIT@"
-.PokegearString: db "<POKE>GEAR@"
-.QuitString:     db "QUIT@"
+.ExitString:     db "ZURÜCK@"
+.PokegearString: db "<POKE>COM@"
+.QuitString:     db "FERTIG@"
 
 .PokedexDesc:
-	db   "#MON"
-	next "database@"
+	db   "#MON-"
+	next "Datenbank@"
 
 .PartyDesc:
-	db   "Party <PKMN>"
-	next "status@"
+	db   "<PKMN>-TEAM"
+	next "Status@"
 
 .PackDesc:
-	db   "Contains"
-	next "items@"
+	db   "Enthält"
+	next "Items@"
 
 .PokegearDesc:
-	db   "Trainer's"
-	next "key device@"
+	db   "Wichtige"
+	next "Items@"
 
 .StatusDesc:
-	db   "Your own"
-	next "status@"
+	db   "Eigener"
+	next "Status@"
 
 .SaveDesc:
-	db   "Save your"
-	next "progress@"
+	db "Speichern?@"
 
 .OptionDesc:
-	db   "Change"
-	next "settings@"
+	db   "Einstell."
+	next "ändern?@"
 
 .ExitDesc:
-	db   "Close this"
-	next "menu@"
+	db   "Menü"
+	next "schliessen@"
 
 .QuitDesc:
-	db   "Quit and"
-	next "be judged.@"
+	db   "Aufhören ﾟ"
+	next "Wertung.@"
 
 .OpenMenu:
 	ld a, [wMenuSelection]

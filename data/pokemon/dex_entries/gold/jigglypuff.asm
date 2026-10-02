@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 108, 120 ; height, weight
+	db "BALLON@" ; species name
+	dw 14085, 38400 ; height, weight
 
-	db   "If it inflates to"
-	next "SING a lullaby, it"
-	next "can perform longer"
+	db   "enn es GESANG"
+	next "einsetzt, steigt"
+	next "seine Ausdauer und"
+	page "seine Zuhörer"
+	next "werden in Tief-"
+	next "schlaf versetzt.@"
 
-	page "and cause sure"
-	next "drowsiness in its"
-	next "audience.@"

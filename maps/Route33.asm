@@ -97,22 +97,24 @@ Route33FruitTree:
 	fruittree FRUITTREE_ROUTE_33
 
 HikerAnthony2SeenText:
-	text "I came through the"
-	line "tunnel, but I"
+	text "Ich bin durch den"
+	line "Tunnel gegangen,"
+	cont "aber ich habe noch"
 
-	para "still have plenty"
-	line "of energy left."
+	para "viel Energie"
+	line "übrig."
 	done
 
 HikerAnthony2BeatenText:
-	text "Whoa, boy! You've"
-	line "got more zip."
+	text "Nicht schlecht! Du"
+	line "hast viel Schwung!"
 	done
 
 HikerAnthony2AfterText:
-	text "We HIKERS are at"
-	line "our best in the"
-	cont "mountains."
+	text "In den Bergen sind"
+	line "wir WANDERER"
+	cont "in unserem"
+	cont "Element."
 	done
 
 Route33SignText:

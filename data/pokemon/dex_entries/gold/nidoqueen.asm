@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
-	dw 403, 1320 ; height, weight
+	db "BOHRER@" ; species name
+	dw 22541, 37378 ; height, weight
 
-	db   "Its body is cover-"
-	next "ed with needle-"
-	next "like scales. It"
+	db   "ein Körper ist"
+	next "mit nadelähnli-"
+	next "chen Schuppen be-"
+	page "deckt. Dies macht"
+	next "es gegen Attacken"
+	next "nahezu immun.@"
 
-	page "never shows signs"
-	next "of shrinking from"
-	next "any attack.@"

@@ -193,129 +193,138 @@ Route30_MikeysRattataAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, RATTATA!"
+	text "Los, RATTFRATZ!"
 
 	para "TACKLE!"
 	done
 
 Text_ThisIsABigBattle:
-	text "What? This is a"
-	line "big battle!"
-	cont "Leave me alone!"
+	text "Was? Das ist ein"
+	line "harter Kampf!"
+	cont "Lass mich in Ruhe!"
 	done
 
 YoungsterJoey1SeenText:
-	text "I just lost, so"
-	line "I'm trying to find"
-	cont "more #MON."
+	text "Ich habe verloren."
+	line "Ich muss noch mehr"
+	cont "#MON fangen."
 
-	para "Wait! You look"
-	line "weak! Come on,"
-	cont "let's battle!"
+	para "Warte! Du siehst"
+	line "schwach aus! Lass"
+	cont "uns kämpfen!"
 	done
 
 YoungsterJoey1BeatenText:
-	text "Ugh. I don't have"
-	line "any more #MON."
+	text "Ugh. Ich habe"
+	line "keine #MON"
+	cont "mehr."
 	done
 
 YoungsterJoey1AfterText:
-	text "I have to have"
-	line "more #MON for"
-	cont "battles."
+	text "Ich benötige"
+	line "mehr #MON zum"
+	cont "Kämpfen."
 
-	para "I'm going to catch"
-	line "some more!"
+	para "Ich werde mir"
+	line "welche fangen!"
 	done
 
 YoungsterMikeySeenText:
-	text "You're a #MON"
-	line "trainer, right?"
+	text "Du bist ein #-"
+	line "MON-Trainer, oder?"
 
-	para "Then you have to"
-	line "battle!"
+	para "Dann musst du"
+	line "kämpfen!"
 	done
 
 YoungsterMikeyBeatenText:
-	text "That's strange."
-	line "I won before."
+	text "Das ist seltsam."
+	line "Davor habe ich"
+	cont "gewonnen."
 	done
 
 YoungsterMikeyAfterText:
-	text "Becoming a good"
-	line "trainer is really"
-	cont "tough."
+	text "Ein guter Trainer"
+	line "werden ist nicht"
+	cont "einfach."
 
-	para "I'm going to bat-"
-	line "tle other people"
-	cont "to get better."
+	para "Ich kämpfe gegen"
+	line "andere Trainer, um"
+	cont "besser zu werden."
 	done
 
 BugCatcherDonSeenText:
-	text "Instead of a bug"
-	line "#MON, I found"
-	cont "a trainer!"
+	text "Anstatt eines"
+	line "Käfer-#MON"
+	cont "traf ich auf"
+	cont "einen Trainer!"
 	done
 
 BugCatcherDonBeatenText:
-	text "Argh! You're too"
-	line "strong!"
+	text "Argh! du bist"
+	line "zu stark!"
 	done
 
 BugCatcherDonAfterText:
-	text "I ran out of #"
-	line "BALLS while I was"
-	cont "catching #MON."
+	text "Mir sind während"
+	line "des Fangens die"
+	cont "#BÄLLE aus-"
+	cont "gegangen."
 
-	para "I should've bought"
-	line "some more…"
+	para "Ich hätte mehr"
+	line "kaufen sollen…"
 	done
 
 Route30YoungsterText_DirectionsToMrPokemonsHouse:
-	text "MR.#MON's"
-	line "house? It's a bit"
-	cont "farther ahead."
+	text "Das Haus von"
+	line "MR. #MON ist"
+	cont "gleich da vorne!"
 	done
 
 Route30YoungsterText_EveryoneIsBattling:
-	text "Everyone's having"
-	line "fun battling!"
-	cont "You should too!"
+	text "Jedem macht das"
+	line "Kämpfen Spaß!"
 	done
 
 Route30CooltrainerFText:
-	text "I'm not a trainer."
+	text "Ich bin kein"
+	line "Trainer."
 
-	para "But if you look"
-	line "one in the eyes,"
-	cont "prepare to battle."
+	para "Wenn du einem in"
+	line "die Augen siehst,"
+	cont "dann bereite dich"
+	cont "auf einen Kampf"
+	cont "vor."
 	done
 
 Route30SignText:
 	text "ROUTE 30"
 
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	para "VIOLA CITY -"
+	line "ROSALIA CITY"
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "MR.#MON'S HOUSE"
-	line "Straight Ahead!"
+	text "Das Haus von"
+	line "MR. #MON?"
+	cont "Immer geradeaus."
 	done
 
 MrPokemonsHouseSignText:
-	text "MR.#MON'S HOUSE"
+	text "Das Haus von"
+	line "MR.#MON"
 	done
 
 Route30TrainerTipsText:
-	text "TRAINER TIPS"
+	text "TIPPS für TRAINER"
 
-	para "No stealing other"
-	line "people's #MON!"
+	para "Du sollst keine"
+	line "#MON stehlen!"
 
-	para "# BALLS are to"
-	line "be thrown only at"
-	cont "wild #MON!"
+	para "#BÄLLE dürfen"
+	line "nur bei wilden"
+	cont "#MON eingesetzt"
+	cont "werden!"
 	done
 
 Route30_MapEvents:

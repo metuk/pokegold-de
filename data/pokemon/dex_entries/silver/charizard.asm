@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 507, 2000 ; height, weight
+	db "FLAMME@" ; species name
+	dw 35089, 38403 ; height, weight
 
-	db   "Breathing intense,"
-	next "hot flames, it can"
-	next "melt almost any-"
+	db   "enn Glurak wütend"
+	next "wird, flackert die"
+	next "Flamme auf seiner"
+	page "Schwanzspitze"
+	next "in einem"
+	next "bläulichen Ton.@"
 
-	page "thing. Its breath"
-	next "inflicts terrible"
-	next "pain on enemies.@"

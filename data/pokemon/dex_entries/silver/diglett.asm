@@ -1,10 +1,10 @@
-	db "MOLE@" ; species name
-	dw 8, 20 ; height, weight
+	db "MAULWURF@" ; species name
+	dw 2050, 37376 ; height, weight
 
-	db   "If a DIGLETT DIGS"
-	next "through a field,"
-	next "it leaves the soil"
+	db   "eine Haut ist"
+	next "sehr dünn. Wird es"
+	next "Sonnenlicht ausge-"
+	page "setzt, erhitzt"
+	next "sich sein Blut und"
+	next "es wird schwach.@"
 
-	page "perfectly tilled"
-	next "and ideal for"
-	next "planting crops.@"

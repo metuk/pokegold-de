@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
-	dw 207, 170 ; height, weight
+	db "FLEDERMAUS@" ; species name
+	dw 19208, 34816 ; height, weight
 
-	db   "While flying, it"
-	next "constantly emits"
-	next "ultrasonic waves"
+	db   "m Flug sendet es"
+	next "ständig Schall-"
+	next "wellen aus, um ein"
+	page "genaues Bild der"
+	next "Umgebung zu"
+	next "erhalten.@"
 
-	page "from its mouth to"
-	next "check its sur-"
-	next "roundings.@"

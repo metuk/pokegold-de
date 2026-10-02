@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
-	dw 200, 170 ; height, weight
+	db "FEE@" ; species name
+	dw 19206, 32768 ; height, weight
 
-	db   "The moonlight that"
-	next "it stores in the"
-	next "wings on its back"
+	db   "ufgrund des ge-"
+	next "speicherten Mond-"
+	next "lichts in seinen"
+	page "Flügeln auf dem"
+	next "Rücken kann es in"
+	next "der Luft schweben.@"
 
-	page "apparently gives"
-	next "it the ability to"
-	next "float in midair.@"

@@ -261,177 +261,198 @@ Route35FruitTree:
 	fruittree FRUITTREE_ROUTE_35
 
 CamperIvanSeenText:
-	text "I've been getting"
-	line "#MON data off"
+	text "Ich habe aus dem"
+	line "Radio #MON-"
 
-	para "my radio. I think"
-	line "I'm good."
+	para "Daten erhalten."
+	line "Ich glaube, ich"
+	cont "bin gut."
 	done
 
 CamperIvanBeatenText:
-	text "I give!"
+	text "Ich teile aus!"
 	done
 
 CamperIvanAfterBattleText:
-	text "Music on the radio"
-	line "changes the moods"
-	cont "of wild #MON."
+	text "Die Musik aus dem"
+	line "Radio beeinflusst"
+	cont "die Stimmung von"
+	cont "wilden #MON."
 	done
 
 CamperElliotSeenText:
-	text "I'm gonna show my"
-	line "girlfriend I'm hot"
-	cont "stuff!"
+	text "Ich werde meiner"
+	line "Freundin zeigen,"
+	cont "wie cool ich bin!"
 	done
 
 CamperElliotBeatenText:
-	text "I wish you would"
-	line "have lost for me…"
+	text "Ach, hättest du"
+	line "doch verloren…"
 	done
 
 CamperElliotAfterBattleText:
-	text "I was humiliated"
-	line "in front of my"
-	cont "girlfriend…"
+	text "Du hast mich vor"
+	line "meiner Freundin"
+	cont "lächerlich"
+	cont "gemacht…"
 	done
 
 PicnickerBrookeSeenText:
-	text "My boyfriend's"
-	line "weak, so I can't"
-	cont "rely on him."
+	text "Mein Freund ist"
+	line "schwach. Er kann"
+	cont "mich nicht"
+	cont "beschützen."
 	done
 
 PicnickerBrookeBeatenText:
-	text "Oh, my! You're so"
-	line "strong!"
+	text "Meine Güte, bist"
+	line "du stark!"
 	done
 
 PicnickerBrookeAfterBattleText:
-	text "I can count on my"
-	line "#MON more than"
-	cont "my boyfriend."
+	text "Auf meine"
+	line "#MON kann"
+	cont "ich mich eher"
+	cont "verlassen als auf"
+	cont "meinen Freund."
 	done
 
 PicnickerKimSeenText:
-	text "Are you going to"
-	line "the GYM? Me too!"
+	text "Gehst du auch"
+	line "zur PKMN-ARENA?"
 	done
 
 PicnickerKimBeatenText:
-	text "Oh. I couldn't"
-	line "win…"
+	text "Oh, ich habe"
+	line "verloren…"
 	done
 
 PicnickerKimAfterBattleText:
-	text "The GYM BADGES are"
-	line "pretty. I collect"
-	cont "them."
+	text "Die ORDEN"
+	line "sind hübsch."
+	cont "Deshalb sammle ich"
+	cont "sie."
 	done
 
 BirdKeeperBryanSeenText:
-	text "What kinds of #"
-	line "BALL do you use?"
+	text "Welche Art von"
+	line "#BALL"
+	cont "benutzt du?"
 	done
 
 BirdKeeperBryanBeatenText:
-	text "Yikes! Not fast"
-	line "enough!"
+	text "Mist! Nicht"
+	line "schnell genug!"
 	done
 
 BirdKeeperBryanAfterBattleText:
-	text "Some #MON flee"
-	line "right away."
+	text "Manche #MON"
+	line "rennen sofort weg."
 
-	para "Try catching them"
-	line "with KURT's FAST"
-	cont "BALL."
+	para "Versuche, sie mit"
+	line "KURTs TURBOBALL"
+	cont "einzufangen. "
 
-	para "Whenever I find a"
-	line "WHT APRICORN, I"
-	cont "take it to KURT."
+	para "Sobald ich eine"
+	line "APRIKOKO WSS"
+	cont "finde, bringe ich"
+	cont "sie zu KURT."
 
-	para "He turns it into a"
-	line "custom # BALL."
+	para "Er macht dann"
+	line "daraus einen maß-"
+	cont "gefertigten"
+	cont "#BALL."
 	done
 
 JugglerIrwin1SeenText:
-	text "Behold my graceful"
-	line "BALL dexterity!"
+	text "Siehe meine"
+	line "Virtuosität, mit"
+	cont "der ich die BÄLLE"
+	cont "jongliere!"
 	done
 
 JugglerIrwin1BeatenText:
-	text "Whew! That was a"
-	line "jolt!"
+	text "Puh, das war ein"
+	line "Ruck!"
 	done
 
 JugglerIrwinAfterBattleText:
-	text "I was going to"
-	line "dazzle you with my"
-	cont "prize #MON."
+	text "Ich wollte dich"
+	line "mit meinem preis-"
+	cont "gekrönten"
+	cont "#MON beein-"
+	cont "drucken."
 
-	para "But your prowess"
-	line "electrified me!"
+	para "Aber bei deinem"
+	line "Können bleibt mir"
+	cont "die Spucke weg!"
 	done
 
 BugCatcherArnieSeenText:
-	text "I'll go anywhere"
-	line "if bug #MON"
-	cont "appear there."
+	text "Ich gehe überall-"
+	line "hin, wo es Käfer-"
+	cont "#MON gibt."
 	done
 
 BugCatcherArnieBeatenText:
-	text "I see. So you"
-	line "battle that way."
+	text "Ich verstehe. So"
+	line "kämpfst du also."
 	done
 
 BugCatcherArnieAfterBattleText:
-	text "My VENONAT won me"
-	line "the Bug-Catching"
+	text "Mit meinem BLUZUK"
+	line "habe ich das"
 
-	para "Contest at the"
-	line "NATIONAL PARK."
+	para "Käferturnier"
+	line "im NATIONALPARK"
+	cont "gewonnen."
 	done
 
 FirebreatherWaltSeenText:
-	text "I'm practicing my"
-	line "fire breathing."
+	text "Ich übe mich im"
+	line "Feuerspucken."
 	done
 
 FirebreatherWaltBeatenText:
-	text "Ow! I scorched the"
-	line "tip of my nose!"
+	text "Aua! Ich habe mir"
+	line "die Nasenspitze"
+	cont "verbrannt!"
 	done
 
 FirebreatherWaltAfterBattleText:
-	text "The #MON March"
-	line "on the radio lures"
-	cont "wild #MON."
+	text "Der #MON-"
+	line "Marsch im Radio"
+	cont "lockt wilde"
+	cont "#MON an."
 	done
 
 OfficerDirkSeenText:
-	text "Danger lurks in"
-	line "the night!"
+	text "Bei Nacht lauern"
+	line "Gefahren!"
 	done
 
 OfficerDirkBeatenText:
-	text "Whoops!"
+	text "Schwupps!"
 	done
 
 OfficerDirkAfterBattleText:
-	text "You know, night-"
-	line "time is fun in its"
-	cont "own ways."
+	text "Du weißt, dass"
+	line "die Nacht auf"
+	cont "ihre Weise"
+	cont "schön sein kann."
 
-	para "But don't overdo"
-	line "it, OK?"
+	para "Aber übertreibe"
+	line "es nicht, O.K.?"
 	done
 
 OfficerDirkPrettyToughText:
-	text "Your #MON look"
-	line "pretty tough."
+	text "Deine #MON"
+	line "sehen ziemlich"
+	cont "stark aus."
 
-	para "You could go any-"
-	line "where safely."
+	para "Du wärst über-"
+	line "all sicher."
 	done
 
 Route35SignText:

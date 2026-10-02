@@ -48,8 +48,8 @@ DayCareBookshelf:
 	jumpstd DifficultBookshelfScript
 
 Text_GrampsLookingForYou:
-	text "Gramps was looking"
-	line "for you."
+	text "Opa hat nach dir"
+	line "gesucht."
 	done
 
 DayCare_MapEvents:

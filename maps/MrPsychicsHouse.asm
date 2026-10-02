@@ -33,17 +33,18 @@ MrPsychicText1:
 
 	para "…"
 
-	para "…I got it!"
+	para "…"
 
-	para "You wanted this!"
+	para "Du wolltest es so!"
 	done
 
 MrPsychicText2:
-	text "TM29 is PSYCHIC."
+	text "TM29 ist PSYCHO-"
+	line "KINESE."
 
-	para "It may lower the"
-	line "target's SPECIAL"
-	cont "abilities."
+	para "Sie kann die"
+	line "SPEZ-Werte des"
+	cont "Gegners senken."
 	done
 
 MrPsychicsHouse_MapEvents:

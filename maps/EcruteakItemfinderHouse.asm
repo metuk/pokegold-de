@@ -56,108 +56,113 @@ ItemFinderHouseRadio:
 	jumpstd Radio2Script
 
 EcruteakItemfinderAdventureText:
-	text "Ah. You're on an"
-	line "adventure with"
-	cont "your #MON?"
+	text "Ah, suchst du mit"
+	line "deinen #MON"
+	cont "nach Abenteuern?"
 
-	para "Well, what's an"
-	line "adventure without"
-	cont "treasure hunting?"
+	para "Was wäre ein Aben-"
+	line "teuer ohne eine"
+	cont "Schatzsuche?"
 
-	para "Am I right, or am"
-	line "I right?"
+	para "Hab ich Recht oder"
+	line "hab ich Recht?"
 	done
 
 EcruteakItemfinderTrueSpiritText:
-	text "Good! You under-"
-	line "stand the true"
+	text "Gut! Du trägst den"
+	line "wahren Abenteurer-"
 
-	para "spirit of adven-"
-	line "ture."
+	para "geist in dir."
 
-	para "I like that! Take"
-	line "this with you."
+	para "Das mag ich! Nimm"
+	line "dies mit dir."
 	done
 
 ItemfinderExplanationText:
-	text "There are many"
-	line "items lying about"
+	text "Manchmal liegen"
+	line "Items herum, die"
 
-	para "that aren't ob-"
-	line "vious."
+	para "man leicht über-"
+	line "sieht."
 
-	para "Use ITEMFINDER to"
-	line "check if there is"
+	para "Setze den DETEKTOR"
+	line "ein, um Items auf-"
 
-	para "an item on the"
-	line "ground near you."
+	para "zuspüren, die sich"
+	line "in der Nähe befin-"
 
-	para "It doesn't show"
-	line "the exact spot,"
+	para "den."
 
-	para "so you'll have to"
-	line "look yourself."
+	para "Den exakten Fund-"
+	line "ort musst du aber"
 
-	para "Oh yeah--I heard"
-	line "there are items"
+	para "selbst herausfin-"
+	line "den."
 
-	para "in ECRUTEAK's"
-	line "BURNED TOWER."
+	para "Ich hörte auch,"
+	line "dass in der TURM-"
+
+	para "RUINE von TEAK"
+	line "CITY Items zu fin-"
+
+	para "den wären."
 	done
 
 EcruteakItemfinderToEachHisOwnText:
-	text "Oh… To each his"
-	line "own, I suppose…"
+	text "Oh… Jedem das"
+	line "Seine…"
 	done
 
 EcruteakHistoryBookText:
-	text "HISTORY OF"
-	line "ECRUTEAK"
+	text "GESCHICHTE VON"
+	line "TEAK CITY"
 
-	para "Want to read it?"
+	para "Lesen?"
 	done
 
 EcruteakTwoTowersText:
-	text "In ECRUTEAK, there"
-	line "were two towers."
+	text "In TEAK CITY gab"
+	line "es zwei Türme."
 
-	para "Each tower was the"
-	line "roost of powerful"
-	cont "flying #MON."
+	para "Jeder Turm war das"
+	line "Zuhause mächtiger"
+	cont "fliegender #-"
+	cont "MON."
 
-	para "But one of the"
-	line "towers burned to"
-	cont "the ground."
+	para "Doch einer der"
+	line "Türme brannte ab."
 
-	para "The two #MON"
-	line "haven't been seen"
-	cont "since…"
+	para "Die beiden #MON"
+	line "wurden seitdem"
+	cont "nicht mehr gese-"
+	cont "hen…"
 
-	para "Keep reading?"
+	para "Weiterlesen?"
 	done
 
 EcruteakThreeMonText:
-	text "ECRUTEAK was also"
-	line "home to three"
+	text "TEAK CITY war auch"
+	line "die Heimat dreier"
 
-	para "#MON that raced"
-	line "around the town."
+	para "#MON, die"
+	line "durch die Stadt"
+	cont "rannten."
 
-	para "They were said to"
-	line "have been born of"
+	para "Es heißt, sie ent-"
+	line "standen durch Was-"
 
-	para "water, lightning"
-	line "and fire."
+	para "ser, Blitz und"
+	line "Feuer."
 
-	para "But they could not"
-	line "contain their"
-	cont "excessive power."
+	para "Doch konnten sie"
+	line "ihre Kräfte nicht"
+	cont "beherrschen."
 
-	para "So they say the"
-	line "three ran like the"
+	para "Also sind sie wie"
+	line "der Wind ins offe-"
 
-	para "wind off into the"
-	line "grassland."
+	para "ne Grasland ge-"
+	line "rannt."
 	done
 
 EcruteakItemfinderHouse_MapEvents:

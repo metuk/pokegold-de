@@ -1,10 +1,10 @@
-	db "MUSHROOM@" ; species name
-	dw 100, 120 ; height, weight
+	db "PILZ@" ; species name
+	dw 13827, 33792 ; height, weight
 
-	db   "As its body grows"
-	next "large, oriental"
-	next "mushrooms named"
+	db   "s ist von Geburt"
+	next "an mit Pilzsporen"
+	next "übersät. Wenn es"
+	page "wächst, sprießen"
+	next "Pilze auf seinem"
+	next "Rücken.@"
 
-	page "tochukaso start"
-	next "sprouting out of"
-	next "its back.@"

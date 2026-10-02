@@ -172,136 +172,145 @@ RuinsOfAlphResearchCenterLeavesPlayerMovement:
 	step_end
 
 RuinsOfAlphResearchCenterModifiedDexText:
-	text "Done!"
+	text "Geschafft!"
 
-	para "I modified your"
-	line "#DEX."
+	para "Ich habe deinen"
+	line "#DEX erweitert."
 
-	para "I added an"
-	line "optional #DEX"
+	para "Ich habe dir einen"
+	line "optionalen #DEX"
 
-	para "to store UNOWN"
-	line "data."
+	para "extra für ICOGNITO"
+	line "eingebaut. Er"
 
-	para "It records them in"
-	line "the sequence that"
-	cont "they were caught."
+	para "speichert sie in"
+	line "der Reihenfolge,"
+	cont "in der du sie"
+	cont "fängst."
 	done
 
 RuinsOfAlphResearchCenterDexUpgradedText:
-	text "<PLAYER>'s #DEX"
-	line "was upgraded."
+	text "<PLAYER>s #DEX"
+	line "wurde erweitert."
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
-	text "The UNOWN you"
-	line "catch will all be"
-	cont "recorded."
+	text "Jedes ICOGNITO,"
+	line "das du fängst,"
+	cont "wird darin einge-"
+	cont "tragen."
 
-	para "Check to see how"
-	line "many kinds exist."
+	para "Schlage nach,"
+	line "um zu erfahren,"
+	cont "wie viele es gibt."
 	done
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
-	text "You caught all the"
-	line "UNOWN variations?"
+	text "Hast du alle"
+	line "verschiedenen"
+	cont "ICOGNITOS?"
 
-	para "That's a great"
-	line "achievement!"
+	para "Das ist eine"
+	line "Spitzenleistung!"
 
-	para "I've set up the"
-	line "printer here for"
-	cont "handling UNOWN."
+	para "Ich habe den"
+	line "Drucker aufge-"
+	cont "stellt, um"
+	cont "ICOGNITOS Daten"
+	cont "auszudrucken."
 
-	para "Feel free to use"
-	line "it anytime."
+	para "Du kannst ihn"
+	line "jederzeit gerne"
+	cont "benutzen."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text:
-	text "The RUINS are"
-	line "about 1500 years"
-	cont "old."
+	text "Die RUINEN sind"
+	line "zirka 1500"
+	cont "Jahre alt."
 
-	para "But it's not known"
-	line "why they were"
-	cont "built--or by whom."
+	para "Aber niemand weiß,"
+	line "warum sie erbaut"
+	cont "wurden."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_GotUnownDex:
-	text "I wonder how many"
-	line "kinds of #MON"
-	cont "are in the RUINS?"
+	text "Ich frage mich,"
+	line "wie viele #MON"
+	cont "wohl in den RUINEN"
+	cont "leben?"
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
-	text "#MON appeared"
-	line "in the RUINS?"
+	text "Es gibt #MON"
+	line "in den RUINEN?"
 
-	para "That's incredible"
-	line "news!"
+	para "Das sind unfass-"
+	line "bare Neuigkeiten!"
 
-	para "We'll need to"
-	line "investigate this."
+	para "Das müssen wir"
+	line "erforschen."
 	done
 
 RuinsOfAlphResearchCenterScientist2Text:
-	text "There are odd pat-"
-	line "terns drawn on the"
+	text "An die Wände der"
+	line "RUINEN sind selt-"
 
-	para "walls of the"
-	line "RUINS."
+	para "same Zeichen"
+	line "gemalt."
 
-	para "They must be the"
-	line "keys for unravel-"
-	cont "ing the mystery"
-	cont "of the RUINS."
+	para "Sie sind der"
+	line "Schlüssel zur"
+	cont "Lösung des Rätsels"
+	cont "um die RUINEN."
 	done
 
 RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
-	text "The strange #-"
-	line "MON you saw in the"
-	cont "RUINS?"
+	text "Die seltsamen"
+	line "#MON, die du in"
+	cont "den RUINEN gesehen"
+	cont "hast?"
 
-	para "They appear to be"
-	line "very much like the"
+	para "Es scheint, sie"
+	line "ähneln den"
 
-	para "drawings on the"
-	line "walls there."
+	para "Zeichnungen an"
+	line "den Wänden."
 
 	para "Hmm…"
 
-	para "That must mean"
-	line "there are many"
-	cont "kinds of them…"
+	para "Das bedeutet, es"
+	line "gibt viele"
+	cont "von ihnen…"
 	done
 
 RuinsOfAlphResearchCenterComputerText:
-	text "RUINS OF ALPH"
-
-	para "Exploration"
-	line "Year 10"
+	text "ALPH-RUINEN"
+	line "10. Forschungsjahr"
 	done
 
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
-	text "Mystery #MON"
-	line "Name: UNOWN"
+	text "Geheimnisvolles"
+	line "#MON"
+	cont "Name: ICOGNITO"
 
-	para "A total of {d:NUM_UNOWN}"
-	line "kinds found."
+	para "26 verschiedene"
+	line "gefunden."
 	done
 
 RuinsOfAlphResearchCenterPrinterText_DoesntWork:
-	text "This doesn't seem"
-	line "to work yet."
+	text "Das scheint noch"
+	line "nicht zu"
+	cont "funktionieren."
 	done
 
 RuinsOfAlphResearchCenterUnownPrinterText:
-	text "UNOWN may be"
-	line "printed out."
+	text "ICOGNITO kann"
+	line "gedruckt werden."
 	done
 
 RuinsOfAlphResearchCenterProfSilktreePhotoText:
-	text "It's a photo of"
+	text "Itわ a photo of"
 	line "the RESEARCH"
 
 	para "CENTER'S founder,"
@@ -309,12 +318,13 @@ RuinsOfAlphResearchCenterProfSilktreePhotoText:
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:
-	text "There are many"
-	line "academic books."
+	text "Es gibt viele"
+	line "wissenschaftliche"
+	cont "Bücher dort."
 
-	para "Ancient Ruins…"
-	line "Mysteries of the"
-	cont "Ancients…"
+	para "Antike Ruinen…"
+	line "Geheimnisse der"
+	cont "Antike…"
 	done
 
 RuinsOfAlphResearchCenter_MapEvents:

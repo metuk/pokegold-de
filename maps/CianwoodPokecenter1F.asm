@@ -32,44 +32,47 @@ CianwoodGymGuideScript:
 	end
 
 CianwoodPokecenter1FLassText:
-	text "Did you meet the"
-	line "#MANIAC?"
+	text "Hast du schon den"
+	line "#MANIAC getrof-"
+	cont "fen?"
 
-	para "He's always brag-"
-	line "ging about his"
-	cont "rare #MON."
+	para "Er gibt immer mit"
+	line "seinen seltenen"
+	cont "#MON an."
 	done
 
 CianwoodGymGuideText:
-	text "The #MON GYM"
-	line "trainers here are"
-	cont "macho bullies."
+	text "Die Trainer in"
+	line "dieser Arena sind"
+	cont "richtige Schläger-"
+	cont "Typen."
 
-	para "If I stick around,"
-	line "they might come"
-	cont "after me."
+	para "Wenn ich hier rum-"
+	line "stehe, schnappen"
+	cont "sie mich."
 
-	para "Here's some ad-"
-	line "vice: the GYM"
+	para "Ein Tipp: Der LEI-"
+	line "TER setzt gerne"
 
-	para "LEADER uses the"
-	line "fighting-type."
+	para "Kampf-#MON"
+	line "ein."
 
-	para "So you should"
-	line "confound him with"
-	cont "psychic #MON."
+	para "Du solltest ihn"
+	line "mit Psycho-#-"
+	cont "MON überraschen."
 
-	para "Wipe out his #-"
-	line "MON before they"
+	para "Besiege seine"
+	line "#MON, bevor sie"
 
-	para "can use their"
-	line "physical strength."
+	para "ihre Kraft ein-"
+	line "setzen können."
 	done
 
 CianwoodGymGuideWinText:
-	text "<PLAYER>! You won!"
-	line "I could tell by"
-	cont "looking at you!"
+	text "<PLAYER>! Du hast"
+	line "gewonnen! Das habe"
+	cont "ich dir gleich an-"
+	cont "gesehen!"
 	done
 
 CianwoodPokecenter1F_MapEvents:

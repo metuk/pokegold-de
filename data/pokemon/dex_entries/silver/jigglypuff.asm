@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 108, 120 ; height, weight
+	db "BALLON@" ; species name
+	dw 14085, 38400 ; height, weight
 
-	db   "Looking into its"
-	next "cute, round eyes"
-	next "causes it to sing"
+	db   "enn es GESANG"
+	next "einsetzt, steigt"
+	next "seine Ausdauer und"
+	page "seine Zuhörer"
+	next "werden in Tief-"
+	next "schlaf versetzt.@"
 
-	page "a relaxing melody,"
-	next "inducing its"
-	next "enemies to sleep.@"

@@ -63,14 +63,14 @@ RandyScript:
 
 GiftSpearowMail:
 	db FLOWER_MAIL
-	db   "DARK CAVE leads"
-	next "to another road@"
+	db   "FINSTERHÖHLE   "
+	next "ist ein Pfad   @"
 
 GiftSpearowName:
-	db "KENYA@"
+	db "HABSI@"
 
 GiftSpearowOTName:
-	db "RANDY@"
+	db "HARALD@"
 
 Route35GoldenrodGatePokefanFScript:
 	faceplayer
@@ -89,90 +89,116 @@ Route35GoldenrodGatePokefanFScript:
 	end
 
 Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
-	text "Excuse me, guy!"
-	line "Can you do a guy"
-	cont "a favor?"
+	text "Entschuldige,"
+	line "mein Freund!"
+	cont "Könntest du mir"
+	cont "einen Gefallen"
+	cont "tun?"
 
-	para "Can you take this"
-	line "#MON with MAIL"
-	cont "to my friend?"
+	para "Könntest du dieses"
+	line "#MON, das einen"
+	cont "BRIEF trägt,"
+	cont "zu meinem Freund"
+	cont "bringen?"
 
-	para "He's on ROUTE 31."
+	para "Du findest ihn"
+	line "auf ROUTE 31."
 	done
 
 Route35GoldenrodGateRandyThanksText:
-	text "You will? Perfect!"
-	line "Thanks, guy!"
+	text "Das würdest du"
+	line "tun? Super!"
+	cont "Vielen Dank!"
 
-	para "My pal's a chubby"
-	line "guy who snoozes"
-	cont "all the time."
+	para "Mein Freund ist"
+	line "ein Flegel!"
+	cont "Er schläft die"
+	cont "ganze Zeit."
 
-	para "You'll recognize"
-	line "him right away!"
+	para "Du wirst ihn"
+	line "sofort erkennen!"
 	done
 
 Route35GoldenrodGatePlayerReceivedAMonWithMailText:
-	text "<PLAYER> received a"
-	line "#MON with MAIL."
+	text "<PLAYER> hat ein"
+	line "#MON, das einen"
+
+	para "BRIEF trägt,"
+	line "erhalten."
 	done
 
 Route35GoldenrodGateRandyWeirdTreeBlockingRoadText:
-	text "You can read it,"
-	line "but don't lose it!"
+	text "Du darfst ihn le-"
+	line "sen, aber verliere"
+	cont "ihn nicht!"
 	cont "ROUTE 31!"
 
-	para "Oh, yeah. There"
-	line "was a weird tree"
-	cont "blocking the road."
+	para "Stimmt! Ein"
+	line "merkwürdiger"
+	cont "Baum hat die"
+	cont "Straße blockiert."
 
-	para "I wonder if it's"
-	line "been cleared?"
+	para "Ich frage mich,"
+	line "ob die Straße"
+	cont "jetzt frei ist."
 	done
 
 Route35GoldenrodGateRandyCantCarryAnotherMonText:
-	text "You can't carry"
-	line "another #MON…"
+	text "Du kannst kein"
+	line "weiteres #MON"
+	cont "mehr tragen…"
 	done
 
 Route35GoldenrodGateRandyOhNeverMindThenText:
-	text "Oh… Never mind,"
-	line "then…"
+	text "Oh… Dann"
+	line "geht das in"
+	cont "Ordnung.…"
 	done
 
 Route35GoldenrodGateRandySomethingForYourTroubleText:
-	text "Thanks, guy! You"
-	line "made the delivery"
-	cont "for me!"
+	text "Ich danke dir!"
+	line "Du hast die"
+	cont "Lieferung für mich"
+	cont "erledigt!"
 
-	para "Here's something"
-	line "for your trouble!"
+	para "Ich habe hier"
+	line "etwas für dich"
+	cont "wegen der Un-"
+	cont "annehmlichkeiten!"
 	done
 
 Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
-	text "My pal was snooz-"
-	line "ing, right? Heh,"
-	cont "what'd I say?"
+	text "Mein Freund hat"
+	line "geschlafen, nicht"
+	cont "wahr? Na, was"
+	cont "habe ich dir"
+	cont "gesagt?"
 	done
 
 Route35GoldenrodGatePokefanFText:
-	text "A strange tree is"
-	line "blocking the road."
+	text "Ein merkwürdiger"
+	line "Baum blockiert die"
+	cont "Straße."
 
-	para "It wriggles around"
-	line "if you talk to it."
+	para "Er fängt an zu"
+	line "zappeln, wenn man"
+	cont "ihn anspricht."
 
-	para "I heard it became"
-	line "wild when someone"
+	para "Ich habe gehört,"
+	line "dass er rasend"
+	cont "wurde, als ihn"
 
-	para "watered it with a"
-	line "SQUIRTBOTTLE."
+	para "jemand mit Wasser"
+	line "aus einer"
+	cont "SCHIGGYKANNE"
+	cont "begossen hat."
 	done
 
 Route35GoldenrodGatePokefanFText_FoughtSudowoodo:
-	text "I like the #MON"
-	line "Lullaby they play"
-	cont "on the radio."
+	text "Ich mag das #-"
+	line "MON-Schlaflied,"
+	cont "das im Radio"
+	cont "gespielt wird."
 	done
 
 Route35GoldenrodGate_MapEvents:

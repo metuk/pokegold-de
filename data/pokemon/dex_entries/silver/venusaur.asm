@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 607, 2210 ; height, weight
+	db "SAMEN@" ; species name
+	dw 59412, 33795 ; height, weight
 
-	db   "It is able to con-"
-	next "vert sunlight into"
-	next "energy. As a"
+	db   "s spreizt die"
+	next "breiten Blätter"
+	next "seiner Blüte, um"
+	page "seinen Körper"
+	next "mit Sonnenenergie"
+	next "zu durchfluten.@"
 
-	page "result, it is more"
-	next "powerful in the"
-	next "summertime.@"

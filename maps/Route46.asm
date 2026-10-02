@@ -129,67 +129,74 @@ Route46FruitTree2:
 	fruittree FRUITTREE_ROUTE_46_2
 
 HikerBaileySeenText:
-	text "Awright! I'll show"
-	line "you the power of"
-	cont "mountain #MON!"
+	text "Also gut! Ich"
+	line "zeige dir die"
+	cont "Kraft von Berg-"
+	cont "#MON!"
 	done
 
 HikerBaileyBeatenText:
-	text "Mercy! You showed"
-	line "me your power!"
+	text "Gnade! Ich kenne"
+	line "jetzt deine Kraft!"
 	done
 
 HikerBaileyAfterBattleText:
-	text "It's over. I don't"
-	line "mind. We HIKERS"
-	cont "are like that."
+	text "Es ist vorbei."
+	line "Auch gut. Wir"
+	cont "WANDERER sind eben"
+	cont "so."
 	done
 
 CamperTedSeenText:
-	text "I'm raising #-"
-	line "MON too!"
+	text "Ich trainiere auch"
+	line "#MON!"
 
-	para "Will you battle"
-	line "with me?"
+	para "Möchtest du gegen"
+	line "mich kämpfen?"
 	done
 
 CamperTedBeatenText:
-	text "Wha…?"
+	text "Wah…?"
 	done
 
 CamperTedAfterBattleText:
-	text "I did my best but"
-	line "came up short."
+	text "Ich habe mein"
+	line "Bestes gegeben und"
+	cont "das reichte leider"
+	cont "nicht."
 
-	para "No excuses--I"
-	line "admit I lost."
+	para "Ich gebe ganz"
+	line "offen zu - ich"
+	cont "habe verloren."
 	done
 
 PicnickerErin1SeenText:
-	text "I raise #MON"
-	line "too!"
+	text "Ich trainiere auch"
+	line "#MON!"
 
-	para "Let's battle!"
+	para "Kämpfen wir!"
 	done
 
 PicnickerErin1BeatenText:
-	text "Oh, darn it!"
+	text "So ein Mist!"
 	done
 
 PicnickerErinAfterBattleText:
-	text "I've been to many"
-	line "GYMS, but the GYM"
+	text "Ich habe schon in"
+	line "vielen ARENEN"
 
-	para "in GOLDENROD is my"
-	line "favorite."
+	para "gekämpft, aber die"
+	line "in DUKATIA CITY"
+	cont "hat mir am besten"
+	cont "gefallen."
 
-	para "It's filled with"
-	line "pretty flowers!"
+	para "Sie ist voller"
+	line "schöner Blumen!"
 	done
 
 Route46SignText:
 	text "ROUTE 46"
-	line "MOUNTAIN RD. AHEAD"
+	line "BERGWEG VORAUS"
 	done
 
 Route46_MapEvents:

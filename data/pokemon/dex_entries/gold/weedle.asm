@@ -1,10 +1,10 @@
-	db "HAIRY BUG@" ; species name
-	dw 100, 70 ; height, weight
+	db "RAUPE@" ; species name
+	dw 8195, 37376 ; height, weight
 
-	db   "Its poison stinger"
-	next "is very powerful."
-	next "Its bright-colored"
+	db   "ein Giftstachel"
+	next "ist gefährlich."
+	next "Sein hellleuch-"
+	page "tender Körper"
+	next "soll Feinde ab-"
+	next "schrecken.@"
 
-	page "body is intended"
-	next "to warn off its"
-	next "enemies.@"

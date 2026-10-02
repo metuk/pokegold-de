@@ -1,10 +1,10 @@
-	db "TURTLE@" ; species name
-	dw 303, 500 ; height, weight
+	db "KRÖTE@" ; species name
+	dw 57610, 33792 ; height, weight
 
-	db   "It cleverly con-"
-	next "trols its furry"
-	next "ears and tail to"
+	db   "s gilt als Symbol"
+	next "von Langlebigkeit."
+	next "Ist sein Panzer"
+	page "mit Algen übersät,"
+	next "ist SCHILLOK sehr"
+	next "alt.@"
 
-	page "maintain its"
-	next "balance while"
-	next "swimming.@"

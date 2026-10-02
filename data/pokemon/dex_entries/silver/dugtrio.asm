@@ -1,10 +1,10 @@
-	db "MOLE@" ; species name
-	dw 204, 730 ; height, weight
+	db "MAULWURF@" ; species name
+	dw 19719, 37377 ; height, weight
 
-	db   "Extremely power-"
-	next "ful, they can DIG"
-	next "through even the"
+	db   "eine drei Köpfe"
+	next "bewegen sich"
+	next "abwechselnd hinauf"
+	page "und hinunter, um"
+	next "das Erdreich um"
+	next "ihn zu lockern.@"
 
-	page "hardest ground to"
-	next "a depth of over 60"
-	next "miles.@"

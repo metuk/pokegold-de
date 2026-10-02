@@ -1,10 +1,10 @@
 	db "PSI@" ; species name
-	dw 211, 430 ; height, weight
+	dw 49929, 33792 ; height, weight
 
-	db   "If it decides to"
-	next "TELEPORT randomly,"
-	next "it creates the"
+	db   "s sieht die At-"
+	next "tacken der Gegner"
+	next "voraus und setzt"
+	page "TELEPORT ein, um"
+	next "sich in Sicher-"
+	next "heit zu bringen.@"
 
-	page "illusion that it"
-	next "has created copies"
-	next "of itself.@"

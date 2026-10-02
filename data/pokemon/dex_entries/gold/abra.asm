@@ -1,10 +1,10 @@
 	db "PSI@" ; species name
-	dw 211, 430 ; height, weight
+	dw 49929, 33792 ; height, weight
 
-	db   "It senses impend-"
-	next "ing attacks and"
-	next "TELEPORTS away to"
+	db   "s sieht die At-"
+	next "tacken der Gegner"
+	next "voraus und setzt"
+	page "TELEPORT ein, um"
+	next "sich in Sicher-"
+	next "heit zu bringen.@"
 
-	page "safety before the"
-	next "actual attacks can"
-	next "strike.@"

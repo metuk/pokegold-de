@@ -14,17 +14,22 @@ SilverCavePokecenter1FGrannyScript:
 	jumptextfaceplayer SilverCavePokecenter1FGrannyText
 
 SilverCavePokecenter1FGrannyText:
-	text "Trainers who seek"
-	line "power climb MT."
+	text "Trainer, die nach"
+	line "Stärke streben,"
 
-	para "SILVER despite its"
-	line "many dangers…"
+	para "erklimmen den SIL-"
+	line "BERBERG trotz sei-"
 
-	para "With their trusted"
-	line "#MON, they must"
+	para "ner vielen Gefah-"
+	line "ren…"
 
-	para "feel they can go"
-	line "anywhere…"
+	para "Durch ihre treuen"
+	line "#MON haben"
+
+	para "sie das Gefühl,"
+	line "überall hinkommen"
+
+	para "zu können…"
 	done
 
 SilverCavePokecenter1F_MapEvents:

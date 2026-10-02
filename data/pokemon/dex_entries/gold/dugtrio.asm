@@ -1,10 +1,10 @@
-	db "MOLE@" ; species name
-	dw 204, 730 ; height, weight
+	db "MAULWURF@" ; species name
+	dw 19719, 37377 ; height, weight
 
-	db   "Its three heads"
-	next "bob separately up"
-	next "and down to loosen"
+	db   "eine drei Köpfe"
+	next "bewegen sich"
+	next "abwechselnd hinauf"
+	page "und hinunter, um"
+	next "das Erdreich um"
+	next "ihn zu lockern.@"
 
-	page "the soil nearby,"
-	next "making it easier"
-	next "for it to burrow.@"

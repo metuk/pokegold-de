@@ -1,10 +1,10 @@
-	db "WORM@" ; species name
-	dw 100, 60 ; height, weight
+	db "WURM@" ; species name
+	dw 7427, 32768 ; height, weight
 
-	db   "Its feet have"
-	next "suction cups"
-	next "designed to stick"
+	db   "ls Schutz vor"
+	next "Feinden"
+	next "sondert es einen"
+	page "übelriechenden"
+	next "Gestank mit seinen"
+	next "Antennen ab.@"
 
-	page "to any surface. It"
-	next "tenaciously climbs"
-	next "trees to forage.@"

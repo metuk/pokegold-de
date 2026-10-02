@@ -300,6 +300,7 @@ PrintNum::
 	inc hl
 	ret
 
+if DEF(_DEBUG) ; removed from the German release
 PrintHexNumber::
 ; Print the c-byte value from de to hl as hexadecimal digits.
 .loop
@@ -335,3 +336,4 @@ PrintHexNumber::
 
 .HexDigits:
 	db "0123456789ABCDEF"
+endc

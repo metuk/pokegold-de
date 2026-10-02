@@ -1,211 +1,239 @@
 ElmPhoneHealYourMonText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "Try not to overdo"
-	line "it."
+	para "Überanstrenge dich"
+	line "nicht."
 
-	para "Be sure to heal"
-	line "your #MON if"
-	cont "they are hurt."
+	para "Heile deine #-"
+	line "MON, wenn sie ver-"
+	cont "letzt sind."
 	done
 
 ElmPhoneSawMrPokemonText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "Did you meet MR."
-	line "#MON? Great!"
-	cont "Come back safely!"
+	para "Hast du MR. #-"
+	line "MON getroffen?"
+	cont "Toll! Komm gut"
+	cont "heim!"
 	done
 
 ElmPhonePokemonStolenText:
-	text "<PLAYER>? I'm very"
-	line "upset now."
+	text "<PLAYER>? Ich"
+	line "bin gerade sehr"
+	cont "aufgeregt!"
 
-	para "We had a #MON"
-	line "stolen from here."
+	para "Ein #MON wurde"
+	line "von hier gestoh-"
 
-	para "How could anyone"
-	line "do that?"
+	para "len. Wie kann je-"
+	line "mand so etwas nur"
+	cont "tun?"
 	done
 
 ElmPhoneCheckingTheEggText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "We're checking the"
-	line "EGG now. It does"
+	para "Wir untersuchen"
+	line "das EI. Es scheint"
 
-	para "appear to be a"
-	line "#MON EGG."
+	para "ein #MON-EI"
+	line "zu sein."
 	done
 
 ElmPhoneAssistantText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "Did you see my"
-	line "assistant? He's at"
+	para "Hast du meinen"
+	line "Assistenten ge-"
 
-	para "the #MON CENTER"
-	line "in VIOLET CITY."
+	para "troffen? Er ist im"
+	line "#MON CENTER von"
+	cont "VIOLA CITY."
 	done
 
 ElmPhoneHowIsTheEggText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "How's the EGG? Has"
-	line "anything changed?"
+	para "Wie geht es dem"
+	line "EI? Hat sich was"
+	cont "getan?"
 
-	para "If anything hap-"
-	line "pens, please call."
+	para "Wenn sich etwas"
+	line "tut, ruf mich"
+	cont "bitte an."
 	done
 
 ElmPhoneEggHatchedText:
-	text "Hello, <PLAYER>?"
-	line "How is the EGG?"
+	text "Hallo, <PLAYER>?"
+	line "Wie geht es dem"
+	cont "EI?"
 
-	para "What? It hatched?"
-	line "Wow! What kind of"
-	cont "#MON is it?"
+	para "Wie? Etwas ist ge-"
+	line "schlüpft? Wow! Was"
+	cont "für ein #MON"
+	cont "ist es?"
 
-	para "Please come show"
-	line "me now!"
+	para "Bitte komm und"
+	line "zeig es mir!"
 	done
 
 ElmPhoneDiscoveredHatchTimeText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "I just made a new"
-	line "discovery."
+	para "Ich habe gerade"
+	line "eine neue Entde-"
+	cont "ckung gemacht."
 
-	para "The time it takes"
-	line "for an EGG to"
+	para "Die Zeit, die ver-"
+	line "geht, bis etwas"
 
-	para "hatch depends on"
-	line "the #MON."
+	para "aus dem EI"
+	line "schlüpft, hängt"
+
+	para "vom jeweiligen"
+	line "#MON ab."
 	done
 
 ElmPhoneInvestigatingEggMovesText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "It's still a"
-	line "mystery what kinds"
+	para "Es ist noch immer"
+	line "ein Geheimnis,"
 
-	para "of moves hatched"
-	line "#MON have."
+	para "über welche Atta-"
+	line "cken frisch ge-"
 
-	para "We're investigat-"
-	line "ing that now."
+	para "schlüpfte #MON"
+	line "verfügen."
+
+	para "Wir sind dabei,"
+	line "das herauszufin-"
+	cont "den."
 	done
 
 ElmPhoneDiscoveredPokerusText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "I discovered an"
-	line "odd thing."
+	para "Ich habe etwas Ei-"
+	line "genartiges ent-"
+	cont "deckt."
 
-	para "Apparently there's"
-	line "something called"
+	para "Offensichtlich"
+	line "gibt es etwas na-"
 
-	para "#RUS that in-"
-	line "fects #MON."
+	para "mens #RUS, das"
+	line "#MON infiziert."
 
-	para "Yes, it's like a"
-	line "virus, so it's"
-	cont "called #RUS."
+	para "Es ist wie ein Vi-"
+	line "rus, daher heißt"
+	cont "es #RUS."
 
-	para "It multiplies fast"
-	line "and infects other"
+	para "Es vermehrt sich"
+	line "rasch und infi-"
 
-	para "#MON too. But"
-	line "that's all."
+	para "ziert auch andere"
+	line "#MON. Das"
 
-	para "It doesn't seem to"
-	line "do anything, and"
+	para "ist aber auch"
+	line "alles."
 
-	para "it goes away over"
-	line "time."
+	para "Es scheint, als"
+	line "würde es nichts"
 
-	para "I guess it's"
-	line "nothing to worry"
-	cont "about. Bye!"
+	para "tun, und nach ei-"
+	line "niger Zeit wieder"
+	cont "verschwinden."
+
+	para "Ich denke, es ist"
+	line "nichts Besorgnis-"
+	cont "erregendes."
+	cont "Tschüss!"
 	done
 
 ElmPhoneDisasterText:
-	text "H-hello? <PLAYER>?"
-	line "It's a disaster!"
+	text "H-hallo? <PLAYER>?"
+	line "Es ist eine Katas-"
+	cont "trophe!"
 
-	para "Uh, um, it's just"
-	line "terrible!"
+	para "Äh, ähm, es ist"
+	line "einfach schreck-"
+	cont "lich!"
 
-	para "What should I do?"
-	line "It… Oh, no…"
+	para "Was soll ich tun?"
+	line "Es… Oh, nein…"
 
-	para "Please get back"
-	line "here now!"
+	para "Bitte komm hierher"
+	line "zurück!"
 	done
 
 ElmPhoneEggAssistantText:
-	text "Hello, <PLAYER>? We"
-	line "discovered some-"
+	text "Hallo, <PLAYER>?"
+	line "Wir haben etwas"
 
-	para "thing about the"
-	line "EGG!"
+	para "über das EI he-"
+	line "rausgefunden!"
 
-	para "My assistant is at"
-	line "the #MON CENTER"
+	para "Mein Assistent ist"
+	line "im #MON CENTER"
 
-	para "in VIOLET CITY. "
-	line "Could you talk to"
-	cont "him?"
+	para "von VIOLA CITY."
+	line "Würdest du mit ihm"
+	cont "sprechen?"
 	done
 
 ElmPhoneRadioTowerRocketTakeoverText:
-	text "<PLAYER>, how are"
-	line "things going?"
+	text "<PLAYER>, wie"
+	line "stehen die Dinge?"
 
-	para "I called because"
-	line "something weird is"
+	para "Ich rufe an, weil"
+	line "ich im Radio etwas"
 
-	para "happening with the"
-	line "radio broadcasts."
+	para "Seltsames gehört"
+	line "habe."
 
-	para "They were talking"
-	line "about TEAM ROCKET."
+	para "Sie sprachen über"
+	line "TEAM ROCKET."
 
-	para "<PLAYER>, do you"
-	line "know anything"
-	cont "about it?"
+	para "<PLAYER>, weißt"
+	line "du etwas darüber?"
 
-	para "Maybe TEAM ROCKET"
-	line "has returned. No,"
+	para "Vielleicht ist"
+	line "TEAM ROCKET zu-"
 
-	para "that just can't"
-	line "be true."
+	para "rückgekehrt. Das"
+	line "wäre nicht auszu-"
+	cont "denken."
 
-	para "Sorry to bug you."
-	line "Take care!"
+	para "Entschuldige, dass"
+	line "ich dich gestört"
+	cont "habe. Pass auf"
+	cont "dich auf!"
 	done
 
 ElmPhoneGiftText:
-	text "Hello, <PLAYER>?"
+	text "Hallo, <PLAYER>?"
 
-	para "I have something"
-	line "here for you."
+	para "Ich habe hier et-"
+	line "was für dich."
 
-	para "Could you swing by"
-	line "my LAB?"
+	para "Könntest du kurz"
+	line "im LABOR vorbei-"
+	cont "kommen?"
 
-	para "See you later!"
+	para "Bis später!"
 	done
 
 ElmPhoneGotAholdOfSomethingNeatText:
-	text "Hello, <PLAYER>?"
-	line "How's it going?"
+	text "Hallo, <PLAYER>?"
+	line "Wie gehtわ?"
 
-	para "I got ahold of"
-	line "something neat."
+	para "Ich habe hier et-"
+	line "was Hübsches."
 
-	para "Swing by my LAB"
-	line "and pick it up!"
+	para "Schau beim LABOR"
+	line "vorbei und hol es"
+	cont "dir ab!"
 
-	para "See you later!"
+	para "Bis später!"
 	done

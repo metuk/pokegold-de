@@ -535,125 +535,146 @@ MovementData_Farfetched_Pos9_Pos8_Down:
 	step_end
 
 IlexForestApprenticeIntroText:
-	text "Oh, man… My boss"
-	line "is going to be"
-	cont "steaming…"
+	text "Oh, Mist… Mein"
+	line "Boss wird sauer"
+	cont "sein…"
 
-	para "The FARFETCH'D"
-	line "that CUTS trees"
+	para "Das PORENTA, das"
+	line "mit dem ZER-"
 
-	para "for charcoal took"
-	line "off on me."
+	para "SCHNEIDER Bäume"
+	line "fällt, um nach"
+	cont "Holzkohle zu"
+	cont "suchen, ist"
+	cont "abgehauen."
 
-	para "I can't go looking"
-	line "for it here in the"
-	cont "ILEX FOREST."
+	para "Ich traue mich"
+	line "nicht in den"
+	cont "STEINEICHENWALD,"
+	cont "um nach ihm"
+	cont "zu suchen."
 
-	para "It's too big, dark"
-	line "and scary for me…"
+	para "Er ist so groß,"
+	line "dunkel und"
+	cont "unheimlich…"
 	done
 
 IlexForestApprenticeAfterText:
-	text "Wow! Thanks a"
-	line "whole bunch!"
+	text "Wow! Vielen Dank"
+	line "auch!"
 
-	para "My boss's #MON"
-	line "won't obey me be-"
-	cont "cause I don't have"
-	cont "a BADGE."
+	para "Die #MON von"
+	line "meinem Boss"
+	cont "gehorchen mir"
+	cont "nicht, da ich"
+	cont "keinen ORDEN"
+	cont "besitze."
 	done
 
 Text_ItsTheMissingPokemon:
-	text "It's the missing"
-	line "#MON!"
+	text "Das ist das"
+	line "verschollene"
+	cont "#MON!"
 	done
 
 Text_Kwaaaa:
-	text "FARFETCH'D: Kwaa!"
+	text "PORENTA: Quack!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My FARFETCH'D!"
+	text "Ah! Mein PORENTA!"
 
-	para "You found it for"
-	line "us, kid?"
+	para "Du hast es für uns"
+	line "gefunden, Kleiner?"
 
-	para "Without it, we"
-	line "wouldn't be able"
+	para "Wir können ohne"
+	line "es nicht den"
 
-	para "to CUT trees for"
-	line "charcoal."
+	para "ZERSCHNEIDER"
+	line "einsetzen, mit dem"
+	cont "wir Bäume fällen, "
+	cont "um Holzkohle zu"
+	cont "finden."
 
-	para "Thanks, kid!"
+	para "Danke, Kleiner!"
 
-	para "Now, how can I"
-	line "thank you…"
+	para "Wie kann ich"
+	line "dir danken…"
 
-	para "I know! Here, take"
-	line "this."
+	para "Ah genau! Nimm"
+	line "dies."
 	done
 
 Text_CharcoalMasterOutro:
-	text "That's the CUT HM."
-	line "Teach that to a"
+	text "Diese VM enthält"
+	line "ZERSCHNEIDER."
 
-	para "#MON to clear"
-	line "small trees."
+	para "Bring sie einem"
+	line "#MON bei, um"
+	cont "kleine Sträucher"
+	cont "zu zerschneiden."
 
-	para "Of course, you"
-	line "have to have the"
+	para "Du benötigst noch"
+	line "den ORDEN aus der"
 
-	para "GYM BADGE from"
-	line "AZALEA to use it."
+	para "ARENA von AZALEA"
+	line "CITY, um sie"
+	cont "einzusetzen."
 	done
 
 Text_CharcoalMasterTalkAfter:
-	text "Do you want to"
-	line "apprentice as a"
+	text "Soll ich dich"
+	line "lehren, wie man"
 
-	para "charcoal maker"
-	line "with me?"
+	para "ein Köhler wird?"
 
-	para "You'll be first-"
-	line "rate in ten years!"
+	para "In zehn Jahren"
+	line "wirst du ein"
+	cont "Meister sein!"
 	done
 
 Text_HeadbuttIntro:
-	text "What am I doing?"
+	text "Was ich mache?"
 
-	para "I'm shaking trees"
-	line "using HEADBUTT."
+	para "Ich setze"
+	line "KOPFNUSS ein, um"
+	cont "Bäume zu"
+	cont "schütteln."
 
-	para "It's fun. Here,"
-	line "you try it too!"
+	para "Das macht Spaß!"
+	line "Probier es doch"
+	cont "auch einmal!"
 	done
 
 Text_HeadbuttOutro:
-	text "Rattle trees with"
-	line "HEADBUTT. Some-"
-	cont "times, sleeping"
-	cont "#MON fall out."
+	text "Benutze KOPFNUSS,"
+	line "um Bäume zu"
+	cont "schütteln. Manch-"
+	cont "mal fallen schla-"
+	cont "fende #MON"
+	cont "herunter."
 	done
 
 IlexForestSignpostText:
-	text "ILEX FOREST is"
-	line "so overgrown with"
+	text "Der STEINEICHEN-"
+	line "WALD ist so dicht,"
 
-	para "trees that you"
-	line "can't see the sky."
+	para "dass man den"
+	line "Himmel nicht sehen"
+	cont "kann."
 
-	para "Please watch out"
-	line "for items that may"
-	cont "have been dropped."
+	para "Halte Ausschau"
+	line "nach verlorenen"
+	cont "Gegenständen."
 	done
 
 Text_IlexForestShrine:
-	text "ILEX FOREST"
-	line "SHRINE…"
+	text "STEINEICHENWALD-"
+	line "SCHREIN…"
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector…"
+	para "Er wurde zu Ehren"
+	line "des Waldpatrons"
+	cont "aufgestellt…"
 	done
 
 IlexForest_MapEvents:

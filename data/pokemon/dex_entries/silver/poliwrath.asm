@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
-	dw 403, 1190 ; height, weight
+	db "KAULQUAPPE@" ; species name
+	dw 7181, 36866 ; height, weight
 
-	db   "Although an ener-"
-	next "getic, skilled"
-	next "swimmer that uses"
+	db   "UAPPO ist ein gu-"
+	next "ter Schwimmer. Es"
+	next "kann den Pazifik"
+	page "nur mit Einsatz"
+	next "seiner Beine"
+	next "durchschwimmen.@"
 
-	page "all of its mus-"
-	next "cles, it lives on"
-	next "dry land.@"

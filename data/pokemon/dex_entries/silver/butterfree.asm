@@ -1,10 +1,10 @@
-	db "BUTTERFLY@" ; species name
-	dw 307, 710 ; height, weight
+	db "FALTER@" ; species name
+	dw 16395, 33793 ; height, weight
 
-	db   "Water-repellent"
-	next "powder on its"
-	next "wings enables it"
+	db   "s sammelt täg-"
+	next "lich Honig. Es"
+	next "reibt ihn in seine"
+	page "Beinhaare, um ihn"
+	next "in sein Nest zu"
+	next "transportieren.@"
 
-	page "to collect honey,"
-	next "even in the heav-"
-	next "iest of rains.@"

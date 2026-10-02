@@ -9,9 +9,4 @@ MailEntry_Uppercase:
 	db "lower  DEL   END   "
 
 MailEntry_Lowercase:
-	db "a b c d e f g h i j"
-	db "k l m n o p q r s t"
-	db "u v w x y z   . - /"
-	db "'d 'l 'm 'r 's 't 'v & ( )"
-	db "“ ” [ ] ' : ;      "
-	db "UPPER  DEL   END   "
+	db "a b c d e f g h i jk l m n o p q r s tu v w x y z   . - /Ä Ö Ü ä に ぬ ö ü ß  ( ) “ ” [ ] ' : ; &GROß  LÖSCH ENDE   どヂ<NULL>ゲ─<BOLD_G><WATASHI>@"

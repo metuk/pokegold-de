@@ -1,10 +1,10 @@
-	db "SCRATCHCAT@" ; species name
-	dw 104, 90 ; height, weight
+	db "KATZE@" ; species name
+	dw 10756, 33792 ; height, weight
 
-	db   "It is fascinated"
-	next "by round objects."
-	next "It can't stop"
+	db   "s ist von runden"
+	next "Objekten faszi-"
+	next "niert. Es spielt"
+	page "solange damit, bis"
+	next "es müde wird"
+	next "und einschläft.@"
 
-	page "playing with them"
-	next "until it tires and"
-	next "falls asleep.@"

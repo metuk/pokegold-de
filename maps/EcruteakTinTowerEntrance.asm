@@ -90,55 +90,57 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 	step_end
 
 EcruteakTinTowerEntranceSageText:
-	text "TIN TOWER is off"
-	line "limits to anyone"
+	text "Wenn du nicht im"
+	line "Besitz des ORDENS"
 
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
+	para "von TEAK CITY"
+	line "bist, darfst du"
 
-	para "Sorry, but you'll"
-	line "have to leave."
+	para "den ZINNTURM nicht"
+	line "betreten."
 	done
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "TIN TOWER is off"
-	line "limits to anyone"
+	text "Wenn du nicht im"
+	line "Besitz des ORDENS"
 
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
+	para "von TEAK CITY"
+	line "bist, darfst du"
 
-	para "Ah!"
+	para "den ZINNTURM nicht"
+	line "betreten. Ah!"
 
-	para "ECRUTEAK's GYM"
-	line "BADGE! Please, go"
-	cont "right through."
+	para "Das ist der ORDEN"
+	line "von TEAK CITY! Du"
+	cont "darfst passieren."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText:
-	text "The TIN TOWER up"
-	line "ahead was built"
+	text "Der ZINNTURM ist"
+	line "als Brutstätte für"
 
-	para "as a roost for"
-	line "flying #MON."
+	para "fliegende #MON"
+	line "gedacht."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText_GotRainbowWing:
-	text "The TIN TOWER"
-	line "shook! A #MON"
+	text "Der ZINNTURM bebt!"
+	line "Ein #MON muss"
 
-	para "must have returned"
-	line "to the top!"
+	para "auf der Spitze ge-"
+	line "landet sein!"
 	done
 
 EcruteakTinTowerEntranceGrampsText:
-	text "Two towers…"
-	line "Two #MON…"
+	text "Zwei Türme…"
+	line "Zwei #MON…"
 
-	para "But when one"
-	line "burned down, both"
+	para "Aber als einer"
+	line "niederbrannte,"
 
-	para "#MON flew away,"
-	line "never to return."
+	para "flogen beide #-"
+	line "MON fort und kamen"
+	cont "nie wieder zurück."
 	done
 
 EcruteakTinTowerEntrance_MapEvents:

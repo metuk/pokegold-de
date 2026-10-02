@@ -18,25 +18,26 @@ CeruleanPokecenter1FGymGuideScript:
 	jumptextfaceplayer CeruleanPokecenter1FGymGuideText
 
 CeruleanPokecenter1FSuperNerdText:
-	text "ROUTE 9 stretches"
-	line "to the east. The"
+	text "ROUTE 9 führt"
+	line "nach Osten. Das"
 
-	para "POWER PLANT is at"
-	line "the end."
+	para "KRAFTWERK liegt an"
+	line "ihrem Ende."
 	done
 
 CeruleanPokecenter1FGymGuideText:
-	text "The MAGNET TRAIN"
-	line "travels at over"
+	text "Mit einer Ge-"
+	line "schwindigkeit von"
 
-	para "340 mph. It goes"
-	line "between KANTO and"
+	para "über 550km/h reist"
+	line "der MAGNETZUG in"
 
-	para "JOHTO in almost no"
-	line "time at all."
+	para "null Komma nichts"
+	line "zwischen KANTO und"
+	cont "JOHTO hin und her."
 
-	para "It really makes"
-	line "JOHTO accessible."
+	para "Dadurch ist JOHTO"
+	line "ganz nah."
 	done
 
 CeruleanPokecenter1F_MapEvents:

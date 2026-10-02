@@ -117,68 +117,73 @@ RuinsOfAlphOutsidePlayerEnterLabMovement:
 	step_end
 
 RuinsOfAlphOutsideScientistText:
-	text "Hm? That's a #-"
-	line "DEX, isn't it?"
-	cont "May I see it?"
+	text "Hm? Das ist doch"
+	line "ein #DEX, nicht"
+	cont "wahr? Darf ich"
+	cont "ihn sehen?"
 
-	para "There are so many"
-	line "kinds of #MON."
+	para "Es gibt so viele"
+	line "unterschiedliche"
+	cont "#MON."
 
-	para "Hm? What's this?"
+	para "Hm? Was ist das?"
 
-	para "What is this"
-	line "#MON?"
+	para "Was ist das für"
+	line "ein #MON?"
 
-	para "It looks like the"
-	line "strange writing on"
+	para "Es sieht aus wie"
+	line "die merkwürdigen"
 
-	para "the walls of the"
-	line "RUINS."
+	para "Zeichen an den"
+	line "Wänden in den"
+	cont "RUINEN."
 
-	para "If those drawings"
-	line "are really #-"
-	cont "MON, there should"
-	cont "be many more."
+	para "Falls diese Zei-"
+	line "chen tatsächlich "
+	cont "#MON sind, dann"
+	cont "gibt es noch"
+	cont "viel mehr davon."
 
-	para "I know! Let me up-"
-	line "grade your #-"
-	cont "DEX. Follow me."
+	para "Ich weiß! Lass"
+	line "mich deinen #-"
+	cont "DEX erweitern."
+	cont "Mir nach!"
 	done
 
 SuperNerdEricUnusedSeenText:
-	text "What do you want?"
-	line "I'm studying--"
-	cont "don't disturb me!"
+	text "Was willst du?"
+	line "Ich lerne--"
+	cont "stör mich nicht!"
 	done
 
 SuperNerdEricUnusedBeatenText:
-	text "Sorry…"
-	line "I'm frustrated by"
+	text "Entschuldigung…"
+	line "Unser Mangel an"
 
-	para "our lack of real"
-	line "understanding…"
+	para "Verständis"
+	line "frustriert mich…"
 	done
 
 SuperNerdEricUnusedAfterBattleText:
-	text "The RUINS are from"
-	line "about 1500 years"
-	cont "ago."
+	text "Die RUINEN"
+	line "sind ungefähr"
+	cont "1500 Jahre alt."
 
-	para "Nobody knows who"
-	line "built them."
+	para "Niemand weiß,"
+	line "wer sie erbaute."
 
-	para "It's also not"
-	line "known if the #-"
-	cont "MON statues have"
-	cont "any meaning."
+	para "Die Bedeutung der "
+	line "#MON-Statuen"
+	cont "ist auch noch"
+	cont "nicht geklärt."
 
-	para "It's all one big"
-	line "mystery…"
+	para "Das Ganze ist ein"
+	line "großes Rätsel…"
 	done
 
 PsychicNathanSeenText:
-	text "Hmmm… This is a"
-	line "strange place."
+	text "Hm… Dies ist ein"
+	line "merkwürdiger Ort."
 	done
 
 PsychicNathanBeatenText:
@@ -186,26 +191,27 @@ PsychicNathanBeatenText:
 	done
 
 PsychicNathanAfterBattleText:
-	text "I like thinking"
-	line "here."
+	text "Ich komme oft"
+	line "hierher, um nach-"
+	cont "zudenken."
 	done
 
 RuinsOfAlphOutsideMysteryChamberSignText:
-	text "MYSTERY STONE"
-	line "PANEL CHAMBER"
+	text "RÄTSELSTEIN"
+	line "PUZZLEKAMMER"
 	done
 
 RuinsOfAlphSignText:
-	text "RUINS OF ALPH"
-	line "Visitors Welcome"
+	text "ALPH-RUINEN"
+	line "Fremde willkommen!"
 	done
 
 RuinsOfAlphResearchCenterSignText:
-	text "RUINS OF ALPH"
-	line "RESEARCH CENTER"
+	text "ALPH-RUINEN"
+	line "FORSCHUNGSZENTRUM"
 
-	para "The Authority on"
-	line "the RUINS OF ALPH"
+	para "ALPH-RUINEN:"
+	line "Zuständige Behörde"
 	done
 
 RuinsOfAlphOutside_MapEvents:

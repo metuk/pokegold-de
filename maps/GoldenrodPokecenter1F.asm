@@ -28,47 +28,59 @@ GoldenrodPokecenter1FLassScript:
 	jumptextfaceplayer GoldenrodPokecenter1FLassText
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "The COLOSSEUM--"
-	line "upstairs at any"
+	text "Im oberen Stock-"
+	line "werk jedes #-"
 
-	para "#MON CENTER--is"
-	line "for link battles."
+	para "MON CENTERs fin-"
+	line "dest du das KOLOS-"
 
-	para "Battle records are"
-	line "posted on the"
+	para "SEUM. Hier kannst"
+	line "du gegen Freunde"
+	cont "antreten."
 
-	para "wall, so I can't"
-	line "afford to lose."
+	para "Kampfergebnisse"
+	line "werden an der Wand"
+
+	para "ausgehängt. Ich"
+	line "kann es mir nicht"
+
+	para "erlauben, zu ver-"
+	line "lieren."
 	done
 
 GoldenrodPokecenter1FPersonText:
-	text "I wonder how many"
-	line "kinds of #MON"
+	text "Ich frage mich,"
+	line "wie viele Arten"
 
-	para "there are in the"
-	line "world."
+	para "von #MON es"
+	line "wohl geben mag."
 
-	para "Three years ago,"
-	line "PROF.OAK said that"
+	para "Vor drei Jahren"
+	line "hat PROF. EICH"
 
-	para "there were 150"
-	line "different kinds."
+	para "verlautbart, dass"
+	line "es 150 verschie-"
+
+	para "dene Arten geben"
+	line "soll."
 	done
 
 GoldenrodPokecenter1FLassText:
-	text "A higher level"
-	line "#MON doesn't"
-	cont "always win."
+	text "Ein starkes #-"
+	line "MON muss nicht"
+	cont "zwingend gewinnen."
 
-	para "After all, it may"
-	line "have a type dis-"
-	cont "advantage."
+	para "Meist entscheidet"
+	line "der Vor- oder"
+	cont "Nachteil des Typs."
 
-	para "I don't think"
-	line "there is a single"
+	para "Ich glaube nicht,"
+	line "dass es ein #-"
 
-	para "#MON that is"
-	line "the toughest."
+	para "MON gibt, das al-"
+	line "len anderen über-"
+
+	para "legen ist."
 	done
 
 GoldenrodPokecenter1F_MapEvents:

@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
-	dw 207, 440 ; height, weight
+	db "GIFTDORN@" ; species name
+	dw 51208, 33792 ; height, weight
 
-	db   "It has a calm and"
-	next "caring nature."
-	next "Because its horn"
+	db   "he es seine"
+	next "Jungen füttert,"
+	next "zerkaut es das"
+	page "Futter und"
+	next "gibt es ihnen"
+	next "anschließend.@"
 
-	page "grows slowly, it"
-	next "prefers not to"
-	next "fight.@"

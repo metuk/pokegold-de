@@ -1,10 +1,10 @@
-	db "DUCK@" ; species name
-	dw 207, 430 ; height, weight
+	db "ENTE@" ; species name
+	dw 50184, 33792 ; height, weight
 
-	db   "If its chronic"
-	next "headache peaks, it"
-	next "may exhibit odd"
+	db   "s besitzt mys-"
+	next "tische Kräfte, die"
+	next "es unbewusst ein-"
+	page "setzt. Daher ist"
+	next "sein Blick immer"
+	next "verwirrt.@"
 
-	page "powers. It seems"
-	next "unable to recall"
-	next "such an episode.@"

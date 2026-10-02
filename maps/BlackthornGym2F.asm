@@ -79,55 +79,65 @@ TrainerCooltrainerfFran:
 	end
 
 CooltrainermCodySeenText:
-	text "It's not as if we"
-	line "all use dragon-"
-	cont "type #MON."
+	text "Wir setzen nicht"
+	line "alle ausschließ-"
+	cont "lich Drachen-#-"
+	cont "MON ein."
 
-	para "My policy is to"
-	line "use #MON that"
+	para "Meine Taktik ist"
+	line "es, #MON"
 
-	para "are stronger than"
-	line "dragon #MON."
+	para "einzusetzen, die"
+	line "stärker sind als"
+	cont "Drachen-#MON."
 	done
 
 CooltrainermCodyBeatenText:
-	text "You are special…"
+	text "Du bist etwas Be-"
+	line "sonderes…"
 	done
 
 CooltrainermCodyAfterBattleText:
-	text "But just watch!"
-	line "My #MON will"
+	text "Aber pass auf!"
+	line "Meine #MON wer-"
+	cont "den noch mächti-"
+	cont "ger."
 
-	para "become even more"
-	line "powerful."
-
-	para "We'll be tougher"
-	line "as a trainer and"
-	cont "#MON team."
+	para "Sowohl als Trai-"
+	line "ner als auch als"
+	cont "#MON-Team"
+	cont "werden wir un-"
+	cont "schlagbar sein."
 	done
 
 CooltrainerfFranSeenText:
-	text "We go through rig-"
-	line "orous training un-"
-	cont "der CLAIR. I can't"
-	cont "afford to lose."
+	text "SANDRA unterzieht"
+	line "uns einem ausge-"
+	cont "wogenen Training."
+	cont "Ich kann es mir"
+	cont "nicht erlauben, zu"
+	cont "verlieren."
 	done
 
 CooltrainerfFranBeatenText:
-	text "Arrrgh! I'm so"
-	line "disgusted!"
+	text "Arrrgh! Das ist"
+	line "verabscheuungs-"
+	cont "würdig!"
 	done
 
 CooltrainerfFranAfterBattleText:
-	text "Whew…"
+	text "Wow…"
 
-	para "I'll have to re-"
-	line "think my training…"
+	para "Ich muss meinen"
+	line "Trainingsplan"
+
+	para "nochmals überden-"
+	line "ken…"
 	done
 
 BlackthornGym2FBoulderFellText:
-	text "The boulder fell"
-	line "through!"
+	text "Der Felsen fiel"
+	line "hindurch!"
 	done
 
 BlackthornGym2F_MapEvents:

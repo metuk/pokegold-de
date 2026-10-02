@@ -295,7 +295,7 @@ OakTimeWhatTimeIsItText:
 	text_end
 
 String_oclock:
-	db "o'clock@"
+	db "UHR@"
 
 OakTimeWhatHoursText:
 	; What?@ @
@@ -511,13 +511,13 @@ SetDayOfWeek:
 	dw .Saturday
 	dw .Sunday
 
-.Sunday:    db " SUNDAY@"
-.Monday:    db " MONDAY@"
-.Tuesday:   db " TUESDAY@"
-.Wednesday: db "WEDNESDAY@"
-.Thursday:  db "THURSDAY@"
-.Friday:    db " FRIDAY@"
-.Saturday:  db "SATURDAY@"
+.Sunday:    db "SONNTAG@"
+.Monday:    db "MONTAG@"
+.Tuesday:   db "DIENSTAG@"
+.Wednesday: db "MITTWOCH@"
+.Thursday:  db "DONNERSTAG@"
+.Friday:    db "FREITAG@"
+.Saturday:  db "SAMSTAG@"
 
 .OakTimeWhatDayIsItText:
 	text_far _OakTimeWhatDayIsItText
@@ -651,6 +651,7 @@ MrChrono:
 
 .NowOnDebug:
 	text_start
+
 	para "Now on DEBUG…"
 	prompt
 
@@ -703,9 +704,9 @@ GetTimeOfDayString:
 	ld de, .day_string
 	ret
 
-.nite_string: db "NITE@"
-.morn_string: db "MORN@"
-.day_string:  db "DAY@"
+.nite_string: db "NACHT@"
+.morn_string: db "VORMITTAG@"
+.day_string:  db "TAG@"
 
 AdjustHourForAMorPM:
 ; Convert the hour stored in c (0-23) to a 1-12 value

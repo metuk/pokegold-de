@@ -76,7 +76,7 @@ MeetMomScript:
 	end
 
 PokegearName:
-	db "#GEAR@"
+	db "#COM@"
 
 PlayersHouse1FReceiveItemStd:
 	jumpstd ReceiveItemScript
@@ -148,143 +148,163 @@ MomWalksBackMovement:
 	step_end
 
 ElmsLookingForYouText:
-	text "Oh, <PLAYER>…! Our"
-	line "neighbor, PROF."
+	text "Oh, <PLAYER>…!"
+	line "Unser Nachbar,"
 
-	para "ELM, was looking"
-	line "for you."
+	para "PROF. LIND, hat"
+	line "nach dir gesucht."
 
-	para "He said he wanted"
-	line "you to do some-"
-	cont "thing for him."
+	para "Er möchte, dass du"
+	line "etwas für ihn er-"
+	cont "ledigst."
 
-	para "Oh! I almost for-"
-	line "got! Your #MON"
+	para "Oh! Fast hätte ich"
+	line "es vergessen! Dein"
 
-	para "GEAR is back from"
-	line "the repair shop."
+	para "#MON-COM ist"
+	line "von der Reparatur"
+	cont "zurück."
 
-	para "Here you go!"
+	para "Da hast du ihn!"
 	done
 
 MomGivesPokegearText:
-	text "#MON GEAR, or"
-	line "just #GEAR."
+	text "#MON-COM oder"
+	line "einfach nur"
+	cont "#COM."
 
-	para "It's essential if"
-	line "you want to be a"
-	cont "good trainer."
+	para "Ein wichtiges Ge-"
+	line "rät auf deinem"
+	cont "Pfad als Trainer."
 
-	para "Oh, the day of the"
-	line "week isn't set."
+	para "Oh, der Wochentag"
+	line "ist noch nicht"
+	cont "eingestellt."
 
-	para "You mustn't forget"
-	line "that!"
+	para "Das darfst du"
+	line "nicht vergessen!"
 	done
 
 IsItDSTText:
-	text "Is it Daylight"
-	line "Saving Time now?"
+	text "Haben wir"
+	line "Sommerzeit?"
 	done
 
 ComeHomeForDSTText:
-	text "Come home to"
-	line "adjust your clock"
+	text "Geh nach Hause, um"
+	line "deine Uhr auf SZ"
+	cont "oder WZ einzu-"
+	cont "stellen."
 
-	para "for Daylight"
-	line "Saving Time."
-
-	para "By the way, do you"
-	line "know how to use"
-	cont "the PHONE?"
+	para "Übrigens, weißt du"
+	line "über den Umgang"
+	cont "mit dem TELEFON"
+	cont "Bescheid?"
 	done
 
 KnowTheInstructionsText:
-	text "Don't you just"
-	line "turn the #GEAR"
+	text "Muss man nicht"
+	line "einfach den #-"
 
-	para "on and select the"
-	line "PHONE icon?"
+	para "COM einschalten"
+	line "und das TELEFON-"
+	cont "Symbol anwählen?"
 	done
 
 DontKnowTheInstructionsText:
-	text "I'll read the"
-	line "instructions."
+	text "Ich werde die An-"
+	line "leitung lesen."
 
-	para "Turn the #GEAR"
-	line "on and select the"
-	cont "PHONE icon."
+	para "Schalte den #-"
+	line "COM ein und wähle"
+	cont "das TELEFON-Symbol"
+	cont "an!"
 	done
 
 InstructionsNextText:
-	text "Phone numbers are"
-	line "stored in memory."
+	text "Telefonnummern"
+	line "werden gespei-"
 
-	para "Just choose a name"
-	line "you want to call."
+	para "chert. Wähle ein-"
+	line "fach den Namen der"
+	cont "Person, die du an-"
+	cont "rufen möchtest."
 
-	para "Gee, isn't that"
-	line "convenient?"
+	para "Ist das nicht"
+	line "praktisch?"
 	done
 
 HurryUpElmIsWaitingText:
-	text "PROF.ELM is wait-"
-	line "ing for you."
+	text "PROF. LIND wartet"
+	line "auf dich."
 
-	para "Hurry up, baby!"
+	para "Beeile dich, Baby!"
 	done
 
 SoWhatWasProfElmsErrandText:
-	text "So, what was PROF."
-	line "ELM's errand?"
+	text "Wie lautete der"
+	line "Auftrag von PROF."
+	cont "LIND?"
 
 	para "…"
 
-	para "That does sound"
-	line "challenging."
+	para "Das klingt nach"
+	line "einer wahren He-"
+	cont "rausforderung."
 
-	para "But, you should be"
-	line "proud that people"
-	cont "rely on you."
+	para "Aber du kannst"
+	line "stolz darauf sein,"
+	cont "dass sich die Leu-"
+	cont "te auf dich ver-"
+	cont "lassen!"
 	done
 
 ImBehindYouText:
-	text "<PLAYER>, do it!"
+	text "<PLAYER>, du"
+	line "schaffst es!"
 
-	para "I'm behind you all"
-	line "the way!"
+	para "Ich werde dir"
+	line "immer zur Seite"
+	cont "stehen!"
 	done
 
 PlayersHouse1FStoveText:
-	text "Mom's specialty!"
+	text "Mamas Spezialität!"
 
-	para "CINNABAR VOLCANO"
+	para "ZINNOBER-VULKAN-"
 	line "BURGER!"
 	done
 
 PlayersHouse1FSinkText:
-	text "The sink is spot-"
-	line "less. Mom likes it"
-	cont "clean."
+	text "Die Spüle ist"
+	line "fleckenlos rein,"
+	cont "so wie es Mama"
+	cont "mag."
 	done
 
 PlayersHouse1FFridgeText:
-	text "Let's see what's"
-	line "in the fridge…"
+	text "Mal sehen, was da"
+	line "im Kühlschrank zu"
+	cont "finden ist…"
 
-	para "FRESH WATER and"
-	line "tasty LEMONADE!"
+	para "TAFELWASSER"
+	line "und leckere LIMO-"
+	cont "NADE!"
 	done
 
 PlayersHouse1FTVText:
-	text "There's a movie on"
-	line "TV: Stars dot the"
+	text "Im Fernsehen läuft"
+	line "ein Film: Zwei"
 
-	para "sky as two boys"
-	line "ride on a train…"
+	para "Jungen fahren mit"
+	line "dem Zug unter ei-"
 
-	para "I'd better get"
-	line "rolling too!"
+	para "nem Himmel voller"
+	line "Sterne…"
+
+	para "Ich sollte mich"
+	line "auch besser auf"
+	cont "den Weg machen!"
 	done
 
 PlayersHouse1F_MapEvents:

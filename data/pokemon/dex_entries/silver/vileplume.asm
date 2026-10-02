@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
-	dw 311, 410 ; height, weight
+	db "BLUME@" ; species name
+	dw 47628, 33792 ; height, weight
 
-	db   "The bud bursts"
-	next "into bloom with a"
-	next "bang. It then"
+	db   "s besitzt die"
+	next "größten Blätter"
+	next "der Welt. Bei"
+	page "jedem Schritt"
+	next "streut es Gift-"
+	next "pollen zu Boden.@"
 
-	page "starts scattering"
-	next "allergenic, poi-"
-	next "sonous pollen.@"

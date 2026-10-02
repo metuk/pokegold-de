@@ -1,10 +1,10 @@
 	db "PSI@" ; species name
-	dw 403, 1250 ; height, weight
+	dw 13581, 33794 ; height, weight
 
-	db   "If it uses its"
-	next "abilities, it"
-	next "emits special"
+	db   "s verfügt über"
+	next "starke Psi-Kräfte."
+	next "Je größer die Ge-"
+	page "fahr, desto stär-"
+	next "ker werden seine"
+	next "Psi-Kräfte.@"
 
-	page "alpha waves that"
-	next "cause machines to"
-	next "malfunction.@"

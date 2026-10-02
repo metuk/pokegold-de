@@ -1,10 +1,10 @@
-	db "CLASSY CAT@" ; species name
-	dw 303, 710 ; height, weight
+	db "RASSEKATZE@" ; species name
+	dw 16394, 38145 ; height, weight
 
-	db   "Many adore it for"
-	next "its sophisticated"
-	next "air. However, it"
+	db   "iele bewundern"
+	next "sein erhabenes"
+	next "Auftreten. Es"
+	page "attackiert und"
+	next "kratzt ohne"
+	next "wirklichen Grund.@"
 
-	page "will lash out and"
-	next "scratch for little"
-	next "reason.@"

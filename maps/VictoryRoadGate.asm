@@ -52,47 +52,48 @@ VictoryRoadGateStepDownMovement:
 	step_end
 
 VictoryRoadGateOfficerText:
-	text "Only trainers who"
-	line "have proven them-"
-	cont "selves may pass."
+	text "Nur Trainer, die"
+	line "sich als würdig"
+	cont "erwiesen haben,"
+	cont "dürfen eintreten."
 	done
 
 VictoryRoadGateNotEnoughBadgesText:
-	text "You don't have all"
-	line "the GYM BADGES of"
+	text "Du besitzt nicht"
+	line "alle ORDEN von"
 	cont "JOHTO."
 
-	para "I'm sorry, but I"
-	line "can't let you go"
-	cont "through."
+	para "Tut mir Leid. Ich"
+	line "darf dich nicht"
+	cont "passieren lassen."
 	done
 
 VictoryRoadGateEightBadgesText:
-	text "Oh! The eight"
-	line "BADGES of JOHTO!"
+	text "Oh! Alle acht"
+	line "ORDEN von JOHTO!"
 
-	para "Please, go right"
-	line "ahead, sir!"
+	para "Geh bitte weiter!"
 	done
 
 VictoryRoadGateLeftBlackBeltText:
-	text "This way leads to"
-	line "MT.SILVER."
+	text "Dieser Weg führt"
+	line "zum SILBERBERG."
 
-	para "You'll see scary-"
-	line "strong #MON out"
-	cont "there."
+	para "Dir werden be-"
+	line "ängstigend starke"
+	cont "#MON begegnen."
 	done
 
 VictoryRoadGateRightBlackBeltText:
-	text "Off to the #MON"
-	line "LEAGUE, are you?"
+	text "Du bist auf dem"
+	line "Weg zur #MON"
+	cont "LIGA, nicht wahr?"
 
-	para "The ELITE FOUR are"
-	line "so strong it's"
+	para "Die TOP VIER sind"
+	line "so stark, dass es"
 
-	para "scary, and they're"
-	line "ready for you!"
+	para "einem Angst macht."
+	line "Sie erwarten dich!"
 	done
 
 VictoryRoadGate_MapEvents:

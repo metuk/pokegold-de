@@ -34,28 +34,28 @@ Route16GateCannotPassMovement:
 	step_end
 
 Route16GateOfficerText:
-	text "CYCLING ROAD"
-	line "starts here."
+	text "Der RADWEG"
+	line "fängt hier an."
 
-	para "It's all downhill,"
-	line "so it's totally"
-	cont "exhilarating."
+	para "Es geht nur"
+	line "bergab, darum ist"
+	cont "die Fahrt so"
+	cont "erfrischend."
 
-	para "It's a great sort"
-	line "of feeling that"
+	para "Dieses Gefühl kann"
+	line "dir kein Schiff"
 
-	para "you can't get from"
-	line "a ship or train."
+	para "oder Zug"
+	line "vermitteln."
 	done
 
 Route16GateCannotPassText:
-	text "Hey! Whoa! Stop!"
+	text "Hey! Boah! Stopp!"
 
-	para "You can't go out"
-	line "on the CYCLING"
+	para "Du darfst nicht"
+	line "ohne FAHRRAD"
 
-	para "ROAD without a"
-	line "BICYCLE."
+	para "auf den RADWEG."
 	done
 
 Route16Gate_MapEvents:

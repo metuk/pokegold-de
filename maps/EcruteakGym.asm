@@ -136,198 +136,218 @@ EcruteakGymStatue:
 	jumpstd GymStatue2Script
 
 MortyIntroText:
-	text "Good of you to"
-	line "have come."
+	text "Gut, dass du ge-"
+	line "kommen bist."
 
-	para "Here in ECRUTEAK,"
-	line "#MON have been"
-	cont "revered."
+	para "Hier in TEAK CITY"
+	line "werden #MON"
+	cont "verehrt."
 
-	para "It's said that"
-	line "legendary #MON"
+	para "Man sagt, dass le-"
+	line "gendäre #MON"
 
-	para "will appear to the"
-	line "truly powerful"
-	cont "trainers."
+	para "nur wahrlich star-"
+	line "ken Trainern er-"
+	cont "scheinen werden."
 
-	para "I believed that"
-	line "tale, so I have"
+	para "Ich glaube an die-"
+	line "se Legende. Daher"
 
-	para "secretly trained"
-	line "here all my life."
+	para "habe ich mein gan-"
+	line "zes Leben lang im"
 
-	para "As a result, I can"
-	line "now see what"
-	cont "others cannot."
+	para "Geheimen trai-"
+	line "niert."
 
-	para "Just a bit more…"
+	para "Als Resultat kann"
+	line "ich nun Dinge se-"
+	cont "hen, die andere"
+	cont "nicht sehen kön-"
+	cont "nen."
 
-	para "With a little"
-	line "more, I could see"
+	para "Noch ein wenig…"
 
-	para "a future in which"
-	line "I meet the legen-"
-	cont "dary #MON."
+	para "Mit ein wenig mehr"
+	line "könnte ich eine"
 
-	para "You're going to"
-	line "help me reach that"
-	cont "level!"
+	para "Zukunft sehen, in"
+	line "der ich das legen-"
+
+	para "däre #MON"
+	line "treffe."
+
+	para "Du könntest mir"
+	line "dabei helfen!"
 	done
 
 MortyWinLossText:
-	text "I'm not good"
-	line "enough yet…"
+	text "Ich bin noch nicht"
+	line "gut genug…"
 
-	para "All right. This"
-	line "BADGE is yours."
+	para "Dieser ORDEN soll"
+	line "dir gehören."
 	done
 
 Text_ReceivedFogBadge:
-	text "<PLAYER> received"
-	line "FOGBADGE."
+	text "<PLAYER> erhält"
+	line "PHANTOMORDEN."
 	done
 
 MortyText_FogBadgeSpeech:
-	text "By having FOG-"
-	line "BADGE, #MON up"
+	text "Durch den PHANTOM-"
+	line "ORDEN gehorchen"
 
-	para "to L50 will obey"
-	line "you."
+	para "dir #MON bis zu"
+	line "LV50."
 
-	para "Also, #MON that"
-	line "know SURF will be"
+	para "Außerdem können"
+	line "#MON, die SUR-"
 
-	para "able to use that"
-	line "move anytime."
+	para "FER beherrschen,"
+	line "diesen auch außer-"
 
-	para "I want you to have"
-	line "this too."
+	para "halb eines Kampfes"
+	line "einsetzen."
+
+	para "Bitte nimm auch"
+	line "dies an."
 	done
 
 MortyText_ShadowBallSpeech:
-	text "It's SHADOW BALL."
-	line "It causes damage"
+	text "Das ist SPUKBALL."
+	line "Er verursacht"
 
-	para "and may reduce"
-	line "SPCL.DEF."
+	para "Schaden und ver-"
+	line "ringert die SPE-"
+	cont "ZIAL-VERT."
 
-	para "Use it if it"
-	line "appeals to you."
+	para "Setze ihn ein,"
+	line "wenn er dir ge-"
+	cont "fällt."
 	done
 
 MortyFightDoneText:
-	text "I see…"
+	text "Ich verstehe…"
 
-	para "Your journey has"
-	line "taken you to far-"
-	cont "away places."
+	para "Deine Reise hat"
+	line "dich an die ent-"
+	cont "legensten Orte ge-"
+	cont "führt."
 
-	para "And you have wit-"
-	line "nessed much more"
-	cont "than I."
+	para "Du hast viel mehr"
+	line "gesehen als ich."
 
-	para "I envy you for"
-	line "that…"
+	para "Dafür beneide ich"
+	line "dich…"
 	done
 
 SageJeffreySeenText:
-	text "I spent the spring"
-	line "with my #MON."
+	text "Ich habe den Früh-"
+	line "ling mit meinen"
 
-	para "Then summer, fall"
-	line "and winter…"
+	para "#MON verbracht."
+	line "Dann den Sommer,"
 
-	para "Then spring came"
-	line "again. We have"
+	para "den Herbst und den"
+	line "Winter…"
 
-	para "lived together"
-	line "for a long time."
+	para "Dann kam wieder"
+	line "der Frühling. Wir"
+
+	para "haben viel Zeit"
+	line "miteinander ver-"
+
+	para "bracht."
 	done
 
 SageJeffreyBeatenText:
-	text "Wins and losses, I"
-	line "experienced both."
+	text "Siege und Nieder-"
+	line "lagen - ich hatte"
+	cont "beides."
 	done
 
 SageJeffreyAfterBattleText:
-	text "Where did #MON"
-	line "come from?"
+	text "Woher kommen"
+	line "#MON?"
 	done
 
 SagePingSeenText:
-	text "Can you inflict"
-	line "any damage on our"
-	cont "#MON?"
+	text "Hältst du unseren"
+	line "#MON stand?"
 	done
 
 SagePingBeatenText:
-	text "Ah! Well done!"
+	text "Ah! Gut gemacht!"
 	done
 
 SagePingAfterBattleText:
-	text "We use only ghost-"
-	line "type #MON."
+	text "Wir setzen nur"
+	line "Geist-#MON ein."
 
-	para "No normal-type"
-	line "attack can harm"
-	cont "them!"
+	para "Normal-Attacken"
+	line "zeigen bei ihnen"
+	cont "keine Wirkung!"
 	done
 
 MediumMarthaSeenText:
-	text "I shall win!"
+	text "Ich werde siegen!"
 	done
 
 MediumMarthaBeatenText:
-	text "I, I, I lost!"
+	text "I-I-Ich habe"
+	line "verloren!"
 	done
 
 MediumMarthaAfterBattleText:
-	text "The one who wants"
-	line "to win most--will!"
+	text "Wer siegen will,"
+	line "wird es auch tun!"
 	done
 
 MediumGraceSeenText:
-	text "Stumped by our in-"
-	line "visible floor?"
+	text "Verwirrt dich un-"
+	line "ser unsichtbarer"
 
-	para "Defeat me if you"
-	line "want a hint!"
+	para "Boden? Besiege"
+	line "mich und ich gebe"
+	cont "dir einen Tipp!"
 	done
 
 MediumGraceBeatenText:
-	text "Wha-what?"
+	text "W-Was?"
 	done
 
 MediumGraceAfterBattleText:
-	text "Fine. I shall tell"
-	line "you the secret of"
+	text "Gut, ich verrate"
+	line "dir das Geheimnis"
 
-	para "the invisible"
-	line "floor."
+	para "des unsichtbaren"
+	line "Bodens."
 
-	para "The path is right"
-	line "before our eyes!"
+	para "Der Weg liegt vor"
+	line "unseren Augen!"
 	done
 
 EcruteakGymGuideText:
-	text "The trainers here"
-	line "have secret mo-"
-	cont "tives."
+	text "Die Trainer hier"
+	line "haben geheime Mo-"
+	cont "tive."
 
-	para "If you win, they"
-	line "may tell you some"
+	para "Gewinnst du, so"
+	line "verraten sie dir"
 
-	para "deep secrets about"
-	line "ECRUTEAK."
+	para "vielleicht ein"
+	line "paar Geheimnisse"
+	cont "über TEAK CITY."
 	done
 
 EcruteakGymGuideWinText:
-	text "Whew, <PLAYER>."
-	line "You did great!"
+	text "Wow, <PLAYER>."
+	line "Du warst großar-"
+	cont "tig!"
 
-	para "I was cowering in"
-	line "the corner out of"
-	cont "pure terror!"
+	para "Vor lauter Angst"
+	line "habe ich mich in"
+	cont "die Ecke gekauert!"
 	done
 
 EcruteakGym_MapEvents:

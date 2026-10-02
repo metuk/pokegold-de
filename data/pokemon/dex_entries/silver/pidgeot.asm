@@ -1,10 +1,10 @@
-	db "BIRD@" ; species name
-	dw 411, 870 ; height, weight
+	db "VOGEL@" ; species name
+	dw 35599, 37377 ; height, weight
 
-	db   "It spreads its"
-	next "beautiful wings"
-	next "wide to frighten"
+	db   "eine Brustmuskeln"
+	next "sind so kräftig,"
+	next "dass es mit wenig"
+	page "Flattern einen"
+	next "starken Windstoß"
+	next "erzeugen kann.@"
 
-	page "its enemies. It"
-	next "can fly at Mach 2"
-	next "speed.@"

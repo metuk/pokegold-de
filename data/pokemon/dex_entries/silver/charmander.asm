@@ -1,10 +1,10 @@
-	db "LIZARD@" ; species name
-	dw 200, 190 ; height, weight
+	db "ECHSE@" ; species name
+	dw 21766, 33536 ; height, weight
 
-	db   "The flame on its"
-	next "tail indicates"
-	next "CHARMANDER's life"
+	db   "ie Flamme auf "
+	next "der Schwanzspitze"
+	next "zeigt die Lebens-"
+	page "energie. Ist sie"
+	next "schwach, ist die"
+	next "Flamme klein.@"
 
-	page "force. If it is"
-	next "healthy, the flame"
-	next "burns brightly.@"

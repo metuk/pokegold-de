@@ -86,134 +86,152 @@ CianwoodCityHiddenMaxEther:
 	hiddenitem MAX_ETHER, EVENT_CIANWOOD_CITY_HIDDEN_MAX_ETHER
 
 ChucksWifeEasierToFlyText:
-	text "You crossed the"
-	line "sea to get here?"
+	text "Du hast das Meer"
+	line "überquert, um"
 
-	para "That must have"
-	line "been hard."
+	para "hierher zu kommen?"
+	line "Das war sicher"
+	cont "nicht einfach."
 
-	para "It would be much"
-	line "easier if your"
+	para "Es wäre viel ein-"
+	line "facher, wenn deine"
 
-	para "#MON knew how"
-	line "to FLY…"
+	para "#MON FLIEGEN"
+	line "einsetzen könnten…"
 	done
 
 ChucksWifeBeatChuckText:
-	text "But you can't use"
-	line "FLY without this"
-	cont "city's GYM BADGE."
+	text "Ohne den ORDEN"
+	line "dieser Stadt ist"
+	cont "FLIEGEN nutzlos."
 
-	para "If you beat the"
-	line "GYM LEADER here,"
-	cont "come see me."
+	para "Wenn du den ARENA-"
+	line "LEITER geschlagen"
+	cont "hast, besuche mich"
+	cont "wieder."
 
-	para "I'll have a nice"
-	line "gift for you."
+	para "Ich werde dir dann"
+	line "ein Geschenk über-"
+	cont "reichen."
 	done
 
 ChucksWifeGiveHMText:
-	text "That's CIANWOOD's"
-	line "GYM BADGE!"
+	text "Das ist der ORDEN"
+	line "der ARENA von"
+	cont "ANEMONIA CITY!"
 
-	para "Then you should"
-	line "take this HM."
+	para "Dann soll dir"
+	line "diese VM gehören."
 	done
 
 ChucksWifeFlySpeechText:
-	text "Teach FLY to your"
-	line "#MON."
+	text "Bring deinen #-"
+	line "MON FLIEGEN bei."
 
-	para "You will be able"
-	line "to FLY instantly"
+	para "Du kannst dann so-"
+	line "fort in jede Stadt"
 
-	para "to anywhere you "
-	line "have visited."
+	para "FLIEGEN, die du"
+	line "bereits besucht"
+	cont "hast."
 	done
 
 ChucksWifeChubbyText:
-	text "My husband lost to"
-	line "you, so he needs"
-	cont "to train harder."
+	text "Mein Mann hat ge-"
+	line "gen dich verloren."
+	cont "Also muss er här-"
+	cont "ter trainieren."
 
-	para "That's good, since"
-	line "he was getting a"
-	cont "little chubby."
+	para "Das ist auch gut"
+	line "so. Er hat in"
+	cont "letzter Zeit etwas"
+	cont "Speck angesetzt."
 	done
 
 CianwoodCityYoungsterText:
-	text "If you use FLY,"
-	line "you can get back"
+	text "Setzt du FLIEGEN"
+	line "ein, kannst du di-"
 
-	para "to OLIVINE in-"
-	line "stantly."
+	para "rekt von hier aus"
+	line "nach OLIVIANA CITY"
+	cont "reisen."
 	done
 
 CianwoodCityPokefanMText:
-	text "Boulders to the"
-	line "north of town can"
-	cont "be crushed."
+	text "Die Felsen nörd-"
+	line "lich der Stadt"
+	cont "können zerschmet-"
+	cont "tert werden."
 
-	para "They may be hiding"
-	line "something."
+	para "Vielleicht findest"
+	line "du etwas unter"
+	cont "ihnen."
 
-	para "Your #MON could"
-	line "use ROCK SMASH to"
-	cont "break them."
+	para "Deine #MON"
+	line "können ZERTRÜMME-"
+	cont "RER einsetzen, um"
+	cont "sie aus dem Weg zu"
+	cont "räumen."
 	done
 
 CianwoodCityLassText:
-	text "CHUCK, the GYM"
-	line "LEADER, spars with"
+	text "HARTWIG, der ARE-"
+	line "NALEITER steigt"
 
-	para "his fighting #-"
-	line "MON."
+	para "gerne mit seinen"
+	line "#MON in den"
+	cont "Ring."
 	done
 
 CianwoodCityUnusedText:
-	text "There are several"
-	line "islands between"
-	cont "here and OLIVINE."
+	text "Es gibt mehrere"
+	line "Inseln zwischen"
+	cont "hier und OLIVIANA"
+	cont "CITY."
 
-	para "A mythical sea"
-	line "creature supposed-"
-	cont "ly lives there."
+	para "Man sagt, dass"
+	line "dort ein mythi-"
+	cont "sches Wesen leben"
+	cont "soll."
 	done
 
 CianwoodCitySignText:
-	text "CIANWOOD CITY"
+	text "ANEMONIA CITY"
 
-	para "A Port Surrounded"
-	line "by Rough Seas"
+	para "Eine Hafenstadt"
+	line "umgeben von stür-"
+	cont "mischer See"
 	done
 
 CianwoodGymSignText:
-	text "CIANWOOD CITY"
-	line "#MON GYM"
+	text "ANEMONIA CITY"
+	line "#MON ARENA"
 
-	para "LEADER: CHUCK"
+	para "LEITER: HARTWIG"
 
-	para "His Roaring Fists"
-	line "Do the Talking"
+	para "Er spricht durch"
+	line "seine Fäuste"
 	done
 
 CianwoodPharmacySignText:
-	text "500 Years of"
-	line "Tradition"
+	text "500 Jahre voller"
+	line "Tradition."
 
-	para "CIANWOOD CITY"
-	line "PHARMACY"
+	para "APOTHEKE von"
+	line "ANEMONIA CITY"
 
-	para "We Await Your"
-	line "Medicinal Queries"
+	para "Gerne erwarten wir"
+	line "Ihre medizinischen"
+	cont "Fragen"
 	done
 
 CianwoodPhotoStudioSignText:
-	text "CIANWOOD CITY"
-	line "PHOTO STUDIO"
+	text "FOTOSTUDIO von"
+	line "ANEMONIA CITY"
 
-	para "Take a Snapshot as"
-	line "a Keepsake!"
+	para "Machen Sie einen"
+	line "Schnappschuss zur"
+	cont "Erinnerung!"
 	done
 
 CianwoodCity_MapEvents:

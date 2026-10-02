@@ -4,6 +4,8 @@
 
 	charmap "<NULL>",    $00
 	charmap "<CR>",      $16
+	charmap "<-LF>",     $1d ; hyphen and line break, same as "-<LF>"
+	charmap "<SHY>",     $1e ; soft hyphen (skipped)
 	charmap "<BSP>",     $1f ; breakable space (usually " ", or "<LF>" on the Town Map)
 	charmap "<LF>",      $22
 	charmap "<POKE>",    $24 ; "<PO><KE>"
@@ -163,6 +165,7 @@
 	charmap "ä",         $c3
 	charmap "ö",         $c4
 	charmap "ü",         $c5
+	charmap "ß",         $be
 
 	charmap "'d",        $d0
 	charmap "'l",        $d1

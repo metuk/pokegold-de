@@ -51,60 +51,69 @@ TrainerPokefanmTrevor:
 	end
 
 PokefanmCarterSeenText:
-	text "Let me tell you,"
-	line "I had a hard time"
+	text "Eines kann ich dir"
+	line "sagen! Es war"
 
-	para "catching my prized"
-	line "#MON."
+	para "harte Arbeit, mei-"
+	line "ne prämierten"
+	cont "#MON zu fangen."
 	done
 
 PokefanmCarterBeatenText:
-	text "Awaaah!"
+	text "Uaaaah!"
 	done
 
 PokefanmCarterAfterBattleText:
-	text "SQUIRTLE, CHARMAN-"
-	line "DER and BULBASAUR…"
+	text "SCHIGGY, GLUMANDA"
+	line "und BISASAM…"
 
-	para "I think that's a"
-	line "well-balanced mix."
+	para "Ich denke, das ist"
+	line "ein ausgeglichenes"
+	cont "Team."
 	done
 
 BirdKeeperRoySeenText:
-	text "My dream is to fly"
-	line "with my beloved"
-	cont "bird #MON."
+	text "Ich träume davon,"
+	line "mit meinen ge-"
+	cont "liebten Vogel-"
+	cont "#MON zu"
+	cont "fliegen."
 	done
 
 BirdKeeperRoyBeatenText:
-	text "I can dream, but I"
-	line "can't ever fly…"
+	text "Ich kann träumen,"
+	line "aber ich kann"
+	cont "nicht fliegen…"
 	done
 
 BirdKeeperRoyAfterBattleText:
-	text "You have #MON"
-	line "that know the HM"
+	text "Du hast #MON,"
+	line "welche die VM"
 
-	para "move FLY, don't"
-	line "you? I envy you."
+	para "FLIEGEN kennen?"
+	line "Ich beneide dich."
 	done
 
 PokefanmTrevorSeenText:
-	text "Did you battle all"
-	line "the GYM trainers?"
+	text "Bist du gegen alle"
+	line "ARENA-Trainer"
+	cont "angetreten?"
 	done
 
 PokefanmTrevorBeatenText:
-	text "Oh, wow! Too"
-	line "strong for me!"
+	text "Oh, wow! Zu"
+	line "stark für mich!"
 	done
 
 PokefanmTrevorAfterBattleText:
-	text "If you have KANTO"
-	line "BADGES, they'll"
+	text "Besitzt du die"
+	line "ORDEN von KANTO,"
 
-	para "help you in linked"
-	line "battles."
+	para "bist du im"
+	line "Vorteil, wenn du"
+	cont "via Link-Kabel"
+	cont "gegen einen Freund"
+	cont "antrittst."
 	done
 
 Route14_MapEvents:

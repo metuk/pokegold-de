@@ -107,145 +107,157 @@ RadioTower2FBookshelf:
 	jumpstd MagazineBookshelfScript
 
 RadioTower2FSuperNerdText:
-	text "You can listen to"
-	line "the radio any-"
-	cont "where. Tune in!"
+	text "Du kannst überall"
+	line "Radio hören."
+	cont "Probierわ mal aus!"
 	done
 
 RadioTower2FTeacherText:
-	text "Lullabies on the"
-	line "radio may make"
-	cont "#MON sleep."
+	text "Wenn #MON"
+	line "Schlaflieder im"
+	cont "Radio hören, "
+	cont "schlafen sie ein."
 	done
 
 RadioTower2FTeacherText_Rockets:
-	text "Why would they"
-	line "want to take over"
-	cont "the RADIO TOWER?"
+	text "Warum möchten sie"
+	line "den RADIOTURM"
+	cont "besetzen?"
 	done
 
 RadioTowerJigglypuffText:
-	text "JIGGLYPUFF:"
-	line "Jiggly…"
+	text "PUMMELUFF:"
+	line "Pummel…"
 	done
 
 RadioTower2FBlackBelt1Text:
-	text "Sorry. Authorized"
-	line "personnel only"
-	cont "beyond this point."
+	text "Zutritt nur für"
+	line "autorisiertes"
+	cont "Personal."
 
-	para "It wasn't that way"
-	line "before."
+	para "Das war nicht"
+	line "immer so."
 
-	para "There's something"
-	line "wrong with the"
-	cont "DIRECTOR…"
+	para "Mit unserem"
+	line "INTENDANTEN stimmt"
+	cont "irgendetwas nicht…"
 	done
 
 RadioTower2FBlackBelt2Text:
-	text "Feel free to look"
-	line "around anywhere."
+	text "Schau dich in"
+	line "Ruhe um."
 
-	para "The DIRECTOR is"
-	line "nice again, just"
-	cont "as he was before."
+	para "Der INTENDANT ist"
+	line "wieder nett. So,"
+	cont "wie er früher war."
 	done
 
 GruntM4SeenText:
-	text "Three years ago,"
-	line "TEAM ROCKET was"
-	cont "forced to disband."
+	text "Vor drei Jahren"
+	line "war das TEAM"
+	cont "ROCKET gezwungen,"
+	cont "sich aufzulösen."
 
-	para "But we're making a"
-	line "comeback here!"
+	para "Wir arbeiten hier"
+	line "gerade an einem"
+	cont "Comeback!"
 	done
 
 GruntM4BeatenText:
-	text "Gwah! Don't get"
-	line "cute!"
+	text "Pah! Keine Zeit"
+	line "für Sentimenta-"
+	cont "litäten!"
 	done
 
 GruntM4AfterBattleText:
-	text "We won't let you"
-	line "ruin our plans"
-	cont "for our comeback!"
+	text "Wir lassen es"
+	line "nicht zu, dass du"
+	cont "unsere Pläne"
+	cont "durchkreuzt!"
 	done
 
 GruntM5SeenText:
-	text "We're TEAM ROCKET,"
-	line "the exploiters of"
-	cont "#MON!"
+	text "Wir sind TEAM"
+	line "ROCKET, die #-"
+	cont "MON-Ausbeuter!"
 
-	para "We love being"
-	line "evil! Scared?"
+	para "Wir lieben es,"
+	line "Böses zu tun! "
+	cont "Hast du Angst?"
 	done
 
 GruntM5BeatenText:
-	text "You think you're a"
-	line "hero?"
+	text "Du glaubst, du"
+	line "bist ein Held?"
 	done
 
 GruntM5AfterBattleText:
-	text "We're not always"
-	line "evil. We just do"
-	cont "whatever we like."
+	text "Wir sind nicht"
+	line "immer böse. Wir"
+	cont "tun nur, wonach"
+	cont "uns ist."
 	done
 
 GruntM6SeenText:
-	text "Hey, hey! Keep out"
-	line "of our way!"
+	text "Hey! Halte dich"
+	line "aus unseren Ange-"
+	cont "legenheiten raus!"
 	done
 
 GruntM6BeatenText:
-	text "Arggh. I give up."
+	text "Uff. Ich gebe auf."
 	done
 
 GruntM6AfterBattleText:
-	text "Our EXECUTIVES are"
-	line "trying to take"
-	cont "this place over."
+	text "Unsere VORSTÄNDE"
+	line "wollen die Macht"
+	cont "an sich reißen."
 
-	para "They have some big"
-	line "plan. I wonder"
-	cont "what that is?"
+	para "Sie haben Großes"
+	line "vor. Ich frage"
+	cont "mich, was das"
+	cont "wohl ist?"
 	done
 
 GruntF2SeenText:
 	text "Hahaha!"
 
-	para "How boring."
-	line "It was far too"
+	para "Wie langweilig."
+	line "Es war viel zu"
 
-	para "easy to take over"
-	line "this place!"
+	para "leicht, hier das "
+	line "Ruder zu"
+	cont "übernehmen!"
 
-	para "Come on, keep me"
-	line "amused!"
+	para "Komm schon!"
+	line "Heitere mich auf!"
 	done
 
 GruntF2BeatenText:
-	text "Wh-who are you?"
+	text "We-Wer bist du?"
 	done
 
 GruntF2AfterBattleText:
-	text "You beat me, and"
-	line "I won't forget it!"
+	text "Du hast mich"
+	line "besiegt. Das werde"
+	cont "ich nicht"
+	cont "vergessen!"
 	done
 
 RadioTower2FSalesSignText:
-	text "2F SALES"
+	text "S1 VERKAUF"
 	done
 
 RadioTower2FOaksPKMNTalkSignText:
-	text "PROF.OAK'S #MON"
-	line "TALK"
+	text "PROF. EICHs #-"
+	line "MON-TALK"
 
-	para "The Hottest Show"
-	line "on the Air!"
+	para "Die beste Show"
+	line "am Äther!"
 	done
 
 RadioTower2FPokemonRadioSignText:
-	text "Anywhere, Anytime"
+	text "Überall, jederzeit"
 	line "#MON Radio"
 	done
 

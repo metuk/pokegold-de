@@ -1,10 +1,10 @@
-	db "POISON BEE@" ; species name
-	dw 303, 650 ; height, weight
+	db "GIFTBIENE@" ; species name
+	dw 9994, 35841 ; height, weight
 
-	db   "It can take down"
-	next "any opponent with"
-	next "its powerful poi-"
+	db   "it seinen gefähr-"
+	next "lichen Stacheln"
+	next "kann es jeden Geg-"
+	page "ner besiegen. Es"
+	next "tritt auch in"
+	next "Schwärmen auf.@"
 
-	page "son stingers. It"
-	next "sometimes attacks"
-	next "in swarms.@"

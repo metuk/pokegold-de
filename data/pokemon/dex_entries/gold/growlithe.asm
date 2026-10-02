@@ -1,10 +1,10 @@
-	db "PUPPY@" ; species name
-	dw 204, 420 ; height, weight
+	db "HUND@" ; species name
+	dw 48647, 33792 ; height, weight
 
-	db   "It has a brave and"
-	next "trustworthy na-"
-	next "ture. It fear-"
+	db   "s ist von Natur"
+	next "aus tapfer und"
+	next "vertrauenswürdig."
+	page "Es scheut nicht"
+	next "vor starken"
+	next "Gegnern zurück.@"
 
-	page "lessly stands up"
-	next "to bigger and"
-	next "stronger foes.@"

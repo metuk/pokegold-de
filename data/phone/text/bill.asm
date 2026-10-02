@@ -1,101 +1,110 @@
 BillPhoneMornGreetingText:
-	text "Good morning!"
+	text "Guten Morgen!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
+	para "Dies ist der VER-"
+	line "WALTUNGSSERVICE"
 
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "DES #MON-LAGE-"
+	line "RUNGS-SYSTEMS."
 	done
 
 BillPhoneDayGreetingText:
-	text "Good day!"
+	text "Guten Tag!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
+	para "Dies ist der VER-"
+	line "WALTUNGSSERVICE"
 
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "DES #MON-LAGE-"
+	line "RUNGS-SYSTEMS."
 	done
 
 BillPhoneNiteGreetingText:
-	text "Good evening!"
+	text "Guten Abend!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
+	para "Dies ist der VER-"
+	line "WALTUNGSSERVICE"
 
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "DES #MON-LAGE-"
+	line "RUNGS-SYSTEMS."
 	done
 
 BillPhoneGenericText:
-	text "Who's calling?"
+	text "Mit wem spreche"
+	line "ich?"
 
-	para "<PLAYER>, is it?"
-	line "Hang on a sec…"
+	para "<PLAYER>, richtig?"
+	line "Einen Moment,"
+	cont "bitte…"
 
 	para "<……>"
 	line "<……>"
 	done
 
 BillPhoneNotFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "Entschuldige bitte"
+	line "die Wartezeit!"
 
-	para "<PLAYER>, your BOX"
-	line "has room for @"
+	para "<PLAYER>, deine BOX"
+	line "bietet Platz für"
+	cont "@"
 	text_ram wStringBuffer3
 	text_start
-	cont "more #MON."
+	cont "weitere #-"
+	cont "MON."
 
-	para "Get out there and"
-	line "fill it up!"
+	para "Zieh los und mach"
+	line "sie voll!"
 	done
 
 BillPhoneNearlyFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "Entschuldige bitte"
+	line "die Wartezeit!"
 
-	para "<PLAYER>, your BOX"
-	line "has room for only"
-	cont "@"
+	para "<PLAYER>, deine BOX"
+	line "bietet nur noch"
+	cont "Platz für @"
 	text_ram wStringBuffer3
-	text " more #MON."
+	text_start
+	cont "weitere #MON."
 
-	para "Maybe you should"
-	line "switch your BOX."
+	para "Vielleicht soll-"
+	line "test du die BOX"
+	cont "wechseln."
 	done
 
 BillPhoneFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "Entschuldige bitte"
+	line "die Wartezeit!"
 
-	para "<PLAYER>, your BOX"
-	line "is full!"
+	para "<PLAYER>, deine BOX"
+	line "ist voll!"
 
-	para "You'll have to"
-	line "switch BOXES if"
+	para "Du musst die BOX"
+	line "wechseln, wenn du"
 
-	para "you want to catch"
-	line "more #MON."
+	para "noch mehr #-"
+	line "MON fangen willst."
 	done
 
 BillPhoneNewlyFullText:
 	text "Hi, <PLAYER>?"
-	line "It's me, BILL!"
+	line "Ich biるs, BILL!"
 
-	para "Thanks for using"
-	line "my STORAGE SYSTEM."
+	para "Danke, dass du das"
+	line "LAGERUNGSSYSTEM"
+	cont "benutzt."
 
-	para "That last #MON"
-	line "you sent filled"
-	cont "your BOX up."
+	para "Das letzte #-"
+	line "MON, das du ge-"
+	cont "schickt hast, hat"
+	cont "deine BOX voll ge-"
+	cont "macht."
 
-	para "You'll have to"
-	line "switch BOXES if"
+	para "Du musst die BOX"
+	line "wechseln, wenn du"
 
-	para "you want to catch"
-	line "more #MON."
+	para "mehr #MON fan-"
+	line "gen willst."
 
-	para "Bye now!"
+	para "Bis dann!"
 	done

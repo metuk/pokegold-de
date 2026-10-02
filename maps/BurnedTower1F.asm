@@ -163,117 +163,121 @@ FirebreatherDickMovement:
 BurnedTowerRival_BeforeText:
 	text "<……> <……> <……>"
 
-	para "…Oh, it's you."
+	para "…Oh, du bist es."
 
-	para "You wanted to get"
-	line "stronger, so you"
+	para "Du willst stärker"
+	line "werden, also kamst"
 
-	para "came for the leg-"
-	line "endary #MON"
+	para "du hierher, um das"
+	line "legendäre #MON,"
 
-	para "that's supposed to"
-	line "be here. That's"
-	cont "your story, right?"
+	para "das hier sein"
+	line "soll, zu fangen."
+	cont "Ist es nicht so?"
 
-	para "Well, that's not"
-	line "going to happen."
+	para "Nun, das wird"
+	line "nicht passieren."
 
-	para "Because I'm going"
-	line "to get it!"
+	para "Weil ich es näm-"
+	line "lich fangen werde!"
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est trainer, so a"
-	cont "legendary #MON"
-	cont "would be perfect"
-	cont "for me."
+	para "Ich werde der"
+	line "beste Trainer der"
+	cont "Welt sein, also"
+	cont "stünde mir ein"
+	cont "legendäres #MON"
+	cont "gut zu Gesicht."
 
-	para "…Well, anyway,"
-	line "I'm getting tired"
+	para "…Egal!"
+	line "Mich nervt es,"
 
-	para "of having a wimp"
-	line "like you always"
-	cont "showing up."
+	para "dass ständig so"
+	line "ein Schwächling"
+	cont "wie du auftaucht."
 	done
 
 BurnedTowerRival_WinText:
-	text "…Humph!"
+	text "…Humpf!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Ich hasse es, ge-"
+	line "gen Schwächlinge"
 
-	para "There's no"
-	line "challenge in it."
+	para "wie dich anzutre-"
+	line "ten. Es ist keine"
+	cont "Herausforderung."
 	done
 
 BurnedTowerRival_AfterText1:
-	text "…Aw, whatever."
+	text "…Ach, Egal!"
 
-	para "You would never be"
-	line "able to catch a"
+	para "Du wärst sowieso"
+	line "nicht fähig, ein"
 
-	para "legendary #MON"
-	line "anyway."
+	para "legendäres #MON"
+	line "zu fangen."
 	done
 
 BurnedTowerRival_LossText:
-	text "…Humph!"
+	text "…Humpf!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Ich hasse es, ge-"
+	line "gen Schwächlinge"
 
-	para "It's just a waste"
-	line "of my time."
+	para "anzutreten. Es ist"
+	line "Zeitverschwendung."
 	done
 
 FirebreatherDickBeforeText:
-	text "Hey, I'm training"
-	line "secretly here!"
+	text "Äh, ich absolviere"
+	line "hier mein Geheim-"
+	cont "training!"
 
-	para "Don't embarrass me"
-	line "by looking!"
+	para "Du machst mich"
+	line "ganz verlegen, "
+	cont "wenn du zuschaust!"
 	done
 
 FirebreatherDickBeatenText:
-	text "I burned down to"
-	line "white ashes…"
+	text "Ich bin nur noch"
+	line "weiße Asche…"
 	done
 
 FirebreatherDickAfterText:
-	text "I was so into my"
-	line "training that I"
+	text "Ich war so in mein"
+	line "Training vertieft,"
 
-	para "fell down this"
-	line "hole."
+	para "dass ich in dieses"
+	line "Loch fiel."
 	done
 
 FirebreatherNedSeenText:
-	text "My soul is on"
-	line "fire. I'll show"
+	text "Meine Seele"
+	line "brennt. Ich zeige"
 
-	para "you how hot it"
-	line "burns!"
+	para "dir, wie heiss das"
+	line "Feuer ist!"
 	done
 
 FirebreatherNedBeatenText:
-	text "Still not hot"
-	line "enough…"
+	text "Immer noch nicht"
+	line "heiß genug…"
 	done
 
 FirebreatherNedAfterText:
-	text "In the past, there"
-	line "were these #MON"
+	text "Früher gab es"
+	line "diese #MON, die"
 
-	para "that ran through"
-	line "grass at super-"
-	cont "high speed."
+	para "mit hohem Tempo"
+	line "durchs Gras"
+	cont "gerannt sind."
 
-	para "They say that they"
-	line "run like the wind."
+	para "Man sagt, dass sie"
+	line "schnell wie der"
 
-	para "If you run into"
-	line "one in grass, it"
-	cont "will likely bolt."
+	para "Wind waren. Falls"
+	line "dir im Gras eines"
+	cont "begegnet, wird es"
+	cont "wohl davonlaufen."
 	done
 
 BurnedTower1F_MapEvents:

@@ -1,10 +1,10 @@
-	db "WORM@" ; species name
-	dw 100, 60 ; height, weight
+	db "WURM@" ; species name
+	dw 7427, 32768 ; height, weight
 
-	db   "For protection, it"
-	next "releases a horri-"
-	next "ble stench from"
+	db   "ls Schutz vor"
+	next "Feinden"
+	next "sondert es einen"
+	page "übelriechenden"
+	next "Gestank mit seinen"
+	next "Antennen ab.@"
 
-	page "the antenna on its"
-	next "head to drive away"
-	next "enemies.@"

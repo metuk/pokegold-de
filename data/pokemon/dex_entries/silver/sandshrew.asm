@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
-	dw 200, 260 ; height, weight
+	db "MAUS@" ; species name
+	dw 30726, 34048 ; height, weight
 
-	db   "Disliking water,"
-	next "it lives in deep"
-	next "burrows in arid"
+	db   "ällt es aus"
+	next "großer Höhe, rollt"
+	next "sich dieses #-"
+	page "MON zusammen, um"
+	next "so den Sturz"
+	next "abzufangen.@"
 
-	page "areas. It can roll"
-	next "itself instantly"
-	next "into a ball.@"

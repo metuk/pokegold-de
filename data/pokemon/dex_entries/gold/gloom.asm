@@ -1,10 +1,10 @@
-	db "WEED@" ; species name
-	dw 207, 190 ; height, weight
+	db "UNKRAUT@" ; species name
+	dw 22024, 38400 ; height, weight
 
-	db   "What appears to be"
-	next "drool is actually"
-	next "sweet honey. It is"
+	db   "as wie Speichel"
+	next "aussieht, ist"
+	next "eigentlich Honig."
+	page "Er ist zähflüssig"
+	next "und klebrig, wenn"
+	next "man ihn berührt.@"
 
-	page "very sticky and"
-	next "clings stubbornly"
-	next "if touched.@"

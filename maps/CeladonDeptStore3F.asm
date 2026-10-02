@@ -48,48 +48,55 @@ CeladonDeptStore3FDirectory:
 	jumptext CeladonDeptStore3FDirectoryText
 
 CeladonDeptStore3FYoungsterText:
-	text "I can't decide"
-	line "which #MON I"
+	text "Ich kann mich"
+	line "nicht entscheiden,"
 
-	para "should use this TM"
-	line "on…"
+	para "welches #MON"
+	line "diese TM erhalten"
+	cont "soll…"
 	done
 
 CeladonDeptStore3FGameboyKid1Text:
-	text "Uh-oh! I traded my"
-	line "#MON without"
+	text "Oh, oh! Ich habe"
+	line "mein #MON"
 
-	para "removing the UP-"
-	line "GRADE from it."
+	para "getauscht, ohne"
+	line "ihm UP-GRADE"
+	cont "wegzunehmen."
 	done
 
 CeladonDeptStore3FGameboyKid2Text:
-	text "Yeah! I'm finally"
-	line "getting a PORYGON!"
+	text "Ja! Endlich habe"
+	line "habe ich mein"
+	cont "PORYGON!"
 
-	para "I'm no good at the"
-	line "slots, so I could"
+	para "Ich bin nicht sehr"
+	line "gut an den Spiel-"
 
-	para "never get enough"
-	line "coins…"
+	para "automaten. Deswe-"
+	line "gen habe ich nie"
+	cont "genügend Münzen…"
 
-	para "…Huh?"
+	para "…Was?"
 
-	para "The traded PORYGON"
-	line "turned into a dif-"
-	cont "ferent #MON!"
+	para "Das getauschte"
+	line "PORYGON hat sich"
+	cont "in ein anderes"
+	cont "#MON"
+	cont "verwandelt!"
 	done
 
 CeladonDeptStore3FSuperNerdText:
-	text "The TM SHOP sells"
-	line "some rare moves."
+	text "Im TM-LADEN erhält"
+	line "man seltene"
+	cont "Attacken."
 	done
 
 CeladonDeptStore3FDirectoryText:
-	text "3F: TM SHOP"
+	text "S2: TM-LADEN"
 
-	para "Make Your #MON"
-	line "Stronger!"
+	para "Mach Deine #MON"
+	line "Stärker!"
 	done
 
 CeladonDeptStore3F_MapEvents:

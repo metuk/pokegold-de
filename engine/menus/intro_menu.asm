@@ -212,9 +212,9 @@ InitializeNPCNames:
 	ret
 
 .Rival:  db "???@"
-.Red:    db "RED@"
-.Green:  db "GREEN@"
-.Mom:    db "MOM@"
+.Red:    db "ROT@"
+.Green:  db "GRÜN@"
+.Mom:    db "MAMA@"
 
 InitializeWorld:
 	call ShrinkPlayer
@@ -402,31 +402,31 @@ Continue_LoadMenuHeader:
 
 .MenuHeader_Dex:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 15, 9
+	menu_coords 0, 0, 17, 9
 	dw .MenuData_Dex
 	db 1 ; default option
 
 .MenuData_Dex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER <PLAYER>@"
-	db "BADGES@"
+	db "SPIELER@"
+	db "ORDEN@"
 	db "#DEX@"
-	db "TIME@"
+	db "SPIELZEIT@"
 
 .MenuHeader_NoDex:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 15, 9
+	menu_coords 0, 0, 17, 9
 	dw .MenuData_NoDex
 	db 1 ; default option
 
 .MenuData_NoDex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER <PLAYER>@"
-	db "BADGES@"
+	db "SPIELER@"
+	db "ORDEN@"
 	db " @"
-	db "TIME@"
+	db "SPIELZEIT@"
 
 Continue_DisplayBadgesDex:
 	call MenuBoxCoord2Tile

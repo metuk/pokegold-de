@@ -1,10 +1,10 @@
-	db "FOX@" ; species name
-	dw 200, 220 ; height, weight
+	db "FUCHS@" ; species name
+	dw 25350, 33024 ; height, weight
 
-	db   "If it is attacked"
-	next "by an enemy that"
-	next "is stronger than"
+	db   "eim Heranwachsen"
+	next "teilt sich sein"
+	next "Schweif sechsfach"
+	page "und wird farbig."
+	next "Es ist warm und"
+	next "anschmiegsam.@"
 
-	page "itself, it feigns"
-	next "injury to fool the"
-	next "enemy and escapes.@"

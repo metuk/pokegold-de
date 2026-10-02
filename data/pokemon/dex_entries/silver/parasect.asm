@@ -1,10 +1,10 @@
-	db "MUSHROOM@" ; species name
-	dw 303, 650 ; height, weight
+	db "PILZ@" ; species name
+	dw 9994, 33793 ; height, weight
 
-	db   "The larger the"
-	next "mushroom on its"
-	next "back grows, the"
+	db   "s hält sich meist"
+	next "an dunklen und"
+	next "feuchten Orten"
+	page "auf. Der Riesen-"
+	next "pilz auf seinem"
+	next "Rücken mag das.@"
 
-	page "stronger the mush-"
-	next "room spores it"
-	next "scatters.@"

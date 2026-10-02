@@ -54,50 +54,53 @@ FlowerShopRadio: ; unreferenced
 	jumpstd Radio2Script
 
 GoldenrodFlowerShopTeacherBetterThanWhitneyText:
-	text "Oh, you're better"
-	line "than WHITNEY."
+	text "Oh, du bist besser"
+	line "als BIANKA."
 
-	para "Do you know about"
-	line "that moving tree?"
+	para "Hast du vom lau-"
+	line "fenden Baum ge-"
+	cont "hört?"
 
-	para "If you wet it with"
-	line "a SQUIRTBOTTLE, it"
-	cont "attacks."
+	para "Benetzt du ihn mit"
+	line "einer SCHIGGYKAN-"
+	cont "NE, greift er an."
 
-	para "But since you"
-	line "have some BADGES,"
-	cont "you should be OK."
+	para "Aber da du ja ei-"
+	line "nige ORDEN hast,"
+	cont "sollte es kein"
+	cont "Problem sein."
 	done
 
 GoldenrodFlowerShopTeacherLalalaHavePlentyOfWaterText:
 	text "Lalala lalalala."
-	line "Have plenty of"
-	cont "water, my lovely!"
+	line "Da hast du Wasser,"
+	cont "mein Hübsches!"
 	done
 
 GoldenrodFlowerShopFloriaMustBeAMonText:
-	text "When I watered"
-	line "that moving tree"
+	text "Als ich den lau-"
+	line "fenden Baum auf"
 
-	para "on ROUTE 36, it"
-	line "jumped!"
+	para "der ROUTE 36 goss,"
+	line "ist er aufgesprun-"
+	cont "gen!"
 
-	para "I think it must be"
-	line "a #MON."
+	para "Ich glaube, es ist"
+	line "ein #MON."
 
-	para "But it would take"
-	line "someone like WHIT-"
-	cont "NEY, our GYM LEAD-"
-	cont "ER, to beat it."
+	para "Aber es bedarf ei-"
+	line "nes ARENALEITERS"
+	cont "wie BIANKA, um es"
+	cont "zu besiegen."
 	done
 
 GoldenrodFlowerShopFloriaJumpsInSurpriseText:
-	text "Do you know about"
-	line "the moving tree?"
+	text "Hast du vom lau-"
+	line "fenden Baum ge-"
+	cont "hört?"
 
-	para "If you water it,"
-	line "it jumps up in"
-	cont "surprise!"
+	para "Wenn du ihn gießt,"
+	line "schreckt er hoch!"
 	done
 
 GoldenrodFlowerShop_MapEvents:

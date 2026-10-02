@@ -81,7 +81,7 @@ PrintDiplomaPage2:
 	call PrintNum
 	ret
 
-.PlayTime: db "PLAY TIME@"
+.PlayTime: db "SPIELZEIT@"
 .GameFreak: db "GAME FREAK@"
 
 DiplomaGFX:

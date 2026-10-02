@@ -126,7 +126,7 @@ SpeechTextbox::
 	jp Textbox
 
 GameFreakText:: ; unreferenced
-	text "ゲームフりーク！" ; "GAMEFREAK!"
+	text "ゲ-])り-H!"
 	done
 
 RadioTerminator::
@@ -223,15 +223,17 @@ ENDM
 	dict '<POKE>',    PlacePOKE
 	dict '<WBR>',     NextChar
 	dict '<BSP>',     ' '
+	dict '<SHY>',     NextChar
+	dict '<-LF>',     PlaceHyphenSplit
 	dict '<DEXEND>',  PlaceDexEnd
 	dict '<TARGET>',  PlaceMoveTargetsName
 	dict '<USER>',    PlaceMoveUsersName
 	dict '<ENEMY>',   PlaceEnemysName
-	dict 'ﾟ',         .diacritic
-	cp 'ﾞ'
-	jr nz, .not_diacritic
+	dict 'ﾟ',         .place ; should be .diacritic
+	dict 'ﾞ',         .place ; should be .diacritic
+	jr .not_diacritic
 
-.diacritic
+.diacritic ; unreferenced
 	ld b, a
 	call Diacritic
 	jp NextChar
@@ -295,6 +297,11 @@ PlaceKougeki: print_name KougekiText
 SixDotsChar:  print_name SixDotsCharText
 PlacePKMN:    print_name PlacePKMNText
 PlacePOKE:    print_name PlacePOKEText
+
+PlaceHyphenSplit:
+	ld [hl], '-'
+	jp LineFeedChar
+
 PlaceJPRoute: print_name PlaceJPRouteText
 PlaceWatashi: print_name PlaceWatashiText
 PlaceKokoWa:  print_name PlaceKokoWaText
@@ -371,7 +378,7 @@ RocketCharText::  db "ROCKET@"
 PlacePOKeText::   db "POKé@"
 KougekiText::     db "こうげき@"
 SixDotsCharText:: db "……@"
-EnemyText::       db "Enemy @"
+EnemyText::       db "Gegn. @"
 PlacePKMNText::   db "<PK><MN>@"
 PlacePOKEText::   db "<PO><KE>@"
 String_Space::    db " @"
@@ -504,7 +511,7 @@ NullChar:: ; unused
 
 .ErrorText
 	text_decimal hObjectStructIndex, 1, 2
-	text "エラー"
+	text "Df-"
 	done
 
 TextScroll::
@@ -958,11 +965,11 @@ TextCommand_DAY::
 	dw .Fri
 	dw .Satur
 
-.Sun:    db "SUN@"
-.Mon:    db "MON@"
-.Tues:   db "TUES@"
-.Wednes: db "WEDNES@"
-.Thurs:  db "THURS@"
-.Fri:    db "FRI@"
-.Satur:  db "SATUR@"
-.Day:    db "DAY@"
+.Sun:    db "SONNTAG@"
+.Mon:    db "MONTAG@"
+.Tues:   db "DIENSTAG@"
+.Wednes: db "MITTWOCH@"
+.Thurs:  db "DONNERSTAG@"
+.Fri:    db "FREITAG@"
+.Satur:  db "SAMSTAG@"
+.Day:    db "@"

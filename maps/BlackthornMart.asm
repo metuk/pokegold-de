@@ -21,27 +21,31 @@ BlackthornMartBlackBeltScript:
 	jumptextfaceplayer BlackthornMartBlackBeltText
 
 BlackthornMartCooltrainerMText:
-	text "You can't buy MAX"
-	line "REVIVE, but it"
+	text "Du kannst TOP-BE-"
+	line "LEBER zwar nicht"
 
-	para "fully restores a"
-	line "fainted #MON."
+	para "kaufen, aber er"
+	line "füllt die KP be-"
 
-	para "Beware--it won't"
-	line "restore PP, the"
+	para "siegter #MON"
+	line "wieder vollständig"
+	cont "auf."
 
-	para "POWER POINTS"
-	line "needed for moves."
+	para "Vorsicht! Die AP,"
+	line "oder ANGRIFFSPUNK-"
+
+	para "TE, werden nicht"
+	line "aufgefüllt."
 	done
 
 BlackthornMartBlackBeltText:
-	text "MAX REPEL keeps"
-	line "weak #MON away"
-	cont "from you."
+	text "TOP-SCHUTZ hält"
+	line "dir schwache #-"
+	cont "MON vom Leib."
 
-	para "It's the longest"
-	line "lasting of the"
-	cont "REPEL sprays."
+	para "Von allen SCHUTZ-"
+	line "Sprays hält es am"
+	cont "längsten an."
 	done
 
 BlackthornMart_MapEvents:

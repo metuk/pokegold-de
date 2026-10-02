@@ -37,7 +37,7 @@ _PlayerDecorationMenu:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 5, 0, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
+	menu_coords 6, 0, 19, 17
 	dw .MenuData
 	db 1 ; default option
 
@@ -60,14 +60,14 @@ _PlayerDecorationMenu:
 	dw DecoExitMenu,     .exit
 	assert_table_length NUM_DECO_CATEGORIES + 1
 
-.bed:      db "BED@"
-.carpet:   db "CARPET@"
-.plant:    db "PLANT@"
+.bed:      db "BETT@"
+.carpet:   db "TEPPICH@"
+.plant:    db "PFLANZE@"
 .poster:   db "POSTER@"
-.game:     db "GAME CONSOLE@"
+.game:     db "KONSOLE@"
 .ornament: db "ORNAMENT@"
-.big_doll: db "BIG DOLL@"
-.exit:     db "EXIT@"
+.big_doll: db "RIESENPUPPE@"
+.exit:     db "AUSGANG@"
 
 .FindCategoriesWithOwnedDecos:
 	xor a
@@ -874,16 +874,16 @@ QueryWhichSide:
 
 DecoSideMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 0, 12, 7
+	menu_coords 0, 0, 9, 7
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "RIGHT SIDE@"
-	db "LEFT SIDE@"
-	db "CANCEL@"
+	db "RECHTS@"
+	db "LINKS@"
+	db "ZURÜCK@"
 
 PutAwayTheDecoText:
 	text_far _PutAwayTheDecoText

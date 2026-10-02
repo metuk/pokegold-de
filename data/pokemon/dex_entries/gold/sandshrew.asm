@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
-	dw 200, 260 ; height, weight
+	db "MAUS@" ; species name
+	dw 30726, 34048 ; height, weight
 
-	db   "If it fell from a"
-	next "great height, this"
-	next "#MON could save"
+	db   "ällt es aus"
+	next "großer Höhe, rollt"
+	next "sich dieses #-"
+	page "MON zusammen, um"
+	next "so den Sturz"
+	next "abzufangen.@"
 
-	page "itself by rolling"
-	next "into a ball and"
-	next "bouncing.@"

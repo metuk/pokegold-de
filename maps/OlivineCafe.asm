@@ -26,49 +26,57 @@ OlivineCafeFishingGuruScript:
 	jumptextfaceplayer OlivineCafeFishingGuruText
 
 OlivineCafeStrengthSailorText:
-	text "Hah! Your #MON"
-	line "sure look like"
-	cont "lightweights!"
+	text "Ha! Deine #MON"
+	line "sind ja nur Flie-"
+	cont "gengewichte!"
 
-	para "They don't have"
-	line "the power to move"
-	cont "boulders aside."
+	para "Sie haben nicht"
+	line "die Kraft, Felsen"
+	cont "aus dem Weg zu"
+	cont "räumen."
 
-	para "Here, use this"
-	line "and teach them"
-	cont "STRENGTH!"
+	para "Hier, nimm das und"
+	line "bring ihnen STÄRKE"
+	cont "bei!"
 
-	para "You'll need"
-	line "GOLDENROD's GYM"
+	para "Du benötigst den"
+	line "ORDEN von DUKATIA"
 
-	para "BADGE to use that"
-	line "outside battles."
+	para "CITY, um sie"
+	line "außerhalb von"
+
+	para "Kämpfen einsetzen"
+	line "zu können."
 	done
 
 OlivineCafeStrengthSailorText_GotStrength:
-	text "On the sea, the"
-	line "only thing you can"
+	text "Der Einzige, auf"
+	line "den du dich auf"
 
-	para "count on is your"
-	line "own good self!"
+	para "hoher See verlas-"
+	line "sen kannst, bist"
+	cont "du selbst!"
 
-	para "I'm so proud of my"
-	line "buff bod!"
+	para "Ich bin so stolz"
+	line "auf mich selbst!"
 	done
 
 OlivineCafeFishingGuruText:
-	text "Crossing the sea?"
-	line "Then listen up!"
+	text "Gehtわ übers"
+	line "Meer? Pass auf!"
 
-	para "There are whirl-"
-	line "pools on the way"
-	cont "to CIANWOOD."
+	para "Auf dem Weg nach"
+	line "ANEMONIA CITY gibt"
+	cont "es Strudel."
 
-	para "Your #MON must"
-	line "know a special"
+	para "Deine #MON"
+	line "müssen eine spe-"
 
-	para "move to get over"
-	line "the whirlpools."
+	para "zielle Attacke be-"
+	line "herrschen, um an"
+
+	para "den Strudeln vor-"
+	line "beizukommen."
 	done
 
 OlivineCafe_MapEvents:

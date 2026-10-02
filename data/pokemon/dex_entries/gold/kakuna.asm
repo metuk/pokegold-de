@@ -1,10 +1,10 @@
-	db "COCOON@" ; species name
-	dw 200, 220 ; height, weight
+	db "KOKON@" ; species name
+	dw 25606, 36352 ; height, weight
 
-	db   "Although it is a"
-	next "cocoon, it can"
-	next "move a little. It"
+	db   "bwohl es ein"
+	next "Kokon ist, kann es"
+	next "sich bewegen. Wird"
+	page "es angegriffen,"
+	next "fährt es seinen"
+	next "Giftstachel aus.@"
 
-	page "can extend its"
-	next "poison barb if it"
-	next "is attacked.@"

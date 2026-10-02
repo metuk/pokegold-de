@@ -1,10 +1,10 @@
-	db "INSECT@" ; species name
-	dw 303, 660 ; height, weight
+	db "INSEKT@" ; species name
+	dw 11274, 37377 ; height, weight
 
-	db   "Its eyes also"
-	next "function as radar"
-	next "units. It catches"
+	db   "eine Augen dienen"
+	next "ihm gleichzeitig"
+	next "als Radar. Es er-"
+	page "nährt sich von"
+	next "Käfern, die"
+	next "im Dunkeln leben.@"
 
-	page "and eats small"
-	next "bugs that hide in"
-	next "darkness.@"

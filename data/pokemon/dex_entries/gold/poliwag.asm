@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
-	dw 200, 270 ; height, weight
+	db "KAULQUAPPE@" ; species name
+	dw 31750, 33536 ; height, weight
 
-	db   "Because it is in-"
-	next "ept at walking on"
-	next "its newly grown"
+	db   "a es mit seinen"
+	next "neu gewachsenen"
+	next "Füßen noch nicht"
+	page "gut laufen kann,"
+	next "schwimmt es nur im"
+	next "Wasser umher.@"
 
-	page "legs, it always "
-	next "swims around in"
-	next "water.@"

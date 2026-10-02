@@ -1,10 +1,10 @@
-	db "HAIRY BUG@" ; species name
-	dw 100, 70 ; height, weight
+	db "RAUPE@" ; species name
+	dw 8195, 37376 ; height, weight
 
-	db   "It attacks using a"
-	next "two-inch poison"
-	next "barb on its head."
+	db   "ein Giftstachel"
+	next "ist gefährlich."
+	next "Sein hellleuch-"
+	page "tender Körper"
+	next "soll Feinde ab-"
+	next "schrecken.@"
 
-	page "It can usually be"
-	next "found under the"
-	next "leaves it eats.@"

@@ -16,33 +16,38 @@ FishingDudesHouseBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 FishingDudeText:
-	text "I am the FISHING"
-	line "GURU, the elder of"
-	cont "the FISHING BROS."
+	text "Ich bin der PROFI-"
+	line "ANGLER, der äl-"
+	cont "tere der GEBR."
+	cont "ANGLER."
 
-	para "Do you happen to"
-	line "know FISHERMAN"
+	para "Kennst du zufällig"
+	line "ANGLER ALFRIED? Er"
 
-	para "WILTON? He fishes"
-	line "on ROUTE 44."
+	para "angelt an der"
+	line "ROUTE 44."
 
-	para "He came through"
-	line "with an amazing"
-	cont "tip on the phone."
+	para "Er hat mir"
+	line "telefonisch einen"
+	cont "super Tipp gesagt."
 
-	para "Thanks to him, I"
-	line "caught a whole lot"
+	para "Ihm habe ich es zu"
+	line "verdanken, dass"
 
-	para "of a rare #MON."
-	line "What a day it was!"
+	para "ich ganz viele"
+	line "seltene #MON"
+
+	para "fangen konnte."
+	line "Das war ein Tag!"
 	done
 
 FishingDudesHousePhotoText:
-	text "It's a photo of"
-	line "people fishing…"
+	text "Das ist ein Foto,"
+	line "auf dem Angler zu"
+	cont "sehen sind…"
 
-	para "They're having a"
-	line "great time…"
+	para "Sie haben viel"
+	line "Spaß beim Angeln…"
 	done
 
 VermilionFishingSpeechHouse_MapEvents:

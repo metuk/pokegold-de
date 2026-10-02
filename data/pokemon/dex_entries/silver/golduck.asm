@@ -1,10 +1,10 @@
-	db "DUCK@" ; species name
-	dw 507, 1690 ; height, weight
+	db "ENTE@" ; species name
+	dw 65041, 38402 ; height, weight
 
-	db   "It appears by"
-	next "waterways at dusk."
-	next "It may use tele-"
+	db   "enn es mit"
+	next "seinen Flossen"
+	next "schnell durch das"
+	page "Wasser schwimmt,"
+	next "beginnt seine"
+	next "Stirn zu glühen.@"
 
-	page "kinetic powers if"
-	next "its forehead glows"
-	next "mysteriously.@"

@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
-	dw 303, 440 ; height, weight
+	db "KAULQUAPPE@" ; species name
+	dw 51210, 33536 ; height, weight
 
-	db   "The swirl on its"
-	next "belly subtly un-"
-	next "dulates. Staring"
+	db   "ie Spirale auf"
+	next "seinem Bauch dreht"
+	next "sich langsam. Wer"
+	page "sie zu lange an-"
+	next "sieht, verfällt in"
+	next "eine Art Hypnose.@"
 
-	page "at it may gradual-"
-	next "ly cause drowsi-"
-	next "ness.@"

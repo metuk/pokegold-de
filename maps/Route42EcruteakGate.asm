@@ -10,11 +10,12 @@ Route42EcruteakGateOfficerScript:
 	jumptextfaceplayer Route42EcruteakGateOfficerText
 
 Route42EcruteakGateOfficerText:
-	text "MOUNT MORTAR is"
-	line "like a maze."
+	text "Der KESSELBERG"
+	line "ist wie ein"
 
-	para "Be careful. Don't"
-	line "get lost in there."
+	para "Irrgarten, also"
+	line "verlaufe dich"
+	cont "nicht."
 	done
 
 Route42EcruteakGate_MapEvents:

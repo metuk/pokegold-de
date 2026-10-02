@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 307, 420 ; height, weight
+	db "FLAMME@" ; species name
+	dw 48651, 33792 ; height, weight
 
-	db   "It is very hot-"
-	next "headed by nature,"
-	next "so it constantly"
+	db   "s ist hitzig und"
+	next "sucht ständig"
+	next "nach Gegnern. Es"
+	page "beruhigt sich"
+	next "nur, wenn es"
+	next "gewinnt.@"
 
-	page "seeks opponents."
-	next "It calms down only"
-	next "when it wins.@"

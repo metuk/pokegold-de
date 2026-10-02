@@ -1,10 +1,10 @@
-	db "TURTLE@" ; species name
-	dw 303, 500 ; height, weight
+	db "KRÖTE@" ; species name
+	dw 57610, 33792 ; height, weight
 
-	db   "It is recognized"
-	next "as a symbol of"
-	next "longevity. If its"
+	db   "s gilt als Symbol"
+	next "von Langlebigkeit."
+	next "Ist sein Panzer"
+	page "mit Algen übersät,"
+	next "ist SCHILLOK sehr"
+	next "alt.@"
 
-	page "shell has algae on"
-	next "it, that WARTORTLE"
-	next "is very old.@"

@@ -1,10 +1,10 @@
-	db "BEAK@" ; species name
-	dw 311, 840 ; height, weight
+	db "PICKVOGEL@" ; species name
+	dw 31756, 33793 ; height, weight
 
-	db   "It shoots itself"
-	next "suddenly high into"
-	next "the sky, then"
+	db   "s fliegt steil"
+	next "empor und stürzt"
+	next "sich anschließend"
+	page "herab, um seine"
+	next "Beute zu"
+	next "erlegen.@"
 
-	page "plummets down in"
-	next "one fell swoop to"
-	next "strike its prey.@"

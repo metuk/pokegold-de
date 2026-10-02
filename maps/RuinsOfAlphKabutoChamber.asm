@@ -51,36 +51,44 @@ RuinsOfAlphKabutoChamberDescriptionSign:
 	jumptext RuinsOfAlphKabutoChamberDescriptionText
 
 RuinsOfAlphKabutoChamberReceptionistText:
-	text "Welcome to this"
-	line "chamber."
+	text "Willkommen in"
+	line "diesem Raum."
 
-	para "There are sliding"
-	line "panels that depict"
+	para "Dies sind"
+	line "verschiebbare"
+	cont "Bodenplatten, die"
 
-	para "a #MON drawn by"
-	line "the ancients."
+	para "ein #MON dar-"
+	line "stellen, das von"
+	cont "Menschen aus der"
+	cont "Antike gemalt"
+	cont "wurde."
 
-	para "Slide the panels"
-	line "around to form the"
-	cont "picture."
+	para "Verschiebe die"
+	line "Platten so, dass"
+	cont "ein Bild entsteht."
 
-	para "To the right is a"
-	line "description of the"
-	cont "#MON."
+	para "Rechts findest du"
+	line "eine Beschreibung"
+	cont "des #MON."
 	done
 
 RuinsOfAlphKabutoChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "Dies ist eine"
+	line "Nachbildung eines"
+	cont "antiken #MON."
 	done
 
 RuinsOfAlphKabutoChamberDescriptionText:
-	text "A #MON that hid"
-	line "on the sea floor."
+	text "Ein #MON, das"
+	line "sich am Meeres-"
 
-	para "Eyes on its back"
-	line "scanned the area."
+	para "grund versteckte"
+	line "und mit seinen"
+	cont "Augen auf dem"
+	cont "Rücken die Um-"
+	cont "gebung genau"
+	cont "beobachtete."
 	done
 
 RuinsOfAlphKabutoChamber_MapEvents:

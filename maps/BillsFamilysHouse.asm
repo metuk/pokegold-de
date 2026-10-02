@@ -108,120 +108,129 @@ BillsHouseRadio:
 
 BillTakeThisEeveeText:
 	text "BILL: Hi, <PLAYER>!"
-	line "Do us a favor and"
-	cont "take this EEVEE."
+	line "Tu uns einen Ge-"
+	cont "fallen und nimm"
+	cont "dieses EVOLI."
 
-	para "It came over when"
-	line "I was adjusting"
-	cont "the TIME CAPSULE."
+	para "Es kam hierher,"
+	line "als ich an der"
+	cont "ZEITKAPSEL gear-"
+	cont "beitet habe."
 
-	para "Someone has to"
-	line "take care of it,"
+	para "Jemand sollte sich"
+	line "darum kümmern,"
 
-	para "but I don't like"
-	line "being outside."
+	para "aber ich gehe"
+	line "nicht gerne raus."
 
-	para "Can I count on you"
-	line "to play with it,"
+	para "Wirst du für mich"
+	line "mit ihm spielen,"
 	cont "<PLAYER>?"
 	done
 
 BillImCountingOnYouText:
-	text "BILL: I knew it!"
-	line "Way to go, hero!"
+	text "BILL: Ich wusste"
+	line "es! Großartig! Du"
 
-	para "You're the real"
-	line "deal, dude!"
+	para "bist ein wahrer"
+	line "Held!"
 
-	para "OK, I'm counting"
-	line "on you. Take good"
-	cont "care of it."
+	para "O.K., ich zähle"
+	line "auf dich. Pass gut"
+	cont "darauf auf."
 	done
 
 ReceivedEeveeText:
-	text "<PLAYER> received"
-	line "EEVEE!"
+	text "<PLAYER> erhält"
+	line "EVOLI!"
 	done
 
 BillEeveeMayEvolveText:
-	text "BILL: PROF.ELM"
-	line "claims EEVEE may"
+	text "BILL: PROF. LIND"
+	line "sagt, EVOLI kann"
 
-	para "evolve in new and"
-	line "unknown ways."
+	para "sich in neue, un-"
+	line "bekannte Arten"
+	cont "entwickeln."
 	done
 
 BillPartyFullText:
-	text "Whoa, wait. You"
-	line "can't carry any"
-	cont "more #MON."
+	text "Moment! Du hast"
+	line "keinen Platz mehr"
+	cont "in deinem Team."
 	done
 
 BillNoEeveeText:
-	text "Oh… Now what to"
-	line "do?"
+	text "Oh… Was soll ich"
+	line "tun?"
 	done
 
 BillPopWontWorkText:
-	text "BILL: I used to"
-	line "experiment with a"
-	cont "TELEPORTER."
+	text "BILL: Ich habe mit"
+	line "einem TELEPORTER"
+	cont "experimentiert."
 
-	para "I ought to do a"
-	line "follow-up."
+	para "Ich sollte meine"
+	line "Versuche weiter-"
+	cont "führen."
 	done
 
 BillsMomText_BeforeEcruteak:
-	text "Oh, you collect"
-	line "#MON? My son"
-	cont "BILL is an expert."
+	text "Oh, du sammelst"
+	line "#MON? Mein Sohn"
+	cont "BILL ist ein Ex-"
+	cont "perte."
 
-	para "He had to leave"
-	line "for the #MON"
+	para "Er musste zum"
+	line "#MON CENTER von"
 
-	para "CENTER in ECRUTEAK"
-	line "CITY."
+	para "TEAK CITY auf-"
+	line "brechen."
 	done
 
 BillsMomText_AfterEcruteak:
-	text "I am so glad to"
-	line "see my son again."
+	text "Ich bin so froh,"
+	line "meinen Sohn wie-"
+	cont "derzusehen."
 	done
 
 BillsYoungerSisterUsefulNumberText:
-	text "Are you a trainer?"
+	text "Bist du ein"
+	line "Trainer?"
 
-	para "I've got a useful"
-	line "phone number for"
-	cont "you."
+	para "Ich habe eine"
+	line "nützliche Telefon-"
+	cont "nummer für dich."
 	done
 
 RecordedBillsNumberText:
-	text "<PLAYER> recorded"
-	line "BILL's number."
+	text "<PLAYER> speichert"
+	line "BILLs Nummer."
 	done
 
 BillsYoungerSisterRefusedNumberText:
-	text "My brother made"
-	line "the PC #MON"
-	cont "storage system."
+	text "Mein Bruder hat"
+	line "das PC-#MON-"
+	cont "Lagerungssystem"
+	cont "erfunden."
 
-	para "I was going to"
-	line "give you BILL's"
-	cont "number…"
+	para "Ich wollte dir ge-"
+	line "rade BILLs Nummer"
+	cont "geben…"
 	done
 
 BillsYoungerSisterPhoneFullText:
-	text "You can't record"
-	line "any more numbers."
+	text "Du kannst keine"
+	line "Nummern mehr spei-"
+	cont "chern."
 	done
 
 BillsYoungerSisterStorageSystemText:
-	text "My big brother"
-	line "BILL made the PC"
+	text "Mein großer Bruder"
+	line "BILL hat das PC-"
 
-	para "#MON storage"
-	line "system."
+	para "#MON-Lagerungs-"
+	line "system erfunden."
 	done
 
 BillsFamilysHouse_MapEvents:

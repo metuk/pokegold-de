@@ -1,10 +1,10 @@
-	db "SCRATCHCAT@" ; species name
-	dw 104, 90 ; height, weight
+	db "KATZE@" ; species name
+	dw 10756, 33792 ; height, weight
 
-	db   "It loves anything"
-	next "that shines. It"
-	next "especially adores"
+	db   "s ist von runden"
+	next "Objekten faszi-"
+	next "niert. Es spielt"
+	page "solange damit, bis"
+	next "es müde wird"
+	next "und einschläft.@"
 
-	page "coins that it"
-	next "picks up and se-"
-	next "cretly hoards.@"

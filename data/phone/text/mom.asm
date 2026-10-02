@@ -1,165 +1,178 @@
 MomPhoneGreetingText:
-	text "Hello?"
+	text "Hallo?"
 
 	para "Oh, hi, <PLAYER>!"
-	line "Working hard?"
+	line "Hart am Arbeiten?"
 	done
 
 MomPhoneLandmarkText:
-	text "Oh, so you're in"
+	text "Oh, du bist in"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Isn't that where"
+	para "Ist dort nicht"
 	line "@"
 	text_ram wStringBuffer4
-	text_start
-	para "is? Did you go"
-	line "take a look?"
+	text "?"
+
+	para "Hast du schon"
+	line "nachgesehen?"
 	done
 
 MomPhoneGenericAreaText:
-	text "Really, you're in"
-	line "@"
+	text "Wirklich? Du bist"
+	line "in"
+	cont "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "I've never gone"
-	line "there. That's kind"
-	cont "of neat, <PLAYER>."
+	para "Ich war dort noch"
+	line "nie. Das ist sehr"
+	cont "nett, <PLAYER>."
 	done
 
 MomPhoneNewBarkText:
-	text "What? You're in"
+	text "Was? Du bist in"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Come see your MOM"
-	line "sometime!"
+	para "Besuch doch mal"
+	line "deine MAMA!"
 	done
 
 MomPhoneCherrygroveText:
-	text "You're visiting"
+	text "Du besuchst"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "How about coming"
-	line "home for a bit?"
+	para "Du könntest ja mal"
+	line "nach Hause kommen."
 	done
 
 MomOtherAreaText:
-	text "Wow, you're in"
+	text "Wow, du besuchst"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Good luck on your"
-	line "#MON quest!"
+	para "Viel Glück bei"
+	line "deiner Suche nach"
+	cont "#MON!"
 	done
 
 MomDeterminedText:
-	text "That sounds really"
-	line "tough."
+	text "Das klingt wirk-"
+	line "lich hart."
 
-	para "But, <PLAYER>, I"
-	line "know you're really"
+	para "Aber, <PLAYER>,"
+	line "ich weiß, dass du"
 
-	para "determined. You'll"
-	line "be OK, right?"
+	para "sehr ausdauernd"
+	line "bist. Du schaffst"
+	cont "das schon!"
 	done
 
 MomCheckBalanceText:
-	text "By the way, you've"
-	line "saved up ¥@"
+	text "Nebenbei, du hast"
+	line "¥@"
 	text_ram wStringBuffer3
-	text "."
+	text_start
 
-	para "Do you want to"
-	line "keep on saving?"
+	para "gespart. Willst du"
+	line "weitersparen?"
 	done
 
 MomImportantToSaveText:
-	text "It's important to"
-	line "save your money."
+	text "Es ist wichtig,"
+	line "Geld zu sparen."
 	done
 
 MomYoureNotSavingText:
 	text "Oh, <PLAYER>,"
-	line "you're not saving"
+	line "du sparst ja gar"
 
-	para "any money. Would"
-	line "you like to save?"
+	para "nicht. Möchtest du"
+	line "sparen?"
 	done
 
 MomYouveSavedText:
-	text "By the way, you've"
-	line "saved up ¥@"
+	text "Nebenbei, du hast"
+	line "¥@"
 	text_ram wStringBuffer3
-	text "."
+	text_start
 
-	para "Want to start"
-	line "saving again?"
+	para "gespart. Willst du"
+	line "wieder mit dem"
+
+	para "Sparen anfangen?"
 	done
 
 MomOKIllSaveText:
-	text "OK. I'll save your"
-	line "money."
+	text "O.K. Ich werde"
+	line "dein Geld sparen."
 	done
 
 MomPhoneStopSavingMoneyText:
-	text "OK. I'll stop"
-	line "saving your money."
+	text "O.K. Ich höre auf,"
+	line "dein Geld zu spa-"
+	cont "ren."
 	done
 
 MomPhoneHangUpText:
-	text "<PLAYER>, keep it"
-	line "up! I'm rooting"
-	cont "for you, baby!"
+	text "<PLAYER>, mach"
+	line "weiter so! Ich"
+	cont "drück dir die"
+	cont "Daumen!"
 	done
 
 MomPhoneNoPokemonText:
-	text "Hello?"
+	text "Hallo?"
 
 	para "Oh, hi, <PLAYER>!"
-	line "Wasn't PROF.ELM"
-	cont "waiting for you?"
+	line "Hat PROF. LIND"
+	cont "nicht auf dich ge-"
+	cont "wartet?"
 	done
 
 MomPhoneNoPokedexText:
-	text "Hello?"
+	text "Hallo?"
 
 	para "Oh, hi, <PLAYER>!"
-	line "You're on a big"
+	line "Du bist auf einer"
 
-	para "mission for PROF."
-	line "ELM? Be good!"
+	para "Mission für PROF."
+	line "LIND? Viel Glück!"
 	done
 
 MomPhoneNoGymQuestText:
-	text "Hello?"
+	text "Hallo?"
 
-	para "Hi, <PLAYER>! If"
-	line "you're done with"
+	para "Hi, <PLAYER>!"
+	line "Wenn du deinen"
 
-	para "your errand come"
-	line "on home, dear."
+	para "Auftrag ausgeführt"
+	line "hast, komm nach"
+	cont "Hause."
 	done
 
 MomPhoneLectureText:
-	text "Hello?"
+	text "Hallo?"
 
 	para "…… <PLAYER>?"
-	line "I heard from PROF."
+	line "Ich hörte von"
 
-	para "ELM that you went"
-	line "on a long trip."
+	para "PROF. LIND, dass"
+	line "du auf einer"
+	cont "langen Reise bist."
 
-	para "I wish you would"
-	line "have told me…"
+	para "Ich wünschte, du"
+	line "hättest mir davon"
+	cont "erzählt…"
 
-	para "What about money?"
-	line "Should I save it?"
+	para "Wie stehtわ mit"
+	line "Geld? Soll ich für"
+	cont "dich sparen?"
 	done

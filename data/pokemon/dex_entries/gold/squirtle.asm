@@ -1,10 +1,10 @@
-	db "TINYTURTLE@" ; species name
-	dw 108, 200 ; height, weight
+	db "MINIKRÖTE@" ; species name
+	dw 23045, 37376 ; height, weight
 
-	db   "The shell is soft"
-	next "when it is born."
-	next "It soon becomes so"
+	db   "ein Panzer ist"
+	next "bei Geburt weich."
+	next "Er wird bald so"
+	page "elastisch, dass"
+	next "kleinere Stöße von"
+	next "ihm abprallen.@"
 
-	page "resilient, prod-"
-	next "ding fingers will"
-	next "bounce off it.@"

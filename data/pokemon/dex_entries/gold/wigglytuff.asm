@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 303, 260 ; height, weight
+	db "BALLON@" ; species name
+	dw 30730, 37376 ; height, weight
 
-	db   "Their fur feels so"
-	next "good that if two"
-	next "of them snuggle"
+	db   "ein Fell ist so"
+	next "flauschig, dass,"
+	next "wenn zwei zusam-"
+	page "menstehen, sie"
+	next "nicht getrennt"
+	next "werden möchten.@"
 
-	page "together, they"
-	next "won't want to be"
-	next "separated.@"

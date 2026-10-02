@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 303, 290 ; height, weight
+	db "SAMEN@" ; species name
+	dw 33290, 33536 ; height, weight
 
-	db   "Exposure to sun-"
-	next "light adds to its"
-	next "strength. Sunlight"
+	db   "ie Sonne macht es"
+	next "stärker. Die"
+	next "Knospe auf seinem"
+	page "Rücken wächst"
+	next "unter dem Einfluss"
+	next "von Sonnenlicht.@"
 
-	page "also makes the bud"
-	next "on its back grow"
-	next "larger.@"

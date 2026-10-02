@@ -76,104 +76,111 @@ Route8FruitTree:
 	fruittree FRUITTREE_ROUTE_8
 
 BikerDwayneSeenText:
-	text "We're the KANTO"
-	line "#MON FEDERATION"
-	cont "trainer group."
+	text "Wir repräsentieren"
+	line "die #MON-"
+	cont "TRAINERGILDE aus"
+	cont "KANTO."
 
-	para "We'll drive you"
-	line "under our wheels!"
+	para "Hier kommst du"
+	line "unter die Räder!"
 	done
 
 BikerDwayneBeatenText:
-	text "S-sorry!"
+	text "En-entschuldigung!"
 	done
 
 BikerDwayneAfterBattleText:
-	text "The KANTO #MON"
-	line "FEDERATION will"
-	cont "never fall!"
+	text "Die GILDE der"
+	line "#MON-Trainer"
+	cont "aus KANTO wird"
+	cont "immer existieren!"
 	done
 
 BikerHarrisSeenText:
-	text "The cops shut down"
-	line "our UNDERGROUND"
+	text "Das ORDNUNGSAMT"
+	line "hat unseren"
 
-	para "PATH! That really"
-	line "fries me!"
+	para "TUNNELPFAD zu-"
+	line "schütten lassen."
+	cont "Das ängstigt mich!"
 	done
 
 BikerHarrisBeatenText:
-	text "F-forgive me!"
+	text "V-vergib mir!"
 	done
 
 BikerHarrisAfterBattleText:
-	text "Wiped out by some"
-	line "punk from JOHTO…"
+	text "Vermöbelt von"
+	line "einem Rowdy aus"
+	cont "JOHTO…"
 	done
 
 BikerZekeSeenText:
-	text "We're the KANTO"
-	line "#MON FEDERA-"
-	cont "TION!"
-	cont "Right on, dude!"
+	text "Wir sind die"
+	line "#MON-Trainer-"
+	cont "GILDE aus KANTO!"
+	cont "Nimm dich in Acht!"
 	done
 
 BikerZekeBeatenText:
-	text "Yikes! Sorry!"
+	text "Uah! Entschuldige!"
 	done
 
 BikerZekeAfterBattleText:
-	text "We'll try not to"
-	line "disturb anyone"
-	cont "from now on…"
+	text "Wir versuchen,"
+	line "ab jetzt niemanden"
+	cont "mehr zu stören…"
 	done
 
 SupernerdSamSeenText:
-	text "How does the MAG-"
-	line "NET TRAIN work?"
+	text "Wie funktioniert"
+	line "der MAGNETZUG?"
 	done
 
 SupernerdSamBeatenText:
-	text "I just want to see"
-	line "the MAGNET TRAIN…"
+	text "Ich möchte nur den"
+	line "MAGNETZUG sehen…"
 	done
 
 SupernerdSamAfterBattleText:
-	text "The power of mag-"
-	line "nets is awesome!"
+	text "Die Kraft von"
+	line "Magneten ist"
+	cont "beeindruckend!"
 	done
 
 SupernerdTomSeenText:
-	text "We can't do with-"
-	line "out electricity."
+	text "Wir kommen nicht"
+	line "ohne Strom aus."
 
-	para "The POWER PLANT"
-	line "supplies us with"
-	cont "electricity."
+	para "Das KRAFTWERK"
+	line "versorgt uns"
+	cont "mit Strom."
 	done
 
 SupernerdTomBeatenText:
-	text "Don't waste"
-	line "electricity!"
+	text "Verschwende keinen"
+	line "Strom!"
 	done
 
 SupernerdTomAfterBattleText:
-	text "The POWER PLANT"
-	line "north of LAVENDER"
+	text "Das KRAFTWERK"
+	line "nördlich von"
 
-	para "supplies power to"
-	line "the MAGNET TRAIN."
+	para "LAVANDIA versorgt"
+	line "den MAGNETZUG mit"
+	cont "Strom."
 	done
 
 Route8LockedDoorText:
-	text "It's locked…"
+	text "Es ist verriegelt…"
 	done
 
 Route8UndergroundPathSignText:
-	text "The flyer's torn."
+	text "Das Flugblatt ist"
+	line "zerrissen."
 
-	para "It's impossible to"
-	line "read…"
+	para "Es ist nicht mehr"
+	line "lesbar…"
 	done
 
 Route8_MapEvents:

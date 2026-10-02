@@ -666,553 +666,643 @@ AfterChikoritaMovement:
 	step_end
 
 ElmText_Intro:
-	text "ELM: <PLAYER>!"
-	line "There you are!"
+	text "LIND: <PLAYER>!"
+	line "Da bist du ja!"
 
-	para "I needed to ask"
-	line "you a favor."
+	para "Ich muss dich um"
+	line "etwas bitten."
 
-	para "I have an acquain-"
-	line "tance called MR."
+	para "Ich habe einen Be-"
+	line "kannten namens MR."
 	cont "#MON."
 
-	para "He keeps finding"
-	line "weird things and"
+	para "Ständig findet er"
+	line "eigenartiges Zeugs"
 
-	para "raving about his"
-	line "discoveries."
+	para "und fängt an, da-"
+	line "rüber zu fanta-"
+	cont "sieren."
 
-	para "Anyway, I just got"
-	line "an e-mail from him"
+	para "Aber jetzt hat er"
+	line "mir eine E-Mail"
 
-	para "saying that this"
-	line "time it's real."
+	para "geschickt, in der"
+	line "steht, dass es"
 
-	para "It is intriguing,"
-	line "but we're busy"
+	para "sich diesmal um"
+	line "etwas Großes"
 
-	para "with our #MON"
-	line "research."
+	para "handeln muss."
 
-	para "Could you look"
-	line "into it for us?"
+	para "Das klingt zwar"
+	line "faszinierend, aber"
 
-	para "I'll give you a"
-	line "#MON for a"
-	cont "partner."
+	para "wir sind derzeit"
+	line "mitten in unseren"
 
-	para "They're all rare"
-	line "#MON that we"
-	cont "just found."
+	para "eigenen #MON-"
+	line "Forschungen."
 
-	para "Go on. Pick one!"
+	para "Könntest du der"
+	line "Sache nachgehen?"
+
+	para "Ich gebe dir auch"
+	line "ein #MON als"
+	cont "Partner."
+
+	para "Es ist ein sehr"
+	line "seltenes #MON,"
+	cont "das wir gerade"
+	cont "erst entdeckt"
+	cont "haben."
+
+	para "Wähle eines aus!"
 	done
 
 ElmText_LetYourMonBattleIt:
-	text "If a wild #MON"
-	line "appears, let your"
-	cont "#MON battle it!"
+	text "Erscheint ein"
+	line "wildes #MON,"
+	cont "lass deine #MON"
+	cont "dagegen kämpfen."
 	done
 
 LabWhereGoingText:
-	text "ELM: Wait! Where"
-	line "are you going?"
+	text "LIND: Warte! Wohin"
+	line "gehst du?"
 	done
 
 TakeCyndaquilText:
-	text "ELM: You'll take"
-	line "CYNDAQUIL, the"
-	cont "fire #MON?"
+	text "LIND: Willst du"
+	line "FEURIGEL, das"
+	cont "Feuer-#MON?"
 	done
 
 TakeTotodileText:
-	text "ELM: Do you want"
-	line "TOTODILE, the"
-	cont "water #MON?"
+	text "LIND: Wählst du"
+	line "KARNIMANI, das"
+	cont "Wasser-#MON?"
 	done
 
 TakeChikoritaText:
-	text "ELM: So, you like"
-	line "CHIKORITA, the"
-	cont "grass #MON?"
+	text "LIND: Entscheidest"
+	line "du dich für"
+
+	para "ENDIVIE, das"
+	line "Pflanzen-#MON?"
 	done
 
 DidntChooseStarterText:
-	text "ELM: Think it over"
-	line "carefully."
+	text "LIND: Überlege es"
+	line "dir gut!"
 
-	para "Your partner is"
-	line "important."
+	para "Die Wahl deines"
+	line "Partners ist sehr"
+	cont "wichtig."
 	done
 
 ChoseStarterText:
-	text "ELM: I think"
-	line "that's a great"
-	cont "#MON too!"
+	text "LIND: Ich bin auch"
+	line "der Meinung, dass"
+	cont "dieses #MON"
+	cont "sehr gut ist!"
 	done
 
 ReceivedStarterText:
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ElmDirectionsText1:
-	text "MR.#MON lives"
-	line "near CHERRYGROVE,"
-	cont "the next city."
+	text "MR. #MON wohnt"
+	line "in der Nähe von"
+	cont "ROSALIA CITY, der"
+	cont "nächsten Stadt."
 
-	para "It's almost a"
-	line "direct route to"
-	cont "there."
+	para "Du gelangst fast"
+	line "ohne Umwege dort-"
+	cont "hin."
 	done
 
 ElmDirectionsText2:
-	text "If your #MON is"
-	line "hurt, you should"
+	text "Ist dein #MON"
+	line "verletzt, solltest"
 
-	para "heal it with this"
-	line "machine."
+	para "du es mit Hilfe"
+	line "dieser Maschine"
+	cont "heilen."
 	done
 
 ElmDirectionsText3:
-	text "Oh, here's my"
-	line "phone number."
+	text "Ich gebe dir auch"
+	line "meine Telefon-"
+	cont "nummer."
 
-	para "Call me if some-"
-	line "thing comes up."
+	para "Du kannst mich je-"
+	line "derzeit anrufen."
 	done
 
 GotElmsNumberText:
-	text "<PLAYER> got ELM's"
-	line "phone number."
+	text "<PLAYER> erhält"
+	line "LINDs Nummer."
 	done
 
 ElmDescribesMrPokemonText:
-	text "MR.#MON goes"
-	line "everywhere and"
-	cont "finds rarities."
+	text "MR. #MON zieht"
+	line "durch das Land und"
 
-	para "Too bad they're"
-	line "just rare and"
-	cont "not very useful…"
+	para "sucht nach Rari-"
+	line "täten."
 
-	para "<PLAYER>, I'm"
-	line "counting on you!"
+	para "Zu schade, dass er"
+	line "nur unbrauchbares"
+	cont "Zeug findet…"
+
+	para "<PLAYER>, ich"
+	line "zähle auf dich!"
 	done
 
 ElmPokeBallText:
-	text "It contains a"
-	line "#MON caught by"
-	cont "PROF.ELM."
+	text "Es beinhaltet ein"
+	line "von PROF. LIND ge-"
+	cont "fangenes #MON."
 	done
 
 ElmsLabHealingMachineText1:
-	text "I wonder what this"
-	line "does?"
+	text "Ich frage mich,"
+	line "wozu das gut ist!"
 	done
 
 ElmsLabHealingMachineText2:
-	text "Heal #MON?"
+	text "#MON heilen?"
 	done
 
 ElmAfterTheftText1:
-	text "ELM: <PLAYER>, this"
-	line "is terrible…"
+	text "LIND: <PLAYER>, das"
+	line "ist schrecklich…"
 
-	para "Oh, yes, what was"
-	line "MR.#MON's big"
-	cont "discovery?"
+	para "Oh, um was handelt"
+	line "es sich bei MR."
+
+	para "#MONs großer"
+	line "Entdeckung?"
 	done
 
 ElmAfterTheftText2:
-	text "<PLAYER> handed"
-	line "the MYSTERY EGG to"
-	cont "PROF.ELM."
+	text "<PLAYER> übergibt"
+	line "PROF. LIND das"
+	cont "RÄTSEL-EI."
 	done
 
 ElmAfterTheftText3:
-	text "ELM: This?"
+	text "LIND: Das hier?"
 	done
 
 ElmAfterTheftText4:
-	text "But… Is it a"
-	line "#MON EGG?"
+	text "Aber… ist das auch"
+	line "ein #MON-EI?"
 
-	para "If it is, it is a"
-	line "great discovery!"
+	para "Falls ja, dann ist"
+	line "es in der Tat eine"
+	cont "große Entdeckung!"
 	done
 
 ElmAfterTheftText5:
-	text "ELM: What?!?"
+	text "LIND: Wie?!?"
 
-	para "PROF.OAK gave you"
-	line "a #DEX?"
+	para "PROF. EICH hat dir"
+	line "einen #DEX"
+	cont "gegeben?"
 
-	para "<PLAYER>, is that"
-	line "true? Th-that's"
-	cont "incredible!"
+	para "<PLAYER>, ist das"
+	line "wahr? D-Das ist ja"
+	cont "unglaublich!"
 
-	para "He is superb at"
-	line "seeing the poten-"
-	cont "tial of people as"
-	cont "trainers."
+	para "Kein anderer ist"
+	line "wie er in der"
+	cont "Lage, das wahre"
+	cont "Potenzial eines"
+	cont "Trainers zu er-"
+	cont "kennen."
 
-	para "Wow, <PLAYER>. You"
-	line "may have what it"
+	para "Wow, <PLAYER>. Es"
+	line "ist vielleicht"
 
-	para "takes to become"
-	line "the CHAMPION."
+	para "deine Bestimmung,"
+	line "der CHAMP zu"
+	cont "werden."
 
-	para "You seem to be"
-	line "getting on great"
-	cont "with #MON too."
+	para "Es sieht auch so"
+	line "aus, als könntest"
 
-	para "You should take"
-	line "the #MON GYM"
-	cont "challenge."
+	para "du hervorragend"
+	line "mit #MON um-"
+	cont "gehen."
 
-	para "The closest GYM"
-	line "would be the one"
-	cont "in VIOLET CITY."
+	para "Du solltest die"
+	line "Herausforderung"
+
+	para "der #MON ARENEN"
+	line "annehmen."
+
+	para "Die nächste ARENA"
+	line "befindet sich in"
+	cont "VIOLA CITY."
 	done
 
 ElmAfterTheftText6:
-	text "…<PLAYER>. The"
-	line "road to the"
+	text "…<PLAYER>. Der"
+	line "Weg zum Ruhm ist"
 
-	para "championship will"
-	line "be a long one."
+	para "lang und beschwer-"
+	line "lich."
 
-	para "Before you leave,"
-	line "make sure that you"
-	cont "talk to your mom."
+	para "Bevor du los-"
+	line "ziehst, solltest"
+	cont "du mit deiner Mama"
+	cont "sprechen."
 	done
 
 ElmStudyingEggText:
-	text "ELM: Don't give"
-	line "up! I'll call if"
+	text "LIND: Gib nicht"
+	line "auf! Ich rufe dich"
 
-	para "I learn anything"
-	line "about that EGG!"
+	para "an, wenn ich etwas"
+	line "über dieses EI he-"
+	cont "rausgefunden habe."
 	done
 
 ElmAideHasEggText:
-	text "ELM: <PLAYER>?"
-	line "Didn't you meet my"
-	cont "assistant?"
+	text "LIND: <PLAYER>?"
+	line "Hast du schon mei-"
+	cont "nen Assistenten"
+	cont "getroffen?"
 
-	para "He should have met"
-	line "you with the EGG"
+	para "Er sollte mit dem"
+	line "EI im #MON-"
 
-	para "at VIOLET CITY's"
-	line "#MON CENTER."
+	para "CENTER von VIOLA"
+	line "CITY warten."
 
-	para "You must have just"
-	line "missed him. Try to"
-	cont "catch him there."
+	para "Du musst ihn ver-"
+	line "passt haben. Ver-"
+	cont "suche, ihn dort zu"
+	cont "finden."
 	done
 
 ElmWaitingEggHatchText:
-	text "ELM: Hey, has that"
-	line "EGG changed any?"
+	text "LIND: He, hat sich"
+	line "das EI irgendwie"
+	cont "verändert?"
 	done
 
 ElmThoughtEggHatchedText:
-	text "<PLAYER>? I thought"
-	line "the EGG hatched."
+	text "<PLAYER>? Ich"
+	line "dachte, etwas wäre"
+	cont "aus dem EI ge-"
+	cont "schlüpft."
 
-	para "Where is the"
+	para "Wo ist das"
 	line "#MON?"
 	done
 
 ShowElmTogepiText1:
-	text "ELM: <PLAYER>, you"
-	line "look great!"
+	text "LIND: <PLAYER>, du"
+	line "siehst großartig"
+	cont "aus!"
 	done
 
 ShowElmTogepiText2:
-	text "What?"
-	line "That #MON!?!"
+	text "Was?"
+	line "Dieses #MON!?!"
 	done
 
 ShowElmTogepiText3:
-	text "The EGG hatched!"
-	line "So, #MON are"
-	cont "born from EGGS…"
+	text "Es ist aus dem EI"
+	line "geschlüpft! Also"
+	cont "schlüpfen alle"
+	cont "#MON aus EIERN…"
 
-	para "No, perhaps not"
-	line "all #MON are."
+	para "Nein, vermutlich"
+	line "trifft das nicht"
+	cont "auf alle #MON"
+	cont "zu."
 
-	para "Wow, there's still"
-	line "a lot of research"
-	cont "to be done."
+	para "Es wartet wohl"
+	line "noch jede Menge"
+	cont "Forschungsarbeit"
+	cont "auf uns."
 	done
 
 ElmGiveEverstoneText1:
-	text "Thanks, <PLAYER>!"
-	line "You're helping"
+	text "Danke, <PLAYER>!"
+	line "Du hilfst uns beim"
 
-	para "unravel #MON"
-	line "mysteries for us!"
+	para "Aufklären vieler"
+	line "#MON-Mysterien!"
 
-	para "I want you to have"
-	line "this as a token of"
-	cont "our appreciation."
+	para "Bitte nimm dies"
+	line "als Zeichen unser-"
+	cont "er Wertschätzung."
 	done
 
 ElmGiveEverstoneText2:
-	text "That's an"
-	line "EVERSTONE."
+	text "Das ist ein"
+	line "EWIGSTEIN."
 
-	para "Some species of"
-	line "#MON evolve"
+	para "Einige #MON"
+	line "entwickeln sich"
 
-	para "when they grow to"
-	line "certain levels."
+	para "weiter, wenn sie"
+	line "einen bestimmten"
+	cont "Level erreichen."
 
-	para "A #MON holding"
-	line "the EVERSTONE"
-	cont "won't evolve."
+	para "Ein #MON,"
+	line "das den EWIGSTEIN"
+	cont "trägt, wird sich"
+	cont "aber nicht ent-"
+	cont "wickeln."
 
-	para "Give it to a #-"
-	line "MON you don't want"
-	cont "to evolve."
+	para "Gib ihn einem"
+	line "#MON, das"
+	cont "sich nicht weiter-"
+	cont "entwickeln soll!"
 	done
 
 ElmText_CallYou:
-	text "ELM: <PLAYER>, I'll"
-	line "call you if any-"
-	cont "thing comes up."
+	text "LIND: <PLAYER>, ich"
+	line "rufe dich an, wenn"
+	cont "sich etwas tut."
 	done
 
 AideText_AfterTheft:
-	text "…sigh… That"
-	line "stolen #MON."
+	text "…Seufz… Das"
+	line "gestohlene #-"
+	cont "MON."
 
-	para "I wonder how it's"
-	line "doing."
+	para "Ich frage mich,"
+	line "wie es ihm geht."
 
-	para "They say a #MON"
-	line "raised by a bad"
+	para "Man sagt, dass ein"
+	line "#MON, das von"
 
-	para "person turns bad"
-	line "itself."
+	para "einem bösen Men-"
+	line "schen aufgezogen"
+	cont "wird, selber böse"
+
+	para "wird."
 	done
 
 ElmGiveMasterBallText1:
-	text "ELM: Hi, <PLAYER>!"
-	line "Thanks to you, my"
+	text "LIND: Hi, <PLAYER>!"
+	line "Dank dir komme ich"
 
-	para "research is going"
-	line "great!"
+	para "mit meinen For-"
+	line "schungen hervor-"
+	cont "ragend voran!"
 
-	para "Take this as a"
-	line "token of my"
-	cont "appreciation."
+	para "Nimm dies als"
+	line "Zeichen meiner"
+	cont "Dankbarkeit!"
 	done
 
 ElmGiveMasterBallText2:
-	text "The MASTER BALL is"
-	line "the best!"
+	text "Der MEISTERBALL"
+	line "ist der Beste von "
+	cont "allen!"
 
-	para "It's the ultimate"
-	line "BALL! It'll catch"
+	para "Er ist der ultima-"
+	line "tive BALL! Ihm"
 
-	para "any #MON with-"
-	line "out fail."
+	para "kann kein #MON"
+	line "entwischen."
 
-	para "It's given only to"
-	line "recognized #MON"
-	cont "researchers."
+	para "Er wird nur aner-"
+	line "kannten #MON-"
+	cont "Forschern über-"
+	cont "reicht."
 
-	para "I think you can"
-	line "make better use of"
+	para "Aber ich glaube,"
+	line "du hast bessere"
 
-	para "it than I can,"
-	line "<PLAYER>!"
+	para "Verwendung dafür"
+	line "als ich, <PLAYER>!"
 	done
 
 ElmGiveTicketText1:
-	text "ELM: <PLAYER>!"
-	line "There you are!"
+	text "LIND: <PLAYER>!"
+	line "Da bist du ja!"
 
-	para "I called because I"
-	line "have something for"
-	cont "you."
+	para "Ich habe dich ge-"
+	line "rufen, weil ich"
+	cont "dir etwas geben"
+	cont "möchte."
 
-	para "See? It's an"
-	line "S.S.TICKET."
+	para "Es handelt sich um"
+	line "ein BOOTSTICKET."
 
-	para "Now you can catch"
-	line "#MON in KANTO."
+	para "Jetzt kannst du"
+	line "auch in KANTO"
+	cont "#MON fangen."
 	done
 
 ElmGiveTicketText2:
-	text "The ship departs"
-	line "from OLIVINE CITY."
+	text "Das Schiff legt in"
+	line "OLIVIANA CITY ab."
 
-	para "But you knew that"
-	line "already, <PLAYER>."
+	para "Aber das weißt du"
+	line "ja schon, <PLAYER>."
 
-	para "After all, you've"
-	line "traveled all over"
-	cont "with your #MON."
+	para "Schließlich bist"
+	line "du mit deinen"
+	cont "#MON schon"
+	cont "viel herumge-"
+	cont "kommen."
 
-	para "Give my regards to"
-	line "PROF.OAK in KANTO!"
+	para "Überbringe PROF."
+	line "EICH in KANTO"
+	cont "meine Grüße!"
 	done
 
 ElmsLabMonEggText: ; unreferenced
-	text "It's the #MON"
-	line "EGG being studied"
-	cont "by PROF.ELM."
+	text "Dies ist das"
+	line "#MON-EI, das"
+	cont "von PROF. LIND"
+	cont "untersucht wird."
 	done
 
 AideText_GiveYouPotion:
-	text "<PLAYER>, I want"
-	line "you to have this"
-	cont "for your errand."
+	text "<PLAYER>, ich"
+	line "will, dass du das"
+	cont "mitnimmst."
 	done
 
 AideText_AlwaysBusy:
-	text "There are only two"
-	line "of us, so we're"
-	cont "always busy."
+	text "Wir sind nur zu"
+	line "zweit und wir ha-"
+	cont "ben viel zu tun."
 	done
 
 AideText_TheftTestimony:
-	text "There was a loud"
-	line "noise outside…"
+	text "Wir haben ein lau-"
+	line "tes Geräusch ge-"
+	cont "hört…"
 
-	para "When we went to"
-	line "look, someone"
-	cont "stole a #MON."
+	para "Als wir nach dem"
+	line "Rechten sahen,"
+	cont "wurde ein #MON"
+	cont "gestohlen."
 
-	para "It's unbelievable"
-	line "that anyone would"
-	cont "do that!"
+	para "Ich kann nicht"
+	line "glauben, dass je-"
+	cont "mand so etwas tun"
+	cont "würde!"
 
-	para "…sigh… That"
-	line "stolen #MON."
+	para "…Seufz… Das"
+	line "gestohlene"
+	cont "#MON."
 
-	para "I wonder how it's"
-	line "doing."
+	para "Ich frage mich,"
+	line "wie es ihm geht."
 
-	para "They say a #MON"
-	line "raised by a bad"
+	para "Man sagt, dass ein"
+	line "#MON, das"
 
-	para "person turns bad"
-	line "itself."
+	para "von einem bösen"
+	line "Menschen aufgezo-"
+	cont "gen wird, selber"
+
+	para "böse wird."
 	done
 
 AideText_GiveYouBalls:
 	text "<PLAYER>!"
 
-	para "Use these on your"
-	line "#DEX quest!"
+	para "Benutze diese"
+	line "auf deiner"
+	cont "#DEX-Reise!"
 	done
 
 AideText_ExplainBalls:
-	text "To add to your"
-	line "#DEX, you have"
-	cont "to catch #MON."
+	text "Um deinen #DEX"
+	line "zu vervollständi-"
+	cont "gen, musst du"
+	cont "#MON fangen."
 
-	para "Throw # BALLS"
-	line "at wild #MON"
-	cont "to get them."
+	para "Wirf #BÄLLE"
+	line "nach wilden #-"
+	cont "MON, um sie zu"
+	cont "fangen."
 	done
 
 ElmsLabOfficerText1:
-	text "I heard a #MON"
-	line "was stolen here…"
+	text "Ich hörte, dass"
+	line "hier ein #MON"
+	cont "gestohlen worden"
+	cont "sei…"
 
-	para "I was just getting"
-	line "some information"
-	cont "from PROF.ELM."
+	para "Ich habe von PROF."
+	line "LIND einige Infor-"
+	cont "mationen erhalten."
 
-	para "Apparently, it was"
-	line "a young male with"
-	cont "long, red hair…"
+	para "Bei dem Dieb han-"
+	line "delt es sich um"
+	cont "einen jungen Mann"
+	cont "mit langen roten"
+	cont "Haaren…"
 
-	para "What?"
+	para "Wie?"
 
-	para "You battled a"
-	line "trainer like that?"
+	para "Du hast gegen ei-"
+	line "nen solchen"
+	cont "Trainer gekämpft?"
 
-	para "Did you happen to"
-	line "get his name?"
+	para "Hat er dir auch"
+	line "seinen Namen ge-"
+	cont "nannt?"
 	done
 
 ElmsLabOfficerText2:
-	text "OK! So <RIVAL>"
-	line "was his name."
+	text "O.K.! Sein Name"
+	line "war also <RIVAL>."
 
-	para "Thanks for helping"
-	line "my investigation!"
+	para "Danke, dass du mir"
+	line "bei den Ermitt-"
+	cont "lungen geholfen"
+	cont "hast!"
 	done
 
 ElmsLabWindowText1:
-	text "The window's open."
+	text "Das Fenster ist"
+	line "offen."
 
-	para "A pleasant breeze"
-	line "is blowing in."
+	para "Eine sanfte Brise"
+	line "weht herein."
 	done
 
 ElmsLabWindowText2:
-	text "He broke in"
-	line "through here!"
+	text "Hier ist er he-"
+	line "reingekommen!"
 	done
 
 ElmsLabTravelTip1Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> öffnet"
+	line "ein Buch."
 
-	para "Travel Tip 1:"
+	para "Reise-Tipp 1:"
 
-	para "Press START to"
-	line "open the MENU."
+	para "Drücke START, um"
+	line "das MENÜ zu"
+	cont "öffnen."
 	done
 
 ElmsLabTravelTip2Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> öffnet"
+	line "ein Buch."
 
-	para "Travel Tip 2:"
+	para "Reise-Tipp 2:"
 
-	para "Record your trip"
-	line "with SAVE!"
+	para "Speichere deine"
+	line "Fortschritte mit"
+	cont "SICHERN!"
 	done
 
 ElmsLabTravelTip3Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> öffnet"
+	line "ein Buch."
 
-	para "Travel Tip 3:"
+	para "Reise-Tipp 3:"
 
-	para "Open your PACK and"
-	line "press SELECT to"
-	cont "move items."
+	para "Öffne deinen"
+	line "BEUTEL und drücke"
+	cont "SELECT, um deine"
+	cont "Items zu ver-"
+	cont "walten."
 	done
 
 ElmsLabTravelTip4Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> öffnet"
+	line "ein Buch."
 
-	para "Travel Tip 4:"
+	para "Reise-Tipp 4:"
 
-	para "Check your #MON"
-	line "moves. Press the"
+	para "Verwalte die At-"
+	line "tacken deiner"
 
-	para "A Button to switch"
-	line "moves."
+	para "#MON. Drücke"
+	line "den A-Knopf, um"
+
+	para "ihre Position zu"
+	line "verändern."
 	done
 
 ElmsLabTrashcanText:
-	text "The wrapper from"
-	line "the snack PROF.ELM"
-	cont "ate is in there…"
+	text "Die Verpackung"
+	line "des Snack, den"
+	cont "PROF. LIND geges-"
+	cont "sen hat, befindet"
+	cont "sich hier…"
 	done
 
 ElmsLab_MapEvents:

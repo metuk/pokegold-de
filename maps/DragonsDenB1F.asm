@@ -128,139 +128,148 @@ MovementDragonsDen_ClairWalksAway:
 	step_end
 
 ClairText_GiveDragonbreathDragonDen:
-	text "CLAIR: All right."
-	line "I recognize your"
+	text "SANDRA: O.K."
+	line "Ich würdige deine"
 
-	para "true power. This"
-	line "BADGE is yours."
+	para "Stärke. Nimm"
+	line "diesen ORDEN."
 	done
 
 DragonShrinePlayerReceivedRisingBadgeText:
-	text "<PLAYER> received"
-	line "RISINGBADGE."
+	text "<PLAYER> erhält"
+	line "den DRACHENORDEN."
 	done
 
 DragonShrineRisingBadgeExplanationText:
-	text "RISINGBADGE will"
-	line "enable your"
+	text "Von nun an können"
+	line "deine #MON die"
 
-	para "#MON to use the"
-	line "move for climbing"
-	cont "waterfalls."
+	para "Fähigkeit KASKADE"
+	line "einsetzen."
 
-	para "Also, all #MON"
-	line "will recognize you"
+	para "Ferner werden"
+	line "dich alle #MON"
 
-	para "as a trainer and"
-	line "obey your every"
+	para "als Trainer"
+	line "anerkennen und dir"
 
-	para "command without"
-	line "question."
+	para "bedingungslos"
+	line "gehorchen."
 
-	para "I also want you to"
-	line "have this TM."
+	para "Ich möchte dir"
+	line "noch diese TM"
+	cont "geben."
 	done
 
 Text_ReceivedTM24: ; unreferenced
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "TM24."
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
-	text "That contains"
-	line "DRAGONBREATH."
+	text "Sie enthält"
+	line "FEUERODEM."
 
-	para "No, it doesn't"
-	line "have anything to"
-	cont "do with my breath."
+	para "Nein, das hat"
+	line "nichts mit meinem"
+	cont "Atem zu tun."
 
-	para "If you don't want"
-	line "it, you don't have"
-	cont "to take it."
+	para "Wenn du sie nicht"
+	line "möchtest, musst du"
+	cont "sie nicht nehmen."
 	done
 
 ClairText_CollectedAllBadges:
-	text "So, you've col-"
-	line "lected all the"
-	cont "BADGES."
+	text "Du hast also"
+	line "alle ORDEN"
+	cont "gesammelt."
 
-	para "Your destination"
-	line "is the #MON"
+	para "Dein Ziel ist"
+	line "die #MON"
 
-	para "LEAGUE in INDIGO"
-	line "PLATEAU."
+	para "LIGA auf dem"
+	line "INDIGO PLATEAU."
 
-	para "Do you know how to"
-	line "get there?"
+	para "Weißt du, wie du"
+	line "dorthin gelangst?"
 
-	para "From here, go to"
-	line "NEW BARK TOWN."
+	para "Gehe von hier nach"
+	line "NEUBORKIA."
 
-	para "Then SURF east."
-	line "The route there is"
-	cont "very tough."
+	para "Setze SURFER ein"
+	line "und begib dich"
+	cont "nach Osten. Diese"
+	cont "Route ist sehr"
+	cont "hart."
 
-	para "Don't you dare"
-	line "lose at the #-"
-	cont "MON LEAGUE!"
+	para "Wage es nicht,"
+	line "in der #MON"
+	cont "LIGA zu verlieren!"
 
-	para "If you do, I'll"
-	line "feel even worse"
+	para "Wenn du verlierst,"
+	line "macht das meine"
 
-	para "about having lost"
-	line "to you!"
+	para "Niederlage gegen"
+	line "dich noch härter!"
 	done
 
 DragonShrineSignpostText:
-	text "DRAGON SHRINE"
+	text "DRACHENSCHREIN"
 
-	para "A shrine honoring"
-	line "the dragon #MON"
+	para "Der Schrein ehrt"
+	line "die Drachen #-"
 
-	para "said to have lived"
-	line "in DRAGON'S DEN."
+	para "MON, die früher"
+	line "in der DRACHEN-"
+	cont "HÖHLE gelebt haben"
+	cont "sollen."
 	done
 
 RivalText_Training1:
 	text "…"
-	line "What? <PLAYER>?"
+	line "Was? <PLAYER>?"
 
-	para "…No, I won't"
-	line "battle you now…"
+	para "…Nein, ich"
+	line "möchte jetzt nicht"
+	cont "mit dir kämpfen…"
 
-	para "My #MON aren't"
-	line "ready to beat you."
+	para "Meine #MON sind"
+	line "noch nicht bereit,"
+	cont "dich zu schlagen."
 
-	para "I can't push them"
-	line "too hard now."
+	para "Ich darf sie nicht"
+	line "zu schroff"
+	cont "behandeln."
 
-	para "I have to be dis-"
-	line "ciplined to become"
+	para "Ich muss diszipli-"
+	line "nierter sein, wenn"
 
-	para "the greatest #-"
-	line "MON trainer…"
+	para "ich der weltbeste"
+	line "#MON-Trainer"
+	cont "werden möchte…"
 	done
 
 RivalText_Training2:
 	text "…"
 
-	para "Whew…"
+	para "Wow…"
 
-	para "Learn to stay out"
-	line "of my way…"
+	para "Du musst lernen,"
+	line "mir aus dem Weg"
+	cont "zu gehen…"
 	done
 
 Text_FoundDragonFang:
-	text "<PLAYER> found a"
+	text "<PLAYER> findet"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 Text_NoRoomForDragonFang:
-	text "But <PLAYER> can't"
-	line "carry any more"
-	cont "items."
+	text "<PLAYER> kann"
+	line "keine weiteren"
+	cont "Items mehr tragen."
 	done
 
 DragonsDenB1F_MapEvents:

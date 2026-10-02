@@ -1,10 +1,10 @@
-	db "COBRA@" ; species name
-	dw 1106, 1430 ; height, weight
+	db "KOBRA@" ; species name
+	dw 35363, 35842 ; height, weight
 
-	db   "Transfixing prey"
-	next "with the face-like"
-	next "pattern on its"
+	db   "it seiner Muste-"
+	next "rung lähmt es den"
+	next "Gegner, um ihn an-"
+	page "schließend zu"
+	next "umwickeln und"
+	next "zu vergiften.@"
 
-	page "belly, it binds"
-	next "and poisons the"
-	next "frightened victim.@"

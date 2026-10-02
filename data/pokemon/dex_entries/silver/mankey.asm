@@ -1,10 +1,10 @@
-	db "PIG MONKEY@" ; species name
-	dw 108, 620 ; height, weight
+	db "SCHW./ AFFE@" ; species name
+	dw 6149, 33793 ; height, weight
 
-	db   "It's unsafe to ap-"
-	next "proach if it gets"
-	next "violently enraged"
+	db   "s ist extrem"
+	next "jähzornig. Tritt"
+	next "es in Gruppen auf,"
+	page "greift es grund-"
+	next "los alles an, was"
+	next "in Reichweite ist.@"
 
-	page "for no reason and"
-	next "can't distinguish"
-	next "friends from foes.@"

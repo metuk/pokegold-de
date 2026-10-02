@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
-	dw 104, 150 ; height, weight
+	db "GIFTDORN@" ; species name
+	dw 17924, 33536 ; height, weight
 
-	db   "Although not very"
-	next "combative, it will"
-	next "torment its foes"
+	db   "as Gift in seinem"
+	next "kleinen Horn ist"
+	next "sehr potent. Ein"
+	page "kleiner Krat-"
+	next "zer kann fatale"
+	next "Folgen haben.@"
 
-	page "with poison spikes"
-	next "if it is threat-"
-	next "ened in any way.@"

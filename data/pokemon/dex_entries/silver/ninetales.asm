@@ -1,10 +1,10 @@
-	db "FOX@" ; species name
-	dw 307, 440 ; height, weight
+	db "FUCHS@" ; species name
+	dw 50955, 33792 ; height, weight
 
-	db   "Its nine beautiful"
-	next "tails are filled"
-	next "with a wondrous"
+	db   "ine Legende sagt,"
+	next "dass jedem seiner"
+	next "neun Schwänze eine"
+	page "einzigartige"
+	next "mystische Kraft"
+	next "innewohnt.@"
 
-	page "energy that could"
-	next "keep it alive for"
-	next "1,000 years.@"

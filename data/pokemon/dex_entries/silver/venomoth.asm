@@ -1,10 +1,10 @@
-	db "POISONMOTH@" ; species name
-	dw 411, 280 ; height, weight
+	db "GIFTMOTTE@" ; species name
+	dw 32015, 33024 ; height, weight
 
-	db   "The powder on its"
-	next "wings is poisonous"
-	next "if it is dark in"
+	db   "eim Angriff"
+	next "schlägt es wild"
+	next "mit seinen Flü-"
+	page "geln, um seinen"
+	next "Giftpuder überall"
+	next "zu verstreuen.@"
 
-	page "color. If it is"
-	next "light, it causes"
-	next "paralysis.@"

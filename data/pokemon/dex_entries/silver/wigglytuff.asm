@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 303, 260 ; height, weight
+	db "BALLON@" ; species name
+	dw 30730, 37376 ; height, weight
 
-	db   "It has a very fine"
-	next "fur. Take care not"
-	next "to make it angry,"
+	db   "ein Fell ist so"
+	next "flauschig, dass,"
+	next "wenn zwei zusam-"
+	page "menstehen, sie"
+	next "nicht getrennt"
+	next "werden möchten.@"
 
-	page "or it may inflate"
-	next "steadily and hit"
-	next "with a BODY SLAM.@"

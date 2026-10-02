@@ -1,10 +1,10 @@
-	db "WEED@" ; species name
-	dw 108, 120 ; height, weight
+	db "UNKRAUT@" ; species name
+	dw 13829, 33792 ; height, weight
 
-	db   "Awakened by moon-"
-	next "light, it roams "
-	next "actively at night."
+	db   "s erwacht bei"
+	next "Mondschein und"
+	next "wandert rastlos."
+	page "Tagsüber versteckt"
+	next "es sich still"
+	next "unter der Erde.@"
 
-	page "In the day, it"
-	next "stays quietly"
-	next "underground.@"

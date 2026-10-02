@@ -1,10 +1,10 @@
-	db "TINY BIRD@" ; species name
-	dw 100, 40 ; height, weight
+	db "KLEINVOGEL@" ; species name
+	dw 5123, 33792 ; height, weight
 
-	db   "Very protective of"
-	next "its territory, it"
-	next "flaps its short"
+	db   "s flattert mit"
+	next "seinen kleinen"
+	next "Flügeln, um Insek-"
+	page "ten aus dem Gras"
+	next "zu scheuchen und"
+	next "zu verspeisen.@"
 
-	page "wings busily to"
-	next "dart around at"
-	next "high speed.@"

@@ -79,10 +79,10 @@ GoldenrodVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}@"
-	db "SODA POP     ¥{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}@"
-	db "LEMONADE     ¥{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}@"
-	db "CANCEL@"
+	db "TAFELWASSER  ¥{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}@"
+	db "SPRUDEL      ¥{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}@"
+	db "LIMONADE     ¥{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}@"
+	db "ZURÜCK@"
 
 GoldenrodDeptStore6FLassScript:
 	jumptextfaceplayer GoldenrodDeptStore6FLassText
@@ -97,56 +97,59 @@ GoldenrodDeptStore6FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodVendingText:
-	text "A vending machine!"
-	line "Here's the menu."
+	text "Ein Automat!"
+	line "Hier ist das Ange-"
+	cont "bot."
 	done
 
 GoldenrodClangText:
-	text "Clang! A can of"
+	text "Ding! Eine Dose"
 	line "@"
 	text_ram wStringBuffer3
 	text_start
-	cont "popped out!"
+	cont "fällt heraus!"
 	done
 
 GoldenrodVendingNoMoneyText:
-	text "Oops, not enough"
-	line "money."
+	text "Ups, nicht genug"
+	line "Geld."
 	done
 
 GoldenrodVendingNoSpaceText:
-	text "There's no more"
-	line "room for stuff."
+	text "Du hast keinen"
+	line "Platz mehr."
 	done
 
 GoldenrodDeptStore6FLassText:
-	text "Do you listen to"
-	line "LUCKY CHANNEL?"
+	text "Hörst du den"
+	line "GLÜCKSKANAL?"
 
-	para "If you want to"
-	line "win, trade #MON"
+	para "Möchtest du gewin-"
+	line "nen, tausche #-"
 
-	para "with as many peo-"
-	line "ple as possible to"
+	para "MON mit so vielen"
+	line "Leuten wie mög-"
 
-	para "get different ID"
-	line "numbers."
+	para "lich, um verschie-"
+	line "dene ID-Nummern zu"
+	cont "erhalten."
 	done
 
 GoldenrodDeptStore6FSuperNerdText:
-	text "If you're tired,"
-	line "try the vending"
-	cont "machine's drinks."
+	text "Wenn du müde bist,"
+	line "dann hol dir ein"
+	cont "Getränk aus dem"
+	cont "Automaten."
 
-	para "Your #MON will"
-	line "love them too."
+	para "Auch deine #MON"
+	line "werden sie mögen."
 	done
 
 GoldenrodDeptStore6FDirectoryText:
-	text "Take a Break from"
-	line "Shopping!"
+	text "Gönn dir eine"
+	line "kleine Pause!"
 
-	para "6F ROOFTOP SQUARE"
+	para "S5 DACHTERRASSE"
 	done
 
 GoldenrodDeptStore6F_MapEvents:

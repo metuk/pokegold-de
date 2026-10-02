@@ -1,10 +1,10 @@
-	db "MUSHROOM@" ; species name
-	dw 100, 120 ; height, weight
+	db "PILZ@" ; species name
+	dw 13827, 33792 ; height, weight
 
-	db   "It is doused with"
-	next "mushroom spores"
-	next "when it is born."
+	db   "s ist von Geburt"
+	next "an mit Pilzsporen"
+	next "übersät. Wenn es"
+	page "wächst, sprießen"
+	next "Pilze auf seinem"
+	next "Rücken.@"
 
-	page "As its body grows,"
-	next "mushrooms sprout"
-	next "from its back.@"

@@ -383,8 +383,8 @@ GiveTakeItemMenuData:
 .Items:
 	db STATICMENU_CURSOR ; flags
 	db 2 ; # items
-	db "GIVE@"
-	db "TAKE@"
+	db "GIB@"
+	db "NIMM@"
 
 PokemonSwapItemText:
 	text_far _PokemonSwapItemText
@@ -545,16 +545,16 @@ MonMailAction:
 
 .MenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 9, 10, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
+	menu_coords 10, 10, 19, 17
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "READ@"
-	db "TAKE@"
-	db "QUIT@"
+	db "LIES@"
+	db "NIMM@"
+	db "ZURÜCK@"
 
 .MailLoseMessageText:
 	text_far _MailLoseMessageText
@@ -1086,7 +1086,7 @@ MoveScreen2DMenuData:
 	db PAD_CTRL_PAD | PAD_A | PAD_B ; accepted buttons
 
 String_MoveWhere:
-	db "Where?@"
+	db "WO?@"
 
 SetUpMoveScreenBG:
 	call ClearBGPalettes
@@ -1223,9 +1223,9 @@ PlaceMoveData:
 String_MoveType_Top:
 	db "┌─────┐@"
 String_MoveType_Bottom:
-	db "│TYPE/└@"
+	db "│TYP/ └@"
 String_MoveAtk:
-	db "ATTK/@"
+	db "ANGR/@"
 String_MoveNoPower:
 	db "---@"
 

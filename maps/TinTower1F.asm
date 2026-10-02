@@ -10,34 +10,35 @@ TinTowerSageScript:
 	jumptextfaceplayer TinTowerSageText
 
 TinTowerSageText:
-	text "I'm trying to un-"
-	line "cover the secret"
+	text "Ich versuche, das"
+	line "Rätsel um das"
 
-	para "of the legendary"
-	line "#MON that is"
-	cont "said to land here."
+	para "legendäre #MON,"
+	line "das hier landen"
+	cont "soll, zu lösen."
 
-	para "They say that the"
-	line "#MON has flown"
+	para "Man sagt, dass das"
+	line "#MON ständig"
 
-	para "continuously ever"
-	line "since the TOWER in"
-	cont "the West burned."
+	para "fliegt, seitdem"
+	line "der TURM im Westen"
+	cont "abgebrannt ist."
 
-	para "So, I thought that"
-	line "if I had what the"
+	para "Also habe ich mir"
+	line "gedacht, dass das"
 
-	para "#MON has, it"
-	line "would be attracted"
-	cont "by that item."
+	para "#MON angelockt"
+	line "wird, wenn ich ein"
+	cont "Item besitze, das"
+	cont "es auch besitzt."
 
-	para "I think that item"
-	line "is probably…"
+	para "Ich glaube, dieses"
+	line "Item ist…"
 
-	para "A RAINBOW WING!"
+	para "Eine BUNTSCHWINGE!"
 
-	para "But, where would"
-	line "I find one?"
+	para "Aber wo finde"
+	line "ich eine solche?"
 	done
 
 TinTower1F_MapEvents:

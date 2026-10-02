@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
-	dw 403, 1320 ; height, weight
+	db "BOHRER@" ; species name
+	dw 22541, 37378 ; height, weight
 
-	db   "It uses its scaly,"
-	next "rugged body to"
-	next "seal the entrance"
+	db   "ein Körper ist"
+	next "mit nadelähnli-"
+	next "chen Schuppen be-"
+	page "deckt. Dies macht"
+	next "es gegen Attacken"
+	next "nahezu immun.@"
 
-	page "of its nest and"
-	next "protect its young"
-	next "from predators.@"

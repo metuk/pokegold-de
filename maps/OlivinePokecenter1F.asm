@@ -22,24 +22,27 @@ OlivinePokecenter1FTeacherScript:
 	jumptextfaceplayer OlivinePokecenter1FTeacherText
 
 OlivinePokecenter1FFisherText:
-	text "Sailors are really"
-	line "generous."
+	text "Seeleute sind sehr"
+	line "großzügig."
 
-	para "One taught my"
-	line "#MON STRENGTH."
+	para "Einer hat meinem"
+	line "#MON STÄRKE"
 
-	para "Now it can move"
-	line "big boulders."
+	para "beigebracht. Jetzt"
+	line "kann es Felsen be-"
+	cont "wegen."
 	done
 
 OlivinePokecenter1FTeacherText:
-	text "There's a person"
-	line "in CIANWOOD CITY"
-	cont "across the sea."
+	text "Da gibt es jeman-"
+	line "den in ANEMONIA"
+	cont "CITY jenseits des"
+	cont "Meeres."
 
-	para "I heard him brag-"
-	line "ging about his"
-	cont "rare #MON."
+	para "Ich habe gehört,"
+	line "wie er mit seinen"
+	cont "seltenen #MON"
+	cont "angegeben hat."
 	done
 
 OlivinePokecenter1F_MapEvents:

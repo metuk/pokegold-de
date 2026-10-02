@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
-	dw 207, 660 ; height, weight
+	db "MAUS@" ; species name
+	dw 11272, 38401 ; height, weight
 
-	db   "If the electric"
-	next "pouches in its"
-	next "cheeks become"
+	db   "enn es sich auf-"
+	next "lädt, zucken seine"
+	next "Muskeln und es"
+	page "wird aggressiver"
+	next "und kampf-"
+	next "lustiger.@"
 
-	page "fully charged,"
-	next "both ears will"
-	next "stand straight up.@"

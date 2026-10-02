@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
-	dw 407, 1370 ; height, weight
+	db "BOHRER@" ; species name
+	dw 27662, 33794 ; height, weight
 
-	db   "Its tail is thick"
-	next "and powerful. If"
-	next "it binds an enemy,"
+	db   "s greift zuerst"
+	next "mit dem Schwanz"
+	next "an. Weicht sein"
+	page "Gegner aus, greift"
+	next "es mit seinem"
+	next "Körper an.@"
 
-	page "it can snap the"
-	next "victim's spine"
-	next "quite easily.@"

@@ -1,10 +1,10 @@
-	db "PIG MONKEY@" ; species name
-	dw 303, 710 ; height, weight
+	db "SCHW./ AFFE@" ; species name
+	dw 16394, 38401 ; height, weight
 
-	db   "It becomes wildly"
-	next "furious if it even"
-	next "senses someone"
+	db   "enn man sich ihm"
+	next "nähert, während es"
+	next "schläft, wacht es"
+	page "auf und startet"
+	next "eine Verfolgung"
+	next "im Halbschlaf.@"
 
-	page "looking at it. It"
-	next "chases anyone that"
-	next "meets its glare.@"

@@ -1,10 +1,10 @@
-	db "RAT@" ; species name
-	dw 204, 410 ; height, weight
+	db "RATTE@" ; species name
+	dw 47367, 33792 ; height, weight
 
-	db   "Its whiskers help"
-	next "it to maintain"
-	next "balance. Its fangs"
+	db   "s nagt mit seinen"
+	next "Zähnen alles an."
+	next "Es kann sogar Ge-"
+	page "bäude aus Beton"
+	next "dadurch zum"
+	next "Einsturz bringen.@"
 
-	page "never stop grow-"
-	next "ing, so it gnaws"
-	next "to pare them down.@"

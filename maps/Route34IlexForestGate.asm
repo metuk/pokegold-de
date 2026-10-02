@@ -37,42 +37,48 @@ Route34IlexForestGateLassScript:
 	jumptextfaceplayer Route34IlexForestGateLassText
 
 Route34IlexForestGateTeacherText:
-	text "Oh, honey. You're"
-	line "making a #DEX?"
+	text "Oh, Süßer. Du"
+	line "erstellst einen"
+	cont "#DEX?"
 
-	para "It must be hard if"
-	line "#MON won't"
+	para "Das muss schwierig"
+	line "sein, wenn du"
+	cont "keine #MON"
 
-	para "appear. Try using"
-	line "this TM."
+	para "triffst. Versuche"
+	line "es mit dieser TM."
 	done
 
 Route34IlexForestGateTeacher_GotSweetScent:
-	text "It's SWEET SCENT."
+	text "Sie enthält"
+	line "LOCKDUFT."
 
-	para "Use it wherever"
-	line "#MON appear."
+	para "Benutze sie dort,"
+	line "wo #MON"
+	cont "auftauchen."
 
-	para "#MON will be"
-	line "enticed by it."
+	para "#MON werden"
+	line "von dem Duft"
+	cont "angezogen."
 	done
 
 Route34IlexForestGateButterfreeText:
-	text "BUTTERFREE: Freeh!"
+	text "SMETTBO: Boh!"
 	done
 
 Route34IlexForestGateLassText:
-	text "Did you see the"
-	line "shrine honoring"
-	cont "the protector?"
+	text "Hast du den"
+	line "Schrein gesehen,"
+	cont "der dem Schutz-"
+	cont "patron huldigt?"
 
-	para "It watches over"
-	line "the FOREST from"
-	cont "across time."
+	para "Er wacht über den"
+	line "WALD, aus einer"
+	cont "anderen Zeit."
 
-	para "I think that it"
-	line "must be a grass-"
-	cont "type #MON."
+	para "Ich glaube, das"
+	line "ist ein"
+	cont "Pflanzen-#MON."
 	done
 
 Route34IlexForestGate_MapEvents:

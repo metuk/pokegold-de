@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
-	dw 211, 430 ; height, weight
+	db "GIFTDORN@" ; species name
+	dw 49929, 33792 ; height, weight
 
-	db   "Quick to anger, it"
-	next "stabs enemies with"
-	next "its horn to inject"
+	db   "s überwacht mit"
+	next "seinen riesigen"
+	next "Ohren die Umge-"
+	page "bung. Registriert"
+	next "es eine Bewegung,"
+	next "greift es an.@"
 
-	page "a powerful poison"
-	next "when it becomes"
-	next "agitated.@"

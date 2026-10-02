@@ -1,10 +1,10 @@
-	db "FOX@" ; species name
-	dw 307, 440 ; height, weight
+	db "FUCHS@" ; species name
+	dw 50955, 33792 ; height, weight
 
-	db   "Some legends claim"
-	next "that each of its"
-	next "nine tails has its"
+	db   "ine Legende sagt,"
+	next "dass jedem seiner"
+	next "neun Schwänze eine"
+	page "einzigartige"
+	next "mystische Kraft"
+	next "innewohnt.@"
 
-	page "own unique type"
-	next "of special"
-	next "mystical power.@"

@@ -52,46 +52,48 @@ Route4HiddenUltraBall:
 	hiddenitem ULTRA_BALL, EVENT_ROUTE_4_HIDDEN_ULTRA_BALL
 
 BirdKeeperHankSeenText:
-	text "There's been news"
-	line "of an incident at"
-	cont "the POWER PLANT."
+	text "Es gibt Neuig-"
+	line "keiten über den"
+	cont "Vorfall im"
+	cont "KRAFTWERK."
 	done
 
 BirdKeeperHankBeatenText:
-	text "I lost? That's"
-	line "news too…"
+	text "Ich habe verloren?"
+	line "Das ist auch eine"
+	cont "Neuigkeit…"
 	done
 
 BirdKeeperHankAfterBattleText:
-	text "I might go to the"
-	line "POWER PLANT. Is it"
-	cont "near ROCK TUNNEL?"
+	text "Ich gehe zum"
+	line "KRAFTWERK. Ist es"
+	cont "beim FELSTUNNEL?"
 	done
 
 PicnickerHopeSeenText:
-	text "I have a feeling"
-	line "that I can win."
+	text "Ich spüre, dass"
+	line "ich gewinnen kann."
 
-	para "Let's see if I'm"
-	line "right!"
+	para "Mal sehen, ob"
+	line "das stimmt!"
 	done
 
 PicnickerHopeBeatenText:
-	text "Aww, you are too"
-	line "strong."
+	text "Argh, du bist zu"
+	line "stark."
 	done
 
 PicnickerHopeAfterBattleText:
-	text "I heard CLEFAIRY"
-	line "appear at MT.MOON."
+	text "Ich hörte, dass"
+	line "PIEPI am MONDBERG"
 
-	para "But where could"
-	line "they be?"
+	para "auftaucht. Aber wo"
+	line "soll das sein?"
 	done
 
 PicnickerSharonSeenText:
-	text "Um…"
-	line "I…"
+	text "Ähm…"
+	line "Ich…"
 	done
 
 PicnickerSharonBeatenText:
@@ -99,15 +101,16 @@ PicnickerSharonBeatenText:
 	done
 
 PicnickerSharonAfterBattleText:
-	text "……I'll go train"
-	line "some more…"
+	text "……Ich sollte"
+	line "wohl noch mehr"
+	cont "trainieren…"
 	done
 
 MtMoonSquareSignText:
-	text "MT.MOON SQUARE"
+	text "MONDBERGPLATZ"
 
-	para "Just go up the"
-	line "stairs."
+	para "Geh die Treppe"
+	line "hinauf"
 	done
 
 Route4_MapEvents:

@@ -1,10 +1,10 @@
-	db "FOX@" ; species name
-	dw 200, 220 ; height, weight
+	db "FUCHS@" ; species name
+	dw 25350, 33024 ; height, weight
 
-	db   "As it develops, "
-	next "its single white"
-	next "tail gains color"
+	db   "eim Heranwachsen"
+	next "teilt sich sein"
+	next "Schweif sechsfach"
+	page "und wird farbig."
+	next "Es ist warm und"
+	next "anschmiegsam.@"
 
-	page "and splits into"
-	next "six. It is quite"
-	next "warm and cuddly.@"

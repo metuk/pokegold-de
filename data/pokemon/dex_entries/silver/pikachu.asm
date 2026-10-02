@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
-	dw 104, 130 ; height, weight
+	db "MAUS@" ; species name
+	dw 15364, 33536 ; height, weight
 
-	db   "It raises its tail"
-	next "to check its sur-"
-	next "roundings. The"
+	db   "ieses clevere"
+	next "#MON grillt"
+	next "harte BEEREN mit"
+	page "Elektrizität, um"
+	next "sie anschließend"
+	next "zu essen.@"
 
-	page "tail is sometimes"
-	next "struck by light-"
-	next "ning in this pose.@"

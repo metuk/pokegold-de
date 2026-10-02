@@ -1,10 +1,10 @@
-	db "DUCK@" ; species name
-	dw 507, 1690 ; height, weight
+	db "ENTE@" ; species name
+	dw 65041, 38402 ; height, weight
 
-	db   "When it swims at"
-	next "full speed using"
-	next "its long, webbed"
+	db   "enn es mit"
+	next "seinen Flossen"
+	next "schnell durch das"
+	page "Wasser schwimmt,"
+	next "beginnt seine"
+	next "Stirn zu glühen.@"
 
-	page "limbs, its fore-"
-	next "head somehow be-"
-	next "gins to glow.@"

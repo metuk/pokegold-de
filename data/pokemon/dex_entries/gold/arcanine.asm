@@ -1,10 +1,10 @@
-	db "LEGENDARY@" ; species name
-	dw 603, 3420 ; height, weight
+	db "LEGENDÄR@" ; species name
+	dw 3603, 33542 ; height, weight
 
-	db   "This legendary"
-	next "Chinese POKEMON is"
-	next "considered magnif-"
+	db   "ieses legendäre"
+	next "chinesische POKE-"
+	next "MON wird wegen"
+	page "seiner Schönheit"
+	next "verehrt. Vor allem"
+	next "wegen der Mähne.@"
 
-	page "icent. Many people"
-	next "are enchanted by"
-	next "its grand mane.@"

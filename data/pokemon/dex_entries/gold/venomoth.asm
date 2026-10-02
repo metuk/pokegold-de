@@ -1,10 +1,10 @@
-	db "POISONMOTH@" ; species name
-	dw 411, 280 ; height, weight
+	db "GIFTMOTTE@" ; species name
+	dw 32015, 33024 ; height, weight
 
-	db   "When it attacks,"
-	next "it flaps its large"
-	next "wings violently to"
+	db   "eim Angriff"
+	next "schlägt es wild"
+	next "mit seinen Flü-"
+	page "geln, um seinen"
+	next "Giftpuder überall"
+	next "zu verstreuen.@"
 
-	page "scatter its poi-"
-	next "sonous powder all"
-	next "around.@"

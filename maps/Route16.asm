@@ -20,10 +20,10 @@ CyclingRoadSign:
 	jumptext CyclingRoadSignText
 
 CyclingRoadSignText:
-	text "CYCLING ROAD"
+	text "RADWEG"
 
-	para "Downhill Coasting"
-	line "All the Way!"
+	para "Es geht den ganzen"
+	line "Weg nur bergab!"
 	done
 
 Route16_MapEvents:

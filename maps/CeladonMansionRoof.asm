@@ -9,7 +9,7 @@ CeladonMansionRoofSign: ; unreferenced
 	jumptext CeladonMansionRoofSignText
 
 CeladonMansionRoofSignText:
-	text "I KNOW EVERYTHING!"
+	text "ICH WEISS ALLES!"
 	done
 
 CeladonMansionRoof_MapEvents:

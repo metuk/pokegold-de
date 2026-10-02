@@ -1,10 +1,10 @@
-	db "TINY BIRD@" ; species name
-	dw 100, 40 ; height, weight
+	db "KLEINVOGEL@" ; species name
+	dw 4611, 33792 ; height, weight
 
-	db   "Common in grassy"
-	next "areas and forests,"
-	next "it is very docile"
+	db   "s versteckt sich"
+	next "im hohen Gras. Da"
+	next "es Kämpfe verab-"
+	page "scheut, wirbelt"
+	next "es Sand auf, um"
+	next "sich zu schützen.@"
 
-	page "and will chase off"
-	next "enemies by flap-"
-	next "ping up sand.@"
