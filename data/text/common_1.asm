@@ -1714,7 +1714,7 @@ _NameRaterNamedText::
 
 Text_Gained::
 	text_ram wStringBuffer1
-	text " gained@@"
+	text " erhält@@"
 
 _BoostedExpPointsText::
 	text_start
@@ -1917,8 +1917,9 @@ _CutNothingText::
 	prompt
 
 _BlindingFlashText::
-	text "A blinding FLASH"
-	line "lights the area!@"
+	text "Ein gleißender"
+	line "BLITZ erhellt"
+	cont "das Gebiet!@"
 	text_promptbutton
 	db "@@"
 

@@ -18,11 +18,11 @@ LinkCommunications:
 	call LoadTradeScreenBorderGFX
 	call SetTradeRoomBGPals
 	call WaitBGMap
-	hlcoord 3, 8
+	hlcoord 2, 8
 	ld b, 2
-	ld c, 12
+	ld c, 14
 	call LinkTextboxAtHL
-	hlcoord 4, 10
+	hlcoord 3, 10
 	ld de, String_PleaseWait
 	call PlaceString
 	ld hl, wLinkByteTimeout
