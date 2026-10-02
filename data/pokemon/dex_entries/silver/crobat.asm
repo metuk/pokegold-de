@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
-	dw 60946, 35842 ; height, weight
+	db "FLEDERMAUS@" ; species name
+	dbw 18, 750 ; height, weight
 
-	db   "The development of"
-	next "wings on its legs"
-	next "enables it to fly"
+	db   "Durch die Bildung"
+	next "von Flügeln an"
+	next "seinen Beinen"
 
-	page "fast but also"
-	next "makes it tough to"
-	next "stop and rest.@"
+	page "fliegt es schnell,"
+	next "aber hat Probleme"
+	next "bei der Landung.@"

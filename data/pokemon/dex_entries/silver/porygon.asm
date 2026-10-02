@@ -1,10 +1,11 @@
-	db "VIRTUAL@" ; species name
-	dw 27912, 33537 ; height, weight
+	db "VIRTUELL@" ; species name
+	dbw 8, 365 ; height, weight
 
-	db   "A manmade #MON"
-	next "that came about as"
-	next "a result of re-"
+	db   "Ein künstlich pro-"
+	next "duziertes #MON,"
+	next "welches das Ergeb-"
+	next ""
 
-	page "search. It is pro-"
-	next "grammed with only"
-	next "basic motions.@"
+	page "nis von Forschung-"
+	next "en war. Es ist"
+	next "simpel aufgebaut.@"

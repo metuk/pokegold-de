@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
-	dw 14852, 33024 ; height, weight
+	db "BLUME@" ; species name
+	dbw 4, 58 ; height, weight
 
-	db   "Plentiful in the"
-	next "tropics. When it"
-	next "dances, its petals"
+	db   "Es lebt in den"
+	next "Tropen. Beim Tan-"
+	next "zen reiben seine"
 
-	page "rub together and"
-	next "make a pleasant"
-	next "ringing sound.@"
+	page "Blüten aneinander"
+	next "und erzeugen ein"
+	next "wohliges Geräusch.@"

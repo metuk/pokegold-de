@@ -1,10 +1,10 @@
-	db "RAINBOW@" ; species name
-	dw 50726, 35847 ; height, weight
+	db "REGENBOGEN@" ; species name
+	dbw 38, 1990 ; height, weight
 
-	db   "A legend says that"
-	next "its body glows in"
-	next "seven colors. A"
+	db   "Sein Körper soll"
+	next "in sieben Farben"
+	next "leuchten."
 
-	page "rainbow is said to"
-	next "form behind it"
-	next "when it flies.@"
+	page "Im Flug zieht es"
+	next "einen Regenbogen"
+	next "hinter sich her.@"

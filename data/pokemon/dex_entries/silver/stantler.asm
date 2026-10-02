@@ -1,10 +1,10 @@
-	db "BIG HORN@" ; species name
-	dw 51214, 37378 ; height, weight
+	db "VIELENDER@" ; species name
+	dbw 14, 712 ; height, weight
 
-	db   "Those who stare at"
-	next "its antlers will"
-	next "gradually lose"
+	db   "Der Anblick seines"
+	next "Geweihs lässt den"
+	next "Betrachter ohn-"
 
-	page "control of their"
-	next "senses and be"
-	next "unable to stand.@"
+	page "mächtig werden"
+	next "und zu Boden"
+	next "sinken.@"

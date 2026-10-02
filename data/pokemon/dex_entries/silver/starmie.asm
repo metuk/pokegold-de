@@ -1,10 +1,10 @@
-	db "MYSTERIOUS@" ; species name
-	dw 8203, 33539 ; height, weight
+	db "MYSTERIÖS@" ; species name
+	dbw 11, 800 ; height, weight
 
-	db   "Regardless of the"
-	next "environment it"
-	next "lives in, its body"
+	db   "Egal, wo es auch"
+	next "aufwächst, sein"
+	next "Körper entwickelt"
 
-	page "grows to form a"
-	next "symmetrical geo-"
-	next "metric shape.@"
+	page "sich stets zu ei-"
+	next "ner geometrischen"
+	next "Figur.@"

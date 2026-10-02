@@ -1,10 +1,10 @@
 	db "ECHSE@" ; species name
-	dw 21766, 33536 ; height, weight
+	dbw 6, 85 ; height, weight
 
-	db   "ie Flamme auf "
-	next "der Schwanzspitze"
-	next "zeigt die Lebens-"
-	page "energie. Ist sie"
-	next "schwach, ist die"
-	next "Flamme klein.@"
+	db   "Die Flamme auf"
+	next "seiner Schwanz-"
+	next "spitze zeigt seine"
 
+	page "Lebensenergie an."
+	next "Ist es gesund,"
+	next "leuchtet sie hell.@"

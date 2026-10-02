@@ -1,10 +1,10 @@
-	db "COTTONWEED@" ; species name
-	dw 1284, 37888 ; height, weight
+	db "LÖWENZAHN@" ; species name
+	dbw 4, 5 ; height, weight
 
-	db   "Its body is so"
-	next "light, it must"
-	next "grip the ground"
+	db   "Sein Körper ist so"
+	next "leicht, dass es"
+	next "seine Füße im Bo-"
 
-	page "firmly with its"
-	next "feet to keep from"
-	next "being blown away.@"
+	page "den verankert, da-"
+	next "mit es nicht"
+	next "davongeweht wird.@"

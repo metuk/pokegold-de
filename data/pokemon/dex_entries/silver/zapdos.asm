@@ -1,10 +1,10 @@
-	db "ELECTRIC@" ; species name
-	dw 3600, 33538 ; height, weight
+	db "ELEKTRO@" ; species name
+	dbw 16, 526 ; height, weight
 
-	db   "This legendary"
-	next "bird #MON is"
-	next "said to appear"
+	db   "Dieses legendäre"
+	next "Vogel-#MON"
+	next "soll nur dann auf-"
 
-	page "only when a thun-"
-	next "dercloud parts"
-	next "into two halves.@"
+	page "tauchen, wenn sich"
+	next "eine Gewitterwolke"
+	next "teilt.@"

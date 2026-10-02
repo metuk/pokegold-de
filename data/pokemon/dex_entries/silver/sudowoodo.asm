@@ -1,10 +1,10 @@
 	db "IMITATION@" ; species name
-	dw 31756, 36353 ; height, weight
+	dbw 12, 380 ; height, weight
 
-	db   "It disguises it-"
-	next "self as a tree to"
-	next "avoid attack. It"
+	db   "Es tarnt sich als"
+	next "Baum, um nicht an-"
+	next "gegriffen zu wer-"
 
-	page "hates water, so it"
-	next "will disappear if"
-	next "it starts raining.@"
+	page "den. Es hasst Was-"
+	next "ser, darum läuft"
+	next "es bei Regen weg.@"

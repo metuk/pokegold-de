@@ -1,10 +1,10 @@
-	db "OWL@" ; species name
-	dw 54279, 33792 ; height, weight
+	db "EULE@" ; species name
+	dbw 7, 212 ; height, weight
 
-	db   "It has a perfect"
-	next "sense of time."
-	next "Whatever happens,"
+	db   "Sein Zeitgefühl"
+	next "ist perfekt. Was"
+	next "auch immer pas-"
 
-	page "it keeps rhythm by"
-	next "precisely tilting"
-	next "its head in time.@"
+	page "siert, es behält"
+	next "den Rhythmus, da"
+	next "sein Kopf wackelt.@"

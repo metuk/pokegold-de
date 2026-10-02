@@ -1,10 +1,10 @@
-	db "KICKING@" ; species name
-	dw 61967, 33537 ; height, weight
+	db "KICKER@" ; species name
+	dbw 15, 498 ; height, weight
 
-	db   "If it starts kick-"
-	next "ing repeatedly,"
-	next "both legs will"
+	db   "Wenn es anfängt"
+	next "pausenlos zu tre-"
+	next "ten, kann es seine"
 
-	page "stretch even long-"
-	next "er to strike a"
-	next "fleeing foe.@"
+	page "Beine ausfahren,"
+	next "um fliehende"
+	next "Feinde zu treffen.@"

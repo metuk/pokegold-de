@@ -1,11 +1,10 @@
-	db "VOLCANO@" ; species name
-	dw 6929, 38403 ; height, weight
+	db "VULKAN@" ; species name
+	dbw 17, 795 ; height, weight
 
-	db   "It has a secret,"
-	next "devastating move."
-	next "It rubs its blaz-"
-	next ""
+	db   "Es verfügt über"
+	next "eine verheerende"
+	next "Geheimattacke. Es"
 
-	page "ing fur together"
-	next "to cause huge"
-	next "explosions.@"
+	page "reibt sein Fell,"
+	next "um Explosionen zu"
+	next "erzeugen.@"

@@ -1,10 +1,10 @@
 	db "KLEINVOGEL@" ; species name
-	dw 4611, 33792 ; height, weight
+	dbw 3, 18 ; height, weight
 
-	db   "s versteckt sich"
-	next "im hohen Gras. Da"
-	next "es Kämpfe verab-"
-	page "scheut, wirbelt"
-	next "es Sand auf, um"
-	next "sich zu schützen.@"
+	db   "Es ist meist in"
+	next "Wäldern anzutref-"
+	next "fen. Es ist ruhig"
 
+	page "und verjagt seine"
+	next "Feinde, indem es"
+	next "Sand aufwirbelt.@"

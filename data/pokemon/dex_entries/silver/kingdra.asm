@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 61458, 35845 ; height, weight
+	db "DRACHE@" ; species name
+	dbw 18, 1520 ; height, weight
 
-	db   "It sleeps deep on"
-	next "the ocean floor to"
-	next "build its energy."
+	db   "Tief unten am"
+	next "Meeresboden tankt"
+	next "es Energie im"
 
-	page "It is said to"
-	next "cause tornadoes as"
-	next "it wakes.@"
+	page "Schlaf. Wacht es"
+	next "auf, kann es"
+	next "Tornados auslösen.@"

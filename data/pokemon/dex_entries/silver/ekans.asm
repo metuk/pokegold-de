@@ -1,10 +1,10 @@
 	db "SCHLANGE@" ; species name
-	dw 17684, 33792 ; height, weight
+	dbw 20, 69 ; height, weight
 
-	db   "s hängt seinen"
-	next "Kiefer aus, um"
-	next "Beute zu ver-"
-	page "schlingen. Es ist"
-	next "dann zu schwer, um"
-	next "zu kriechen.@"
+	db   "Es versteckt sich"
+	next "stets im Gras. Bei"
+	next "Geburt hat es noch"
 
+	page "kein Gift. Sein"
+	next "Biss tut weh, ist"
+	next "aber harmlos.@"

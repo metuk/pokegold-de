@@ -1,10 +1,10 @@
 	db "ANGLER@" ; species name
-	dw 30725, 33792 ; height, weight
+	dbw 5, 120 ; height, weight
 
-	db   "On the dark ocean"
-	next "floor, its only"
-	next "means of communi-"
+	db   "Am Meeresgrund"
+	next "kann es sich nur"
+	next "durch ständiges"
 
-	page "cation is its"
-	next "constantly flash-"
-	next "ing lights.@"
+	page "Flackern seiner"
+	next "Lichter der"
+	next "Umgebung kundtun.@"

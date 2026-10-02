@@ -1,10 +1,10 @@
-	db "TINY MOUSE@" ; species name
-	dw 5123, 33792 ; height, weight
+	db "BABYMAUS@" ; species name
+	dbw 3, 20 ; height, weight
 
-	db   "Despite its small"
-	next "size, it can zap"
-	next "even adult humans."
+	db   "Obwohl es so klein"
+	next "ist, kann es sogar"
+	next "Erwachsene über-"
 
-	page "However, if it"
-	next "does so, it also"
-	next "surprises itself.@"
+	page "wältigen. Tritt"
+	next "dies ein, ist es"
+	next "selbst erstaunt.@"

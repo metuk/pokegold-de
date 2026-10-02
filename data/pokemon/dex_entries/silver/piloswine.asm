@@ -1,10 +1,10 @@
-	db "SWINE@" ; species name
-	dw 11787, 33538 ; height, weight
+	db "SCHWEIN@" ; species name
+	dbw 11, 558 ; height, weight
 
-	db   "If it charges at"
-	next "an enemy, the"
-	next "hairs on its back"
+	db   "Beim Angriff auf"
+	next "einen Gegner"
+	next "stellen sich seine"
 
-	page "stand up straight."
-	next "It is very sensi-"
-	next "tive to sound.@"
+	page "Rückenhaare auf."
+	next "Es hört außerge-"
+	next "wöhnlich gut.@"

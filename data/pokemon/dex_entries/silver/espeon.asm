@@ -1,10 +1,10 @@
-	db "SUN@" ; species name
-	dw 2313, 35841 ; height, weight
+	db "SONNE@" ; species name
+	dbw 9, 265 ; height, weight
 
-	db   "By reading air"
-	next "currents, it can"
-	next "predict things"
+	db   "Es liest die Luft-"
+	next "strömungen und"
+	next "kann dadurch das"
 
-	page "such as the weath-"
-	next "er or its foe's"
-	next "next move.@"
+	page "Wetter oder den"
+	next "Angriff des Geg-"
+	next "ners vorhersehen.@"

@@ -1,10 +1,10 @@
-	db "ARMOR@" ; species name
-	dw 45067, 32772 ; height, weight
+	db "PANZERTIER@" ; species name
+	dbw 11, 1200 ; height, weight
 
-	db   "The longer and"
-	next "bigger its tusks,"
-	next "the higher its"
+	db   "Je größer und"
+	next "länger die Stoß-"
+	next "zähne, desto höher"
 
-	page "rank in its herd."
-	next "The tusks take"
-	next "long to grow.@"
+	page "ist ihr Rang in"
+	next "der Herde, doch"
+	next "das dauert lange.@"

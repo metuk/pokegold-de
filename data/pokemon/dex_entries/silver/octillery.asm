@@ -1,10 +1,10 @@
-	db "JET@" ; species name
-	dw 7433, 33025 ; height, weight
+	db "HOCHDRUCK@" ; species name
+	dbw 9, 285 ; height, weight
 
-	db   "It instinctively"
-	next "sneaks into rocky"
-	next "holes. If it gets"
+	db   "Es verkriecht sich"
+	next "instinktiv in"
+	next "Felshöhlen. Wird"
 
-	page "sleepy, it steals"
-	next "the nest of a fel-"
-	next "low OCTILLERY.@"
+	page "es müde, raubt es"
+	next "das Versteck eines"
+	next "fremden OCTILLERY.@"

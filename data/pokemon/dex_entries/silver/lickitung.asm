@@ -1,10 +1,10 @@
-	db "LICKING@" ; species name
-	dw 36620, 34818 ; height, weight
+	db "SCHLECKER@" ; species name
+	dbw 12, 655 ; height, weight
 
-	db   "Its long tongue,"
-	next "slathered with a"
-	next "gooey saliva,"
+	db   "Seine Zunge ist"
+	next "mit klebrigem"
+	next "Speichel bedeckt,"
 
-	page "sticks to any-"
-	next "thing, so it is"
-	next "very useful.@"
+	page "der überall haf-"
+	next "tet. Dies ist sehr"
+	next "nützlich.@"

@@ -51,7 +51,7 @@ gfx/tilesets/tower.2bpp.lz: LZFLAGS += --odd-alternate --align 4
 
 gfx/title/hooh_gold.2bpp.lz: LZFLAGS += --align 3
 gfx/title/logo_bottom_gold.2bpp.lz: LZFLAGS += --literal-only --align 1
-gfx/title/logo_bottom_silver.2bpp.lz: LZFLAGS += --skip-initial-byte --prefer-alternate --align 1
+gfx/title/logo_bottom_silver.2bpp.lz: LZFLAGS += --literal-only --align 1
 gfx/title/logo_top_gold.2bpp.lz: LZFLAGS += --skip-initial-byte --prefer-alternate --align 1
 gfx/title/logo_top_silver.2bpp.lz: LZFLAGS += --skip-initial-byte --prefer-alternate --align 1
 gfx/title/lugia_silver.2bpp.lz: LZFLAGS += --align 4

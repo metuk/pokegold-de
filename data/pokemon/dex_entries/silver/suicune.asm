@@ -1,10 +1,10 @@
-	db "AURORA@" ; species name
-	dw 19988, 35847 ; height, weight
+	db "POLARLICHT@" ; species name
+	dbw 20, 1870 ; height, weight
 
-	db   "This #MON races"
-	next "across the land."
-	next "It is said that"
+	db   "Dieses #MON"
+	next "jagt über das Land"
+	next "und man sagt, der"
 
-	page "north winds will"
-	next "somehow blow when-"
-	next "ever it appears.@"
+	page "kalte Nordwind"
+	next "begleitet es"
+	next "auf seinen Wegen.@"

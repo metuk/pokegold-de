@@ -1,10 +1,10 @@
 	db "MAULWURF@" ; species name
-	dw 2050, 37376 ; height, weight
+	dbw 2, 8 ; height, weight
 
-	db   "eine Haut ist"
-	next "sehr dünn. Wird es"
-	next "Sonnenlicht ausge-"
-	page "setzt, erhitzt"
-	next "sich sein Blut und"
-	next "es wird schwach.@"
+	db   "Setzt ein DIGDA"
+	next "SCHAUFLER auf"
+	next "einem Acker ein,"
 
+	page "ist die Erde ideal"
+	next "gepflügt, um etwas"
+	next "anzupflanzen.@"

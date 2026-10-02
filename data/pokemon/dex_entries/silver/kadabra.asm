@@ -1,10 +1,10 @@
 	db "PSI@" ; species name
-	dw 13581, 33794 ; height, weight
+	dbw 13, 565 ; height, weight
 
-	db   "s verfügt über"
-	next "starke Psi-Kräfte."
-	next "Je größer die Ge-"
-	page "fahr, desto stär-"
-	next "ker werden seine"
-	next "Psi-Kräfte.@"
+	db   "Setzt es seine"
+	next "Kräfte ein, sendet"
+	next "es Alphawellen"
 
+	page "aus, die einen De-"
+	next "fekt bei Maschinen"
+	next "erzeugen können.@"

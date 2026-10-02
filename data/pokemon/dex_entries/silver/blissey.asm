@@ -1,10 +1,10 @@
-	db "HAPPINESS@" ; species name
-	dw 54287, 35073 ; height, weight
+	db "FREUDE@" ; species name
+	dbw 15, 468 ; height, weight
 
-	db   "It has a very com-"
-	next "passionate nature."
-	next "If it sees a sick"
+	db   "Es ist sehr mit-"
+	next "fühlend. Wenn es"
+	next "ein krankes #-"
 
-	page "#MON, it will"
-	next "nurse the sufferer"
-	next "back to health.@"
+	page "MON sieht, pflegt"
+	next "es dieses wieder"
+	next "gesund.@"

@@ -1,10 +1,10 @@
-	db "LITTLEBIRD@" ; species name
-	dw 5122, 33536 ; height, weight
+	db "KLEINVOGEL@" ; species name
+	dbw 2, 20 ; height, weight
 
-	db   "It usually forages"
-	next "for food on the"
-	next "ground but may, on"
+	db   "Gewöhnlich sucht"
+	next "es am Boden nach"
+	next "Futter, aber"
 
-	page "rare occasions,"
-	next "hop onto branches"
-	next "to peck at shoots.@"
+	page "manchmal springt"
+	next "es auch auf Äste,"
+	next "um dort zu suchen.@"

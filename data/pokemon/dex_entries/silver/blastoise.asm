@@ -1,9 +1,10 @@
 	db "PANZERTIER@" ; species name
-	dw 22288, 33795 ; height, weight
+	dbw 16, 855 ; height, weight
 
-	db   "s macht sich ab-"
-	next "sichtlich schwer,"
-	next "um den Rückstoß"
-	page "seiner Hydropumpe"
-	next "abzufangen.@"
+	db   "Die Wassersalven,"
+	next "die es mit den"
+	next "Kanonen in seinem"
 
+	page "Panzer abfeuert,"
+	next "durchdringen sogar"
+	next "Panzerstahl.@"

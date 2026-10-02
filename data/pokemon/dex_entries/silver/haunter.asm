@@ -1,10 +1,10 @@
 	db "GAS@" ; species name
-	dw 272, 32768 ; height, weight
+	dbw 16, 1 ; height, weight
 
-	db   "Its tongue is made"
-	next "of gas. If licked,"
-	next "its victim starts"
+	db   "Seine Zunge ist"
+	next "aus Gas. Leckt es"
+	next "an einem Gegner,"
 
-	page "shaking constantly"
-	next "until death even-"
-	next "tually comes.@"
+	page "zittert er und"
+	next "verliert eventuell"
+	next "das Bewusstsein.@"

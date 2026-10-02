@@ -1,10 +1,10 @@
-	db "BIVALVE@" ; species name
-	dw 10243, 33792 ; height, weight
+	db "MUSCHEL@" ; species name
+	dbw 3, 40 ; height, weight
 
-	db   "Grains of sand"
-	next "trapped in its"
-	next "shells mix with"
+	db   "Winzige Sandkörner"
+	next "in seiner Schale"
+	next "vermischen sich"
 
-	page "its body fluids to"
-	next "form beautiful"
-	next "pearls.@"
+	page "mit seinem Körper-"
+	next "saft und daraus"
+	next "entstehen Perlen.@"

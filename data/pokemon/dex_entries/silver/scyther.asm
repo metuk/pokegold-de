@@ -1,10 +1,10 @@
 	db "MANTIS@" ; species name
-	dw 12303, 33794 ; height, weight
+	dbw 15, 560 ; height, weight
 
-	db   "When it moves, it"
-	next "leaves only a"
-	next "blur. If it hides"
+	db   "Wenn es sich be-"
+	next "wegt, sieht man"
+	next "es nur flüchtig."
 
-	page "in grass, its pro-"
-	next "tective colors"
-	next "make it invisible.@"
+	page "Im Gras ist es"
+	next "aufgrund seiner"
+	next "Farbe unsichtbar.@"

@@ -1,10 +1,10 @@
 	db "RATTE@" ; species name
-	dw 47367, 33792 ; height, weight
+	dbw 7, 185 ; height, weight
 
-	db   "s nagt mit seinen"
-	next "Zähnen alles an."
-	next "Es kann sogar Ge-"
-	page "bäude aus Beton"
-	next "dadurch zum"
-	next "Einsturz bringen.@"
+	db   "Mit seinen Bart-"
+	next "haaren hält es die"
+	next "Balance. Da seine"
 
+	page "Zähne stetig wach-"
+	next "sen, muss es stän-"
+	next "dig etwas annagen.@"

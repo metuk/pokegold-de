@@ -1,10 +1,10 @@
-	db "DARKNESS@" ; species name
-	dw 5381, 38144 ; height, weight
+	db "FINSTERNIS@" ; species name
+	dbw 5, 21 ; height, weight
 
-	db   "It is said that"
-	next "when chased, it"
-	next "lures its attacker"
+	db   "Wird es von einem"
+	next "Gegner verfolgt,"
+	next "lockt es ihn auf"
 
-	page "onto dark mountain"
-	next "trails where the"
-	next "foe will get lost.@"
+	page "dunkle Bergpfade,"
+	next "wo sein Gegner"
+	next "sich verläuft.@"

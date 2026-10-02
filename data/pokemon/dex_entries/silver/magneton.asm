@@ -1,10 +1,10 @@
 	db "MAGNET@" ; species name
-	dw 22538, 33538 ; height, weight
+	dbw 10, 600 ; height, weight
 
-	db   "The MAGNEMITE are"
-	next "united by a mag-"
-	next "netism so power-"
+	db   "Die MAGNETILOS"
+	next "werden von einem"
+	next "starken Magnet-"
 
-	page "ful, it dries all"
-	next "moisture in its"
-	next "vicinities.@"
+	page "feld zusammenge-"
+	next "halten, das Feuch-"
+	next "tigkeit aufsaugt.@"

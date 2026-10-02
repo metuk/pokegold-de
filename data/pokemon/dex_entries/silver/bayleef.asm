@@ -1,10 +1,10 @@
-	db "LEAF@" ; species name
-	dw 40460, 33536 ; height, weight
+	db "LAUB@" ; species name
+	dbw 12, 158 ; height, weight
 
-	db   "A spicy aroma ema-"
-	next "nates from around"
-	next "its neck. The"
+	db   "Ein würziges Aroma"
+	next "geht von seinen"
+	next "Blättern aus."
 
-	page "aroma acts as a"
-	next "stimulant to re-"
-	next "store health.@"
+	page "Das Aroma soll"
+	next "gesundheits-"
+	next "fördernd sein.@"

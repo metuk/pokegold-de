@@ -1,10 +1,10 @@
-	db "SPIKE BALL@" ; species name
-	dw 3843, 37376 ; height, weight
+	db "ZACKENBALL@" ; species name
+	dbw 3, 15 ; height, weight
 
-	db   "A proverb claims"
-	next "that happiness"
-	next "will come to any-"
+	db   "Ein Sprichwort be-"
+	next "sagt, dass Glück"
+	next "dem widerfährt,"
 
-	page "one who can make a"
-	next "sleeping TOGEPI"
-	next "stand up.@"
+	page "dem es gelingt,"
+	next "ein schlafendes"
+	next "TOGEPI zu wecken.@"

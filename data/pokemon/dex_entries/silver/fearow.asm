@@ -1,10 +1,10 @@
 	db "PICKVOGEL@" ; species name
-	dw 31756, 33793 ; height, weight
+	dbw 12, 380 ; height, weight
 
-	db   "s fliegt steil"
-	next "empor und stürzt"
-	next "sich anschließend"
-	page "herab, um seine"
-	next "Beute zu"
-	next "erlegen.@"
+	db   "Es setzt seinen"
+	next "langen, dünnen"
+	next "Schnabel geschickt"
 
+	page "ein, um kleine In-"
+	next "sekten am Boden"
+	next "aufzupicken.@"

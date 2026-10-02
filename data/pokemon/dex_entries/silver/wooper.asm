@@ -1,10 +1,10 @@
-	db "WATER FISH@" ; species name
-	dw 21764, 33536 ; height, weight
+	db "FISCH@" ; species name
+	dbw 4, 85 ; height, weight
 
-	db   "When it walks a-"
-	next "round on the"
-	next "ground, it coats"
+	db   "Bewegt es sich an"
+	next "Land, bedeckt es"
+	next "seinen gesamten"
 
-	page "its body with a"
-	next "slimy, poisonous"
+	page "Körper mit einem"
+	next "schleimigen Gift-"
 	next "film.@"

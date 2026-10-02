@@ -1,10 +1,10 @@
-	db "BAGWORM@" ; species name
-	dw 59916, 37380 ; height, weight
+	db "BEUTELWURM@" ; species name
+	dbw 12, 1258 ; height, weight
 
-	db   "It remains immova-"
-	next "bly rooted to its"
-	next "tree. It scatters"
+	db   "Es bleibt stets"
+	next "bei seinem Baum."
+	next "Es verstreut Teile"
 
-	page "pieces of its hard"
-	next "shell to drive its"
-	next "enemies away.@"
+	page "seiner Schale, um"
+	next "so seine Feinde"
+	next "zu verjagen.@"

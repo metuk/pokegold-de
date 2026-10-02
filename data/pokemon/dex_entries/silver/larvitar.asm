@@ -1,10 +1,10 @@
-	db "ROCK SKIN@" ; species name
-	dw 53254, 33794 ; height, weight
+	db "FELSHAUT@" ; species name
+	dbw 6, 720 ; height, weight
 
-	db   "It is born deep"
-	next "underground. It"
-	next "can't emerge until"
+	db   "Es wird tief unter"
+	next "der Erde geboren"
+	next "und kann erst an"
 
-	page "it has entirely"
-	next "consumed the soil"
-	next "around it.@"
+	page "die Oberfläche,"
+	next "wenn es diese"
+	next "aufgefressen hat.@"

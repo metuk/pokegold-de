@@ -1,10 +1,10 @@
-	db "STRINGSPIT@" ; species name
-	dw 21765, 33792 ; height, weight
+	db "FADENWURF@" ; species name
+	dbw 5, 85 ; height, weight
 
-	db   "It spins a web"
-	next "using fine--but"
-	next "durable--thread."
+	db   "Es spinnt ein Netz"
+	next "aus feinem, aber"
+	next "reißfestem Faden."
 
-	page "It then waits pa-"
-	next "tiently for prey"
-	next "to be trapped.@"
+	page "Dann wartet es"
+	next "auf Beute, die"
+	next "im Netz zappelt.@"

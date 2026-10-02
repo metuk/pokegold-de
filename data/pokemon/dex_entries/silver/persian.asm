@@ -1,10 +1,10 @@
 	db "RASSEKATZE@" ; species name
-	dw 16394, 38145 ; height, weight
+	dbw 10, 320 ; height, weight
 
-	db   "iele bewundern"
-	next "sein erhabenes"
-	next "Auftreten. Es"
-	page "attackiert und"
-	next "kratzt ohne"
-	next "wirklichen Grund.@"
+	db   "Aufgrund seiner"
+	next "geschmeidigen Mus-"
+	next "keln kann es sich"
 
+	page "lautlos bewegen."
+	next "Es greift ohne"
+	next "Vorwarnung an.@"

@@ -1,10 +1,10 @@
-	db "BARRIER@" ; species name
-	dw 8461, 33794 ; height, weight
+	db "SPERRE@" ; species name
+	dbw 13, 545 ; height, weight
 
-	db   "Its fingertips"
-	next "emit a peculiar"
-	next "force field that"
+	db   "Seine Fingerkuppen"
+	next "erzeugen ein spe-"
+	next "zielles Kraftfeld,"
 
-	page "hardens air to"
-	next "create an actual"
-	next "wall.@"
+	page "das die Luft er-"
+	next "härtet und eine"
+	next "Wand generiert.@"

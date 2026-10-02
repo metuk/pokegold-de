@@ -1,10 +1,10 @@
 	db "LAVA@" ; species name
-	dw 24071, 33793 ; height, weight
+	dbw 7, 350 ; height, weight
 
-	db   "A common sight in"
-	next "volcanic areas, it"
-	next "slowly slithers"
+	db   "Es hält sich stän-"
+	next "dig bei Vulkanen"
+	next "auf und ist stets"
 
-	page "around in a con-"
-	next "stant search for"
-	next "warm places.@"
+	page "kriechend auf der"
+	next "Suche nach warmen"
+	next "Aufenthaltsorten.@"

@@ -1,10 +1,10 @@
-	db "GENETIC@" ; species name
-	dw 50196, 33540 ; height, weight
+	db "GENMUTANT@" ; species name
+	dbw 20, 1220 ; height, weight
 
-	db   "It usually remains"
-	next "motionless to con-"
-	next "serve energy, so"
+	db   "Gewöhnlich bewegt"
+	next "es sich nicht, um"
+	next "Energie zu sparen,"
 
-	page "that it may un-"
-	next "leash its full"
-	next "power in battle.@"
+	page "damit es im Kampf"
+	next "seine volle Kraft"
+	next "entfalten kann.@"

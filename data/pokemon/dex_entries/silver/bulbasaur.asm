@@ -1,10 +1,10 @@
 	db "SAMEN@" ; species name
-	dw 17671, 33536 ; height, weight
+	dbw 7, 69 ; height, weight
 
-	db   "er Samen auf dem"
-	next "Rücken enthält"
-	next "Nährstoffe."
-	page "Er wächst mit"
-	next "zunehmender"
-	next "Körpergröße.@"
+	db   "Von Geburt an"
+	next "trägt es einen"
+	next "Samen auf seinem"
 
+	page "Rücken. Wächst es,"
+	next "so wächst auch"
+	next "der Samen.@"

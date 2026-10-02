@@ -1,10 +1,10 @@
-	db "SLUDGE@" ; species name
-	dw 11276, 37377 ; height, weight
+	db "SCHLAMM@" ; species name
+	dbw 12, 300 ; height, weight
 
-	db   "Its body is made"
-	next "of a powerful poi-"
-	next "son. Touching it"
+	db   "Sein Körper be-"
+	next "steht aus Gift."
+	next "Eine zufällige Be-"
 
-	page "accidentally will"
-	next "cause a fever that"
-	next "requires bed rest.@"
+	page "rührung reicht"
+	next "aus, um fiebrig"
+	next "im Bett zu liegen.@"

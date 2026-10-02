@@ -1,10 +1,10 @@
 	db "RATTE@" ; species name
-	dw 8963, 33792 ; height, weight
+	dbw 3, 35 ; height, weight
 
-	db   "s frisst alles."
-	next "Wo es Nahrung"
-	next "findet, baut es"
-	page "ein Nest und"
-	next "pflanzt sich"
-	next "ständig fort.@"
+	db   "Es baut sein Nest,"
+	next "wo es Futter fin-"
+	next "det. Es ist den"
 
+	page "ganzen Tag auf der"
+	next "Suche nach etwas"
+	next "Essbarem.@"

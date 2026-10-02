@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 64012, 33792 ; height, weight
+	db "DRACHE@" ; species name
+	dbw 12, 250 ; height, weight
 
-	db   "Its fin-tips leak"
-	next "poison. Its fins"
-	next "and bones are"
+	db   "An seinen Flossen"
+	next "tritt Gift aus."
+	next "Seine Knochen und"
 
-	page "highly valued as"
-	next "ingredients in"
-	next "herbal medicine.@"
+	page "Flossen sind eine"
+	next "beliebte Zutat"
+	next "für Arznei.@"

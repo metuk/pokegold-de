@@ -1,10 +1,10 @@
 	db "MAUS@" ; species name
-	dw 11272, 38401 ; height, weight
+	dbw 8, 300 ; height, weight
 
-	db   "enn es sich auf-"
-	next "lädt, zucken seine"
-	next "Muskeln und es"
-	page "wird aggressiver"
-	next "und kampf-"
-	next "lustiger.@"
+	db   "Wenn seine Backen-"
+	next "taschen voll auf-"
+	next "geladen sind,"
 
+	page "stehen seine bei-"
+	next "den Ohren senk-"
+	next "recht nach oben.@"

@@ -1,10 +1,10 @@
 	db "MAUS@" ; species name
-	dw 30726, 34048 ; height, weight
+	dbw 6, 120 ; height, weight
 
-	db   "ällt es aus"
-	next "großer Höhe, rollt"
-	next "sich dieses #-"
-	page "MON zusammen, um"
-	next "so den Sturz"
-	next "abzufangen.@"
+	db   "Da es Wasser ver-"
+	next "abscheut, gräbt es"
+	next "sich in trockenes"
 
+	page "Erdreich ein. Es"
+	next "kann sich rasch zu"
+	next "einem Ball rollen.@"

@@ -1,10 +1,10 @@
-	db "COTTONWEED@" ; species name
-	dw 7688, 38400 ; height, weight
+	db "LÖWENZAHN@" ; species name
+	dbw 8, 30 ; height, weight
 
-	db   "Drifts on seasonal"
-	next "winds and spreads"
-	next "its cotton-like"
+	db   "Es lässt sich von"
+	next "Winden tragen und"
+	next "verstreut auf die-"
 
-	page "spores all over"
-	next "the world to make"
-	next "more offspring.@"
+	page "se Weise seinen"
+	next "Samen über die"
+	next "ganze Welt.@"

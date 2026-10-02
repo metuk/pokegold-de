@@ -1,10 +1,10 @@
-	db "LIGHT@" ; species name
-	dw 26382, 37378 ; height, weight
+	db "LEUCHTE@" ; species name
+	dbw 14, 615 ; height, weight
 
-	db   "The bright light"
-	next "on its tail can be"
-	next "seen far away. It"
+	db   "Das helle Licht an"
+	next "seinem Schwanzende"
+	next "ist von Weitem zu"
 
-	page "has been treasured"
-	next "since ancient"
-	next "times as a beacon.@"
+	page "sehen. Es gilt"
+	next "seit der Antike"
+	next "als Leuchtfeuer.@"

@@ -1,10 +1,10 @@
 	db "BALL@" ; species name
-	dw 26629, 33792 ; height, weight
+	dbw 5, 104 ; height, weight
 
-	db   "It was discovered"
-	next "when # BALLS"
-	next "were introduced."
+	db   "Es wurde entdeckt,"
+	next "als man #BÄLLE"
+	next "einführte. Es"
 
-	page "It is said that"
-	next "there is some"
-	next "connection.@"
+	page "scheint, als gäbe"
+	next "es da einen Zusam-"
+	next "menhang.@"

@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 4611, 35840 ; height, weight
+	db "SAMEN@" ; species name
+	dbw 3, 18 ; height, weight
 
-	db   "It lives by drink-"
-	next "ing only dewdrops"
-	next "from under the"
+	db   "Es ernährt sich"
+	next "ausschließlich von"
+	next "den Tautropfen,"
 
-	page "leaves of plants."
-	next "It is said that it"
-	next "eats nothing else.@"
+	page "die von den Blät-"
+	next "tern über ihm"
+	next "hinabfallen.@"

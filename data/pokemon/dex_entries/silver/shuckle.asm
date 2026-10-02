@@ -1,10 +1,10 @@
-	db "MOLD@" ; species name
-	dw 52486, 33536 ; height, weight
+	db "SCHIMMEL@" ; species name
+	dbw 6, 205 ; height, weight
 
-	db   "It stores BERRIES"
-	next "inside its shell."
-	next "To avoid attacks,"
+	db   "Es sammelt BEEREN"
+	next "in seiner Schale."
+	next "Um sich vor Atta-"
 
-	page "it hides beneath"
-	next "rocks and remains"
-	next "completely still.@"
+	page "cken zu schützen,"
+	next "versteckt es sich"
+	next "unter Steinen.@"

@@ -1,10 +1,10 @@
-	db "ARMOR BIRD@" ; species name
-	dw 63761, 37377 ; height, weight
+	db "FLUGSTAHL@" ; species name
+	dbw 17, 505 ; height, weight
 
-	db   "After nesting in"
-	next "bramble bushes,"
-	next "the wings of its"
+	db   "Die dornigen"
+	next "Zweige seines"
+	next "Nests bewirken,"
 
-	page "chicks grow hard"
-	next "from scratches by"
-	next "thorns.@"
+	page "dass die Flügel"
+	next "seiner Jungen fest"
+	next "und hart werden.@"

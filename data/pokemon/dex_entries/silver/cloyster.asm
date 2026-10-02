@@ -1,10 +1,10 @@
-	db "BIVALVE@" ; species name
-	dw 11535, 34821 ; height, weight
+	db "MUSCHEL@" ; species name
+	dbw 15, 1325 ; height, weight
 
-	db   "CLOYSTER that live"
-	next "in seas with harsh"
-	next "tidal currents"
+	db   "AUSTOS, die im"
+	next "Meer mit star-"
+	next "ker Stömung leben,"
 
-	page "grow large, sharp"
-	next "spikes on their"
-	next "shells.@"
+	page "werden groß und"
+	next "entwickeln scharfe"
+	next "Stacheln.@"

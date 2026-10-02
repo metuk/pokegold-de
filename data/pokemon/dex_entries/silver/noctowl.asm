@@ -1,10 +1,10 @@
-	db "OWL@" ; species name
-	dw 38928, 37377 ; height, weight
+	db "EULE@" ; species name
+	dbw 16, 408 ; height, weight
 
-	db   "When it needs to"
-	next "think, it rotates"
-	next "its head 180 de-"
+	db   "Muss es nachden-"
+	next "ken, dreht es sei-"
+	next "nen Kopf um 180"
 
-	page "grees to sharpen"
-	next "its intellectual"
-	next "power.@"
+	page "Grad, um so seinen"
+	next "Intellekt zu"
+	next "schärfen.@"

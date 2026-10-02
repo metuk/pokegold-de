@@ -1,10 +1,10 @@
-	db "ARMOR@" ; species name
-	dw 58388, 37383 ; height, weight
+	db "PANZER@" ; species name
+	dbw 20, 2020 ; height, weight
 
-	db   "Extremely strong,"
-	next "it can change the"
-	next "landscape. It has"
+	db   "Es ist so stark,"
+	next "dass es ganze"
+	next "Landstriche ver-"
 
-	page "an insolent nature"
-	next "that makes it not"
-	next "care about others.@"
+	page "wüsten kann. Es"
+	next "ist kaltblütig und"
+	next "rücksichtslos.@"

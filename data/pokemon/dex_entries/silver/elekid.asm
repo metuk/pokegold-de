@@ -1,10 +1,10 @@
-	db "ELECTRIC@" ; species name
-	dw 60166, 33792 ; height, weight
+	db "ELEKTRO@" ; species name
+	dbw 6, 235 ; height, weight
 
-	db   "Even in the most"
-	next "vicious storm,"
-	next "this #MON plays"
+	db   "Im schlimmsten"
+	next "Sturm, mit Blitzen"
+	next "und Donnergetöse,"
 
-	page "happily if thunder"
-	next "rumbles in the"
-	next "sky.@"
+	page "fühlt sich dieses"
+	next "#MON am"
+	next "wohlsten.@"

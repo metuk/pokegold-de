@@ -1,10 +1,10 @@
 	db "MAULWURF@" ; species name
-	dw 19719, 37377 ; height, weight
+	dbw 7, 333 ; height, weight
 
-	db   "eine drei Köpfe"
-	next "bewegen sich"
-	next "abwechselnd hinauf"
-	page "und hinunter, um"
-	next "das Erdreich um"
-	next "ihn zu lockern.@"
+	db   "Es ist so stark,"
+	next "dass es sich mit"
+	next "SCHAUFLER sogar"
 
+	page "durch steinharten"
+	next "Boden bis in 100"
+	next "km Tiefe gräbt.@"

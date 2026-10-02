@@ -1,10 +1,10 @@
-	db "DOPEY@" ; species name
-	dw 26636, 33793 ; height, weight
+	db "SCHNARCHER@" ; species name
+	dbw 12, 360 ; height, weight
 
-	db   "A sweet sap leaks"
-	next "from its tail's"
-	next "tip. Although not"
+	db   "Süßer Saft ist auf"
+	next "seiner Rute. Ob-"
+	next "wohl sie nicht"
 
-	page "nutritious, the"
-	next "tail is pleasant"
-	next "to chew on.@"
+	page "nahrhaft ist,"
+	next "macht es Spaß,"
+	next "darauf zu kauen.@"

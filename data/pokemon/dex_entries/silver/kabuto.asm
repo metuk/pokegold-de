@@ -1,10 +1,10 @@
-	db "SHELLFISH@" ; species name
-	dw 29445, 34816 ; height, weight
+	db "SCHALTIER@" ; species name
+	dbw 5, 115 ; height, weight
 
-	db   "This #MON lived"
-	next "in ancient times."
-	next "On rare occasions,"
+	db   "Dieses #MON"
+	next "lebte in der An-"
+	next "tike. Man hat es"
 
-	page "it has been"
-	next "discovered as a"
-	next "living fossil.@"
+	page "selten als leben-"
+	next "des Fossil ent-"
+	next "deckt.@"

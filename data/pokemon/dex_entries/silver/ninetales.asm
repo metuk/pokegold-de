@@ -1,10 +1,10 @@
 	db "FUCHS@" ; species name
-	dw 50955, 33792 ; height, weight
+	dbw 11, 199 ; height, weight
 
-	db   "ine Legende sagt,"
-	next "dass jedem seiner"
-	next "neun Schwänze eine"
-	page "einzigartige"
-	next "mystische Kraft"
-	next "innewohnt.@"
+	db   "Seine neun schönen"
+	next "Schweife sind er-"
+	next "füllt von einer"
 
+	page "magischen Energie,"
+	next "um es 1000 Jahre"
+	next "leben zu lassen.@"

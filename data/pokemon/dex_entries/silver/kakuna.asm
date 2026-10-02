@@ -1,10 +1,10 @@
 	db "KOKON@" ; species name
-	dw 25606, 36352 ; height, weight
+	dbw 6, 100 ; height, weight
 
-	db   "bwohl es ein"
-	next "Kokon ist, kann es"
-	next "sich bewegen. Wird"
-	page "es angegriffen,"
-	next "fährt es seinen"
-	next "Giftstachel aus.@"
+	db   "Es befindet sich"
+	next "in einem Zwischen-"
+	next "stadium. Sein"
 
+	page "Körper wird immer"
+	next "weicher und seine"
+	next "Schale härter.@"

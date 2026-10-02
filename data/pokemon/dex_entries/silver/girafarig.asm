@@ -1,10 +1,10 @@
-	db "LONG NECK@" ; species name
-	dw 40719, 37377 ; height, weight
+	db "LANGHALS@" ; species name
+	dbw 15, 415 ; height, weight
 
-	db   "Its tail, which"
-	next "also contains a"
-	next "small brain, may"
+	db   "Sein Schwanz, der"
+	next "auch ein Gehirn"
+	next "hat, beißt manch-"
 
-	page "bite on its own if"
-	next "it notices an"
-	next "alluring smell.@"
+	page "mal von alleine"
+	next "zu, wenn er einen"
+	next "Duft wahrnimmt.@"

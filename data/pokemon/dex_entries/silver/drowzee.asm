@@ -1,10 +1,10 @@
-	db "HYPNOSIS@" ; species name
-	dw 17418, 34561 ; height, weight
+	db "HYPNOSE@" ; species name
+	dbw 10, 324 ; height, weight
 
-	db   "It remembers every"
-	next "dream it eats. It"
-	next "rarely eats the"
+	db   "Es kann sich an"
+	next "jeden gefressenen"
+	next "Traum erinnern."
 
-	page "dreams of adults"
-	next "because children's"
-	next "are much tastier.@"
+	page "Die Träume von"
+	next "Kindern bekommen"
+	next "ihm besser.@"

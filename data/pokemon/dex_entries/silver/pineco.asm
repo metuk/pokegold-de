@@ -1,10 +1,10 @@
-	db "BAGWORM@" ; species name
-	dw 18438, 33792 ; height, weight
+	db "BEUTELWURM@" ; species name
+	dbw 6, 72 ; height, weight
 
-	db   "It hangs and waits"
-	next "for flying insect"
-	next "prey to come near."
+	db   "Es lauert vorbei-"
+	next "fliegender Beute"
+	next "auf, die in seine"
 
-	page "It does not move"
-	next "about much on its"
-	next "own.@"
+	page "Nähe kommt. Daher"
+	next "bewegt es sich nur"
+	next "sehr selten.@"

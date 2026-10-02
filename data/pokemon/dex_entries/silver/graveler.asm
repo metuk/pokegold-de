@@ -1,10 +1,10 @@
-	db "ROCK@" ; species name
-	dw 6666, 33796 ; height, weight
+	db "GESTEIN@" ; species name
+	dbw 10, 1050 ; height, weight
 
-	db   "A slow walker, it"
-	next "rolls to move. It"
-	next "pays no attention"
+	db   "Da es nur langsam"
+	next "gehen kann, bewegt"
+	next "es sich rollend."
 
-	page "to any object that"
-	next "happens to be in"
-	next "its path.@"
+	page "Es nimmt keine"
+	next "Rücksicht auf"
+	next "Hindernisse.@"

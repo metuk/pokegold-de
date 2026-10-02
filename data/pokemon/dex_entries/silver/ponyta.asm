@@ -1,10 +1,10 @@
-	db "FIRE HORSE@" ; species name
-	dw 11274, 36097 ; height, weight
+	db "FEUERPFERD@" ; species name
+	dbw 10, 300 ; height, weight
 
-	db   "Its hind legs,"
-	next "which have hard-"
-	next "er-than-diamond"
+	db   "Es schlägt mit"
+	next "seinen Hinterläu-"
+	next "fen, die härter"
 
-	page "hooves, kick back"
-	next "at any presence it"
-	next "senses behind it.@"
+	page "als Diamant sind"
+	next "aus, wenn es etwas"
+	next "hinter sich spürt.@"

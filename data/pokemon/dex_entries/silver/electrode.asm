@@ -1,10 +1,10 @@
 	db "BALL@" ; species name
-	dw 39436, 33794 ; height, weight
+	dbw 12, 666 ; height, weight
 
-	db   "It stores an over-"
-	next "flowing amount of"
-	next "electric energy"
+	db   "Es speichert eine"
+	next "riesige Menge"
+	next "Elektrizität in"
 
-	page "inside its body."
-	next "Even a small shock"
-	next "makes it explode.@"
+	page "seinem Körper. Es"
+	next "explodiert beim"
+	next "kleinsten Ruck.@"

@@ -1,10 +1,10 @@
-	db "SCHW./ AFFE@" ; species name
-	dw 16394, 38401 ; height, weight
+	db "SCHW./AFFE@" ; species name
+	dbw 10, 320 ; height, weight
 
-	db   "enn man sich ihm"
-	next "nähert, während es"
-	next "schläft, wacht es"
-	page "auf und startet"
-	next "eine Verfolgung"
-	next "im Halbschlaf.@"
+	db   "Spürt es, dass je-"
+	next "mand es anblickt,"
+	next "wird es zornig. Es"
 
+	page "folgt jedem, der"
+	next "es wagt, seinen"
+	next "Blick zu erwidern.@"

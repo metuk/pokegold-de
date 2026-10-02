@@ -1,10 +1,10 @@
 	db "GIFTDORN@" ; species name
-	dw 23045, 33792 ; height, weight
+	dbw 5, 90 ; height, weight
 
-	db   "s ist klein, aber"
-	next "sein Horn ist gif-"
-	next "tig. Es bohrt sein"
-	page "Horn in seine"
-	next "Gegner, um Gift"
-	next "zu injizieren.@"
+	db   "Es stellt seine"
+	next "Ohren auf, um die"
+	next "Umgebung zu prü-"
 
+	page "fen. Spürt es Ge-"
+	next "fahr, greift es"
+	next "stets zuerst an.@"

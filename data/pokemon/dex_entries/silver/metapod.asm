@@ -1,10 +1,10 @@
 	db "KOKON@" ; species name
-	dw 25351, 34816 ; height, weight
+	dbw 7, 99 ; height, weight
 
-	db   "m Inneren ist"
-	next "es weich, da es"
-	next "sich auf seine"
-	page "Entwicklung vorbe-"
-	next "reitet. Es bewegt"
-	next "sich dabei nicht.@"
+	db   "Steht seine Ent-"
+	next "wicklung bevor,"
+	next "härtet es seine"
 
+	page "Schale, um seinen"
+	next "empfindlichen Kör-"
+	next "per zu schützen.@"

@@ -1,10 +1,10 @@
 	db "UNKRAUT@" ; species name
-	dw 13829, 33792 ; height, weight
+	dbw 5, 54 ; height, weight
 
-	db   "s erwacht bei"
-	next "Mondschein und"
-	next "wandert rastlos."
-	page "Tagsüber versteckt"
-	next "es sich still"
-	next "unter der Erde.@"
+	db   "Wird es vom Mond-"
+	next "schein getroffen,"
+	next "bewegt es sich."
 
+	page "Nachts wandert es"
+	next "weite Wege, um"
+	next "Samen zu streuen.@"

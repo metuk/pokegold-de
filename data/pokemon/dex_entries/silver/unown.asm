@@ -1,10 +1,10 @@
 	db "SYMBOL@" ; species name
-	dw 12805, 34816 ; height, weight
+	dbw 5, 50 ; height, weight
 
-	db   "Its flat, thin"
-	next "body is always"
-	next "stuck on walls."
+	db   "Sein flacher, dün-"
+	next "ner Körper hängt"
+	next "immer an Wänden."
 
-	page "Its shape appears"
-	next "to have some mean-"
-	next "ing.@"
+	page "Seine Form scheint"
+	next "eine Bedeutung zu"
+	next "haben.@"

@@ -1,10 +1,10 @@
-	db "SUN@" ; species name
-	dw 21768, 33792 ; height, weight
+	db "SONNE@" ; species name
+	dbw 8, 85 ; height, weight
 
-	db   "In the daytime, it"
-	next "rushes about in a"
-	next "hectic manner, but"
+	db   "Tagsüber rennt es"
+	next "hektisch umher,"
+	next "aber sobald die"
 
-	page "it comes to a com-"
-	next "plete stop when"
-	next "the sun sets.@"
+	page "Sonne unterge-"
+	next "gangen ist, wird"
+	next "es bewegungslos.@"

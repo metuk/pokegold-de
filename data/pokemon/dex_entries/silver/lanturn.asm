@@ -1,10 +1,10 @@
-	db "LIGHT@" ; species name
-	dw 57612, 37376 ; height, weight
+	db "LEUCHTE@" ; species name
+	dbw 12, 225 ; height, weight
 
-	db   "It blinds prey"
-	next "with an intense"
-	next "burst of light,"
+	db   "Es blendet seine"
+	next "Beute mit einem"
+	next "starken Blitz und"
 
-	page "then swallows the"
-	next "immobilized prey"
-	next "in a single gulp.@"
+	page "verschlingt die"
+	next "gelähmte Beute"
+	next "mit einem Schluck.@"

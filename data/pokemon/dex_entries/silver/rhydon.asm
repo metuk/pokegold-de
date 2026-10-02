@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
-	dw 45075, 37380 ; height, weight
+	db "BOHRER@" ; species name
+	dbw 19, 1200 ; height, weight
 
-	db   "Its brain devel-"
-	next "oped when it began"
-	next "walking on hind"
+	db   "Sein Gehirn ent-"
+	next "wickelte sich, als"
+	next "es seine Hinterfü-"
 
-	page "legs. Its thick"
-	next "hide protects it"
-	next "even in magma.@"
+	page "ße benutzte. Seine"
+	next "Haut schützt es"
+	next "vor Magma.@"

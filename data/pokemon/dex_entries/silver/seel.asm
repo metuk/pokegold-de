@@ -1,10 +1,10 @@
-	db "SEA LION@" ; species name
-	dw 33803, 36355 ; height, weight
+	db "SEEHUND@" ; species name
+	dbw 11, 900 ; height, weight
 
-	db   "In daytime, it is"
-	next "often found asleep"
-	next "on the seabed in"
+	db   "Tagsüber ist es"
+	next "in Flussbetten"
+	next "flacher Gewässer"
 
-	page "shallow waters."
-	next "Its nostrils close"
-	next "while it swims.@"
+	page "zu finden. Es"
+	next "schließt unter"
+	next "Wasser die Nase.@"

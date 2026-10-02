@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 64009, 33792 ; height, weight
+	db "FEUER@" ; species name
+	dbw 9, 250 ; height, weight
 
-	db   "It fluffs out its"
-	next "fur collar to cool"
-	next "down its body"
+	db   "Es fährt seinen"
+	next "Pelzkragen aus,"
+	next "um seine Körper-"
 
-	page "temperature, which"
-	next "can reach 1,650"
-	next "degrees.@"
+	page "temperatur, die"
+	next "bis 900 Grad be-"
+	next "trägt, abzukühlen.@"

@@ -1,10 +1,10 @@
-	db "STARSHAPE@" ; species name
-	dw 7683, 32768 ; height, weight
+	db "STERNFORM@" ; species name
+	dbw 3, 30 ; height, weight
 
-	db   "When numerous me-"
-	next "teors illuminate"
-	next "the night sky,"
+	db   "Erleuchten viele"
+	next "Meteore den Nacht-"
+	next "himmel, dann kann"
 
-	page "sightings of"
-	next "CLEFFA strangely"
-	next "increase.@"
+	page "man PII seltsamer-"
+	next "weise viel öfter"
+	next "begegnen.@"

@@ -1,10 +1,10 @@
-	db "HARD SHELL@" ; species name
-	dw 61452, 33797 ; height, weight
+	db "HARTSCHALE@" ; species name
+	dbw 12, 1520 ; height, weight
 
-	db   "Even sealed in its"
-	next "shell, it can move"
-	next "freely. Hard and"
+	db   "Trotz seiner"
+	next "harten Schale kann"
+	next "es sich frei bewe-"
 
-	page "fast, it has out-"
-	next "standing destruc-"
-	next "tive power.@"
+	page "gen. Es ist flink"
+	next "und äußerst"
+	next "zerstörerisch.@"

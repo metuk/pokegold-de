@@ -1,10 +1,10 @@
 	db "MINIKRÖTE@" ; species name
-	dw 23045, 37376 ; height, weight
+	dbw 5, 90 ; height, weight
 
-	db   "ein Panzer ist"
-	next "bei Geburt weich."
-	next "Er wird bald so"
-	page "elastisch, dass"
-	next "kleinere Stöße von"
-	next "ihm abprallen.@"
+	db   "Sein Panzer, der"
+	next "bald nach der Ge-"
+	next "burt aushärtet,"
 
+	page "bleibt federnd."
+	next "Drückt man darauf,"
+	next "springt er zurück.@"

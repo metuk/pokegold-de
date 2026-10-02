@@ -1,10 +1,10 @@
 	db "KAULQUAPPE@" ; species name
-	dw 7181, 36866 ; height, weight
+	dbw 13, 540 ; height, weight
 
-	db   "UAPPO ist ein gu-"
-	next "ter Schwimmer. Es"
-	next "kann den Pazifik"
-	page "nur mit Einsatz"
-	next "seiner Beine"
-	next "durchschwimmen.@"
+	db   "Obwohl es ein ge-"
+	next "schickter und aus-"
+	next "dauernder Schwim-"
 
+	page "mer ist, der alle"
+	next "Muskeln einsetzt,"
+	next "lebt es an Land.@"

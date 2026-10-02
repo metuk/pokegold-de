@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 20484, 38400 ; height, weight
+	db "DRACHE@" ; species name
+	dbw 4, 80 ; height, weight
 
-	db   "Its big, developed"
-	next "fins move rapidly,"
-	next "allowing it to"
+	db   "Seine Flossen sind"
+	next "sehr schnell. Da-"
+	next "durch kann es"
 
-	page "swim backward"
-	next "while still facing"
-	next "forward.@"
+	page "rückwärts schwim-"
+	next "men, ohne seinen"
+	next "Kopf umzudrehen.@"

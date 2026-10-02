@@ -1,10 +1,10 @@
-	db "HERB@" ; species name
-	dw 60690, 33539 ; height, weight
+	db "KRÄUTER@" ; species name
+	dbw 18, 1005 ; height, weight
 
-	db   "MEGANIUM's breath"
-	next "has the power to"
-	next "revive dead grass"
+	db   "MEGANIE kann mit"
+	next "seinem Atem abge-"
+	next "storbene Gräser"
 
-	page "and plants. It can"
-	next "make them healthy"
-	next "again.@"
+	page "und Planzen reani-"
+	next "mieren. Sie sind"
+	next "dann gesund.@"

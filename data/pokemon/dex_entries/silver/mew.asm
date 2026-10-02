@@ -1,10 +1,10 @@
-	db "NEW SPECIE@" ; species name
-	dw 10244, 33792 ; height, weight
+	db "NEUE ART@" ; species name
+	dbw 4, 40 ; height, weight
 
-	db   "Its DNA is said to"
-	next "contain the genet-"
-	next "ic codes of all"
+	db   "Seine DNS soll den"
+	next "genetischen Code"
+	next "aller #MON"
 
-	page "#MON, so it can"
-	next "use all kinds of"
-	next "techniques.@"
+	page "beinhalten. Da-"
+	next "durch kann es alle"
+	next "Attacken erlernen.@"

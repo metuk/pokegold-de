@@ -1,10 +1,10 @@
-	db "HYPNOSIS@" ; species name
-	dw 62480, 38402 ; height, weight
+	db "HYPNOSE@" ; species name
+	dbw 16, 756 ; height, weight
 
-	db   "Always holding a"
-	next "pendulum that it"
-	next "rocks at a steady"
+	db   "Es hält immer ein"
+	next "Pendel, das es"
+	next "ständig bewegt."
 
-	page "rhythm, it causes"
-	next "drowsiness in any-"
-	next "one nearby.@"
+	page "Das verursacht bei"
+	next "jedem in seiner"
+	next "Nähe Müdigkeit.@"

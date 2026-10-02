@@ -1,10 +1,10 @@
-	db "FIVE STAR@" ; species name
-	dw 25614, 35585 ; height, weight
+	db "FÜNF-PUNKT@" ; species name
+	dbw 14, 356 ; height, weight
 
-	db   "The star patterns"
-	next "on its back grow"
-	next "larger or smaller"
+	db   "Die Größe des"
+	next "Sternenmusters,"
+	next "hängt direkt mit"
 
-	page "depending on the"
-	next "number of stars in"
-	next "the night sky.@"
+	page "der Anzahl der"
+	next "Sterne am Firma-"
+	next "ment zusammen.@"

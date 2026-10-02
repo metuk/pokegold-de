@@ -1,10 +1,10 @@
-	db "JELLYFISH@" ; species name
-	dw 9744, 37378 ; height, weight
+	db "QUALLE@" ; species name
+	dbw 16, 550 ; height, weight
 
-	db   "In battle, it"
-	next "extends all 80 of"
-	next "its tentacles to"
+	db   "Im Kampf bilden"
+	next "seine 80 Tentakel"
+	next "ein Giftnetz, in"
 
-	page "entrap its oppo-"
-	next "nent inside a"
-	next "poisonous net.@"
+	page "dem es seine Geg-"
+	next "ner fängt und sie"
+	next "vergiftet.@"

@@ -1,10 +1,10 @@
-	db "JELLYFISH@" ; species name
-	dw 50953, 33025 ; height, weight
+	db "QUALLE@" ; species name
+	dbw 9, 455 ; height, weight
 
-	db   "It drifts aimless-"
-	next "ly in waves. Very"
-	next "difficult to see"
+	db   "Es treibt ziellos"
+	next "im Wasser. Es ist"
+	next "schwer zu erkennen"
 
-	page "in water, it may"
-	next "not be noticed"
-	next "until it stings.@"
+	page "und wird erst be-"
+	next "merkt, wenn es zu-"
+	next "sticht.@"

@@ -1,10 +1,10 @@
-	db "PATIENT@" ; species name
-	dw 7437, 33793 ; height, weight
+	db "GEDULD@" ; species name
+	dbw 13, 285 ; height, weight
 
-	db   "To keep its pitch-"
-	next "black tail hidden,"
-	next "it lives quietly"
+	db   "Es lebt in der"
+	next "Dunkelheit, um"
+	next "seinen schwarzen"
 
-	page "in the darkness."
-	next "It is never first"
-	next "to attack.@"
+	page "Schwanz zu ver-"
+	next "stecken. Es greift"
+	next "nie zuerst an.@"

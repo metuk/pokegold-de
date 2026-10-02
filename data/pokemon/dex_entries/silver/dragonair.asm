@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 42280, 33536 ; height, weight
+	db "DRACHE@" ; species name
+	dbw 40, 165 ; height, weight
 
-	db   "Its crystalline"
-	next "orbs appear to"
-	next "give this #MON"
+	db   "Seine kristallenen"
+	next "Bälle an seinem"
+	next "Schwanz ermög-"
 
-	page "the power to"
-	next "freely control the"
-	next "weather.@"
+	page "lichen es ihm, das"
+	next "Wetter zu beein-"
+	next "flussen.@"

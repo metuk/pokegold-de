@@ -1,10 +1,10 @@
-	db "WILD BULL@" ; species name
-	dw 29710, 37379 ; height, weight
+	db "WILDBULLE@" ; species name
+	dbw 14, 884 ; height, weight
 
-	db   "After heightening"
-	next "its will to fight"
-	next "by whipping itself"
+	db   "Es kämpft mit vol-"
+	next "lem Einsatz, nach-"
+	next "dem es sich mit"
 
-	page "with its three"
-	next "tails, it charges"
-	next "at full speed.@"
+	page "seinen 3 Schwänzen"
+	next "auspeitschte, um"
+	next "sich anzustacheln.@"

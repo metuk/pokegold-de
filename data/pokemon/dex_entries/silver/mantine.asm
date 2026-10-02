@@ -1,10 +1,10 @@
-	db "KITE@" ; species name
-	dw 38933, 33544 ; height, weight
+	db "FLUGROCHEN@" ; species name
+	dbw 21, 2200 ; height, weight
 
-	db   "Swimming freely in"
-	next "open seas, it may"
-	next "fly out of the"
+	db   "Auf offener See"
+	next "kann es so schnell"
+	next "werden, dass es"
 
-	page "water and over the"
-	next "waves if it builds"
-	next "up enough speed.@"
+	page "nach oben schwimmt"
+	next "und über den"
+	next "Wellen fliegt.@"

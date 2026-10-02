@@ -1,10 +1,10 @@
-	db "GOLDFISH@" ; species name
-	dw 38406, 37376 ; height, weight
+	db "GOLDFISCH@" ; species name
+	dbw 6, 150 ; height, weight
 
-	db   "A strong swimmer,"
-	next "it is capable of"
-	next "swimming nonstop"
+	db   "Es ist ein guter"
+	next "Schwimmer. Es kann"
+	next "selbst reißende"
 
-	page "up fast streams at"
-	next "a steady speed of"
-	next "five knots.@"
+	page "Ströme mit kon-"
+	next "stant fünf Knoten"
+	next "hinaufschwimmen.@"

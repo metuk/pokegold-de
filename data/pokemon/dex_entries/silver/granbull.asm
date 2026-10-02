@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
-	dw 59150, 33793 ; height, weight
+	db "FEE@" ; species name
+	dbw 14, 487 ; height, weight
 
-	db   "Because its fangs"
-	next "are too heavy, it"
-	next "always keeps its"
+	db   "Weil seine Reiß-"
+	next "zähne so schwer"
+	next "sind, ist sein"
 
-	page "head tilted down."
-	next "However, its BITE"
-	next "is powerful.@"
+	page "Kopf gesenkt. Sein"
+	next "BISS ist jedoch"
+	next "schmerzhaft.@"

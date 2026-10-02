@@ -1,10 +1,10 @@
-	db "SEA LION@" ; species name
-	dw 45073, 33796 ; height, weight
+	db "SEEHUND@" ; species name
+	dbw 17, 1200 ; height, weight
 
-	db   "It loves frigid"
-	next "seas with ice"
-	next "floes. It uses its"
+	db   "Es liebt das Eis-"
+	next "meer. Beim Schwim-"
+	next "men setzt es sei-"
 
-	page "long tail to"
-	next "change swimming"
-	next "direction quickly.@"
+	page "nen langen Schwanz"
+	next "ein, um die Rich-"
+	next "tung zu ändern.@"

@@ -1,10 +1,10 @@
-	db "SCREECH@" ; species name
-	dw 2567, 33792 ; height, weight
+	db "KREISCHER@" ; species name
+	dbw 7, 10 ; height, weight
 
-	db   "It loves to bite"
-	next "and yank people's"
-	next "hair from behind"
+	db   "Es liebt, Menschen"
+	next "zu beißen und sie"
+	next "an den Haaren zu"
 
-	page "without warning,"
-	next "just to see their"
-	next "shocked reactions.@"
+	page "ziehen, nur um"
+	next "ihre Reaktionen"
+	next "zu sehen.@"

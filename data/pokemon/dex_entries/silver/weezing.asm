@@ -1,10 +1,10 @@
-	db "POISON GAS@" ; species name
-	dw 24332, 36608 ; height, weight
+	db "GIFTWOLKE@" ; species name
+	dbw 12, 95 ; height, weight
 
-	db   "Top-grade perfume"
-	next "is made using its"
-	next "internal poison"
+	db   "Aus seinem Gift"
+	next "wird ein edles"
+	next "Parfum gewonnen,"
 
-	page "gases by diluting"
-	next "them to the high-"
-	next "est level.@"
+	page "indem man es auf"
+	next "das Äußerste"
+	next "verdünnt.@"

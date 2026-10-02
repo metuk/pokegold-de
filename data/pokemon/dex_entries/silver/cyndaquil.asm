@@ -1,10 +1,10 @@
-	db "FIRE MOUSE@" ; species name
-	dw 20229, 33792 ; height, weight
+	db "FEUERMAUS@" ; species name
+	dbw 5, 79 ; height, weight
 
-	db   "It usually stays"
-	next "hunched over."
-	next "If it is angry or"
+	db   "Es ist immer ge-"
+	next "beugt. Wird es an-"
+	next "gegriffen oder ist"
 
-	page "surprised, it"
-	next "shoots flames out"
-	next "of its back.@"
+	page "es überrascht,"
+	next "schießen Flammen"
+	next "aus seinem Rücken.@"

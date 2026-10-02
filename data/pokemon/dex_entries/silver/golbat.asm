@@ -1,10 +1,10 @@
 	db "FLEDERMAUS@" ; species name
-	dw 9744, 38402 ; height, weight
+	dbw 16, 550 ; height, weight
 
-	db   "ie dick die Haut"
-	next "des Opfers auch"
-	next "ist, seine spitzen"
-	page "Zähne durchbohren"
-	next "sie und es trinkt"
-	next "von seinem Blut.@"
+	db   "Es kann bis zu 0,3"
+	next "Liter Blut auf"
+	next "einmal trinken."
 
+	page "Trinkt es zu viel,"
+	next "wird es schwer und"
+	next "fliegt behäbig.@"

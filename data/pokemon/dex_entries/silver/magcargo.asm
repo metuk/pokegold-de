@@ -1,10 +1,10 @@
 	db "LAVA@" ; species name
-	dw 9736, 33538 ; height, weight
+	dbw 8, 550 ; height, weight
 
-	db   "Its brittle shell"
-	next "occasionally"
-	next "spouts intense"
+	db   "Aus seinem porösen"
+	next "Schneckengehäuse"
+	next "sprudeln Feuer-"
 
-	page "flames that cir-"
-	next "culate throughout"
-	next "its body.@"
+	page "fontänen, die"
+	next "seinen Körper"
+	next "durchfluten.@"

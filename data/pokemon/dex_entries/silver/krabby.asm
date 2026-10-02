@@ -1,10 +1,10 @@
-	db "RIVER CRAB@" ; species name
-	dw 16644, 33024 ; height, weight
+	db "KRABBE@" ; species name
+	dbw 4, 65 ; height, weight
 
-	db   "The pincers break"
-	next "off easily. If it"
-	next "loses a pincer,"
+	db   "Seine Scheren bre-"
+	next "chen leicht ab."
+	next "Wenn es eine ver-"
 
-	page "it somehow becomes"
-	next "incapable of walk-"
-	next "ing sideways.@"
+	page "liert, kann es"
+	next "nicht mehr seit-"
+	next "wärts laufen.@"

@@ -1,10 +1,10 @@
-	db "LEAF@" ; species name
-	dw 16393, 33792 ; height, weight
+	db "LAUB@" ; species name
+	dbw 9, 64 ; height, weight
 
-	db   "Its pleasantly"
-	next "aromatic leaves"
-	next "have the ability"
+	db   "Mit seinen aroma-"
+	next "tischen Blättern"
+	next "ist es in der La-"
 
-	page "to check the hu-"
-	next "midity and tem-"
-	next "perature.@"
+	page "ge die Temperatur"
+	next "und die Luftfeuch-"
+	next "tigkeit zu messen.@"

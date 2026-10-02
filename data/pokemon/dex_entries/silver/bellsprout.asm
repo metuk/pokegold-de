@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
-	dw 10247, 36352 ; height, weight
+	db "BLUME@" ; species name
+	dbw 7, 40 ; height, weight
 
-	db   "It plants its feet"
-	next "deep underground"
-	next "to replenish wa-"
+	db   "Es bohrt seine"
+	next "Füße tief in die"
+	next "Erde, um Wasser"
 
-	page "ter. It can't es-"
-	next "cape its enemy"
-	next "while it's rooted.@"
+	page "aufzunehmen. Dann"
+	next "kann es nicht vor"
+	next "Feinden fliehen.@"

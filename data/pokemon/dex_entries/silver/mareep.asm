@@ -1,10 +1,10 @@
-	db "WOOL@" ; species name
-	dw 19974, 35584 ; height, weight
+	db "WOLLE@" ; species name
+	dbw 6, 78 ; height, weight
 
-	db   "Its fleece grows"
-	next "continually. In"
-	next "the summer, the"
+	db   "Sein Fell wächst"
+	next "ständig. Im Sommer"
+	next "wird es geschert,"
 
-	page "fleece is fully"
-	next "shed, but it grows"
-	next "back in a week.@"
+	page "aber sein Fell"
+	next "wächst binnen ei-"
+	next "ner Woche nach.@"

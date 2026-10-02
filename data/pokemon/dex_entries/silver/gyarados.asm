@@ -1,10 +1,11 @@
-	db "ATROCIOUS@" ; species name
-	dw 11841, 35849 ; height, weight
+	db "GRAUSAM@" ; species name
+	dbw 65, 2350 ; height, weight
 
-	db   "Once it appears,"
-	next "it goes on a ram-"
-	next "page. It remains"
+	db   "Taucht es auf,"
+	next "randaliert es. Es"
+	next "beruhigt sich"
+	next ""
 
-	page "enraged until it"
-	next "demolishes every-"
-	next "thing around it.@"
+	page "erst, wenn es al-"
+	next "les um sich zer-"
+	next "stört hat.@"

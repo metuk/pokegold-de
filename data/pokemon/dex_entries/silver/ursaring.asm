@@ -1,10 +1,10 @@
-	db "HIBERNANT@" ; species name
-	dw 59922, 36356 ; height, weight
+	db "SCHLÄFER@" ; species name
+	dbw 18, 1258 ; height, weight
 
-	db   "With its ability"
-	next "to distinguish any"
-	next "aroma, it unfail-"
+	db   "Da es alle Gerüche"
+	next "perfekt unter-"
+	next "scheiden kann,"
 
-	page "ingly finds all"
-	next "food buried deep"
-	next "underground.@"
+	page "findet es sogar"
+	next "Nahrung, die tief"
+	next "im Erdreich ist.@"

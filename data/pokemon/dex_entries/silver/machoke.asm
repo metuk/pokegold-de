@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
-	dw 49423, 33794 ; height, weight
+	db "KRAFTPROTZ@" ; species name
+	dbw 15, 705 ; height, weight
 
-	db   "The muscles cover-"
-	next "ing its body teem"
-	next "with power. Even"
+	db   "Sein muskulöser"
+	next "Körper strotzt vor"
+	next "Kraft. Sein Körper"
 
-	page "when still, it"
-	next "exudes an amazing"
-	next "sense of strength.@"
+	page "strahlt auch im"
+	next "Ruhezustand pure"
+	next "Kraft aus.@"

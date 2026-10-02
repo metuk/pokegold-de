@@ -1,10 +1,10 @@
 	db "GIFTDORN@" ; species name
-	dw 17924, 33536 ; height, weight
+	dbw 4, 70 ; height, weight
 
-	db   "as Gift in seinem"
-	next "kleinen Horn ist"
-	next "sehr potent. Ein"
-	page "kleiner Krat-"
-	next "zer kann fatale"
-	next "Folgen haben.@"
+	db   "Obwohl es nicht"
+	next "aggressiv ist,"
+	next "malträtiert es"
 
+	page "seine Feinde bei"
+	next "Bedrohung mit sei-"
+	next "nen Giftstacheln.@"

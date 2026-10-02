@@ -1,10 +1,10 @@
-	db "HAPPINESS@" ; species name
-	dw 8198, 35840 ; height, weight
+	db "FREUDE@" ; species name
+	dbw 6, 32 ; height, weight
 
-	db   "It grows dispirit-"
-	next "ed if it is not"
-	next "with kind people."
+	db   "Es wird entmutigt,"
+	next "wenn es unter"
+	next "unfreundlichen"
 
-	page "It can float in"
-	next "midair without"
-	next "moving its wings.@"
+	page "Menschen ist. Es"
+	next "kann ohne Flügel"
+	next "niedrig schweben.@"

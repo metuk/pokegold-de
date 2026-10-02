@@ -1,10 +1,10 @@
-	db "CLEAR WING@" ; species name
-	dw 31756, 37377 ; height, weight
+	db "LIBELLE@" ; species name
+	dbw 12, 380 ; height, weight
 
-	db   "Its large eyes can"
-	next "scan 360 degrees."
-	next "It looks in all"
+	db   "Seine riesigen Au-"
+	next "gen verfügen über"
+	next "einen Blickwinkel"
 
-	page "directions to seek"
-	next "out insects as its"
-	next "prey.@"
+	page "von 360 Grad. Es"
+	next "erspäht mit ihnen"
+	next "Beutetiere.@"

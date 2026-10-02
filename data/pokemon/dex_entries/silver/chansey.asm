@@ -1,10 +1,10 @@
-	db "EGG@" ; species name
-	dw 23051, 33793 ; height, weight
+	db "EI@" ; species name
+	dbw 11, 346 ; height, weight
 
-	db   "Few in number and"
-	next "difficult to cap-"
-	next "ture, it is said"
+	db   "Es ist selten und"
+	next "schwer zu fangen."
+	next "Man sagt, es würde"
 
-	page "to bring happiness"
-	next "to the trainer who"
-	next "catches it.@"
+	page "dem Trainer, der"
+	next "es gefangen hat,"
+	next "Freude bringen.@"

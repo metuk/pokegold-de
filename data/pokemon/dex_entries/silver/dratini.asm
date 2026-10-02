@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 8466, 33792 ; height, weight
+	db "DRACHE@" ; species name
+	dbw 18, 33 ; height, weight
 
-	db   "This #MON is"
-	next "full of life ener-"
-	next "gy. It continually"
+	db   "Dieses #MON"
+	next "strotzt vor Le-"
+	next "bensenergie. Es"
 
-	page "sheds its skin and"
-	next "grows steadily"
-	next "larger.@"
+	page "häutet sich stän-"
+	next "dig und wird da-"
+	next "durch größer.@"

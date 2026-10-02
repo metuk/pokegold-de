@@ -1,10 +1,10 @@
-	db "PUNCHING@" ; species name
-	dw 62990, 37377 ; height, weight
+	db "PUNCHER@" ; species name
+	dbw 14, 502 ; height, weight
 
-	db   "Its punches slice"
-	next "the air. They are"
-	next "launched at such"
+	db   "Seine Fäuste zer-"
+	next "schneiden regel-"
+	next "recht die Luft."
 
-	page "high speed, even a"
-	next "slight graze could"
-	next "cause a burn.@"
+	page "Bei der geringsten"
+	next "Reibung entzünden"
+	next "sie sich.@"

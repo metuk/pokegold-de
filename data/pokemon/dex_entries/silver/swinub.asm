@@ -1,10 +1,10 @@
-	db "PIG@" ; species name
-	dw 16644, 32768 ; height, weight
+	db "FERKEL@" ; species name
+	dbw 4, 65 ; height, weight
 
-	db   "If it smells some-"
-	next "thing enticing, it"
-	next "dashes headlong"
+	db   "Wenn es etwas"
+	next "Vielversprechendes"
+	next "erschnuppert, dann"
 
-	page "off to find the"
-	next "source of the"
-	next "aroma.@"
+	page "stürzt es in"
+	next "Windeseile"
+	next "darauf zu.@"

@@ -1,10 +1,10 @@
-	db "SCOUT@" ; species name
-	dw 15368, 33792 ; height, weight
+	db "SPÄHER@" ; species name
+	dbw 8, 60 ; height, weight
 
-	db   "It stands on its"
-	next "tail so it can see"
-	next "a long way. If it"
+	db   "Es stellt sich auf"
+	next "den Schwanz, um"
+	next "weiter zu blicken."
 
-	page "spots an enemy, it"
-	next "cries loudly to"
-	next "warn its kind.@"
+	page "Erspäht es einen"
+	next "Feind, schreit es"
+	next "laut auf.@"

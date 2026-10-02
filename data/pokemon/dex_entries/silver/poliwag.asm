@@ -1,10 +1,10 @@
 	db "KAULQUAPPE@" ; species name
-	dw 31750, 33536 ; height, weight
+	dbw 6, 124 ; height, weight
 
-	db   "a es mit seinen"
-	next "neu gewachsenen"
-	next "Füßen noch nicht"
-	page "gut laufen kann,"
-	next "schwimmt es nur im"
-	next "Wasser umher.@"
+	db   "Die Ausrichtung"
+	next "seiner Spirale"
+	next "hängt von dem Ge-"
 
+	page "biet ab. Man sagt,"
+	next "der Äquator hat"
+	next "damit zu tun.@"

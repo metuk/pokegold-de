@@ -1,10 +1,10 @@
-	db "SPIRAL@" ; species name
-	dw 19204, 33792 ; height, weight
+	db "SPIRALE@" ; species name
+	dbw 4, 75 ; height, weight
 
-	db   "This #MON from"
-	next "ancient times is"
-	next "said to have navi-"
+	db   "Man sagt, dass"
+	next "dieses antike"
+	next "#MON mit seinen"
 
-	page "gated the sea by"
-	next "adeptly twisting"
-	next "its 10 tentacles.@"
+	page "10 Tentakeln das"
+	next "Meer durchkreuzen"
+	next "konnte.@"

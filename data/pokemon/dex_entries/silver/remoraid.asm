@@ -1,10 +1,10 @@
-	db "JET@" ; species name
-	dw 30726, 33792 ; height, weight
+	db "HOCHDRUCK@" ; species name
+	dbw 6, 120 ; height, weight
 
-	db   "Using its dorsal"
-	next "fin as a suction"
-	next "pad, it clings to"
+	db   "Mit seiner Rücken-"
+	next "flosse saugt es"
+	next "sich an der Unter-"
 
-	page "a MANTINE's under-"
-	next "side to scavenge"
-	next "for leftovers.@"
+	page "seite eines MANTAX"
+	next "fest und lebt von"
+	next "Speiseresten.@"

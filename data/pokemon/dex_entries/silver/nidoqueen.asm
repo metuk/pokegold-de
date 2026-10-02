@@ -1,10 +1,10 @@
 	db "BOHRER@" ; species name
-	dw 22541, 37378 ; height, weight
+	dbw 13, 600 ; height, weight
 
-	db   "ein Körper ist"
-	next "mit nadelähnli-"
-	next "chen Schuppen be-"
-	page "deckt. Dies macht"
-	next "es gegen Attacken"
-	next "nahezu immun.@"
+	db   "Es benutzt seinen"
+	next "schuppigen Körper,"
+	next "um den Höhlenein-"
 
+	page "gang als Schutz"
+	next "für seine Jungen"
+	next "zu sperren.@"

@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
-	dw 24326, 37376 ; height, weight
+	db "GROSSMAUL@" ; species name
+	dbw 6, 95 ; height, weight
 
-	db   "It is small but"
-	next "rough and tough."
-	next "It won't hesitate"
+	db   "Es ist klein, aber"
+	next "zäh und stark. Es"
+	next "zögert nicht, je-"
 
-	page "to take a bite out"
-	next "of anything that"
-	next "moves.@"
+	page "den anzugreifen,"
+	next "wenn dieser ihm zu"
+	next "nahe kommt.@"

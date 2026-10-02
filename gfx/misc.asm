@@ -20,7 +20,11 @@ INCBIN "gfx/title/logo_top_silver.2bpp.lz"
 ENDC
 
 TitleScreenTilemap::
-INCBIN "gfx/title/logo.tilemap"
+IF DEF(_GOLD)
+INCBIN "gfx/title/logo_gold.tilemap"
+ELIF DEF(_SILVER)
+INCBIN "gfx/title/logo_silver.tilemap"
+ENDC
 
 
 SECTION "The End", ROMX

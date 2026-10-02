@@ -1,10 +1,10 @@
-	db "HERMITCRAB@" ; species name
-	dw 4368, 38403 ; height, weight
+	db "SYMBIOSE@" ; species name
+	dbw 16, 785 ; height, weight
 
-	db   "Naturally dull to"
-	next "begin with, it"
-	next "lost its ability"
+	db   "Von Natur aus"
+	next "lahm, hat es auf-"
+	next "grund von MUSCHAS"
 
-	page "to feel pain due"
-	next "to SHELLDER's"
-	next "seeping poison.@"
+	page "betäubendem Gift"
+	next "sein Schmerzemp-"
+	next "finden verloren.@"

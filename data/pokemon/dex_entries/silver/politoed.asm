@@ -1,10 +1,10 @@
-	db "FROG@" ; species name
-	dw 21259, 34561 ; height, weight
+	db "FROSCH@" ; species name
+	dbw 11, 339 ; height, weight
 
-	db   "Whenever three or"
-	next "more of these get"
-	next "together, they"
+	db   "Sind drei oder"
+	next "mehr von ihnen zu-"
+	next "sammen, singen sie"
 
-	page "sing in a loud"
-	next "voice that sounds"
-	next "like bellowing.@"
+	page "so laut, dass man"
+	next "an Hundegebell"
+	next "erinnert wird.@"

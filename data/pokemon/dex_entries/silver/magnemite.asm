@@ -1,10 +1,10 @@
 	db "MAGNET@" ; species name
-	dw 15363, 33792 ; height, weight
+	dbw 3, 60 ; height, weight
 
-	db   "The units at the"
-	next "sides of its body"
-	next "generate anti-"
+	db   "Die Magneten an"
+	next "seinem Körper er-"
+	next "zeugen ein Anti-"
 
-	page "gravity energy to"
-	next "keep it aloft in"
-	next "the air.@"
+	page "Grav.-Feld, um es"
+	next "ständig in der"
+	next "Schwebe zu halten.@"

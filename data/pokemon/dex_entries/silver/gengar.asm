@@ -1,10 +1,10 @@
-	db "SHADOW@" ; species name
-	dw 38159, 33793 ; height, weight
+	db "SCHATTEN@" ; species name
+	dbw 15, 405 ; height, weight
 
-	db   "To steal the life"
-	next "of its target, it"
-	next "slips into the"
+	db   "Um den Gegner zu"
+	next "besiegen, stellt"
+	next "es sich in deren"
 
-	page "prey's shadow and"
-	next "silently waits for"
-	next "an opportunity.@"
+	page "Schatten und war-"
+	next "tet auf eine güns-"
+	next "tige Gelegenheit.@"

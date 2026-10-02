@@ -1,10 +1,10 @@
 	db "GIFTDORN@" ; species name
-	dw 51208, 33792 ; height, weight
+	dbw 8, 200 ; height, weight
 
-	db   "he es seine"
-	next "Jungen füttert,"
-	next "zerkaut es das"
-	page "Futter und"
-	next "gibt es ihnen"
-	next "anschließend.@"
+	db   "Es ist von Natur"
+	next "aus sehr ruhig"
+	next "und umsorgend. Da"
 
+	page "sein Horn langsam"
+	next "wächst, vermeidet"
+	next "es den Kampf.@"

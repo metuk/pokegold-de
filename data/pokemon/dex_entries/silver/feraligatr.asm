@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
-	dw 30743, 38403 ; height, weight
+	db "GROSSMAUL@" ; species name
+	dbw 23, 888 ; height, weight
 
-	db   "It is hard for it"
-	next "to support its own"
-	next "weight out of"
+	db   "Aufgrund seines"
+	next "Gewichts, verlässt"
+	next "es das Wasser nur"
 
-	page "water, so it gets"
-	next "down on all fours."
-	next "But it moves fast.@"
+	page "selten. Also geht"
+	next "es auf allen"
+	next "Vieren.@"

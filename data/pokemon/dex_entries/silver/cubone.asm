@@ -1,10 +1,10 @@
-	db "LONELY@" ; species name
-	dw 16644, 34816 ; height, weight
+	db "EINSAM@" ; species name
+	dbw 4, 65 ; height, weight
 
-	db   "It always wears"
-	next "the skull of its"
-	next "dead mother, so no"
+	db   "Es trägt immer den"
+	next "Schädel seiner"
+	next "verstorbenen Mut-"
 
-	page "one has any idea"
-	next "what its hidden"
-	next "face looks like.@"
+	page "ter. Darum weiß"
+	next "niemand, wie sein"
+	next "Gesicht aussieht.@"

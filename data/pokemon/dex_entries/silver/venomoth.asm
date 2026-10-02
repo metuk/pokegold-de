@@ -1,10 +1,10 @@
 	db "GIFTMOTTE@" ; species name
-	dw 32015, 33024 ; height, weight
+	dbw 15, 125 ; height, weight
 
-	db   "eim Angriff"
-	next "schlägt es wild"
-	next "mit seinen Flü-"
-	page "geln, um seinen"
-	next "Giftpuder überall"
-	next "zu verstreuen.@"
+	db   "Ist es schwarz,"
+	next "enthält sein Puder"
+	next "Gift. Ist es weiß,"
 
+	page "paralysiert sein"
+	next "Puder alle Gegner"
+	next "bei Berührung.@"

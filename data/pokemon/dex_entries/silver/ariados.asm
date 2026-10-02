@@ -1,10 +1,10 @@
-	db "LONG LEG@" ; species name
-	dw 20235, 33793 ; height, weight
+	db "LANGBEIN@" ; species name
+	dbw 11, 335 ; height, weight
 
-	db   "A single strand of"
-	next "a special string"
-	next "is endlessly spun"
+	db   "Es spinnt nur ei-"
+	next "nen endlosen Faden"
+	next "aus seinem Hinter-"
 
-	page "out of its rear."
-	next "The string leads"
-	next "back to its nest.@"
+	page "leib. Folgt man"
+	next "ihm, gelangt man"
+	next "in sein Nest.@"

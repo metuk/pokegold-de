@@ -1,10 +1,10 @@
 	db "VOGEL@" ; species name
-	dw 35599, 37377 ; height, weight
+	dbw 15, 395 ; height, weight
 
-	db   "eine Brustmuskeln"
-	next "sind so kräftig,"
-	next "dass es mit wenig"
-	page "Flattern einen"
-	next "starken Windstoß"
-	next "erzeugen kann.@"
+	db   "Es spreizt seine"
+	next "mächtigen Flügel,"
+	next "um seine Feinde zu"
 
+	page "verängstigen. Es"
+	next "kann bis zu Mach 2"
+	next "schnell fliegen.@"

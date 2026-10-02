@@ -1,10 +1,10 @@
 	db "ENTE@" ; species name
-	dw 50184, 33792 ; height, weight
+	dbw 8, 196 ; height, weight
 
-	db   "s besitzt mys-"
-	next "tische Kräfte, die"
-	next "es unbewusst ein-"
-	page "setzt. Daher ist"
-	next "sein Blick immer"
-	next "verwirrt.@"
+	db   "Es leidet unter"
+	next "starker Migräne,"
+	next "aufgrund der es"
 
+	page "Kräfte entwickelt."
+	next "Danach erinnert es"
+	next "sich an nichts.@"

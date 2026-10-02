@@ -1,10 +1,10 @@
-	db "VINE@" ; species name
-	dw 24074, 33537 ; height, weight
+	db "RANKE@" ; species name
+	dbw 10, 350 ; height, weight
 
-	db   "It tangles any"
-	next "moving thing with"
-	next "its vines. Their"
+	db   "Es berührt alles,"
+	next "was sich bewegt,"
+	next "mit seinen Ranken."
 
-	page "subtle shaking"
-	next "is ticklish if you"
-	next "get ensnared.@"
+	page "Diese Berührungen"
+	next "sind sehr"
+	next "kitzelig.@"

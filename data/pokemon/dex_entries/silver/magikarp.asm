@@ -1,10 +1,10 @@
-	db "FISH@" ; species name
-	dw 25609, 33792 ; height, weight
+	db "FISCH@" ; species name
+	dbw 9, 100 ; height, weight
 
-	db   "For no reason, it"
-	next "jumps and splashes"
-	next "about, making it"
+	db   "Es springt grund-"
+	next "los in die Luft."
+	next "Das macht es ein-"
 
-	page "easy for predators"
-	next "like PIDGEOTTO to"
-	next "catch it mid-jump.@"
+	page "fach für Räuber"
+	next "wie TAUBOGA, es im"
+	next "Sprung zu fangen.@"

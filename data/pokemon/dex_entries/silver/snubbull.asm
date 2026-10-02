@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
-	dw 19974, 36352 ; height, weight
+	db "FEE@" ; species name
+	dbw 6, 78 ; height, weight
 
-	db   "It has an active,"
-	next "playful nature."
-	next "Many women like"
+	db   "Es ist von Natur"
+	next "aus verspielt."
+	next "Es tollt mit vie-"
 
-	page "to frolic with it"
-	next "because of its af-"
-	next "fectionate ways.@"
+	page "len Frauen herum,"
+	next "da es ihnen zuge-"
+	next "neigt ist.@"

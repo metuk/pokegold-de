@@ -1,10 +1,10 @@
-	db "SINGLEHORN@" ; species name
-	dw 7183, 33538 ; height, weight
+	db "EINZELHORN@" ; species name
+	dbw 15, 540 ; height, weight
 
-	db   "Usually docile,"
-	next "but if disturbed"
-	next "while sipping"
+	db   "Es ist ruhig. Wird"
+	next "es aber beim"
+	next "Honignaschen ge-"
 
-	page "honey, it chases"
-	next "off the intruder"
-	next "with its horn.@"
+	page "stört, verjagt es"
+	next "den Störenfried"
+	next "mit seinem Horn.@"

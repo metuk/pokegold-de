@@ -1,10 +1,10 @@
 	db "FOSSIL@" ; species name
-	dw 19986, 33794 ; height, weight
+	dbw 18, 590 ; height, weight
 
-	db   "This vicious #-"
-	next "MON is said to"
-	next "have flown in an-"
+	db   "Dieses grausame,"
+	next "antike #MON"
+	next "flog durch die"
 
-	page "cient skies while"
-	next "shrieking high-"
-	next "pitched cries.@"
+	page "Luft und stieß"
+	next "sehr hohe und"
+	next "laute Schreie aus.@"

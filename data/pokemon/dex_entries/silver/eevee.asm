@@ -1,10 +1,10 @@
 	db "EVOLUTION@" ; species name
-	dw 16643, 33792 ; height, weight
+	dbw 3, 65 ; height, weight
 
-	db   "Its irregularly"
-	next "configured DNA is"
-	next "affected by its"
+	db   "Seine anomale"
+	next "DNS-Struktur hängt"
+	next "von der Umgebung"
 
-	page "surroundings. It"
-	next "evolves if its en-"
-	next "vironment changes.@"
+	page "ab. Verändert sich"
+	next "diese, so entwi-"
+	next "ckelt es sich.@"

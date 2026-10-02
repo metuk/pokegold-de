@@ -1,10 +1,10 @@
-	db "TRIPLEBIRD@" ; species name
-	dw 21522, 33795 ; height, weight
+	db "TRIVOGEL@" ; species name
+	dbw 18, 852 ; height, weight
 
-	db   "If one of the"
-	next "heads gets to eat,"
-	next "the others will be"
+	db   "Bekommt einer der"
+	next "Köpfe Futter, sind"
+	next "auch die anderen"
 
-	page "satisfied, too,"
-	next "and they will stop"
-	next "squabbling.@"
+	page "zufrieden und"
+	next "hören auf zu"
+	next "streiten.@"

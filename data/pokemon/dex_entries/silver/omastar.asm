@@ -1,10 +1,10 @@
-	db "SPIRAL@" ; species name
-	dw 24074, 33793 ; height, weight
+	db "SPIRALE@" ; species name
+	dbw 10, 350 ; height, weight
 
-	db   "Once wrapped"
-	next "around its prey,"
-	next "it never lets go."
+	db   "Hat es die Beute"
+	next "erst eingewickelt,"
+	next "lässt es nicht"
 
-	page "It eats the prey"
-	next "by tearing at it"
-	next "with sharp fangs.@"
+	page "mehr los. Es ver-"
+	next "speist sie, indem"
+	next "es sie zerreißt.@"

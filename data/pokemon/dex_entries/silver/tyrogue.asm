@@ -1,10 +1,10 @@
-	db "SCUFFLE@" ; species name
-	dw 53767, 33792 ; height, weight
+	db "RACKER@" ; species name
+	dbw 7, 210 ; height, weight
 
-	db   "Even though it is"
-	next "small, it can't be"
-	next "ignored because"
+	db   "Es ist zwar nicht"
+	next "groß, aber dennoch"
+	next "unübersehbar, denn"
 
-	page "it will slug any"
-	next "handy target with-"
-	next "out warning.@"
+	page "es schlägt jeder"
+	next "Zeit ohne"
+	next "Vorwarnung zu.@"

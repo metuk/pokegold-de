@@ -1,10 +1,10 @@
 	db "PSI@" ; species name
-	dw 57359, 37377 ; height, weight
+	dbw 15, 480 ; height, weight
 
-	db   "Its brain cells"
-	next "multiply continu-"
-	next "ally until it"
+	db   "Seine Gehirnzellen"
+	next "vervielfachen sich"
+	next "sein ganzes Leben"
 
-	page "dies. As a result,"
-	next "it remembers"
-	next "everything.@"
+	page "lang. Daher kann"
+	next "es sich immer an"
+	next "alles erinnern.@"

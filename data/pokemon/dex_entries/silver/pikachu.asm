@@ -1,10 +1,10 @@
 	db "MAUS@" ; species name
-	dw 15364, 33536 ; height, weight
+	dbw 4, 60 ; height, weight
 
-	db   "ieses clevere"
-	next "#MON grillt"
-	next "harte BEEREN mit"
-	page "Elektrizität, um"
-	next "sie anschließend"
-	next "zu essen.@"
+	db   "Es streckt seinen"
+	next "Schwanz nach oben,"
+	next "um seine Umgebung"
 
+	page "zu prüfen. Häufig"
+	next "fährt ein Blitz"
+	next "in den Schwanz.@"

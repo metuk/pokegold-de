@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
-	dw 64011, 38144 ; height, weight
+	db "GROSSMAUL@" ; species name
+	dbw 11, 250 ; height, weight
 
-	db   "It opens its huge"
-	next "jaws wide when"
-	next "attacking. If it"
+	db   "Beim Angriff reißt"
+	next "es sein Maul auf."
+	next "Verliert es dabei"
 
-	page "loses any fangs"
-	next "while biting, they"
-	next "grow back in.@"
+	page "einen Zahn, wächst"
+	next "dieser schnell"
+	next "wieder nach.@"

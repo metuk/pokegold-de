@@ -1,10 +1,10 @@
-	db "FLYSCORPIO@" ; species name
-	dw 34827, 33794 ; height, weight
+	db "FLUGSKORPI@" ; species name
+	dbw 11, 648 ; height, weight
 
-	db   "It usually clings"
-	next "to cliffs. When it"
-	next "spots its prey, it"
+	db   "Es hängt meist an"
+	next "Klippen. Erspäht"
+	next "es Beute, spreizt"
 
-	page "spreads its wings"
-	next "and glides down to"
-	next "attack.@"
+	page "es seine Flügel"
+	next "und greift diese"
+	next "sofort an.@"

@@ -1,10 +1,10 @@
-	db "HUMANSHAPE@" ; species name
-	dw 38414, 33793 ; height, weight
+	db "HUMANOTYP@" ; species name
+	dbw 14, 406 ; height, weight
 
-	db   "It speaks a lan-"
-	next "guage similar to"
-	next "that of humans."
+	db   "Seine Sprache ist"
+	next "der Sprache der"
+	next "Menschen ähnlich."
 
-	page "However, it seems"
-	next "to use dancing to"
-	next "communicate.@"
+	page "Aber es scheint,"
+	next "als ob es durch"
+	next "Tanz kommuniziert.@"

@@ -1,10 +1,10 @@
-	db "DELIVERY@" ; species name
-	dw 40969, 33792 ; height, weight
+	db "LIEFERANT@" ; species name
+	dbw 9, 160 ; height, weight
 
-	db   "It nests at the"
-	next "edge of sharp"
-	next "cliffs. It spends"
+	db   "Sein Nest baut es"
+	next "an scharfkantigen"
+	next "Felsklippen. Es"
 
-	page "all day carrying"
-	next "food to its await-"
-	next "ing chicks.@"
+	page "ist den ganzen Tag"
+	next "auf Futtersuche"
+	next "für seine Jungen.@"

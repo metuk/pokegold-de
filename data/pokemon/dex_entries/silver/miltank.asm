@@ -1,10 +1,10 @@
-	db "MILK COW@" ; species name
-	dw 62220, 32770 ; height, weight
+	db "MILCHKUH@" ; species name
+	dbw 12, 755 ; height, weight
 
-	db   "If it has just had"
-	next "a baby, the milk"
-	next "it produces con-"
+	db   "Wenn es gerade ein"
+	next "Junges hat, dann"
+	next "enthält seine"
 
-	page "tains much more"
-	next "nutrition than"
-	next "usual.@"
+	page "Milch mehr Nähr-"
+	next "stoffe als"
+	next "gewöhnlich.@"

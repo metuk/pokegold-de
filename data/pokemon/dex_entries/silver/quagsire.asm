@@ -1,10 +1,10 @@
-	db "WATER FISH@" ; species name
-	dw 60942, 33538 ; height, weight
+	db "FISCH@" ; species name
+	dbw 14, 750 ; height, weight
 
-	db   "Due to its relaxed"
-	next "and carefree atti-"
-	next "tude, it often"
+	db   "Aufgrund seiner"
+	next "gleichgültigen"
+	next "Einstellung, rammt"
 
-	page "bumps its head on"
-	next "boulders and boat"
-	next "hulls as it swims.@"
+	page "es seinen Kopf oft"
+	next "gegen Felsen oder"
+	next "Schiffsrümpfe.@"

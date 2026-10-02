@@ -1,10 +1,10 @@
 	db "UNKRAUT@" ; species name
-	dw 22024, 38400 ; height, weight
+	dbw 8, 86 ; height, weight
 
-	db   "as wie Speichel"
-	next "aussieht, ist"
-	next "eigentlich Honig."
-	page "Er ist zähflüssig"
-	next "und klebrig, wenn"
-	next "man ihn berührt.@"
+	db   "Es scheidet zähen,"
+	next "sabberähnlichen"
+	next "Honig aus. Obwohl"
 
+	page "dieser süß riecht,"
+	next "ist es eklig in"
+	next "seiner Nähe.@"

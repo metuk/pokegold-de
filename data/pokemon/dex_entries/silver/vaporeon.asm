@@ -1,10 +1,10 @@
-	db "BUBBLE JET@" ; species name
-	dw 8714, 38145 ; height, weight
+	db "BLUBBLASE@" ; species name
+	dbw 10, 290 ; height, weight
 
-	db   "It prefers beauti-"
-	next "ful shores. With"
-	next "cells similar to"
+	db   "Es liebt schöne"
+	next "Ufer. Da seine"
+	next "Zellstruktur Was-"
 
-	page "water molecules,"
-	next "it could melt in"
-	next "water.@"
+	page "sermolekülen ähn-"
+	next "lich ist, schmilzt"
+	next "es im Wasser.@"

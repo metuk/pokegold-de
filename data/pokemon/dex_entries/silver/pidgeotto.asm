@@ -1,10 +1,10 @@
 	db "VOGEL@" ; species name
-	dw 11275, 37377 ; height, weight
+	dbw 11, 300 ; height, weight
 
-	db   "ein Sehvermögen"
-	next "ist ausgezeichnet."
-	next "Egal wie hoch es"
-	page "auch fliegt, es"
-	next "kann seine Beute"
-	next "genau beobachten.@"
+	db   "Es lähmt seine"
+	next "Gegner mit seinen"
+	next "Krallen und trägt"
 
+	page "die Beute in sein"
+	next "bis zu 100 km"
+	next "entferntes Nest.@"

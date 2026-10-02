@@ -1,10 +1,10 @@
-	db "ROCK SNAKE@" ; species name
-	dw 13400, 33800 ; height, weight
+	db "FELSNATTER@" ; species name
+	dbw 88, 2100 ; height, weight
 
-	db   "It rapidly bores"
-	next "through the ground"
-	next "at 50 mph by"
+	db   "Es bohrt sich mit"
+	next "80 km/h durch das"
+	next "Erdreich, indem es"
 
-	page "squirming and"
-	next "twisting its mas-"
-	next "sive, rugged body.@"
+	page "seinen massiven,"
+	next "rauhen Körper"
+	next "dreht und windet.@"

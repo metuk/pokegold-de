@@ -1,10 +1,10 @@
 	db "FUCHS@" ; species name
-	dw 25350, 33024 ; height, weight
+	dbw 6, 99 ; height, weight
 
-	db   "eim Heranwachsen"
-	next "teilt sich sein"
-	next "Schweif sechsfach"
-	page "und wird farbig."
-	next "Es ist warm und"
-	next "anschmiegsam.@"
+	db   "Greift es ein"
+	next "größerer Gegner"
+	next "an, täuscht es ei-"
 
+	page "ne Verletzung vor,"
+	next "um sicher vor ihm"
+	next "zu flüchten.@"

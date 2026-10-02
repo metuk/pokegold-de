@@ -1,10 +1,10 @@
 	db "BALLON@" ; species name
-	dw 14085, 38400 ; height, weight
+	dbw 5, 55 ; height, weight
 
-	db   "enn es GESANG"
-	next "einsetzt, steigt"
-	next "seine Ausdauer und"
-	page "seine Zuhörer"
-	next "werden in Tief-"
-	next "schlaf versetzt.@"
+	db   "Schaut man ihm in"
+	next "seine niedlichen"
+	next "Kulleraugen, be-"
 
+	page "ginnt es zu singen"
+	next "und seine Gegner"
+	next "schlafen ein.@"

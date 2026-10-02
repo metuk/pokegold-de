@@ -1,10 +1,10 @@
-	db "DARK@" ; species name
-	dw 27654, 37376 ; height, weight
+	db "HADES@" ; species name
+	dbw 6, 108 ; height, weight
 
-	db   "To corner prey,"
-	next "they check each"
-	next "other's location"
+	db   "Sie treiben ihre"
+	next "Beute in die Enge"
+	next "und orientieren"
 
-	page "using barks that"
-	next "only they can"
-	next "understand.@"
+	page "sich dabei anhand"
+	next "ihres Bellens, das"
+	next "nur sie verstehen.@"

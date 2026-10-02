@@ -1,10 +1,10 @@
-	db "FLYCATCHER@" ; species name
-	dw 39697, 37376 ; height, weight
+	db "FLIEGENTOT@" ; species name
+	dbw 17, 155 ; height, weight
 
-	db   "This horrifying"
-	next "plant #MON at-"
-	next "tracts prey with"
+	db   "Dieses grausame"
+	next "Pflanzen-#MON"
+	next "ködert Beute mit"
 
-	page "aromatic honey,"
-	next "then melts them in"
-	next "its mouth.@"
+	page "Honigaroma und"
+	next "zersetzt sie"
+	next "in seinem Maul.@"

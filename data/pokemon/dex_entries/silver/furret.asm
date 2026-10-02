@@ -1,10 +1,10 @@
-	db "LONG BODY@" ; species name
-	dw 17682, 37377 ; height, weight
+	db "LANGLEIB@" ; species name
+	dbw 18, 325 ; height, weight
 
-	db   "There is no tell-"
-	next "ing where the tail"
-	next "begins. Despite"
+	db   "Niemand weiß, wo"
+	next "sein Schwanz be-"
+	next "ginnt. Trotz sei-"
 
-	page "its short legs, it"
-	next "is quick at hunt-"
-	next "ing RATTATA.@"
+	page "ner kurzen Beine"
+	next "jagt es RATTFRATZ"
+	next "schnell nach.@"

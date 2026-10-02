@@ -1,10 +1,10 @@
-	db "MOONLIGHT@" ; species name
-	dw 3594, 34049 ; height, weight
+	db "MONDSCHEIN@" ; species name
+	dbw 10, 270 ; height, weight
 
-	db   "When darkness"
-	next "falls, the rings"
-	next "on the body begin"
+	db   "Bei Einbruch der"
+	next "Dunkelheit leuch-"
+	next "ten die Ringe auf"
 
-	page "to glow, striking"
-	next "fear in the hearts"
-	next "of anyone nearby.@"
+	page "seinem Körper und"
+	next "verängstigen alle"
+	next "in seiner Nähe.@"

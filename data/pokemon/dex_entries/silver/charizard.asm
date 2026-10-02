@@ -1,10 +1,10 @@
 	db "FLAMME@" ; species name
-	dw 35089, 38403 ; height, weight
+	dbw 17, 905 ; height, weight
 
-	db   "enn Glurak wütend"
-	next "wird, flackert die"
-	next "Flamme auf seiner"
-	page "Schwanzspitze"
-	next "in einem"
-	next "bläulichen Ton.@"
+	db   "Sein heißer Feu-"
+	next "eratem kann fast"
+	next "alles schmelzen."
 
+	page "Sein Atem fügt"
+	next "den Gegnern enorme"
+	next "Schmerzen zu.@"

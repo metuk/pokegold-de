@@ -1,10 +1,10 @@
 	db "FEE@" ; species name
-	dw 19206, 32768 ; height, weight
+	dbw 6, 75 ; height, weight
 
-	db   "ufgrund des ge-"
-	next "speicherten Mond-"
-	next "lichts in seinen"
-	page "Flügeln auf dem"
-	next "Rücken kann es in"
-	next "der Luft schweben.@"
+	db   "Aufgrund seines"
+	next "freundlichen Ver-"
+	next "haltens ist es"
 
+	page "sehr beliebt. Die-"
+	next "ses #MON ist"
+	next "jedoch selten.@"

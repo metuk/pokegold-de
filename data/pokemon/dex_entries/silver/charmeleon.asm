@@ -1,10 +1,10 @@
 	db "FLAMME@" ; species name
-	dw 48651, 33792 ; height, weight
+	dbw 11, 190 ; height, weight
 
-	db   "s ist hitzig und"
-	next "sucht ständig"
-	next "nach Gegnern. Es"
-	page "beruhigt sich"
-	next "nur, wenn es"
-	next "gewinnt.@"
+	db   "Es ist brutal ver-"
+	next "anlagt. Im Kampf"
+	next "schlägt es mit"
 
+	page "seinem Schwanz und"
+	next "setzt seine schar-"
+	next "fen Klauen ein.@"
