@@ -109,9 +109,6 @@ CoinString:
 	db "MÜNZEN@"
 ShowMoney_TerminatorString:
 	db "@"
-UnusedEmptyString: ; unreferenced
-	db $21, "Z'l┘♀ひ?", $21, "aäギ", $03, "ゾグへ♂ゾ", $21, "väヅöる", $01, $03, $02, "へ<BOLD_S>づ", $21, "yäヅ2<PKMN>へ·ダ", $21, "をäヅ7<PKMN>へ·ダ", $21, "<PK>äヅäる", $01, $02, $01, "へ<BOLD_S>づ×éZ'lの/500@"
-
 StartMenu_PrintSafariGameStatus: ; unreferenced
 	ld hl, wOptions
 	ld a, [hl]

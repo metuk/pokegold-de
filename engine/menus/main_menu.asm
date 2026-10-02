@@ -52,7 +52,7 @@ MainMenu:
 IF DEF(_DEBUG)
 	menu_coords 0, 0, 14, 9
 ELSE
-	menu_coords 0, 0, 14, 7
+	menu_coords 0, 0, 13, 7
 ENDC
 	dw .MenuData
 	db 1 ; default option
@@ -66,10 +66,10 @@ ENDC
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "CONTINUE@"
-	db "NEW GAME@"
-	db "OPTION@"
-	db "MYSTERY GIFT@"
+	db "WEITER@"
+	db "NEUES SPIEL@"
+	db "OPTIONEN@"
+	db "GEHEIMGABE@"
 IF DEF(_DEBUG)
 	db "DEBUG ROOM@"
 ENDC
@@ -184,7 +184,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	jr nz, .TimeFail
 	hlcoord 0, 12
 	ld b, 4
-	ld c, 13
+	ld c, 17
 	call Textbox
 	ret
 
@@ -201,7 +201,8 @@ MainMenu_PrintCurrentTimeAndDay:
 	jp nz, .PrintTimeNotSet
 	call UpdateTime
 	hlcoord 1, 13
-	lb bc, 4, 13
+	ld b, 4
+	ld c, 17
 	call ClearBox
 	call GetWeekday
 	ld b, a

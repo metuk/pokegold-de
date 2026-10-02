@@ -155,7 +155,7 @@ FillTitleScreenPals:
 	ld a, 1
 	call DrawTitleGraphic
 	hlbgcoord 5, 6, vBGMap2
-	lb bc, 1, 10
+	lb bc, 1, 11
 	ld a, 3
 	call DrawTitleGraphic
 	hlbgcoord 0, 12, vBGMap2

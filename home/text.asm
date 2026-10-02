@@ -409,6 +409,8 @@ LineChar::
 
 Paragraph::
 	push de
+	lda_coord TEXTBOX_INNERX + TEXTBOX_INNERW - 1, TEXTBOX_INNERY + TEXTBOX_INNERH
+	push af
 
 	ld a, [wLinkMode]
 	cp LINK_COLOSSEUM
@@ -421,7 +423,8 @@ Paragraph::
 	hlcoord TEXTBOX_INNERX, TEXTBOX_INNERY
 	lb bc, TEXTBOX_INNERH - 1, TEXTBOX_INNERW
 	call ClearBox
-	call UnloadBlinkingCursor
+	pop af
+	ldcoord_a TEXTBOX_INNERX + TEXTBOX_INNERW - 1, TEXTBOX_INNERY + TEXTBOX_INNERH
 	ld c, 20
 	call DelayFrames
 	hlcoord TEXTBOX_INNERX, TEXTBOX_INNERY
@@ -542,14 +545,6 @@ Text_WaitBGMap::
 	ret
 
 Diacritic::
-	push af
-	push hl
-	ld a, b
-	ld bc, -SCREEN_WIDTH
-	add hl, bc
-	ld [hl], a
-	pop hl
-	pop af
 	ret
 
 LoadBlinkingCursor::

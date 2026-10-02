@@ -234,9 +234,9 @@ INCBIN "gfx/battle/balls.2bpp"
 _ShowLinkBattleParticipants:
 	call ClearBGPalettes
 	call LoadFontsExtra
-	hlcoord 3, 3
+	hlcoord 2, 3
 	ld b, 9
-	ld c, 12
+	ld c, 14
 	call Textbox
 	hlcoord 4, 5
 	ld de, wPlayerName
