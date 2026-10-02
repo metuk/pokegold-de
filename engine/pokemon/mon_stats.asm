@@ -247,7 +247,7 @@ ListMovePP:
 	ld e, a
 	ld d, 0
 	ld a, $3e ; P
-	call .load_loop
+	call .load_ap
 	ld a, b
 	and a
 	jr z, .skip
@@ -322,6 +322,16 @@ ListMovePP:
 	add hl, de
 	dec c
 	jr nz, .load_loop
+	ret
+
+.load_ap
+	ld [hl], $32 ; A
+	inc hl
+	ld [hl], $3e ; P
+	dec hl
+	add hl, de
+	dec c
+	jr nz, .load_ap
 	ret
 
 Unused_PlaceEnemyHPLevel:

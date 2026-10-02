@@ -445,6 +445,8 @@ _BidsFarewellToMonText::
 	text_ram wBetaPokerSGBPals
 	text_end
 
+	text_end ; unreferenced
+
 _MonNameBidsFarewellText::
 	text "sagt @"
 	text_ram wOTTrademonSenderName
@@ -465,6 +467,8 @@ _ForYourMonSendsText::
 	line "@"
 	text_ram wPlayerTrademonSpeciesName
 	text_end
+
+	text_end ; unreferenced
 
 _OTSendsText::
 	text "überträgt @"
@@ -535,6 +539,8 @@ _OPT_MaryText1::
 	line "MARGIT: @"
 	text_ram wStringBuffer1
 	text_end
+
+	text_end ; unreferenced
 
 _OPT_SweetAdorablyText::
 	text_start

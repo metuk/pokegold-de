@@ -382,6 +382,7 @@ EnemyText::       db "Gegn. @"
 PlacePKMNText::   db "<PK><MN>@"
 PlacePOKEText::   db "<PO><KE>@"
 String_Space::    db " @"
+HyphenLineFeedText: db "-<LF>@" ; unreferenced
 ; These strings have been dummied out.
 PlaceJPRouteText::
 PlaceWatashiText::

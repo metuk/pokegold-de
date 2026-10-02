@@ -72,6 +72,8 @@ GiftSpearowName:
 GiftSpearowOTName:
 	db "HARALD@"
 
+	db " EG@" ; filler
+
 Route35GoldenrodGatePokefanFScript:
 	faceplayer
 	opentext

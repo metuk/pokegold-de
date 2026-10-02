@@ -360,6 +360,8 @@ _CoinCaseCountText::
 	text_decimal wCoins, 2, 4
 	text_end
 
+	text_end ; unreferenced
+
 _RaiseThePPOfWhichMoveText::
 	text "Für welche"
 	line "Attacke sollen"
