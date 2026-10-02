@@ -1,5 +1,5 @@
 	db "VINE@" ; species name
-	dw 303, 770 ; height, weight
+	dw 24074, 33537 ; height, weight
 
 	db   "It tangles any"
 	next "moving thing with"

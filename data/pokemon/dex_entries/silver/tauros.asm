@@ -1,5 +1,5 @@
 	db "WILD BULL@" ; species name
-	dw 407, 1950 ; height, weight
+	dw 29710, 37379 ; height, weight
 
 	db   "After heightening"
 	next "its will to fight"

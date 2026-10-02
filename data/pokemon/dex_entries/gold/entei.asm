@@ -1,10 +1,10 @@
-	db "VOLCANO@" ; species name
-	dw 611, 4370 ; height, weight
+	db "VULKAN@" ; species name
+	dbw 21, 1980 ; height, weight
 
-	db   "Volcanoes erupt"
-	next "when it barks. Un-"
-	next "able to restrain"
+	db   "Sein Bellen löst"
+	next "Eruptionen aus. Es"
+	next "kann seine Kraft"
 
-	page "its extreme power,"
-	next "it races headlong"
-	next "around the land.@"
+	page "nicht zügeln und"
+	next "es streift rastlos"
+	next "durchs Land.@"

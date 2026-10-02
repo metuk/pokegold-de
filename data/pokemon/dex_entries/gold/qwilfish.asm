@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 108, 90 ; height, weight
+	db "BALLON@" ; species name
+	dbw 5, 39 ; height, weight
 
-	db   "To fire its poison"
-	next "spikes, it must"
-	next "inflate its body"
+	db   "Um seine Gift-"
+	next "stacheln abzufeu-"
+	next "ern, muss es sei-"
 
-	page "by drinking over"
-	next "2.6 gallons of"
-	next "water all at once.@"
+	page "nen Körper auf-"
+	next "pumpen, indem es"
+	next "10 Liter trinkt.@"

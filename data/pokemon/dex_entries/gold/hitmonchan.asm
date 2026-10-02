@@ -1,10 +1,10 @@
-	db "PUNCHING@" ; species name
-	dw 407, 1110 ; height, weight
+	db "PUNCHER@" ; species name
+	dbw 14, 502 ; height, weight
 
-	db   "Its punches slice"
-	next "the air. However,"
-	next "it seems to need a"
+	db   "Seine Fäuste zer-"
+	next "schneiden die"
+	next "Luft. Es muss je-"
 
-	page "short break after"
-	next "fighting for three"
-	next "minutes.@"
+	page "doch alle drei"
+	next "Minuten eine kurze"
+	next "Pause einlegen.@"

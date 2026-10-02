@@ -1,5 +1,5 @@
 	db "PUNCHING@" ; species name
-	dw 407, 1110 ; height, weight
+	dw 62990, 37377 ; height, weight
 
 	db   "Its punches slice"
 	next "the air. They are"

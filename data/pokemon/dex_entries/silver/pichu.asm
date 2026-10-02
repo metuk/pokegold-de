@@ -1,5 +1,5 @@
 	db "TINY MOUSE@" ; species name
-	dw 100, 40 ; height, weight
+	dw 5123, 33792 ; height, weight
 
 	db   "Despite its small"
 	next "size, it can zap"

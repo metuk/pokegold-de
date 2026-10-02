@@ -1,10 +1,10 @@
-	db "AQUAMOUSE@" ; species name
-	dw 104, 190 ; height, weight
+	db "AQUAMAUS@" ; species name
+	dbw 4, 85 ; height, weight
 
-	db   "The tip of its"
-	next "tail, which con-"
-	next "tains oil that is"
+	db   "Da seine Schwanz-"
+	next "spitze Öl enthält,"
+	next "das leichter als"
 
-	page "lighter than wa-"
-	next "ter, lets it swim"
-	next "without drowning.@"
+	page "Wasser ist, kann"
+	next "es schwimmen, ohne"
+	next "unterzugehen.@"

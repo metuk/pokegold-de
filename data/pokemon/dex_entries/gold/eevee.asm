@@ -1,10 +1,10 @@
 	db "EVOLUTION@" ; species name
-	dw 100, 140 ; height, weight
+	dbw 3, 65 ; height, weight
 
-	db   "It has the ability"
-	next "to alter the com-"
-	next "position of its"
+	db   "Es verfügt über"
+	next "die Fähigkeit,"
+	next "seinen Körper per-"
 
-	page "body to suit its"
-	next "surrounding envi-"
-	next "ronment.@"
+	page "fekt an die jewei-"
+	next "lige Umgebung"
+	next "anzupassen.@"

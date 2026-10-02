@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
-	dw 307, 550 ; height, weight
+	db "GROSSMAUL@" ; species name
+	dbw 11, 250 ; height, weight
 
-	db   "If it loses a"
-	next "fang, a new one"
-	next "grows back in its"
+	db   "Verliert es einen"
+	next "seiner Zähne,"
+	next "wächst ein neuer"
 
-	page "place. There are"
-	next "always 48 fangs"
-	next "lining its mouth.@"
+	page "nach. Es hat immer"
+	next "48 Zähne in seinem"
+	next "Kiefer.@"

@@ -1,10 +1,10 @@
-	db "PIG@" ; species name
-	dw 104, 140 ; height, weight
+	db "FERKEL@" ; species name
+	dbw 4, 65 ; height, weight
 
-	db   "It rubs its snout"
-	next "on the ground to"
-	next "find and dig up"
+	db   "Auf Nahrungssuche"
+	next "schnüffelt es am"
+	next "Boden entlang. Es"
 
-	page "food. It sometimes"
-	next "discovers hot"
-	next "springs.@"
+	page "entdeckt dabei"
+	next "manchmal auch"
+	next "heiße Quellen.@"

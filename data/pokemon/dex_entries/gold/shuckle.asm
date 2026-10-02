@@ -1,10 +1,10 @@
-	db "MOLD@" ; species name
-	dw 200, 450 ; height, weight
+	db "SCHIMMEL@" ; species name
+	dbw 6, 205 ; height, weight
 
-	db   "The BERRIES it"
-	next "stores in its"
-	next "vase-like shell"
+	db   "Die BEEREN, die es"
+	next "in seinem Inneren"
+	next "lagert, verrotten"
 
-	page "decompose and"
-	next "become a gooey"
-	next "liquid.@"
+	page "und daraus ent-"
+	next "steht ein dick-"
+	next "flüssiger Saft.@"

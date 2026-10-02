@@ -1,10 +1,10 @@
-	db "ELECTRIC@" ; species name
-	dw 200, 520 ; height, weight
+	db "ELEKTRO@" ; species name
+	dbw 6, 235 ; height, weight
 
-	db   "It rotates its"
-	next "arms to generate"
-	next "electricity, but"
+	db   "Es rotiert mit den"
+	next "Armen, um Elektri-"
+	next "zität zu erzeugen."
 
-	page "it tires easily,"
-	next "so it charges up"
-	next "only a little bit.@"
+	page "Da es sehr schnell"
+	next "müde wird, erzeugt"
+	next "es nur wenig.@"

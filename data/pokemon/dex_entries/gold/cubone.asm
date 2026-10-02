@@ -1,10 +1,10 @@
-	db "LONELY@" ; species name
-	dw 104, 140 ; height, weight
+	db "EINSAM@" ; species name
+	dbw 4, 65 ; height, weight
 
-	db   "If it is sad or"
-	next "lonely, the skull"
-	next "it wears shakes,"
+	db   "Ist es einsam oder"
+	next "traurig, wackelt"
+	next "der Schädel den es"
 
-	page "and emits a plain-"
-	next "tive and mournful"
-	next "sound.@"
+	page "trägt und man hört"
+	next "es jammern und"
+	next "wimmern.@"

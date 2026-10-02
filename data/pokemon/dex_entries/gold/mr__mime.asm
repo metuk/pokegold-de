@@ -1,10 +1,10 @@
-	db "BARRIER@" ; species name
-	dw 403, 1200 ; height, weight
+	db "SPERRE@" ; species name
+	dbw 13, 545 ; height, weight
 
-	db   "A skilled mime"
-	next "from birth, it"
-	next "gains the ability"
+	db   "Ein begabter Mime"
+	next "von Geburt an."
+	next "Wird es älter,"
 
-	page "to create invisi-"
-	next "ble objects as it"
-	next "matures.@"
+	page "kann es unsicht-"
+	next "bare Objekte"
+	next "generieren.@"

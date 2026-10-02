@@ -1,10 +1,10 @@
-	db "HARD SHELL@" ; species name
-	dw 311, 3350 ; height, weight
+	db "HARTSCHALE@" ; species name
+	dbw 12, 1520 ; height, weight
 
-	db   "Its shell is as"
-	next "hard as sheet"
-	next "rock, and it is"
+	db   "Es ist sehr stark"
+	next "und sein Panzer"
+	next "ist steinhart."
 
-	page "also very strong."
-	next "Its THRASHING can"
-	next "topple a mountain.@"
+	page "Setzt es FUCHTLER"
+	next "ein, kann es einen"
+	next "Berg umstürzen.@"

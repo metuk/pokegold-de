@@ -1,5 +1,5 @@
 	db "TRIPLEBIRD@" ; species name
-	dw 511, 1880 ; height, weight
+	dw 21522, 33795 ; height, weight
 
 	db   "If one of the"
 	next "heads gets to eat,"

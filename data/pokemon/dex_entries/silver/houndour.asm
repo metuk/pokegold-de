@@ -1,5 +1,5 @@
 	db "DARK@" ; species name
-	dw 200, 240 ; height, weight
+	dw 27654, 37376 ; height, weight
 
 	db   "To corner prey,"
 	next "they check each"

@@ -1,5 +1,5 @@
 	db "SPIRAL@" ; species name
-	dw 104, 170 ; height, weight
+	dw 19204, 33792 ; height, weight
 
 	db   "This #MON from"
 	next "ancient times is"

@@ -1,10 +1,10 @@
-	db "SHADOW@" ; species name
-	dw 411, 890 ; height, weight
+	db "SCHATTEN@" ; species name
+	dbw 15, 405 ; height, weight
 
-	db   "It steals heat"
-	next "from its surround-"
-	next "ings. If you feel"
+	db   "Es entzieht seiner"
+	next "Umgebung Wärme."
+	next "Wird dir plötzlich"
 
-	page "a sudden chill, it"
-	next "is certain that a"
-	next "GENGAR appeared.@"
+	page "kalt, ist bestimmt"
+	next "ein GENGAR in der"
+	next "Nähe.@"

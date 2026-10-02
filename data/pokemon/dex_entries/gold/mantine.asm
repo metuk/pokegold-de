@@ -1,10 +1,10 @@
-	db "KITE@" ; species name
-	dw 611, 4850 ; height, weight
+	db "FLUGROCHEN@" ; species name
+	dbw 21, 2200 ; height, weight
 
-	db   "As it majestically"
-	next "swims, it doesn't"
-	next "care if REMORAID"
+	db   "Da es so majes-"
+	next "tätisch schwimmt,"
+	next "schert es sich"
 
-	page "attach to it for"
-	next "scavenging its"
-	next "leftovers.@"
+	page "nicht um REMORAID,"
+	next "das seine Essens-"
+	next "reste vertilgt.@"

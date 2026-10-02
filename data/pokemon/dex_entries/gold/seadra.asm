@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 311, 550 ; height, weight
+	db "DRACHE@" ; species name
+	dbw 12, 250 ; height, weight
 
-	db   "An examination of"
-	next "its cells revealed"
-	next "the presence of a"
+	db   "Eine Zelluntersu-"
+	next "chung ergab, dass"
+	next "es ein Gen besizt,"
 
-	page "gene not found in"
-	next "HORSEA. It became"
-	next "a hot topic.@"
+	page "das SEEPER nicht"
+	next "hat. Ein bemer-"
+	next "kenswerter Fund.@"

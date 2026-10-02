@@ -1,10 +1,10 @@
-	db "LIGHT@" ; species name
-	dw 311, 500 ; height, weight
+	db "LEUCHTE@" ; species name
+	dbw 12, 225 ; height, weight
 
-	db   "The light it emits"
-	next "is so bright that"
-	next "it can illuminate"
+	db   "Sein Licht ist so"
+	next "hell, dass es"
+	next "selbst vom Meeres-"
 
-	page "the sea's surface"
-	next "from a depth of"
-	next "over three miles.@"
+	page "grund aus 5000 Me-"
+	next "tern Tiefe an die"
+	next "Oberfläche dringt.@"

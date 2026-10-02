@@ -1,10 +1,10 @@
-	db "AURORA@" ; species name
-	dw 607, 4120 ; height, weight
+	db "POLARLICHT@" ; species name
+	dbw 20, 1870 ; height, weight
 
-	db   "Said to be the"
-	next "reincarnation of"
-	next "north winds, it"
+	db   "Man sagt, es sei"
+	next "die Wiedergeburt"
+	next "des Nordwindes. Es"
 
-	page "can instantly"
-	next "purify filthy,"
-	next "murky water.@"
+	page "kann verschmutztes"
+	next "Wasser im Nu"
+	next "reinigen.@"

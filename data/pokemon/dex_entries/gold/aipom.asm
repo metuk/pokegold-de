@@ -1,10 +1,10 @@
-	db "LONG TAIL@" ; species name
-	dw 207, 250 ; height, weight
+	db "LANGSCHWEIF@" ; species name
+	dbw 8, 115 ; height, weight
 
-	db   "Its tail is so"
-	next "powerful that it"
-	next "can use it to grab"
+	db   "Sein Schweif ist"
+	next "so kräftig, dass"
+	next "es sich stunden-"
 
-	page "a tree branch and"
-	next "hold itself up in"
-	next "the air.@"
+	page "lang damit an"
+	next "einem Ast in der"
+	next "Luft halten kann.@"

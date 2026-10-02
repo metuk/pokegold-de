@@ -1,5 +1,5 @@
 	db "FIRE HORSE@" ; species name
-	dw 303, 660 ; height, weight
+	dw 11274, 36097 ; height, weight
 
 	db   "Its hind legs,"
 	next "which have hard-"

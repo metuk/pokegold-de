@@ -1,5 +1,5 @@
 	db "LONG TAIL@" ; species name
-	dw 207, 250 ; height, weight
+	dw 29448, 37376 ; height, weight
 
 	db   "It lives atop tall"
 	next "trees. When leap-"

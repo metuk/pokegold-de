@@ -1,5 +1,5 @@
 	db "ELECTRIC@" ; species name
-	dw 200, 520 ; height, weight
+	dw 60166, 33792 ; height, weight
 
 	db   "Even in the most"
 	next "vicious storm,"

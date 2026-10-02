@@ -1,10 +1,10 @@
-	db "GOLDFISH@" ; species name
-	dw 403, 860 ; height, weight
+	db "GOLDFISCH@" ; species name
+	dbw 13, 390 ; height, weight
 
-	db   "During spawning"
-	next "season, SEAKING"
-	next "gather from all"
+	db   "In der Laichzeit"
+	next "sammeln sich viele"
+	next "GOLKINGS in den"
 
-	page "over, coloring"
-	next "the rivers a"
-	next "brilliant red.@"
+	page "Flüssen, die"
+	next "dadurch rot"
+	next "erstrahlen.@"

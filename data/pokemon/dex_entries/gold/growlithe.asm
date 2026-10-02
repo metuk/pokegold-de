@@ -1,10 +1,10 @@
 	db "HUND@" ; species name
-	dw 48647, 33792 ; height, weight
+	dbw 7, 190 ; height, weight
 
-	db   "s ist von Natur"
+	db   "Es ist von Natur"
 	next "aus tapfer und"
 	next "vertrauenswürdig."
+
 	page "Es scheut nicht"
 	next "vor starken"
 	next "Gegnern zurück.@"
-

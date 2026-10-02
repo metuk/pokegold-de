@@ -1,10 +1,10 @@
-	db "BONEKEEPER@" ; species name
-	dw 303, 990 ; height, weight
+	db "KNOCHENFAN@" ; species name
+	dbw 10, 450 ; height, weight
 
-	db   "It has been seen"
-	next "pounding boulders"
-	next "with the bone it"
+	db   "Es schlägt mit dem"
+	next "Knochen in seiner"
+	next "Hand gegen Felsen,"
 
-	page "carries in order"
-	next "to tap out mes-"
-	next "sages to others.@"
+	page "um anderen"
+	next "Botschaften"
+	next "zu übermitteln.@"

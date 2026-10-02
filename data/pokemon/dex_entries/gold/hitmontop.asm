@@ -1,10 +1,10 @@
-	db "HANDSTAND@" ; species name
-	dw 407, 1060 ; height, weight
+	db "KOPFSTAND@" ; species name
+	dbw 14, 480 ; height, weight
 
-	db   "If you become"
-	next "enchanted by its"
-	next "smooth, elegant,"
+	db   "Lässt du dich von"
+	next "seinen eleganten,"
+	next "anmutigen und"
 
-	page "dance-like kicks,"
-	next "you may get"
-	next "drilled hard.@"
+	page "tanzartigen Trit-"
+	next "ten betören, wirst"
+	next "du vermöbelt.@"

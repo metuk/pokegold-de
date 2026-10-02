@@ -1,5 +1,5 @@
 	db "ROYAL@" ; species name
-	dw 607, 1750 ; height, weight
+	dw 6932, 37379 ; height, weight
 
 	db   "When its head was"
 	next "bitten, toxins"

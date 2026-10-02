@@ -1,5 +1,5 @@
 	db "LONG NOSE@" ; species name
-	dw 108, 740 ; height, weight
+	dw 20229, 33793 ; height, weight
 
 	db   "As a sign of af-"
 	next "fection, it bumps"

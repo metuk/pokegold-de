@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
-	dw 503, 2870 ; height, weight
+	db "KRAFTPROTZ@" ; species name
+	dbw 16, 1300 ; height, weight
 
-	db   "It quickly swings"
-	next "its four arms to"
-	next "rock its opponents"
+	db   "Es benutzt seine"
+	next "vier Arme, um"
+	next "seine Gegner mit"
 
-	page "with ceaseless"
-	next "punches and chops"
-	next "from all angles.@"
+	page "Schlägen aus"
+	next "allen Winkeln"
+	next "einzudecken.@"

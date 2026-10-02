@@ -1,10 +1,10 @@
-	db "WILD BULL@" ; species name
-	dw 407, 1950 ; height, weight
+	db "WILDBULLE@" ; species name
+	dbw 14, 884 ; height, weight
 
-	db   "They fight each"
-	next "other by locking"
-	next "horns. The herd's"
+	db   "Sie kämpfen mit"
+	next "ihren Hörnern. Der"
+	next "Herdenführer ist"
 
-	page "protector takes"
-	next "pride in its bat-"
-	next "tle-scarred horns.@"
+	page "stolz auf seine"
+	next "Hörner, die viele"
+	next "Kampfspuren haben.@"

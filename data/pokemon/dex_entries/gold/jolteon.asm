@@ -1,10 +1,10 @@
-	db "LIGHTNING@" ; species name
-	dw 207, 540 ; height, weight
+	db "BLITZ@" ; species name
+	dbw 8, 245 ; height, weight
 
-	db   "It concentrates"
-	next "the weak electric"
-	next "charges emitted"
+	db   "Es sammelt die"
+	next "schwache Energie,"
+	next "die von seinen"
 
-	page "by its cells and"
-	next "launches wicked"
-	next "lightning bolts.@"
+	page "Zellen ausgeht und"
+	next "schleudert starke"
+	next "Blitze aus.@"

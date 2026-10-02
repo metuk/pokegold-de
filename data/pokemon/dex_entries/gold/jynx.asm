@@ -1,10 +1,10 @@
-	db "HUMANSHAPE@" ; species name
-	dw 407, 900 ; height, weight
+	db "HUMANOTYP@" ; species name
+	dbw 14, 406 ; height, weight
 
-	db   "It rocks its body"
-	next "rhythmically. It"
-	next "appears to alter"
+	db   "Es bewegt seinen"
+	next "Körper rhythmisch"
+	next "hin und her."
 
-	page "the rhythm depend-"
-	next "ing on how it is"
-	next "feeling.@"
+	page "Seine Gemütslage"
+	next "bestimmt den"
+	next "Rhythmus.@"

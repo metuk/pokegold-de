@@ -1,10 +1,10 @@
-	db "SLUDGE@" ; species name
-	dw 211, 660 ; height, weight
+	db "SCHLAMM@" ; species name
+	dbw 9, 300 ; height, weight
 
-	db   "As it moves, it"
-	next "loses bits of its"
-	next "body from which"
+	db   "Bei jeder Bewegung"
+	next "verliert es Teile,"
+	next "aus denen neue"
 
-	page "new GRIMER emerge."
-	next "This worsens the"
-	next "stench around it.@"
+	page "SLEIMAS entstehen."
+	next "Dies verschlimmert"
+	next "den Gestank.@"

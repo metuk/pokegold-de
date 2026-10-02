@@ -1,5 +1,5 @@
 	db "PSI@" ; species name
-	dw 411, 1060 ; height, weight
+	dw 57359, 37377 ; height, weight
 
 	db   "Its brain cells"
 	next "multiply continu-"

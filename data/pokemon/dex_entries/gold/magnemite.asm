@@ -1,10 +1,10 @@
 	db "MAGNET@" ; species name
-	dw 100, 130 ; height, weight
+	dbw 3, 60 ; height, weight
 
-	db   "It is attracted by"
-	next "electromagnetic"
-	next "waves. It may"
+	db   "Elektromagnetische"
+	next "Wellen ziehen es"
+	next "an. Trainer, die"
 
-	page "approach trainers"
-	next "if they are using"
-	next "their #GEAR.@"
+	page "den #COM be-"
+	next "nutzen, ziehen"
+	next "MAGNETILO an.@"

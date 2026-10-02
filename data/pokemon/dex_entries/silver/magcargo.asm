@@ -1,5 +1,5 @@
 	db "LAVA@" ; species name
-	dw 207, 1210 ; height, weight
+	dw 9736, 33538 ; height, weight
 
 	db   "Its brittle shell"
 	next "occasionally"

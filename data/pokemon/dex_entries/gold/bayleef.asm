@@ -1,10 +1,10 @@
-	db "LEAF@" ; species name
-	dw 311, 350 ; height, weight
+	db "LAUB@" ; species name
+	dbw 12, 158 ; height, weight
 
-	db   "The scent of"
-	next "spices comes from"
-	next "around its neck."
+	db   "Die Blätter um"
+	next "seinen Hals ver-"
+	next "breiten einen wür-"
 
-	page "Somehow, sniffing"
-	next "it makes you want"
-	next "to fight.@"
+	page "zigen Duft, der"
+	next "beim Einatmen den"
+	next "Kampfgeist anregt.@"

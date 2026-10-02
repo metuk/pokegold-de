@@ -1,10 +1,10 @@
-	db "SINGLEHORN@" ; species name
-	dw 411, 1190 ; height, weight
+	db "EINZELHORN@" ; species name
+	dbw 15, 540 ; height, weight
 
-	db   "This powerful"
-	next "#MON thrusts"
-	next "its prized horn"
+	db   "Dieses kräftige"
+	next "#MON rammt"
+	next "sein prämiertes"
 
-	page "under its enemies'"
-	next "bellies then lifts"
-	next "and throws them.@"
+	page "Horn unter den"
+	next "Rumpf des Gegners"
+	next "und wirft ihn um.@"

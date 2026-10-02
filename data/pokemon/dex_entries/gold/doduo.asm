@@ -1,10 +1,10 @@
-	db "TWIN BIRD@" ; species name
-	dw 407, 860 ; height, weight
+	db "DUOVOGEL@" ; species name
+	dbw 14, 392 ; height, weight
 
-	db   "By alternately"
-	next "raising and lower-"
-	next "ing its two heads,"
+	db   "Um beim Rennen"
+	next "nicht das Gleich-"
+	next "gewicht zu verlie-"
 
-	page "it balances itself"
-	next "to be more stable"
-	next "while running.@"
+	page "ren, streckt es"
+	next "seine Köpfe ab-"
+	next "wechselnd voraus.@"

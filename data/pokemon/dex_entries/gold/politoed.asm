@@ -1,10 +1,10 @@
-	db "FROG@" ; species name
-	dw 307, 750 ; height, weight
+	db "FROSCH@" ; species name
+	dbw 11, 339 ; height, weight
 
-	db   "If POLIWAG and"
-	next "POLIWHIRL hear its"
-	next "echoing cry, they"
+	db   "Hören QUAPUTZI und"
+	next "QUAPPO seinen Ruf,"
+	next "antworten sie,"
 
-	page "respond by gather-"
-	next "ing from far and"
-	next "wide.@"
+	page "indem sie sich"
+	next "von nah und fern"
+	next "versammeln.@"

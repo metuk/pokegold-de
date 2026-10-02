@@ -1,5 +1,5 @@
 	db "SYMBOL@" ; species name
-	dw 108, 110 ; height, weight
+	dw 12805, 34816 ; height, weight
 
 	db   "Its flat, thin"
 	next "body is always"

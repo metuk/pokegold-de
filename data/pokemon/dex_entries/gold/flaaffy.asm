@@ -1,10 +1,10 @@
-	db "WOOL@" ; species name
-	dw 207, 290 ; height, weight
+	db "WOLLE@" ; species name
+	dbw 8, 133 ; height, weight
 
-	db   "As a result of"
-	next "storing too much"
-	next "electricity, it"
+	db   "Da es zuviel Elek-"
+	next "trizität gespei-"
+	next "chert hat, hat es"
 
-	page "developed patches"
-	next "where even downy"
-	next "wool won't grow.@"
+	page "Flecken, an denen"
+	next "nicht einmal feine"
+	next "Wolle wächst.@"

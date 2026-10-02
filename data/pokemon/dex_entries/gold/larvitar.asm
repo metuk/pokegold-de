@@ -1,10 +1,10 @@
-	db "ROCK SKIN@" ; species name
-	dw 200, 1590 ; height, weight
+	db "FELSHAUT@" ; species name
+	dbw 6, 720 ; height, weight
 
-	db   "It feeds on soil."
-	next "After it has eaten"
-	next "a large mountain,"
+	db   "Es ernährt sich"
+	next "von Erde. Nachdem"
+	next "es einen Berg ver-"
 
-	page "it will fall"
-	next "asleep so it can"
-	next "grow.@"
+	page "speist hat,"
+	next "schläft es ein, um"
+	next "zu wachsen.@"

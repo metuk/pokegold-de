@@ -1,10 +1,10 @@
-	db "SHARP CLAW@" ; species name
-	dw 211, 620 ; height, weight
+	db "STICHKLAUE@" ; species name
+	dbw 9, 280 ; height, weight
 
-	db   "Its paws conceal"
-	next "sharp claws. If"
-	next "attacked, it sud-"
+	db   "In seinen Pfoten"
+	next "stecken scharfe"
+	next "Krallen. Es fährt"
 
-	page "denly extends the"
-	next "claws and startles"
-	next "its enemy.@"
+	page "sie blitzschnell"
+	next "aus, um die Gegner"
+	next "zu überraschen.@"

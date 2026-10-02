@@ -1,5 +1,5 @@
 	db "FLOWER@" ; species name
-	dw 204, 90 ; height, weight
+	dw 10247, 36352 ; height, weight
 
 	db   "It plants its feet"
 	next "deep underground"

@@ -1,5 +1,5 @@
 	db "HYPNOSIS@" ; species name
-	dw 303, 710 ; height, weight
+	dw 17418, 34561 ; height, weight
 
 	db   "It remembers every"
 	next "dream it eats. It"

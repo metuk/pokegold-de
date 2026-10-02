@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
-	dw 603, 2650 ; height, weight
+	db "BOHRER@" ; species name
+	dbw 19, 1200 ; height, weight
 
-	db   "Its rugged hide"
-	next "protects it from"
-	next "even the heat of"
+	db   "Seine dicke Haut"
+	next "schützt es vor"
+	next "heißer Lava, aber"
 
-	page "lava. However, the"
-	next "hide also makes it"
-	next "insensitive.@"
+	page "sie macht es"
+	next "auch sonst"
+	next "unempfindlich.@"

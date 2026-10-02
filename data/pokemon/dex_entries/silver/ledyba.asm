@@ -1,5 +1,5 @@
 	db "FIVE STAR@" ; species name
-	dw 303, 240 ; height, weight
+	dw 27658, 33792 ; height, weight
 
 	db   "When the weather"
 	next "turns cold, lots"

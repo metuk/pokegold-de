@@ -1,10 +1,10 @@
-	db "VOLCANO@" ; species name
-	dw 507, 1750 ; height, weight
+	db "VULKAN@" ; species name
+	dbw 17, 795 ; height, weight
 
-	db   "If its rage peaks,"
-	next "it becomes so hot"
-	next "that anything that"
+	db   "Wenn sein Zorn den"
+	next "Zenit übersteigt,"
+	next "wird es so heiß,"
 
-	page "touches it will"
-	next "instantly go"
-	next "up in flames.@"
+	page "dass alles, was es"
+	next "berührt, in Flam-"
+	next "men aufgeht.@"

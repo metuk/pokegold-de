@@ -1,10 +1,10 @@
-	db "LICKING@" ; species name
-	dw 311, 1440 ; height, weight
+	db "SCHLECKER@" ; species name
+	dbw 12, 655 ; height, weight
 
-	db   "Its tongue has"
-	next "well-developed"
-	next "nerves that run"
+	db   "In seiner sensib-"
+	next "len Zunge reichen"
+	next "die Muskeln bis in"
 
-	page "to the very tip,"
-	next "so it can be deft-"
-	next "ly manipulated.@"
+	page "die Spitze. Darum"
+	next "kann es sie stark"
+	next "verbiegen.@"

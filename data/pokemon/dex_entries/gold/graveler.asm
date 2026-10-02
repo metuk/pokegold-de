@@ -1,10 +1,10 @@
-	db "ROCK@" ; species name
-	dw 303, 2320 ; height, weight
+	db "GESTEIN@" ; species name
+	dbw 10, 1050 ; height, weight
 
-	db   "With a free and"
-	next "uncaring nature,"
-	next "it doesn't mind if"
+	db   "Es ist ihm völlig"
+	next "gleichgültig,"
+	next "wenn Stücke aus"
 
-	page "pieces break off"
-	next "while it rolls"
-	next "down mountains.@"
+	page "ihm herausbrechen,"
+	next "während es Berge"
+	next "hinabrollt.@"

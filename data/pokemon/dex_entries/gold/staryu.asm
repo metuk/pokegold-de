@@ -1,10 +1,10 @@
-	db "STARSHAPE@" ; species name
-	dw 207, 760 ; height, weight
+	db "STERNFORM@" ; species name
+	dbw 8, 345 ; height, weight
 
-	db   "At night, the cen-"
-	next "ter of its body"
-	next "slowly flickers"
+	db   "Nachts blinkt"
+	next "die Mitte seines"
+	next "Körpers im selben"
 
-	page "with the same"
-	next "rhythm as a human"
-	next "heartbeat.@"
+	page "Rhythmus, wie"
+	next "das menschliche"
+	next "Herz.@"

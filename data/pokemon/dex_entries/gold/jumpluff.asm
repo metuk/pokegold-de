@@ -1,10 +1,10 @@
-	db "COTTONWEED@" ; species name
-	dw 207, 70 ; height, weight
+	db "LÖWENZAHN@" ; species name
+	dbw 8, 30 ; height, weight
 
-	db   "Once it catches"
-	next "the wind, it deft-"
-	next "ly controls its"
+	db   "Wenn es einmal vom"
+	next "Wind erfasst wur-"
+	next "de, wird es mit"
 
-	page "cotton-puff spores"
-	next "to float, even"
-	next "around the world.@"
+	page "seinen Fallschirm-"
+	next "chen um den ganzen"
+	next "Erdball getragen.@"

@@ -1,10 +1,10 @@
-	db "SLEEPING@" ; species name
-	dw 611, 10140 ; height, weight
+	db "TAGTRÄUMER@" ; species name
+	dbw 21, 4600 ; height, weight
 
-	db   "What sounds like"
-	next "its cry may ac-"
-	next "tually be its"
+	db   "Was sich wie sein"
+	next "Ruf anhört, ist"
+	next "tatsächlich sein"
 
-	page "snores or the"
-	next "rumblings of its"
-	next "hungry belly.@"
+	page "Schnarchen - oder"
+	next "das Knurren"
+	next "seines Magens.@"

@@ -1,10 +1,10 @@
 	db "LAVA@" ; species name
-	dw 204, 770 ; height, weight
+	dbw 7, 350 ; height, weight
 
-	db   "It never sleeps."
-	next "It has to keep"
-	next "moving because if"
+	db   "Es schläft nie. Es"
+	next "muss in Bewegung"
+	next "bleiben, da sein"
 
-	page "it stopped, its"
-	next "magma body would"
-	next "cool and harden.@"
+	page "Magma-Körper sonst"
+	next "abkühlen und"
+	next "erhärten würde.@"

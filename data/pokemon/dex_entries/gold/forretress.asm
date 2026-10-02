@@ -1,10 +1,10 @@
-	db "BAGWORM@" ; species name
-	dw 311, 2770 ; height, weight
+	db "BEUTELWURM@" ; species name
+	dbw 12, 1258 ; height, weight
 
-	db   "Its entire body is"
-	next "shielded by a"
-	next "steel-hard shell."
+	db   "Sein gesamter Kör-"
+	next "per steckt in ei-"
+	next "ner stahlharten"
 
-	page "What lurks inside"
-	next "the armor is a"
-	next "total mystery.@"
+	page "Schale. Sein In-"
+	next "neres bleibt ein"
+	next "Geheimnis.@"

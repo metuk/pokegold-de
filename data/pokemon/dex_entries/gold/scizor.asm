@@ -1,10 +1,10 @@
-	db "SCISSORS@" ; species name
-	dw 511, 2600 ; height, weight
+	db "SCHERE@" ; species name
+	dbw 18, 1180 ; height, weight
 
-	db   "It swings its eye-"
-	next "patterned pincers"
-	next "up to scare its"
+	db   "Es hält seine mit"
+	next "Augen besetzten"
+	next "Scheren nach oben,"
 
-	page "foes. This makes"
-	next "it look like it"
-	next "has three heads.@"
+	page "um seine Feinde"
+	next "dadurch abzu-"
+	next "schrecken.@"

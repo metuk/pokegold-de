@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 703, 4630 ; height, weight
+	db "DRACHE@" ; species name
+	dbw 22, 2100 ; height, weight
 
-	db   "It is said that"
-	next "this #MON con-"
-	next "stantly flies over"
+	db   "Man sagt, dass"
+	next "dieses #MON"
+	next "ständig über die"
 
-	page "the immense seas"
-	next "and rescues drown-"
-	next "ing people.@"
+	page "Meere fliegt und"
+	next "Ertrinkende"
+	next "rettet.@"

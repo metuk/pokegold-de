@@ -1,5 +1,5 @@
 	db "WILD DUCK@" ; species name
-	dw 207, 330 ; height, weight
+	dw 38408, 33024 ; height, weight
 
 	db   "If it eats the"
 	next "plant stick it"

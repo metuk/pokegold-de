@@ -1,5 +1,5 @@
 	db "FROG@" ; species name
-	dw 307, 750 ; height, weight
+	dw 21259, 34561 ; height, weight
 
 	db   "Whenever three or"
 	next "more of these get"

@@ -1,5 +1,5 @@
 	db "FLAME@" ; species name
-	dw 211, 550 ; height, weight
+	dw 64009, 33792 ; height, weight
 
 	db   "It fluffs out its"
 	next "fur collar to cool"

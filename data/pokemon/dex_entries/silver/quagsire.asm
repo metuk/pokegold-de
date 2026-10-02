@@ -1,5 +1,5 @@
 	db "WATER FISH@" ; species name
-	dw 407, 1650 ; height, weight
+	dw 60942, 33538 ; height, weight
 
 	db   "Due to its relaxed"
 	next "and carefree atti-"

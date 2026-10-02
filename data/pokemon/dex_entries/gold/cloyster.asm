@@ -1,10 +1,10 @@
-	db "BIVALVE@" ; species name
-	dw 411, 2920 ; height, weight
+	db "MUSCHEL@" ; species name
+	dbw 15, 1325 ; height, weight
 
-	db   "Once it slams its"
-	next "shell shut, it is"
-	next "impossible to"
+	db   "Ist seine Muschel"
+	next "erst geschlossen,"
+	next "ist es selbst mit"
 
-	page "open, even by"
-	next "those with superi-"
-	next "or strength.@"
+	page "viel Kraft nicht"
+	next "mehr möglich,"
+	next "diese zu öffnen.@"

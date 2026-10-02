@@ -1,5 +1,5 @@
 	db "VOLCANO@" ; species name
-	dw 211, 420 ; height, weight
+	dw 48649, 33536 ; height, weight
 
 	db   "This #MON is"
 	next "fully covered by"

@@ -1,5 +1,5 @@
 	db "TRANSFORM@" ; species name
-	dw 100, 90 ; height, weight
+	dw 10243, 33792 ; height, weight
 
 	db   "Its transformation"
 	next "ability is per-"

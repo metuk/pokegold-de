@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
-	dw 207, 430 ; height, weight
+	db "KRAFTPROTZ@" ; species name
+	dbw 8, 195 ; height, weight
 
-	db   "Always brimming"
-	next "with power, it"
-	next "passes time by"
+	db   "Da es vor Kraft"
+	next "strotzt, hebt es"
+	next "zum Zeitvertreib"
 
-	page "lifting boulders."
-	next "Doing so makes it"
-	next "even stronger.@"
+	page "Felsen. Dadurch"
+	next "gewinnt es an zu-"
+	next "sätzlicher Stärke.@"

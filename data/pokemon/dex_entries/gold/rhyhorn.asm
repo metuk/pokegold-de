@@ -1,10 +1,10 @@
-	db "SPIKES@" ; species name
-	dw 303, 2540 ; height, weight
+	db "STACHLER@" ; species name
+	dbw 10, 1150 ; height, weight
 
-	db   "It is inept at"
-	next "turning because of"
-	next "its four short"
+	db   "Aufgrund seiner"
+	next "kurzen Beine kann"
+	next "es sich nicht um-"
 
-	page "legs. It can only"
-	next "charge and run in"
-	next "one direction.@"
+	page "drehen. Es kann"
+	next "immer nur in eine"
+	next "Richtung laufen.@"

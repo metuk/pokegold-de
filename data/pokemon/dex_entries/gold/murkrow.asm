@@ -1,10 +1,10 @@
-	db "DARKNESS@" ; species name
-	dw 108, 50 ; height, weight
+	db "FINSTERNIS@" ; species name
+	dbw 5, 21 ; height, weight
 
-	db   "Feared and loathed"
-	next "by many, it is"
-	next "believed to bring"
+	db   "Viele verabscheuen"
+	next "und hassen es, da"
+	next "sie glauben, es"
 
-	page "misfortune to all"
-	next "those who see it"
-	next "at night.@"
+	page "bringe Verderben,"
+	next "wenn sie ihm"
+	next "nachts begegnen.@"

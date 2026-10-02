@@ -1,5 +1,5 @@
 	db "RIVER CRAB@" ; species name
-	dw 104, 140 ; height, weight
+	dw 16644, 33024 ; height, weight
 
 	db   "The pincers break"
 	next "off easily. If it"

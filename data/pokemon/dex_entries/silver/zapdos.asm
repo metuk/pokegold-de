@@ -1,5 +1,5 @@
 	db "ELECTRIC@" ; species name
-	dw 503, 1160 ; height, weight
+	dw 3600, 33538 ; height, weight
 
 	db   "This legendary"
 	next "bird #MON is"

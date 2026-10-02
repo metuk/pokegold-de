@@ -1,5 +1,5 @@
 	db "SCREECH@" ; species name
-	dw 204, 20 ; height, weight
+	dw 2567, 33792 ; height, weight
 
 	db   "It loves to bite"
 	next "and yank people's"

@@ -1,5 +1,5 @@
 	db "BIVALVE@" ; species name
-	dw 100, 90 ; height, weight
+	dw 10243, 33792 ; height, weight
 
 	db   "Grains of sand"
 	next "trapped in its"

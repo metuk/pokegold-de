@@ -1,5 +1,5 @@
 	db "HERMITCRAB@" ; species name
-	dw 503, 1730 ; height, weight
+	dw 4368, 38403 ; height, weight
 
 	db   "Naturally dull to"
 	next "begin with, it"

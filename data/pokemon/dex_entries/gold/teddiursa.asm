@@ -1,10 +1,10 @@
-	db "LITTLEBEAR@" ; species name
-	dw 200, 190 ; height, weight
+	db "KLEINBÄR@" ; species name
+	dbw 6, 88 ; height, weight
 
-	db   "If it finds honey,"
-	next "its crescent mark"
-	next "glows. It always"
+	db   "Findet es Honig,"
+	next "leuchtet die Si-"
+	next "chel auf seinem"
 
-	page "licks its paws"
-	next "because they are"
-	next "soaked with honey.@"
+	page "Kopf. Es leckt oft"
+	next "seine mit Honig"
+	next "bedeckten Pfoten.@"

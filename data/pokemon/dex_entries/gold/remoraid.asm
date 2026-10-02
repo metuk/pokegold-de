@@ -1,10 +1,10 @@
-	db "JET@" ; species name
-	dw 200, 260 ; height, weight
+	db "HOCHDRUCK@" ; species name
+	dbw 6, 120 ; height, weight
 
-	db   "It has superb ac-"
-	next "curacy. The water"
-	next "it shoots out can"
+	db   "Es ist äußerst"
+	next "präzise. Es kann"
+	next "mit seinem Wasser-"
 
-	page "strike even moving"
-	next "prey from more"
-	next "than 300 feet.@"
+	page "schuss Beute erle-"
+	next "gen, die 100 Meter"
+	next "entfernt ist.@"

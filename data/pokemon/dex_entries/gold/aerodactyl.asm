@@ -1,10 +1,10 @@
 	db "FOSSIL@" ; species name
-	dw 511, 1300 ; height, weight
+	dbw 18, 590 ; height, weight
 
-	db   "A vicious #MON"
-	next "from the distant"
-	next "past, it appears"
+	db   "Ein fieses #MON"
+	next "aus vergangener"
+	next "Zeit, das angeb-"
 
-	page "to have flown by"
-	next "spreading its"
-	next "wings and gliding.@"
+	page "lich seine Flügel"
+	next "einsetzte, um"
+	next "zu gleiten.@"

@@ -1,10 +1,10 @@
-	db "POISON GAS@" ; species name
-	dw 311, 210 ; height, weight
+	db "GIFTWOLKE@" ; species name
+	dbw 12, 95 ; height, weight
 
-	db   "If one of the twin"
-	next "KOFFING inflates,"
-	next "the other one"
+	db   "Pumpt sich eines"
+	next "der zwei SMOGONS"
+	next "auf, lässt eines"
 
-	page "deflates. It con-"
-	next "stantly mixes its"
-	next "poisonous gases.@"
+	page "Luft ab. So findet"
+	next "ein Giftgas-"
+	next "austausch statt.@"

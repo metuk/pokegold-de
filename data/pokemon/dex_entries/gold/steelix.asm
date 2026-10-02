@@ -1,10 +1,10 @@
-	db "IRON SNAKE@" ; species name
-	dw 3002, 8820 ; height, weight
+	db "STAHLBOA@" ; species name
+	dbw 92, 4000 ; height, weight
 
-	db   "Its body has been"
-	next "compressed deep"
-	next "under the ground."
+	db   "Es wurde tief in"
+	next "der Erde derartig"
+	next "zusammengestaucht,"
 
-	page "As a result, it is"
-	next "even harder than a"
-	next "diamond.@"
+	page "dass sein Körper"
+	next "härter als ein"
+	next "Diamant wurde.@"

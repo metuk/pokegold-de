@@ -1,10 +1,10 @@
-	db "JELLYFISH@" ; species name
-	dw 503, 1210 ; height, weight
+	db "QUALLE@" ; species name
+	dbw 16, 550 ; height, weight
 
-	db   "Its 80 tentacles"
-	next "absorb water and"
-	next "stretch almost"
+	db   "Seine 80 Tentakel"
+	next "absorbieren das"
+	next "Wasser und sind"
 
-	page "endlessly to CON-"
-	next "STRICT its prey"
-	next "and enemies.@"
+	page "sehr dehnbar,"
+	next "um Beute und Fein-"
+	next "de zu UMKLAMMERN.@"

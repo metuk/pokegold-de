@@ -1,10 +1,10 @@
-	db "HERMITCRAB@" ; species name
-	dw 503, 1730 ; height, weight
+	db "SYMBIOSE@" ; species name
+	dbw 16, 785 ; height, weight
 
-	db   "If the tail-biting"
-	next "SHELLDER is thrown"
-	next "off in a harsh"
+	db   "Wenn das MUSCHAS"
+	next "an seinem Schwanz"
+	next "in einem Kampf ab-"
 
-	page "battle, it reverts"
-	next "to being an ordi-"
-	next "nary SLOWPOKE.@"
+	page "geschüttelt wird,"
+	next "entwickelt es sich"
+	next "in FLEGMON zurück.@"

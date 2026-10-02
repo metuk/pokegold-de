@@ -1,10 +1,10 @@
 	db "BALL@" ; species name
-	dw 108, 230 ; height, weight
+	dbw 5, 104 ; height, weight
 
-	db   "It rolls to move."
-	next "If the ground is"
-	next "uneven, a sudden"
+	db   "Es bewegt sich"
+	next "rollend fort."
+	next "Rollt es gegen ein"
 
-	page "jolt from hitting"
-	next "a bump can cause"
-	next "it to explode.@"
+	page "Hindernis, kann"
+	next "es plötzlich"
+	next "explodieren.@"

@@ -1,10 +1,10 @@
-	db "LIGHT@" ; species name
-	dw 407, 1360 ; height, weight
+	db "LEUCHTE@" ; species name
+	dbw 14, 615 ; height, weight
 
-	db   "The tail's tip"
-	next "shines brightly"
-	next "and can be seen"
+	db   "Seine Schwanzspit-"
+	next "ze ist so hell,"
+	next "dass viele Ver-"
 
-	page "from far away. It"
-	next "acts as a beacon"
-	next "for lost people.@"
+	page "schollene es als"
+	next "Orientierungspunkt"
+	next "benutzen.@"

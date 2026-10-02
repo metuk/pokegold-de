@@ -2193,7 +2193,7 @@ PCString_RemoveMail: db "Entferne Brief@"
 PCString_ReleasedPKMN: db "<PK><MN> freigelassen.@"
 PCString_Bye: db "Ade, @"
 PCString_Stored: db " abgel.!@"
-PCString_Got: db "Got @"
+PCString_Got: db " erhal.!@"
 PCString_Non: db "Non.@" ; unreferenced
 PCString_BoxFull: db "The BOX is full.@"
 PCString_PartyFull: db "The party's full!@"

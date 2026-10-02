@@ -1,10 +1,10 @@
-	db "COTTONWEED@" ; species name
-	dw 104, 10 ; height, weight
+	db "LÖWENZAHN@" ; species name
+	dbw 4, 5 ; height, weight
 
-	db   "To keep from being"
-	next "blown away by the"
-	next "wind, they gather"
+	db   "Um nicht vom Wind"
+	next "davongeweht zu"
+	next "werden, treten sie"
 
-	page "in clusters. They"
-	next "do enjoy gentle"
-	next "breezes, though.@"
+	page "stets in Gruppen"
+	next "auf. Eine Brise"
+	next "gefällt ihnen.@"

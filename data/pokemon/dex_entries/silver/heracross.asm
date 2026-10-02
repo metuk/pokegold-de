@@ -1,5 +1,5 @@
 	db "SINGLEHORN@" ; species name
-	dw 411, 1190 ; height, weight
+	dw 7183, 33538 ; height, weight
 
 	db   "Usually docile,"
 	next "but if disturbed"

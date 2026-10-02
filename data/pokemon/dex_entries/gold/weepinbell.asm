@@ -1,10 +1,10 @@
-	db "FLYCATCHER@" ; species name
-	dw 303, 140 ; height, weight
+	db "FLIEGENTOT@" ; species name
+	dbw 10, 64 ; height, weight
 
-	db   "Even though it is"
-	next "filled with ACID,"
-	next "it does not melt"
+	db   "Obwohl es mit"
+	next "SÄURE angefüllt"
+	next "ist, verätzt es"
 
-	page "because it also"
-	next "oozes a neutral-"
-	next "izing fluid.@"
+	page "sich nicht, da es"
+	next "gegen SÄURE"
+	next "resistent ist.@"

@@ -1,10 +1,10 @@
-	db "POISON GAS@" ; species name
-	dw 200, 20 ; height, weight
+	db "GIFTWOLKE@" ; species name
+	dbw 6, 10 ; height, weight
 
-	db   "Its thin, filmy"
-	next "body is filled"
-	next "with gases that"
+	db   "Sein dünner Körper"
+	next "ist mit Gasen an-"
+	next "gefüllt, die Hus-"
 
-	page "cause constant"
-	next "sniffles, coughs"
-	next "and teary eyes.@"
+	page "ten und Schnupfen"
+	next "verursachen und"
+	next "die Augen reizen.@"

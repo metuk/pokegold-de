@@ -1,10 +1,10 @@
-	db "SUN@" ; species name
-	dw 207, 190 ; height, weight
+	db "SONNE@" ; species name
+	dbw 8, 85 ; height, weight
 
-	db   "It converts sun-"
-	next "light into energy."
-	next "In the darkness"
+	db   "Es wandelt Sonnen-"
+	next "licht in Energie."
+	next "Nach Sonnenunter-"
 
-	page "after sunset, it"
-	next "closes its petals"
-	next "and becomes still.@"
+	page "gang schließt es"
+	next "seine Blüten und"
+	next "wird still.@"

@@ -1,10 +1,10 @@
-	db "ROCK@" ; species name
-	dw 104, 440 ; height, weight
+	db "GESTEIN@" ; species name
+	dbw 4, 200 ; height, weight
 
-	db   "Most people may"
-	next "not notice, but"
-	next "a closer look"
+	db   "Viele Leute wissen"
+	next "das nicht, aber"
+	next "bei näherer Be-"
 
-	page "should reveal that"
-	next "there are many"
-	next "GEODUDE around.@"
+	page "trachtung erkennt"
+	next "man, dass es viele"
+	next "KLEINSTEINS gibt.@"

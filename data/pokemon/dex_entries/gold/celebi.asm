@@ -1,10 +1,10 @@
-	db "TIMETRAVEL@" ; species name
-	dw 200, 110 ; height, weight
+	db "ZEITREISE@" ; species name
+	dbw 6, 50 ; height, weight
 
-	db   "This #MON wan-"
-	next "ders across time."
-	next "Grass and trees"
+	db   "Dieses #MON"
+	next "reist durch Zeit"
+	next "und Raum. Bäume"
 
-	page "flourish in the"
-	next "forests in which"
-	next "it has appeared.@"
+	page "und Wiesen"
+	next "wuchern, wenn es"
+	next "in der Nähe ist.@"

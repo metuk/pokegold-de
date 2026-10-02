@@ -1,10 +1,10 @@
-	db "ELECTRIC@" ; species name
-	dw 307, 660 ; height, weight
+	db "ELEKTRO@" ; species name
+	dbw 11, 300 ; height, weight
 
-	db   "Electricity runs"
-	next "across the surface"
-	next "of its body. In"
+	db   "Elektrizität be-"
+	next "deckt seinen Kör-"
+	next "per. Im Dunkeln"
 
-	page "darkness, its en-"
-	next "tire body glows a"
-	next "whitish-blue.@"
+	page "erstrahlt es in"
+	next "einem bläulichen"
+	next "Ton.@"

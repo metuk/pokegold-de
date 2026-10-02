@@ -1,10 +1,10 @@
-	db "SPIKE BALL@" ; species name
-	dw 100, 30 ; height, weight
+	db "ZACKENBALL@" ; species name
+	dbw 3, 15 ; height, weight
 
-	db   "The shell seems to"
-	next "be filled with"
-	next "joy. It is said"
+	db   "Seine Schale ist"
+	next "voll von Freude."
+	next "Es teilt sein"
 
-	page "that it will share"
-	next "good luck when"
-	next "treated kindly.@"
+	page "Glück, wenn man es"
+	next "freundlich und"
+	next "gut behandelt.@"

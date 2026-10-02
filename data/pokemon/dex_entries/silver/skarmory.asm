@@ -1,5 +1,5 @@
 	db "ARMOR BIRD@" ; species name
-	dw 507, 1110 ; height, weight
+	dw 63761, 37377 ; height, weight
 
 	db   "After nesting in"
 	next "bramble bushes,"

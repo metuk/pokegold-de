@@ -1,10 +1,10 @@
-	db "LONG NOSE@" ; species name
-	dw 108, 740 ; height, weight
+	db "LANGRÜSSEL@" ; species name
+	dbw 5, 335 ; height, weight
 
-	db   "It swings its long"
-	next "snout around play-"
-	next "fully, but because"
+	db   "Es wirft seinen"
+	next "langen Rüssel im"
+	next "Spiel wild umher."
 
-	page "it is so strong,"
-	next "that can be dan-"
-	next "gerous.@"
+	page "Da es so stark"
+	next "ist, könnte dies"
+	next "gefährlich werden.@"

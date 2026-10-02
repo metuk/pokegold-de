@@ -778,45 +778,9 @@ HeavyBallMultiplier:
 	jr nz, .SkipText
 
 	ld a, d
-	push bc
 	inc hl
 	inc hl
-	call GetFarWord
-
-	srl h
-	rr l
-	ld b, h
-	ld c, l
-
-rept 4
-	srl b
-	rr c
-endr
-	call .subbc
-
-	srl b
-	rr c
-	call .subbc
-
-	ld a, h
-	pop bc
-	jr .compare
-
-.subbc
-	; subtract bc from hl
-	push bc
-	ld a, b
-	cpl
-	ld b, a
-	ld a, c
-	cpl
-	ld c, a
-	inc bc
-	add hl, bc
-	pop bc
-	ret
-
-.compare
+	call GetFarByte ; HIGH(weight)
 	ld c, a
 	cp HIGH(1024) ; 102.4 kg
 	jr c, .lightmon

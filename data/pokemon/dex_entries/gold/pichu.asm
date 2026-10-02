@@ -1,10 +1,10 @@
-	db "TINY MOUSE@" ; species name
-	dw 100, 40 ; height, weight
+	db "BABYMAUS@" ; species name
+	dbw 3, 20 ; height, weight
 
-	db   "It is not yet"
-	next "skilled at storing"
-	next "electricity."
+	db   "Es kann noch nicht"
+	next "mit Elektrizität"
+	next "umgehen. Es wirft"
 
-	page "It may send out a"
-	next "jolt if amused"
-	next "or startled.@"
+	page "Blitze, wenn es"
+	next "sich freut oder"
+	next "erstaunt ist.@"

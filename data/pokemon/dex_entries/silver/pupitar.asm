@@ -1,5 +1,5 @@
 	db "HARD SHELL@" ; species name
-	dw 311, 3350 ; height, weight
+	dw 61452, 33797 ; height, weight
 
 	db   "Even sealed in its"
 	next "shell, it can move"

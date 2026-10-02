@@ -1,10 +1,10 @@
 	db "TRANSFORM@" ; species name
-	dw 100, 90 ; height, weight
+	dbw 3, 40 ; height, weight
 
-	db   "It can transform"
-	next "into anything."
-	next "When it sleeps, it"
+	db   "Es kann sich in"
+	next "alles verwandeln."
+	next "Wenn es schläft,"
 
-	page "changes into a"
-	next "stone to avoid"
-	next "being attacked.@"
+	page "verwandelt es sich"
+	next "in einen Stein,"
+	next "um sicher zu sein.@"

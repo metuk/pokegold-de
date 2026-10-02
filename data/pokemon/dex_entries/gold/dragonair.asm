@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 1301, 360 ; height, weight
+	db "DRACHE@" ; species name
+	dbw 40, 165 ; height, weight
 
-	db   "They say that if"
-	next "it emits an aura"
-	next "from its whole"
+	db   "Die Aura, die es"
+	next "umgibt, ist so"
+	next "stark, dass es in"
 
-	page "body, the weather"
-	next "will begin to"
-	next "change instantly.@"
+	page "der Lage ist, das"
+	next "Wetter sofort"
+	next "zu verändern.@"

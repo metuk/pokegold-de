@@ -1,10 +1,10 @@
-	db "STRINGSPIT@" ; species name
-	dw 108, 190 ; height, weight
+	db "FADENWURF@" ; species name
+	dbw 5, 85 ; height, weight
 
-	db   "It lies still in"
-	next "the same pose for"
-	next "days in its web,"
+	db   "Es sitzt tagelang"
+	next "regungslos in sei-"
+	next "nem Netz und lau-"
 
-	page "waiting for its"
-	next "unsuspecting prey"
-	next "to wander close.@"
+	page "ert unvorsichtiger"
+	next "Beute auf, die ihm"
+	next "zu nahe kommt.@"

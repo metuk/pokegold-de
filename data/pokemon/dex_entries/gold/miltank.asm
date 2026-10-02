@@ -1,10 +1,10 @@
-	db "MILK COW@" ; species name
-	dw 311, 1660 ; height, weight
+	db "MILCHKUH@" ; species name
+	dbw 12, 755 ; height, weight
 
-	db   "Its milk is packed"
-	next "with nutrition,"
-	next "making it the"
+	db   "Aufgrund der vie-"
+	next "len Nährstoffe"
+	next "stellt seine Milch"
 
-	page "ultimate beverage"
-	next "for the sick or"
-	next "weary.@"
+	page "das ideale Getränk"
+	next "für Kranke und"
+	next "Schwache dar.@"

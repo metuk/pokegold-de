@@ -1,5 +1,5 @@
 	db "FAIRY@" ; species name
-	dw 200, 170 ; height, weight
+	dw 19974, 36352 ; height, weight
 
 	db   "It has an active,"
 	next "playful nature."

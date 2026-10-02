@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 104, 180 ; height, weight
+	db "DRACHE@" ; species name
+	dbw 4, 80 ; height, weight
 
-	db   "If attacked by a"
-	next "larger enemy, it"
-	next "quickly swims to"
+	db   "Wird es von einem"
+	next "größeren Gegner "
+	next "angegriffen, setzt"
 
-	page "safety by adeptly"
-	next "controlling its"
-	next "dorsal fin.@"
+	page "es seine Rücken-"
+	next "flosse ein, um"
+	next "davonzuschwimmen.@"

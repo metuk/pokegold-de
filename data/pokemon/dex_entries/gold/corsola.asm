@@ -1,10 +1,10 @@
-	db "CORAL@" ; species name
-	dw 200, 110 ; height, weight
+	db "KORALLE@" ; species name
+	dbw 6, 50 ; height, weight
 
-	db   "It continuously"
-	next "sheds and grows."
-	next "The tip of its"
+	db   "Es häutet sich im-"
+	next "mer und wächst."
+	next "Seine Kopfspitze"
 
-	page "head is prized as"
-	next "a treasure for its"
-	next "beauty.@"
+	page "wurde als Schatz"
+	next "der Schönheit aus-"
+	next "gezeichnet.@"

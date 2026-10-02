@@ -1,5 +1,5 @@
 	db "SCUFFLE@" ; species name
-	dw 204, 460 ; height, weight
+	dw 53767, 33792 ; height, weight
 
 	db   "Even though it is"
 	next "small, it can't be"

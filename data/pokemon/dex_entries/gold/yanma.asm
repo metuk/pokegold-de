@@ -1,10 +1,10 @@
-	db "CLEAR WING@" ; species name
-	dw 311, 840 ; height, weight
+	db "LIBELLE@" ; species name
+	dbw 12, 380 ; height, weight
 
-	db   "If it flaps its"
-	next "wings really fast,"
-	next "it can generate"
+	db   "Schlägt es schnell"
+	next "mit den Flügeln,"
+	next "erzeugt es Schock-"
 
-	page "shock waves that"
-	next "will shatter win-"
-	next "dows in the area.@"
+	page "wellen, durch die"
+	next "sogar Fenster"
+	next "zerbersten.@"

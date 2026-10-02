@@ -1,10 +1,10 @@
-	db "BIG HORN@" ; species name
-	dw 407, 1570 ; height, weight
+	db "VIELENDER@" ; species name
+	dbw 14, 712 ; height, weight
 
-	db   "The curved antlers"
-	next "subtly change the"
-	next "flow of air to"
+	db   "Sein gebogenes Ge-"
+	next "weih generiert"
+	next "via Luftänderung"
 
-	page "create a strange"
-	next "space where real-"
-	next "ity is distorted.@"
+	page "einen Raum, in dem"
+	next "die Wirklichkeit"
+	next "verzerrt wird.@"

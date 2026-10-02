@@ -1,5 +1,5 @@
 	db "GAS@" ; species name
-	dw 503, 2 ; height, weight
+	dw 272, 32768 ; height, weight
 
 	db   "Its tongue is made"
 	next "of gas. If licked,"

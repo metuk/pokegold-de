@@ -1,5 +1,5 @@
 	db "MEGATON@" ; species name
-	dw 407, 6620 ; height, weight
+	dw 47118, 33803 ; height, weight
 
 	db   "It is capable of"
 	next "blowing itself up."

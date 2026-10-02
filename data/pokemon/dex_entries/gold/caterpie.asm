@@ -1,10 +1,10 @@
 	db "WURM@" ; species name
-	dw 7427, 32768 ; height, weight
+	dbw 3, 29 ; height, weight
 
-	db   "ls Schutz vor"
+	db   "Als Schutz vor"
 	next "Feinden"
 	next "sondert es einen"
+
 	page "übelriechenden"
 	next "Gestank mit seinen"
 	next "Antennen ab.@"
-

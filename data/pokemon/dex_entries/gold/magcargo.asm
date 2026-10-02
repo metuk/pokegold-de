@@ -1,10 +1,10 @@
 	db "LAVA@" ; species name
-	dw 207, 1210 ; height, weight
+	dbw 8, 550 ; height, weight
 
-	db   "The shell on its"
-	next "back is just skin"
-	next "that has cooled"
+	db   "Das Haus auf sei-"
+	next "nem Rücken ist"
+	next "ausgehärtete Haut."
 
-	page "and hardened. It"
-	next "breaks easily with"
-	next "a slight touch.@"
+	page "Es zerbricht schon"
+	next "bei der geringsten"
+	next "Berührung.@"

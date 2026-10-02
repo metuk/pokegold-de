@@ -1,10 +1,10 @@
-	db "LITTLEBIRD@" ; species name
-	dw 8, 40 ; height, weight
+	db "KLEINVOGEL@" ; species name
+	dbw 2, 20 ; height, weight
 
-	db   "Because its wings"
-	next "aren't yet fully"
-	next "grown, it has to"
+	db   "Da seine Flügel"
+	next "nicht voll ausge-"
+	next "bildet sind, be-"
 
-	page "hop to get around."
-	next "It is always star-"
-	next "ing at something.@"
+	page "wegt es sich hüp-"
+	next "fend. Es starrt"
+	next "immer etwas an.@"

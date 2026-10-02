@@ -1,10 +1,10 @@
-	db "VIRTUAL@" ; species name
-	dw 200, 720 ; height, weight
+	db "VIRTUELL@" ; species name
+	dbw 6, 325 ; height, weight
 
-	db   "This upgraded"
-	next "version of PORYGON"
-	next "is designed for"
+	db   "Diese verbesserte"
+	next "PORYGON-Version,"
+	next "wurde für den Ein-"
 
-	page "space exploration."
-	next "It can't fly,"
-	next "though.@"
+	page "satz im Weltall"
+	next "gebaut. Es kann a-"
+	next "ber nicht fliegen.@"

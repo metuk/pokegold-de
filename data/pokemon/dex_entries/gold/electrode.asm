@@ -1,10 +1,10 @@
 	db "BALL@" ; species name
-	dw 311, 1470 ; height, weight
+	dbw 12, 666 ; height, weight
 
-	db   "It is dangerous."
-	next "If it has too much"
-	next "electricity and"
+	db   "Es ist gefährlich."
+	next "Besitzt es zu viel"
+	next "Elektrizität und"
 
-	page "has nothing to do,"
-	next "it amuses itself"
-	next "by exploding.@"
+	page "Freizeit, amüsiert"
+	next "es sich, indem"
+	next "es explodiert.@"

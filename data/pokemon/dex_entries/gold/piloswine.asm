@@ -1,10 +1,10 @@
-	db "SWINE@" ; species name
-	dw 307, 1230 ; height, weight
+	db "SCHWEIN@" ; species name
+	dbw 11, 558 ; height, weight
 
-	db   "Because the long"
-	next "hair all over its"
-	next "body obscures its"
+	db   "Da sein haariges"
+	next "Fell seine Sicht"
+	next "enorm beeinträch-"
 
-	page "sight, it just"
-	next "keeps charging"
-	next "repeatedly.@"
+	page "tigt, greift es"
+	next "ständig an, um den"
+	next "Gegner zu treffen.@"

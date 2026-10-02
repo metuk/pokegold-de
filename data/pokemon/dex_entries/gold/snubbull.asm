@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
-	dw 200, 170 ; height, weight
+	db "FEE@" ; species name
+	dbw 6, 78 ; height, weight
 
-	db   "Although it looks"
-	next "frightening, it is"
-	next "actually kind and"
+	db   "Obwohl es angst-"
+	next "einflößend aus-"
+	next "sieht, ist es sehr"
 
-	page "affectionate. It"
-	next "is very popular"
-	next "among women.@"
+	page "liebevoll und"
+	next "bei Frauen sehr"
+	next "beliebt.@"

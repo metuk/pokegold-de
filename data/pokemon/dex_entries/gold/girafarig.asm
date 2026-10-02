@@ -1,10 +1,10 @@
-	db "LONG NECK@" ; species name
-	dw 411, 910 ; height, weight
+	db "LANGHALS@" ; species name
+	dbw 15, 415 ; height, weight
 
-	db   "Its tail has a"
-	next "small brain of its"
-	next "own. Beware! If"
+	db   "Sein Schwanz hat"
+	next "ein eigenes Ge-"
+	next "hirn. Achtung!"
 
-	page "you get close, it"
-	next "may react to your"
-	next "scent and bite.@"
+	page "Kommst du ihm zu"
+	next "nahe, kann es dich"
+	next "riechen und beißt.@"

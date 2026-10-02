@@ -1,5 +1,5 @@
 	db "AQUAMOUSE@" ; species name
-	dw 104, 190 ; height, weight
+	dw 21764, 33536 ; height, weight
 
 	db   "The end of its"
 	next "tail serves as a"

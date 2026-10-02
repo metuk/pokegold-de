@@ -1,5 +1,5 @@
 	db "BALL@" ; species name
-	dw 108, 230 ; height, weight
+	dw 26629, 33792 ; height, weight
 
 	db   "It was discovered"
 	next "when # BALLS"

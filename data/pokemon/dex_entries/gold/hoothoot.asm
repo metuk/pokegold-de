@@ -1,10 +1,10 @@
-	db "OWL@" ; species name
-	dw 204, 470 ; height, weight
+	db "EULE@" ; species name
+	dbw 7, 212 ; height, weight
 
-	db   "It always stands"
-	next "on one foot. It"
-	next "changes feet so"
+	db   "Es steht immer auf"
+	next "einem Bein. Es"
+	next "wechselt sein"
 
-	page "fast, the movement"
-	next "can rarely be"
-	next "seen.@"
+	page "Standbein so"
+	next "schnell, dass man"
+	next "es kaum sieht.@"

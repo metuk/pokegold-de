@@ -1,10 +1,10 @@
-	db "FISH@" ; species name
-	dw 211, 220 ; height, weight
+	db "FISCH@" ; species name
+	dbw 9, 100 ; height, weight
 
-	db   "An underpowered,"
-	next "pathetic #MON."
-	next "It may jump high"
+	db   "Ein schwaches und"
+	next "träges #MON."
+	next "Manchmal springt"
 
-	page "on rare occasions,"
-	next "but never more"
-	next "than seven feet.@"
+	page "es sehr hoch, aber"
+	next "nie höher als"
+	next "zwei Meter.@"

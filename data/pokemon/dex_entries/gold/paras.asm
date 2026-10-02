@@ -1,10 +1,10 @@
 	db "PILZ@" ; species name
-	dw 13827, 33792 ; height, weight
+	dbw 3, 54 ; height, weight
 
-	db   "s ist von Geburt"
+	db   "Es ist von Geburt"
 	next "an mit Pilzsporen"
 	next "übersät. Wenn es"
+
 	page "wächst, sprießen"
 	next "Pilze auf seinem"
 	next "Rücken.@"
-

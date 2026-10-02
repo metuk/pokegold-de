@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
-	dw 200, 210 ; height, weight
+	db "GROSSMAUL@" ; species name
+	dbw 6, 95 ; height, weight
 
-	db   "Its well-developed"
-	next "jaws are powerful"
-	next "and capable of"
+	db   "Seine starken Kie-"
+	next "fer können alles"
+	next "zermalmen. Selbst"
 
-	page "crushing anything."
-	next "Even its trainer"
-	next "must be careful.@"
+	page "sein Trainer muss"
+	next "sich vor ihm in"
+	next "Acht nehmen.@"

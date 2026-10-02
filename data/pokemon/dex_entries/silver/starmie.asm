@@ -1,5 +1,5 @@
 	db "MYSTERIOUS@" ; species name
-	dw 307, 1760 ; height, weight
+	dw 8203, 33539 ; height, weight
 
 	db   "Regardless of the"
 	next "environment it"

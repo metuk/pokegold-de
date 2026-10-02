@@ -1,10 +1,10 @@
-	db "SEA LION@" ; species name
-	dw 507, 2650 ; height, weight
+	db "SEEHUND@" ; species name
+	dbw 17, 1200 ; height, weight
 
-	db   "Its streamlined"
-	next "body has little"
-	next "drag in water."
+	db   "Es verspürt kaum"
+	next "Widerstand im Was-"
+	next "ser. Je niedriger"
 
-	page "The colder the"
-	next "temperature, the"
-	next "friskier it gets.@"
+	page "die Temperatur,"
+	next "desto verspielter"
+	next "verhält es sich.@"

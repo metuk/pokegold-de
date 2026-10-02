@@ -1,5 +1,5 @@
 	db "JET@" ; species name
-	dw 211, 630 ; height, weight
+	dw 7433, 33025 ; height, weight
 
 	db   "It instinctively"
 	next "sneaks into rocky"

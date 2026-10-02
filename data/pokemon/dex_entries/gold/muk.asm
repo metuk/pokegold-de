@@ -1,10 +1,10 @@
-	db "SLUDGE@" ; species name
-	dw 311, 660 ; height, weight
+	db "SCHLAMM@" ; species name
+	dbw 12, 300 ; height, weight
 
-	db   "They love to gath-"
-	next "er in smelly areas"
-	next "where sludge ac-"
+	db   "Sie treffen sich"
+	next "an stinkenden"
+	next "Orten, an denen"
 
-	page "cumulates, making"
-	next "the stench around"
-	next "them worse.@"
+	page "der Schleim sich"
+	next "türmt. Dies merkt"
+	next "man am Gestank.@"

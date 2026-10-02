@@ -1,10 +1,10 @@
 	db "IMITATION@" ; species name
-	dw 311, 840 ; height, weight
+	dbw 12, 380 ; height, weight
 
-	db   "Although it always"
-	next "pretends to be a"
-	next "tree, its composi-"
+	db   "Obwohl es vorgibt,"
+	next "ein Baum zu sein,"
+	next "kommt seine Ver-"
 
-	page "tion appears to be"
-	next "closer to a rock"
-	next "than a plant.@"
+	page "fassung einem"
+	next "Stein näher als"
+	next "einer Pflanze.@"

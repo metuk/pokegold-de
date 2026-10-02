@@ -1,10 +1,10 @@
-	db "ATROCIOUS@" ; species name
-	dw 2104, 5180 ; height, weight
+	db "GRAUSAM@" ; species name
+	dbw 65, 2350 ; height, weight
 
-	db   "They say that"
-	next "during past wars,"
-	next "GYARADOS would"
+	db   "Man sagt, dass"
+	next "GARADOS in den"
+	next "alten Kriegen"
 
-	page "appear and leave"
-	next "blazing ruins in"
-	next "its wake.@"
+	page "aufgetaucht sei"
+	next "und Ruinen"
+	next "hinterlassen hat.@"

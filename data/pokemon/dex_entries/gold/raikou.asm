@@ -1,10 +1,10 @@
-	db "THUNDER@" ; species name
-	dw 603, 3920 ; height, weight
+	db "DONNER@" ; species name
+	dbw 19, 1780 ; height, weight
 
-	db   "The rain clouds it"
-	next "carries let it"
-	next "fire thunderbolts"
+	db   "Die Regenwolken,"
+	next "die es trägt, er-"
+	next "möglichen ihm Ge-"
 
-	page "at will. They say"
-	next "that it descended"
-	next "with lightning.@"
+	page "witter zu erzeu-"
+	next "gen. Es strotzt"
+	next "vor Blitzen.@"

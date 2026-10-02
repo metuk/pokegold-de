@@ -1,10 +1,10 @@
-	db "BAGWORM@" ; species name
-	dw 200, 160 ; height, weight
+	db "BEUTELWURM@" ; species name
+	dbw 6, 72 ; height, weight
 
-	db   "It likes to make"
-	next "its shell thicker"
-	next "by adding layers"
+	db   "Es fügt seiner"
+	next "Schale schichten-"
+	next "weise Baumrinde"
 
-	page "of tree bark. The"
-	next "additional weight"
-	next "doesn't bother it.@"
+	page "hinzu. Die zusätz-"
+	next "liche Belastung"
+	next "ist ihm gleich.@"

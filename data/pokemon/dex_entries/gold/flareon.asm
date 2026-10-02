@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
-	dw 211, 550 ; height, weight
+	db "FEUER@" ; species name
+	dbw 9, 250 ; height, weight
 
-	db   "It stores some of"
-	next "the air it inhales"
-	next "in its internal"
+	db   "Es speichert einen"
+	next "Teil seiner Atem-"
+	next "luft in seinem"
 
-	page "flame pouch, which"
-	next "heats it to over"
-	next "3,000 degrees.@"
+	page "Körper und erhitzt"
+	next "sie auf bis zu"
+	next "1700 Grad.@"

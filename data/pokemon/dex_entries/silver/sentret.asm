@@ -1,5 +1,5 @@
 	db "SCOUT@" ; species name
-	dw 207, 130 ; height, weight
+	dw 15368, 33792 ; height, weight
 
 	db   "It stands on its"
 	next "tail so it can see"

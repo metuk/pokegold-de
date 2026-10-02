@@ -1,5 +1,5 @@
 	db "ANGLER@" ; species name
-	dw 108, 260 ; height, weight
+	dw 30725, 33792 ; height, weight
 
 	db   "On the dark ocean"
 	next "floor, its only"

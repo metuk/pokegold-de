@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
-	dw 511, 1650 ; height, weight
+	db "FLEDERMAUS@" ; species name
+	dbw 18, 750 ; height, weight
 
-	db   "It flies so si-"
-	next "lently through the"
-	next "dark on its four"
+	db   "Mit seinen vier"
+	next "Flügeln fliegt es"
+	next "so geräuschlos"
 
-	page "wings that it may"
-	next "not be noticed"
-	next "even when nearby.@"
+	page "durch die Nacht,"
+	next "dass man es nicht"
+	next "bemerkt.@"

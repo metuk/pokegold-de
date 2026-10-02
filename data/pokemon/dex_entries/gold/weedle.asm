@@ -1,10 +1,10 @@
 	db "RAUPE@" ; species name
-	dw 8195, 37376 ; height, weight
+	dbw 3, 32 ; height, weight
 
-	db   "ein Giftstachel"
+	db   "Sein Giftstachel"
 	next "ist gefährlich."
 	next "Sein hellleuch-"
+
 	page "tender Körper"
 	next "soll Feinde ab-"
 	next "schrecken.@"
-

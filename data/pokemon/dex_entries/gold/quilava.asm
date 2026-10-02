@@ -1,10 +1,10 @@
-	db "VOLCANO@" ; species name
-	dw 211, 420 ; height, weight
+	db "VULKAN@" ; species name
+	dbw 9, 190 ; height, weight
 
-	db   "Be careful if it"
-	next "turns its back"
-	next "during battle. It"
+	db   "Dreht es dir im"
+	next "Kampf den Rücken"
+	next "zu, wird es dich"
 
-	page "means that it will"
-	next "attack with the"
-	next "fire on its back.@"
+	page "mit den Flammen"
+	next "seines Rückens"
+	next "angreifen.@"

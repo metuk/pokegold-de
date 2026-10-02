@@ -1,10 +1,10 @@
 	db "SYMBOL@" ; species name
-	dw 108, 110 ; height, weight
+	dbw 5, 50 ; height, weight
 
-	db   "Their shapes look"
-	next "like hieroglyphs"
-	next "on ancient tab-"
+	db   "Ihr Äußeres erin-"
+	next "nert an Hierogly-"
+	next "phen auf antiken"
 
-	page "lets. It is said"
-	next "that the two are"
-	next "somehow related.@"
+	page "Steinplatten. Man"
+	next "sagt, es gäbe ei-"
+	next "nen Zusammenhang.@"

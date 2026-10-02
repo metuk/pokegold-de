@@ -1,5 +1,5 @@
 	db "LEAF@" ; species name
-	dw 211, 140 ; height, weight
+	dw 16393, 33792 ; height, weight
 
 	db   "Its pleasantly"
 	next "aromatic leaves"

@@ -1,10 +1,10 @@
-	db "ROCK SNAKE@" ; species name
-	dw 2810, 4630 ; height, weight
+	db "FELSNATTER@" ; species name
+	dbw 88, 2100 ; height, weight
 
-	db   "It twists and"
-	next "squirms through"
-	next "the ground. The"
+	db   "Es gräbt sich"
+	next "durchs Erdreich."
+	next "Das laute Bohren,"
 
-	page "thunderous roar of"
-	next "its tunneling"
-	next "echoes a long way.@"
+	page "wenn es einen Tun-"
+	next "nel gräbt, ist von"
+	next "Weitem zu hören.@"

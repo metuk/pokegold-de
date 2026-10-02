@@ -1,10 +1,10 @@
-	db "GENETIC@" ; species name
-	dw 607, 2690 ; height, weight
+	db "GENMUTANT@" ; species name
+	dbw 20, 1220 ; height, weight
 
-	db   "Because its battle"
-	next "abilities were"
-	next "raised to the"
+	db   "Da seine Kampf-"
+	next "fähigkeit ins Un-"
+	next "ermessliche erhöht"
 
-	page "ultimate level, it"
-	next "thinks only of de-"
-	next "feating its foes.@"
+	page "wurde, denkt es"
+	next "daran, seine Fein-"
+	next "de zu besiegen.@"

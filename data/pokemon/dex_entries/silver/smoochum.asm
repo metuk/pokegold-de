@@ -1,5 +1,5 @@
 	db "KISS@" ; species name
-	dw 104, 130 ; height, weight
+	dw 15364, 33536 ; height, weight
 
 	db   "It always rocks"
 	next "its head slowly"

@@ -1,10 +1,10 @@
 	db "ANGLER@" ; species name
-	dw 108, 260 ; height, weight
+	dbw 5, 120 ; height, weight
 
-	db   "It shoots positive"
-	next "and negative elec-"
-	next "tricity between"
+	db   "Es verschießt ne-"
+	next "gative und positi-"
+	next "ve Elektronen"
 
-	page "the tips of its"
-	next "two antennae and"
-	next "zaps its enemies.@"
+	page "zwischen seinen"
+	next "Antennen, um seine"
+	next "Feinde zu erlegen.@"

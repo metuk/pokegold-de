@@ -1,10 +1,10 @@
-	db "AQUARABBIT@" ; species name
-	dw 207, 630 ; height, weight
+	db "AQUAHASE@" ; species name
+	dbw 8, 285 ; height, weight
 
-	db   "By keeping still"
-	next "and listening in-"
-	next "tently, it can"
+	db   "Verhält es sich"
+	next "regungslos und"
+	next "lauscht, hört es,"
 
-	page "tell what is in"
-	next "even wild, fast-"
-	next "moving rivers.@"
+	page "was sich in wilden"
+	next "und reißenden"
+	next "Flüssen abspielt.@"

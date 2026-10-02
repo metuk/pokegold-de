@@ -1,5 +1,5 @@
 	db "HIBERNANT@" ; species name
-	dw 511, 2770 ; height, weight
+	dw 59922, 36356 ; height, weight
 
 	db   "With its ability"
 	next "to distinguish any"

@@ -1,5 +1,5 @@
 	db "FIRE MOUSE@" ; species name
-	dw 108, 170 ; height, weight
+	dw 20229, 33792 ; height, weight
 
 	db   "It usually stays"
 	next "hunched over."

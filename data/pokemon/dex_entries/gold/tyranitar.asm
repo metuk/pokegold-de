@@ -1,10 +1,10 @@
-	db "ARMOR@" ; species name
-	dw 607, 4450 ; height, weight
+	db "PANZER@" ; species name
+	dbw 20, 2020 ; height, weight
 
-	db   "Its body can't be"
-	next "harmed by any sort"
-	next "of attack, so it"
+	db   "Sein Körper ist"
+	next "gegen Attacken"
+	next "immun, daher sucht"
 
-	page "is very eager to"
-	next "make challenges"
-	next "against enemies.@"
+	page "es ständig nach"
+	next "neuen Gegnern, die"
+	next "gegen es antreten.@"

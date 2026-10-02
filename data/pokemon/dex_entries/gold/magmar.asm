@@ -1,10 +1,10 @@
-	db "SPITFIRE@" ; species name
-	dw 403, 980 ; height, weight
+	db "BRENNER@" ; species name
+	dbw 13, 445 ; height, weight
 
-	db   "It dislikes cold"
-	next "places, so it"
-	next "blows scorching"
+	db   "Es hasst kalte"
+	next "Orte. Um es für"
+	next "sich angenehmer zu"
 
-	page "flames to make the"
-	next "environment suit-"
-	next "able for itself.@"
+	page "gestalten, erwärmt"
+	next "es seine Umgebung"
+	next "mit seinem Atem.@"

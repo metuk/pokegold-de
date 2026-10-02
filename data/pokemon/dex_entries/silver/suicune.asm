@@ -1,5 +1,5 @@
 	db "AURORA@" ; species name
-	dw 607, 4120 ; height, weight
+	dw 19988, 35847 ; height, weight
 
 	db   "This #MON races"
 	next "across the land."

@@ -1,10 +1,10 @@
-	db "STARSHAPE@" ; species name
-	dw 100, 70 ; height, weight
+	db "STERNFORM@" ; species name
+	dbw 3, 30 ; height, weight
 
-	db   "Because of its"
-	next "unusual, star-like"
-	next "silhouette, people"
+	db   "Aufgrund seiner"
+	next "ungewöhnlichen"
+	next "Sternform sagt"
 
-	page "believe that it"
-	next "came here on"
-	next "a meteor.@"
+	page "man, es sei auf"
+	next "einem Meteor"
+	next "hierher gereist.@"

@@ -1,10 +1,10 @@
-	db "HYPNOSIS@" ; species name
-	dw 303, 710 ; height, weight
+	db "HYPNOSE@" ; species name
+	dbw 10, 324 ; height, weight
 
-	db   "If you think that"
-	next "you had a good"
-	next "dream, but you"
+	db   "Hast du gut ge-"
+	next "träumt und kannst"
+	next "dich nicht erin-"
 
-	page "can't remember it,"
-	next "a DROWZEE has"
-	next "probably eaten it.@"
+	page "nern, hat ein"
+	next "TRAUMATO deinen"
+	next "Traum gefressen.@"

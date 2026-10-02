@@ -1,10 +1,10 @@
-	db "SHELLFISH@" ; species name
-	dw 108, 250 ; height, weight
+	db "SCHALTIER@" ; species name
+	dbw 5, 115 ; height, weight
 
-	db   "On rare occasions,"
-	next "some have been"
-	next "found as fossils"
+	db   "Ihre Fossilien, zu"
+	next "denen sie wurden,"
+	next "als sie sich am"
 
-	page "which they became"
-	next "while hiding on"
-	next "the ocean floor.@"
+	page "Meeresgrund ver-"
+	next "steckten, sind"
+	next "seltene Funde.@"

@@ -1,10 +1,10 @@
-	db "LAND SNAKE@" ; species name
-	dw 411, 310 ; height, weight
+	db "SCHLANGE@" ; species name
+	dbw 15, 140 ; height, weight
 
-	db   "When spotted, this"
-	next "#MON escapes"
-	next "backward by furi-"
+	db   "Wird es entdeckt,"
+	next "flüchtet dieses"
+	next "#MON, indem es"
 
-	page "ously boring into"
-	next "the ground with"
-	next "its tail.@"
+	page "sich mit seinem"
+	next "Schwanz in den"
+	next "Boden gräbt.@"

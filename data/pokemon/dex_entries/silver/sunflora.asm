@@ -1,5 +1,5 @@
 	db "SUN@" ; species name
-	dw 207, 190 ; height, weight
+	dw 21768, 33792 ; height, weight
 
 	db   "In the daytime, it"
 	next "rushes about in a"

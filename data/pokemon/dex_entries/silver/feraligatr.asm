@@ -1,5 +1,5 @@
 	db "BIG JAW@" ; species name
-	dw 707, 1960 ; height, weight
+	dw 30743, 38403 ; height, weight
 
 	db   "It is hard for it"
 	next "to support its own"

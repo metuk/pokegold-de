@@ -1,5 +1,5 @@
 	db "BALLOON@" ; species name
-	dw 108, 90 ; height, weight
+	dw 9989, 37888 ; height, weight
 
 	db   "The small spikes"
 	next "covering its body"

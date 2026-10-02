@@ -1,5 +1,5 @@
 	db "STRINGSPIT@" ; species name
-	dw 108, 190 ; height, weight
+	dw 21765, 33792 ; height, weight
 
 	db   "It spins a web"
 	next "using fine--but"

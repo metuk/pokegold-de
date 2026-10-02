@@ -1,10 +1,10 @@
 	db "RATTE@" ; species name
-	dw 47367, 33792 ; height, weight
+	dbw 7, 185 ; height, weight
 
-	db   "s nagt mit seinen"
+	db   "Es nagt mit seinen"
 	next "Zähnen alles an."
 	next "Es kann sogar Ge-"
+
 	page "bäude aus Beton"
 	next "dadurch zum"
 	next "Einsturz bringen.@"
-

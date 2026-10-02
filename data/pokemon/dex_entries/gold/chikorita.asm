@@ -1,10 +1,10 @@
-	db "LEAF@" ; species name
-	dw 211, 140 ; height, weight
+	db "LAUB@" ; species name
+	dbw 9, 64 ; height, weight
 
-	db   "A sweet aroma"
-	next "gently wafts from"
-	next "the leaf on its"
+	db   "Ein süßer Duft"
+	next "geht von dem Blatt"
+	next "auf seinem Kopf"
 
-	page "head. It is docile"
-	next "and loves to soak"
-	next "up the sun's rays.@"
+	page "aus. Es ist ruhig"
+	next "und liegt gerne"
+	next "in der Sonne.@"

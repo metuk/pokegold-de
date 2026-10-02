@@ -1,10 +1,10 @@
-	db "MEGATON@" ; species name
-	dw 407, 6620 ; height, weight
+	db "URGESTEIN@" ; species name
+	dbw 14, 3000 ; height, weight
 
-	db   "It sheds its skin"
-	next "once a year. The"
-	next "discarded shell"
+	db   "Es häutet sich"
+	next "einmal im Jahr."
+	next "Die abgestreifte"
 
-	page "immediately hard-"
-	next "ens and crumbles"
-	next "away.@"
+	page "Haut wird sofort"
+	next "hart und bröckelt"
+	next "ab.@"

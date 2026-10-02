@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 511, 3350 ; height, weight
+	db "DRACHEN@" ; species name
+	dbw 18, 1520 ; height, weight
 
-	db   "It is said that it"
-	next "usually hides in"
-	next "underwater caves."
+	db   "Man sagt, es hause"
+	next "in Unterwasserhöh-"
+	next "len. Es kann mäch-"
 
-	page "It can create"
-	next "whirlpools by"
-	next "yawning.@"
+	page "tige Strudel ge-"
+	next "nerieren, wenn es"
+	next "gähnt.@"

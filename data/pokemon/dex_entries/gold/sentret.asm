@@ -1,10 +1,10 @@
-	db "SCOUT@" ; species name
-	dw 207, 130 ; height, weight
+	db "SPÄHER@" ; species name
+	dbw 8, 60 ; height, weight
 
-	db   "A very cautious"
-	next "#MON, it raises"
-	next "itself up using"
+	db   "Ein sehr vorsich-"
+	next "tiges #MON, es"
+	next "stellt sich auf"
 
-	page "its tail to get a"
-	next "better view of its"
-	next "surroundings.@"
+	page "seinen Schweif, um"
+	next "die Umgebung"
+	next "zu überblicken.@"

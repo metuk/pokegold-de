@@ -1,10 +1,10 @@
-	db "COTTONWEED@" ; species name
-	dw 200, 20 ; height, weight
+	db "LÖWENZAHN@" ; species name
+	dbw 6, 10 ; height, weight
 
-	db   "The bloom on top"
-	next "of its head opens"
-	next "and closes as the"
+	db   "Temperaturschwan-"
+	next "kungen veranlassen"
+	next "es, die Blüte auf"
 
-	page "temperature fluc-"
-	next "tuates up and"
-	next "down.@"
+	page "seinem Kopf immer"
+	next "zu öffnen oder zu"
+	next "schließen.@"

@@ -1,10 +1,10 @@
-	db "EGG@" ; species name
-	dw 307, 760 ; height, weight
+	db "EI@" ; species name
+	dbw 11, 346 ; height, weight
 
-	db   "It walks carefully"
-	next "to prevent its"
-	next "egg from breaking."
+	db   "Es läuft extrem"
+	next "langsam, damit"
+	next "sein Ei nicht zer-"
 
-	page "However, it is"
-	next "extremely fast at"
-	next "running away.@"
+	page "bricht. Es kann"
+	next "jedoch schnell"
+	next "davonlaufen.@"

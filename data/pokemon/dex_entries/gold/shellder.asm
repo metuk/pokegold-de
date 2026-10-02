@@ -1,10 +1,10 @@
-	db "BIVALVE@" ; species name
-	dw 100, 90 ; height, weight
+	db "MUSCHEL@" ; species name
+	dbw 3, 40 ; height, weight
 
-	db   "It swims facing"
-	next "backward by open-"
-	next "ing and closing"
+	db   "Es schwimmt auf"
+	next "dem Rücken, indem"
+	next "es seine Schalen-"
 
-	page "its two-piece"
-	next "shell. It is"
-	next "surprisingly fast.@"
+	page "hälften öffnet und"
+	next "schließt. Es ist"
+	next "sehr schnell.@"

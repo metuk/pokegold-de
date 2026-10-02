@@ -1,10 +1,10 @@
-	db "KISS@" ; species name
-	dw 104, 130 ; height, weight
+	db "KUSS@" ; species name
+	dbw 4, 60 ; height, weight
 
-	db   "Its lips are the"
-	next "most sensitive"
-	next "parts on its body."
+	db   "Die Lippen sind"
+	next "sein empfindlichs-"
+	next "ter Körperteil."
 
-	page "It always uses its"
-	next "lips first to"
-	next "examine things.@"
+	page "Neue Dinge unter-"
+	next "sucht es zuerst"
+	next "damit.@"

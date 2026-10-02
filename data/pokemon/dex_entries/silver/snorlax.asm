@@ -1,5 +1,5 @@
 	db "SLEEPING@" ; species name
-	dw 611, 10140 ; height, weight
+	dw 63509, 38417 ; height, weight
 
 	db   "Its stomach's di-"
 	next "gestive juices can"

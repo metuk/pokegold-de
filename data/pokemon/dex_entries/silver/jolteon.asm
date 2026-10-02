@@ -1,5 +1,5 @@
 	db "LIGHTNING@" ; species name
-	dw 207, 540 ; height, weight
+	dw 62728, 33792 ; height, weight
 
 	db   "Every hair on its"
 	next "body starts to"

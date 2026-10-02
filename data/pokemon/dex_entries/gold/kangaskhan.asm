@@ -1,10 +1,10 @@
-	db "PARENT@" ; species name
-	dw 703, 1760 ; height, weight
+	db "MUTTERTIER@" ; species name
+	dbw 22, 800 ; height, weight
 
-	db   "If it is safe, the"
-	next "young gets out of"
-	next "the belly pouch to"
+	db   "Fühlt es sich"
+	next "sicher, dann ver-"
+	next "lässt das Junge"
 
-	page "play. The adult"
-	next "keeps a close eye"
-	next "on the youngster.@"
+	page "den Beutel. Die"
+	next "Mutter behält es"
+	next "ständig im Auge.@"

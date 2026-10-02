@@ -1,10 +1,10 @@
-	db "HAPPINESS@" ; species name
-	dw 200, 70 ; height, weight
+	db "FREUDE@" ; species name
+	dbw 6, 32 ; height, weight
 
-	db   "They say that it"
-	next "will appear before"
-	next "kindhearted, car-"
+	db   "Man sagt, es zeigt"
+	next "sich nur guther-"
+	next "zigen und einfühl-"
 
-	page "ing people and"
-	next "shower them with"
-	next "happiness.@"
+	page "samen Menschen. Es"
+	next "überschüttet sie"
+	next "mit Freude.@"

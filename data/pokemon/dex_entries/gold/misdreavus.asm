@@ -1,10 +1,10 @@
-	db "SCREECH@" ; species name
-	dw 204, 20 ; height, weight
+	db "KREISCHER@" ; species name
+	dbw 7, 10 ; height, weight
 
-	db   "It likes playing"
-	next "mischievous tricks"
-	next "such as screaming"
+	db   "Es liebt Streiche"
+	next "und erschreckt"
+	next "nachts Menschen,"
 
-	page "and wailing to"
-	next "startle people at"
-	next "night.@"
+	page "indem es heult"
+	next "oder ihnen im"
+	next "Dunkeln auflauert.@"

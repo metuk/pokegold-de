@@ -1,10 +1,10 @@
-	db "LONG LEG@" ; species name
-	dw 307, 740 ; height, weight
+	db "LANGBEIN@" ; species name
+	dbw 11, 335 ; height, weight
 
-	db   "It spins string"
-	next "not only from its"
-	next "rear but also from"
+	db   "Es spinnt die Fä-"
+	next "den sowohl mit dem"
+	next "Hinterleib, als"
 
-	page "its mouth. It is"
-	next "hard to tell which"
-	next "end is which.@"
+	page "auch mit dem Mund."
+	next "Das Ende ist"
+	next "schwer zu sehen.@"

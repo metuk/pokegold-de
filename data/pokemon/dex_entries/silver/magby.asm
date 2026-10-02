@@ -1,5 +1,5 @@
 	db "LIVE COAL@" ; species name
-	dw 204, 470 ; height, weight
+	dw 54791, 33024 ; height, weight
 
 	db   "It is found in"
 	next "volcanic craters."

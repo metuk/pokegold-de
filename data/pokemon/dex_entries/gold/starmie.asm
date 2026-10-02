@@ -1,10 +1,10 @@
-	db "MYSTERIOUS@" ; species name
-	dw 307, 1760 ; height, weight
+	db "MYSTERIÖS@" ; species name
+	dbw 11, 800 ; height, weight
 
-	db   "The center section"
-	next "of its body is"
-	next "called the core."
+	db   "Der Mittelteil"
+	next "seines Körpers"
+	next "wird Kern genannt."
 
-	page "It glows in a dif-"
-	next "ferent color each"
-	next "time it is seen.@"
+	page "Er leuchtet immer"
+	next "andersfarbig, wenn"
+	next "man es sieht.@"

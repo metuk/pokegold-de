@@ -1,5 +1,5 @@
 	db "FLOWER@" ; species name
-	dw 104, 130 ; height, weight
+	dw 14852, 33024 ; height, weight
 
 	db   "Plentiful in the"
 	next "tropics. When it"

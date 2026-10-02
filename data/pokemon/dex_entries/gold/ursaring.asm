@@ -1,10 +1,10 @@
-	db "HIBERNANT@" ; species name
-	dw 511, 2770 ; height, weight
+	db "SCHLÄFER@" ; species name
+	dbw 18, 1258 ; height, weight
 
-	db   "Although it is a"
-	next "good climber, it"
-	next "prefers to snap"
+	db   "Obwohl es gut"
+	next "klettern kann,"
+	next "stößt es mit den"
 
-	page "trees with its"
-	next "forelegs and eat"
-	next "fallen BERRIES.@"
+	page "Pranken gegen die"
+	next "Bäume und isst die"
+	next "BEEREN vom Boden.@"

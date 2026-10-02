@@ -1,10 +1,10 @@
-	db "LONG BODY@" ; species name
-	dw 511, 720 ; height, weight
+	db "LANGLEIB@" ; species name
+	dbw 18, 325 ; height, weight
 
-	db   "It makes a nest to"
-	next "suit its long and"
-	next "skinny body. The"
+	db   "Sein Nest ist sei-"
+	next "nem schmalen und"
+	next "dünnen Körper an-"
 
-	page "nest is impossible"
-	next "for other #MON"
-	next "to enter.@"
+	page "gepasst. Kein"
+	next "anderes #MON"
+	next "kommt hinein.@"

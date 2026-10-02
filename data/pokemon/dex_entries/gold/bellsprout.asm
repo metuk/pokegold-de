@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
-	dw 204, 90 ; height, weight
+	db "BLUME@" ; species name
+	dbw 7, 40 ; height, weight
 
-	db   "Even though its"
-	next "body is extremely"
-	next "skinny, it is"
+	db   "Obwohl sein"
+	next "Körper sehr schmal"
+	next "ist, schnappt es"
 
-	page "blindingly fast"
-	next "when catching its"
-	next "prey.@"
+	page "blitzschnell"
+	next "nach Beute."
+	next "@"

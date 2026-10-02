@@ -1,5 +1,5 @@
 	db "DARKNESS@" ; species name
-	dw 108, 50 ; height, weight
+	dw 5381, 38144 ; height, weight
 
 	db   "It is said that"
 	next "when chased, it"

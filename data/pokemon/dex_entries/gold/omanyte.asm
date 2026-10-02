@@ -1,10 +1,10 @@
-	db "SPIRAL@" ; species name
-	dw 104, 170 ; height, weight
+	db "SPIRALE@" ; species name
+	dbw 4, 75 ; height, weight
 
-	db   "Revived from an"
-	next "ancient fossil,"
-	next "this #MON uses"
+	db   "Es wurde aus einem"
+	next "Fossil reanimiert."
+	next "Es nutzt die Luft-"
 
-	page "air stored in its"
-	next "shell to sink and"
-	next "rise in water.@"
+	page "kammern in seiner"
+	next "Schale, um ab-"
+	next "und aufzutauchen.@"

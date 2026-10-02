@@ -1,10 +1,10 @@
-	db "JET@" ; species name
-	dw 211, 630 ; height, weight
+	db "HOCHDRUCK@" ; species name
+	dbw 9, 285 ; height, weight
 
-	db   "It traps enemies"
-	next "with its suction-"
-	next "cupped tentacles"
+	db   "Beim Beutefang"
+	next "setzt es seine"
+	next "Tentakel ein. Es"
 
-	page "then smashes them"
-	next "with its rock-hard"
-	next "head.@"
+	page "zermalmt seine"
+	next "Beute mit seinem"
+	next "steinharten Kopf.@"

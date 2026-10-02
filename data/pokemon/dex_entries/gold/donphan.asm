@@ -1,10 +1,10 @@
-	db "ARMOR@" ; species name
-	dw 307, 2650 ; height, weight
+	db "PANZERTIER@" ; species name
+	dbw 11, 1200 ; height, weight
 
-	db   "It has sharp, hard"
-	next "tusks and a rugged"
-	next "hide. Its TACKLE"
+	db   "Aufgrund seiner"
+	next "scharfen Stoßzähne"
+	next "und seiner rauen"
 
-	page "is strong enough"
-	next "to knock down a"
-	next "house.@"
+	page "Haut, könnte es"
+	next "mit TACKLE ein"
+	next "Haus niederreißen.@"

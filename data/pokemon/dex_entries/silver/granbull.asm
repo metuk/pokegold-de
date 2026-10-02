@@ -1,5 +1,5 @@
 	db "FAIRY@" ; species name
-	dw 407, 1070 ; height, weight
+	dw 59150, 33793 ; height, weight
 
 	db   "Because its fangs"
 	next "are too heavy, it"

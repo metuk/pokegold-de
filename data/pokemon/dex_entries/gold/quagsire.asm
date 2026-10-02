@@ -1,10 +1,10 @@
-	db "WATER FISH@" ; species name
-	dw 407, 1650 ; height, weight
+	db "FISCH@" ; species name
+	dbw 14, 750 ; height, weight
 
-	db   "This carefree"
-	next "#MON has an"
-	next "easy-going nature."
+	db   "Dieses genügsame"
+	next "#MON ist sehr"
+	next "umgänglich. Beim"
 
-	page "While swimming, it"
-	next "always bumps into"
-	next "boat hulls.@"
+	page "Schwimmen stößt es"
+	next "immer wieder gegen"
+	next "Schiffe.@"

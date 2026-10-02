@@ -1,10 +1,10 @@
-	db "RAINBOW@" ; species name
-	dw 1206, 4390 ; height, weight
+	db "REGENBOGEN@" ; species name
+	dbw 38, 1990 ; height, weight
 
-	db   "Legends claim this"
-	next "#MON flies the"
-	next "world's skies con-"
+	db   "Man sagt, dass"
+	next "dieses #MON"
+	next "auf seinen sieben-"
 
-	page "tinuously on its"
-	next "magnificent seven-"
-	next "colored wings.@"
+	page "farbigen Schwingen"
+	next "durch die Lüfte"
+	next "fliegt.@"

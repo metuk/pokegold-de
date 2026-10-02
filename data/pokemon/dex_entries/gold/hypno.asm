@@ -1,10 +1,10 @@
-	db "HYPNOSIS@" ; species name
-	dw 503, 1670 ; height, weight
+	db "HYPNOSE@" ; species name
+	dbw 16, 756 ; height, weight
 
-	db   "When it is very"
-	next "hungry, it puts"
-	next "humans it meets to"
+	db   "Wenn es hungrig"
+	next "ist, versetzt es"
+	next "die Menschen, die"
 
-	page "sleep, then it"
-	next "feasts on their"
-	next "dreams.@"
+	page "es trifft in"
+	next "Schlaf, um ihre"
+	next "Träume zu fressen.@"

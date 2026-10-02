@@ -1,5 +1,5 @@
 	db "ROCK@" ; species name
-	dw 303, 2320 ; height, weight
+	dw 6666, 33796 ; height, weight
 
 	db   "A slow walker, it"
 	next "rolls to move. It"

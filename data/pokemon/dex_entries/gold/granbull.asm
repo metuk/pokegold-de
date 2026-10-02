@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
-	dw 407, 1070 ; height, weight
+	db "FEE@" ; species name
+	dbw 14, 487 ; height, weight
 
-	db   "It is actually"
-	next "timid and easily"
-	next "spooked. If at-"
+	db   "Es ist sehr scheu"
+	next "und ängstlich."
+	next "Attackiert man es,"
 
-	page "tacked, it flails"
-	next "about to fend off"
-	next "its attacker.@"
+	page "fuchtelt es wild"
+	next "herum, um den Geg-"
+	next "ner abzuschütteln.@"

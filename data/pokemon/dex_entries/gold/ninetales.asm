@@ -1,10 +1,10 @@
 	db "FUCHS@" ; species name
-	dw 50955, 33792 ; height, weight
+	dbw 11, 199 ; height, weight
 
-	db   "ine Legende sagt,"
+	db   "Eine Legende sagt,"
 	next "dass jedem seiner"
 	next "neun Schwänze eine"
+
 	page "einzigartige"
 	next "mystische Kraft"
 	next "innewohnt.@"
-

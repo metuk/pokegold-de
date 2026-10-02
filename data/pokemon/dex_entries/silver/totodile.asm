@@ -1,5 +1,5 @@
 	db "BIG JAW@" ; species name
-	dw 200, 210 ; height, weight
+	dw 24326, 37376 ; height, weight
 
 	db   "It is small but"
 	next "rough and tough."

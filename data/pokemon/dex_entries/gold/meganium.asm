@@ -1,10 +1,10 @@
-	db "HERB@" ; species name
-	dw 511, 2220 ; height, weight
+	db "KRÄUTER@" ; species name
+	dbw 18, 1005 ; height, weight
 
-	db   "The aroma that"
-	next "rises from its"
-	next "petals contains a"
+	db   "Das Aroma aus"
+	next "seiner Blüte"
+	next "enthält Stoffe,"
 
-	page "substance that"
-	next "calms aggressive"
-	next "feelings.@"
+	page "die jegliche"
+	next "Aggressivität"
+	next "schwinden lassen.@"

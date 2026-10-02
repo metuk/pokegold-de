@@ -1,5 +1,5 @@
 	db "HAPPINESS@" ; species name
-	dw 411, 1030 ; height, weight
+	dw 54287, 35073 ; height, weight
 
 	db   "It has a very com-"
 	next "passionate nature."

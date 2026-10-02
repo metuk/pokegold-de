@@ -1,10 +1,10 @@
-	db "RIVER CRAB@" ; species name
-	dw 104, 140 ; height, weight
+	db "KRABBE@" ; species name
+	dbw 4, 65 ; height, weight
 
-	db   "If it senses dan-"
-	next "ger approaching,"
-	next "it cloaks itself"
+	db   "Bei Gefahr tarnt"
+	next "es sich, indem es"
+	next "sich in Blasen aus"
 
-	page "with bubbles from"
-	next "its mouth so it"
-	next "will look bigger.@"
+	page "seinem Maul"
+	next "hüllt, um größer"
+	next "zu erscheinen.@"

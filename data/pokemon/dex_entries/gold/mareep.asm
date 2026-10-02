@@ -1,10 +1,10 @@
-	db "WOOL@" ; species name
-	dw 200, 170 ; height, weight
+	db "WOLLE@" ; species name
+	dbw 6, 78 ; height, weight
 
-	db   "If static elec-"
-	next "tricity builds in"
-	next "its body, its"
+	db   "Lädt es sich sta-"
+	next "tisch auf, ver-"
+	next "doppelt sich sein"
 
-	page "fleece doubles in"
-	next "volume. Touching"
-	next "it will shock you.@"
+	page "Umfang. Wer es be-"
+	next "rührt, erhält ei-"
+	next "nen Elektroschock.@"

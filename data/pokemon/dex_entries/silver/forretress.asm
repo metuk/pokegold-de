@@ -1,5 +1,5 @@
 	db "BAGWORM@" ; species name
-	dw 311, 2770 ; height, weight
+	dw 59916, 37380 ; height, weight
 
 	db   "It remains immova-"
 	next "bly rooted to its"

@@ -1,5 +1,5 @@
 	db "CORAL@" ; species name
-	dw 200, 110 ; height, weight
+	dw 12806, 33792 ; height, weight
 
 	db   "In a south sea"
 	next "nation, the people"

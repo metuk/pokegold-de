@@ -1,5 +1,5 @@
 	db "ARMOR@" ; species name
-	dw 611, 4450 ; height, weight
+	dw 58388, 37383 ; height, weight
 
 	db   "Extremely strong,"
 	next "it can change the"

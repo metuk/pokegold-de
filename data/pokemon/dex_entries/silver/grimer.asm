@@ -1,5 +1,5 @@
 	db "SLUDGE@" ; species name
-	dw 211, 660 ; height, weight
+	dw 11273, 33025 ; height, weight
 
 	db   "Wherever GRIMER"
 	next "has passed, so"

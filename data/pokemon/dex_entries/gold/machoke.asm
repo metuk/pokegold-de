@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
-	dw 411, 1550 ; height, weight
+	db "KRAFTPROTZ@" ; species name
+	dbw 15, 705 ; height, weight
 
-	db   "It always goes at"
-	next "its full power,"
-	next "but this very"
+	db   "Es kämpft immer"
+	next "mit all seiner"
+	next "Kraft. Dieses"
 
-	page "tough and durable"
-	next "#MON never gets"
-	next "tired.@"
+	page "#MON hat eine"
+	next "enorme Kondition"
+	next "und wird nie müde.@"

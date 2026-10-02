@@ -1,5 +1,5 @@
 	db "DRILL@" ; species name
-	dw 603, 2650 ; height, weight
+	dw 45075, 37380 ; height, weight
 
 	db   "Its brain devel-"
 	next "oped when it began"

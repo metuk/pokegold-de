@@ -1,10 +1,10 @@
 	db "BOHRER@" ; species name
-	dw 27662, 33794 ; height, weight
+	dbw 14, 620 ; height, weight
 
-	db   "s greift zuerst"
+	db   "Es greift zuerst"
 	next "mit dem Schwanz"
 	next "an. Weicht sein"
+
 	page "Gegner aus, greift"
 	next "es mit seinem"
 	next "Körper an.@"
-

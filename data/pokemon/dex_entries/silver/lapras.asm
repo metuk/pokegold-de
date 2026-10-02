@@ -1,5 +1,5 @@
 	db "TRANSPORT@" ; species name
-	dw 802, 4850 ; height, weight
+	dw 38937, 37384 ; height, weight
 
 	db   "It ferries people"
 	next "across the sea on"

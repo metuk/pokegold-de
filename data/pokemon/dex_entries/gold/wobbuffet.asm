@@ -1,10 +1,10 @@
-	db "PATIENT@" ; species name
-	dw 403, 630 ; height, weight
+	db "GEDULD@" ; species name
+	dbw 13, 285 ; height, weight
 
-	db   "It hates light and"
-	next "shock. If attack-"
-	next "ed, it inflates"
+	db   "Es hasst Licht und"
+	next "Schläge. Wird es"
+	next "angegriffen, pumpt"
 
-	page "its body to pump"
-	next "up its counter-"
-	next "strike.@"
+	page "es sich auf, um"
+	next "einen Gegenschlag"
+	next "vorzubereiten.@"

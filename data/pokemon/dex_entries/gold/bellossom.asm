@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
-	dw 104, 130 ; height, weight
+	db "BLUME@" ; species name
+	dbw 4, 58 ; height, weight
 
-	db   "BELLOSSOM gather"
-	next "at times and"
-	next "appear to dance."
+	db   "BLUBELLAS kommen"
+	next "zusammen, um zu"
+	next "tanzen. Sie sagen,"
 
-	page "They say that the"
-	next "dance is a ritual"
-	next "to summon the sun.@"
+	page "dieser Tanz sei"
+	next "ein Ritual, um der"
+	next "Sonne zu huldigen.@"

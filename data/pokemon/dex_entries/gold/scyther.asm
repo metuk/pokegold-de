@@ -1,10 +1,10 @@
 	db "MANTIS@" ; species name
-	dw 411, 1230 ; height, weight
+	dbw 15, 560 ; height, weight
 
-	db   "It slashes through"
-	next "grass with its"
-	next "sharp scythes,"
+	db   "Es bewegt sich mit"
+	next "seinen Sensen so"
+	next "schnell durch das"
 
-	page "moving too fast"
-	next "for the human eye"
-	next "to track.@"
+	page "Gras, dass es"
+	next "kein Mensch sehen"
+	next "kann.@"

@@ -1,5 +1,5 @@
 	db "BALL@" ; species name
-	dw 311, 1470 ; height, weight
+	dw 39436, 33794 ; height, weight
 
 	db   "It stores an over-"
 	next "flowing amount of"

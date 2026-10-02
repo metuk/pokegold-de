@@ -1,10 +1,10 @@
-	db "ELECTRIC@" ; species name
-	dw 503, 1160 ; height, weight
+	db "ELEKTRO@" ; species name
+	dbw 16, 526 ; height, weight
 
-	db   "This legendary"
-	next "bird #MON"
-	next "causes savage"
+	db   "Dieses legendäre"
+	next "Vogel-#MON"
+	next "verursacht Gewit-"
 
-	page "thunderstorms by"
-	next "flapping its glit-"
-	next "tering wings.@"
+	page "terstürme, indem"
+	next "es mit den Flügeln"
+	next "schlägt.@"

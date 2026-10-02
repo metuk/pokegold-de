@@ -1,5 +1,5 @@
 	db "THUNDER@" ; species name
-	dw 603, 3920 ; height, weight
+	dw 62483, 33542 ; height, weight
 
 	db   "A #MON that"
 	next "races across the"

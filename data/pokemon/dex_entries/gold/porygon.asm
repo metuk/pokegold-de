@@ -1,10 +1,10 @@
-	db "VIRTUAL@" ; species name
-	dw 207, 800 ; height, weight
+	db "VIRTUELL@" ; species name
+	dbw 8, 365 ; height, weight
 
-	db   "It is a manmade"
-	next "#MON. Since it"
-	next "doesn't breathe,"
+	db   "Das ist ein künst-"
+	next "liches #MON,"
+	next "das nicht atmet."
 
-	page "people are eager"
-	next "to try it in any"
-	next "environment.@"
+	page "Daher wird es in"
+	next "jeder Umgebung"
+	next "eingesetzt.@"

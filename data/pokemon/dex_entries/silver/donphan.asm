@@ -1,5 +1,5 @@
 	db "ARMOR@" ; species name
-	dw 307, 2650 ; height, weight
+	dw 45067, 32772 ; height, weight
 
 	db   "The longer and"
 	next "bigger its tusks,"

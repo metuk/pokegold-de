@@ -1,5 +1,5 @@
 	db "DRAGON@" ; species name
-	dw 511, 3350 ; height, weight
+	dw 61458, 35845 ; height, weight
 
 	db   "It sleeps deep on"
 	next "the ocean floor to"

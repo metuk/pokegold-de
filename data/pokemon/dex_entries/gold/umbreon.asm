@@ -1,10 +1,10 @@
-	db "MOONLIGHT@" ; species name
-	dw 303, 600 ; height, weight
+	db "MONDSCHEIN@" ; species name
+	dbw 10, 270 ; height, weight
 
-	db   "When agitated,"
-	next "this #MON pro-"
-	next "tects itself by"
+	db   "Fühlt es sich be-"
+	next "droht, sondert es"
+	next "tödlichen Gift-"
 
-	page "spraying poisonous"
-	next "sweat from its"
-	next "pores.@"
+	page "schweiß aus seinen"
+	next "Poren ab, um sich"
+	next "zu schützen.@"

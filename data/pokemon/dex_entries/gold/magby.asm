@@ -1,10 +1,10 @@
-	db "LIVE COAL@" ; species name
-	dw 204, 470 ; height, weight
+	db "GLUTHERD@" ; species name
+	dbw 7, 214 ; height, weight
 
-	db   "Each and every"
-	next "time it inhales"
-	next "and exhales, hot"
+	db   "Bei jedem Atemzug"
+	next "springen glühende"
+	next "Kohlenstücke aus"
 
-	page "embers dribble out"
-	next "of its mouth and"
-	next "nostrils.@"
+	page "seinem Mund und"
+	next "aus seinen Nasen-"
+	next "löchern.@"

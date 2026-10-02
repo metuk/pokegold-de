@@ -1,10 +1,10 @@
-	db "FREEZE@" ; species name
-	dw 507, 1220 ; height, weight
+	db "EIS@" ; species name
+	dbw 17, 554 ; height, weight
 
-	db   "The magnificent,"
-	next "seemingly translu-"
-	next "cent wings of this"
+	db   "Die grazilen und"
+	next "transparenten Flü-"
+	next "gel dieses legen-"
 
-	page "legendary bird"
-	next "#MON are said"
-	next "to be made of ice.@"
+	page "dären Vogel-"
+	next "#MON sollen"
+	next "aus Eis sein.@"

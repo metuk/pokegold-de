@@ -1,5 +1,5 @@
 	db "HUMANSHAPE@" ; species name
-	dw 407, 900 ; height, weight
+	dw 38414, 33793 ; height, weight
 
 	db   "It speaks a lan-"
 	next "guage similar to"

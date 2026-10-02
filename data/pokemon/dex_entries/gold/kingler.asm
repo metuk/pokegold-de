@@ -1,10 +1,10 @@
-	db "PINCER@" ; species name
-	dw 403, 1320 ; height, weight
+	db "KNEIFER@" ; species name
+	dbw 13, 600 ; height, weight
 
-	db   "It can hardly"
-	next "lift its massive,"
-	next "overgrown pincer."
+	db   "Es kann seine"
+	next "Riesenscheren kaum"
+	next "heben. Die Größe"
 
-	page "The pincer's size"
-	next "makes it difficult"
-	next "to aim properly.@"
+	page "seiner Scheren"
+	next "erschwert ihm"
+	next "das Zielen.@"

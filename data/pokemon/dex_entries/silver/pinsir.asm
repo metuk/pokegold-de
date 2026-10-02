@@ -1,5 +1,5 @@
 	db "STAGBEETLE@" ; species name
-	dw 411, 1210 ; height, weight
+	dw 9743, 33794 ; height, weight
 
 	db   "Swings its long"
 	next "antlers wildly to"

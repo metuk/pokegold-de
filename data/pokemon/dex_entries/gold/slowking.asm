@@ -1,10 +1,10 @@
-	db "ROYAL@" ; species name
-	dw 607, 1750 ; height, weight
+	db "MONARCH@" ; species name
+	dbw 20, 795 ; height, weight
 
-	db   "It has incredible"
-	next "intellect and in-"
-	next "tuition. Whatever"
+	db   "Seine Vorahnungen"
+	next "und sein Intellekt"
+	next "zeichnen es aus."
 
-	page "the situation, it"
-	next "remains calm and"
-	next "collected.@"
+	page "Es bleibt in jeder"
+	next "Situation gelassen"
+	next "und besonnen.@"

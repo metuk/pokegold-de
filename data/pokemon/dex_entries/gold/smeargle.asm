@@ -1,10 +1,10 @@
-	db "PAINTER@" ; species name
-	dw 311, 1280 ; height, weight
+	db "MALER@" ; species name
+	dbw 12, 580 ; height, weight
 
-	db   "A special fluid"
-	next "oozes from the tip"
-	next "of its tail. It"
+	db   "Eine spezielle"
+	next "Flüssigkeit tritt"
+	next "an seiner Schwanz-"
 
-	page "paints the fluid"
-	next "everywhere to mark"
-	next "its territory.@"
+	page "spitze aus, mit"
+	next "der es sein Re-"
+	next "vier markiert.@"

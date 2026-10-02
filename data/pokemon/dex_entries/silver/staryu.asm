@@ -1,5 +1,5 @@
 	db "STARSHAPE@" ; species name
-	dw 207, 760 ; height, weight
+	dw 22792, 36097 ; height, weight
 
 	db   "Even if its body"
 	next "is torn, it can"
