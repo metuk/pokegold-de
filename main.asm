@@ -278,7 +278,7 @@ INCLUDE "engine/battle_anims/helpers.asm"
 
 SECTION "bank38", ROMX
 
-INCLUDE "engine/events/diploma.asm"
+INCLUDE "engine/events/animate_unused_pikachu.asm"
 INCLUDE "engine/events/print_unown_2.asm"
 INCLUDE "engine/games/card_flip.asm"
 INCLUDE "engine/games/unown_puzzle.asm"
@@ -372,6 +372,7 @@ ENDC
 SECTION "bank70_2", ROMX
 
 INCLUDE "engine/rtc/print_hours_mins.asm"
+INCLUDE "engine/events/diploma.asm"
 INCLUDE "engine/pokedex/pokedex_3.asm"
 INCLUDE "engine/events/catch_tutorial_input.asm"
 INCLUDE "engine/pokegear/townmap_convertlinebreakcharacters.asm"

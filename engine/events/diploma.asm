@@ -1,9 +1,3 @@
-AnimateUnusedPikachu:
-	ret
-
-AnimateUnusedPikachu2: ; unreferenced
-	ret
-
 _Diploma:
 	call PlaceDiplomaOnScreen
 	call WaitPressAorB_BlinkCursor
