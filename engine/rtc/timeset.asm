@@ -52,7 +52,8 @@ InitClock:
 	ld hl, OakTimeWhatTimeIsItText
 	call PrintText
 	hlcoord 3, 7
-	lb bc, 2, 15
+	ld b, 2
+	ld c, 15
 	call Textbox
 	hlcoord 11, 7
 	ld [hl], $1
@@ -401,14 +402,15 @@ SetDayOfWeek:
 	call LoadStandardMenuHeader
 	ld hl, .OakTimeWhatDayIsItText
 	call PrintText
-	hlcoord 9, 3
-	lb bc, 2, 9
+	hlcoord 8, 3
+	ld b, 2
+	ld c, 10
 	call Textbox
-	hlcoord 14, 3
+	hlcoord 13, 3
 	ld [hl], TIMESET_UP_ARROW
-	hlcoord 14, 6
+	hlcoord 13, 6
 	ld [hl], TIMESET_DOWN_ARROW
-	hlcoord 10, 5
+	hlcoord 9, 5
 	call .PlaceWeekdayString
 	call ApplyTilemap
 	ld c, 10
@@ -476,10 +478,11 @@ SetDayOfWeek:
 .finish_dpad
 	xor a
 	ldh [hBGMapMode], a
-	hlcoord 10, 4
-	lb bc, 2, 9
+	hlcoord 9, 4
+	ld b, 2
+	ld c, 10
 	call ClearBox
-	hlcoord 10, 5
+	hlcoord 9, 5
 	call .PlaceWeekdayString
 	call WaitBGMap
 	and a
@@ -671,19 +674,21 @@ MrChrono:
 	ret
 
 PrintHour:
-	ld l, e
-	ld h, d
+	call PrintTimeOfDayString
+	inc de
+	call PrintAdjustedHour
+	ret
+
+PrintTimeOfDayString:
+; Print the time of day for hour c at de, and return the end of the string in de.
 	push bc
+	ld h, d
+	ld l, e
 	call GetTimeOfDayString
 	call PlaceString
-	ld l, c
-	ld h, b
-	inc hl
+	ld d, b
+	ld e, c
 	pop bc
-	call AdjustHourForAMorPM
-	ld [wTextDecimalByte], a
-	ld de, wTextDecimalByte
-	call PrintTwoDigitNumberLeftAlign
 	ret
 
 GetTimeOfDayString:
@@ -707,6 +712,20 @@ GetTimeOfDayString:
 .nite_string: db "NACHT@"
 .morn_string: db "VORMITTAG@"
 .day_string:  db "TAG@"
+
+PrintAdjustedHour:
+; Print the 1-12 value of hour c at de, and return the end of the number in de.
+	push bc
+	call AdjustHourForAMorPM
+	ld [wTextDecimalByte], a
+	ld h, d
+	ld l, e
+	ld de, wTextDecimalByte
+	call PrintTwoDigitNumberLeftAlign
+	ld d, h
+	ld e, l
+	pop bc
+	ret
 
 AdjustHourForAMorPM:
 ; Convert the hour stored in c (0-23) to a 1-12 value
