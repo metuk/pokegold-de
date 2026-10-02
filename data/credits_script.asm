@@ -177,30 +177,33 @@ CreditsScript:
 ; Update the banner.
 	db CREDITS_SCENE, 3 ; Sentret
 
-	db     US_VERSION_STAFF, 1
+	db GERMAN_VERSION_STAFF, 1
 
 	db CREDITS_WAIT, 12
 
-	db      US_COORDINATION, 0
-	db          GAIL_TILDEN, 1
-	db        HIRO_NAKAMURA, 2
+	db  EUROPE_COORDINATION, 0
+	db              KAI_ZEH, 1
+	db      HIROYUKI_UESUGI, 2
 
 	db CREDITS_WAIT, 12
 
-	db      US_COORDINATION, 0
+	db  EUROPE_COORDINATION, 0
 	db       JUNICHI_MASUDA, 1
 	db       NAOKO_KAWAKAMI, 2
+	db      KUNIMI_KAWAMURA, 3
 
 	db CREDITS_WAIT, 12
 
-	db      US_COORDINATION, 0
-	db          JEFF_KALLES, 1
-	db        WILLIAM_GIESE, 2
+	db  EUROPE_COORDINATION, 0
+	db           TANJA_BAAR, 1
+	db          KAI_NEUMANN, 2
 
 	db CREDITS_WAIT, 12
 
-	db     TEXT_TRANSLATION, 1
-	db        NOB_OGASAWARA, 2
+	db     TEXT_TRANSLATION, 0
+	db     DANIEL_SCHAEFERS, 1
+	db         ANDREA_JAEHN, 2
+	db      AUER_PEITZMEIER, 3
 
 	db CREDITS_WAIT, 12
 
@@ -210,10 +213,10 @@ CreditsScript:
 
 	db CREDITS_WAIT, 12
 
-	db         PAAD_TESTING, 0
-	db       RANDY_SHOEMAKE, 1
-	db      KATHY_HUGUENARD, 2
-	db           JOEL_SIMON, 3
+	db GERMAN_PRODUCT_TESTING, 0
+	db            ZELDA_NOE, 1
+	db      MAURICE_TISDALE, 2
+	db      PATRICK_THIERET, 3
 
 	db CREDITS_WAIT, 12
 
@@ -238,7 +241,7 @@ CreditsScript:
 
 	db CREDITS_WAIT, 12
 
-	db   EXECUTIVE_PRODUCER, 1
+	db   EXECUTIVE_PRODUCER, 0
 	db     HIROSHI_YAMAUCHI, 2
 
 	db CREDITS_WAIT, 12

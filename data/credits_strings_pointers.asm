@@ -40,14 +40,17 @@ CreditsStringsPointers:
 	dw Credits_NaokoKawakami
 	dw Credits_HiroyukiZinnai
 	dw Credits_KunimiKawamura
-	dw Credits_GailTilden
+	dw Credits_KaiZeh
+	dw Credits_HiroyukiUesugi
+	dw Credits_TanjaBaar
+	dw Credits_KaiNeumann
+	dw Credits_MauriceTisdale
+	dw Credits_DanielSchaefers
+	dw Credits_AndreaJaehn
+	dw Credits_AuerPeitzmeier
+	dw Credits_ZeldaNoe
+	dw Credits_PatrickThieret
 	dw Credits_HiroNakamura
-	dw Credits_JeffKalles
-	dw Credits_WilliamGiese
-	dw Credits_NobOgasawara
-	dw Credits_RandyShoemake
-	dw Credits_KathyHuguenard
-	dw Credits_JoelSimon
 	dw Credits_TerukiMurakawa
 	dw Credits_KazuyoshiOsawa
 	dw Credits_KimikoNakamichi
@@ -73,8 +76,8 @@ CreditsStringsPointers:
 	dw Credits_Producers
 	dw Credits_ExecutiveProducer
 	dw Credits_Copyright
-	dw Credits_UsVersionStaff
-	dw Credits_UsCoordination
+	dw Credits_GermanVersionStaff
+	dw Credits_EuropeCoordination
 	dw Credits_TextTranslation
-	dw Credits_PaadTesting
+	dw Credits_GermanProductTesting
 	assert_table_length NUM_CREDITS_STRINGS
