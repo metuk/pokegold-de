@@ -226,6 +226,8 @@ ScriptCommandTable:
 	dw Script_halloffame                 ; 9f
 	dw Script_credits                    ; a0
 	dw Script_warpfacing                 ; a1
+	dw Script_getfarstring               ; a2
+	dw Script_getlandmarkname            ; a3
 	assert_table_length NUM_EVENT_COMMANDS
 
 StartScript:
@@ -1517,10 +1519,15 @@ Script_getcurlandmarkname:
 	ld a, [wMapNumber]
 	ld c, a
 	call GetWorldMapLocation
+.got_landmark
 	ld e, a
 	farcall GetLandmarkName
 	ld de, wStringBuffer1
 	jp GetStringBuffer
+
+Script_getlandmarkname:
+	call GetScriptByte
+	jr Script_getcurlandmarkname.got_landmark
 
 Script_gettrainername:
 	call GetScriptByte
@@ -1570,6 +1577,17 @@ Script_getstring:
 	call GetScriptByte
 	ld d, a
 	ld a, [wScriptBank]
+	ld hl, CopyName1
+	rst FarCall
+	ld de, wStringBuffer2
+	jp GetStringBuffer
+
+Script_getfarstring:
+	call GetScriptByte
+	ld e, a
+	call GetScriptByte
+	ld d, a
+	call GetScriptByte
 	ld hl, CopyName1
 	rst FarCall
 	ld de, wStringBuffer2

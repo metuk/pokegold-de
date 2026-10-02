@@ -1012,4 +1012,21 @@ MACRO warpfacing
 	db \4 ; y
 ENDM
 
+; European releases only
+
+	const getfarstring_command ; $a2
+MACRO getfarstring
+	db getfarstring_command
+	dw \2 ; text_pointer
+	db BANK(\2) ; text_bank
+	db \1 ; string_buffer
+ENDM
+
+	const getlandmarkname_command ; $a3
+MACRO getlandmarkname
+	db getlandmarkname_command
+	db \2 ; landmark_id
+	db \1 ; string_buffer
+ENDM
+
 DEF NUM_EVENT_COMMANDS EQU const_value

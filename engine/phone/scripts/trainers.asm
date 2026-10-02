@@ -13,7 +13,7 @@ JackPhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneNationalParkText
+	getlandmarkname STRING_BUFFER_5, LANDMARK_NATIONAL_PARK
 	setevent EVENT_JACK_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -32,7 +32,7 @@ BeverlyPhoneCallerScript:
 	sjump Phone_GenericCall_Female
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneNationalParkText
+	getlandmarkname STRING_BUFFER_5, LANDMARK_NATIONAL_PARK
 	setevent EVENT_BEVERLY_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Female
 
@@ -49,7 +49,7 @@ HueyPhoneCallerScript:
 	sjump Phone_GenericCall_Male_SkipMon
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneLighthouseText
+	getlandmarkname STRING_BUFFER_5, LANDMARK_LIGHTHOUSE
 	setevent EVENT_HUEY_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -68,7 +68,7 @@ GavenPhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute26Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_26
 	setevent EVENT_GAVEN_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -87,7 +87,7 @@ BethPhoneCallerScript:
 	sjump Phone_GenericCall_Female
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute26Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_26
 	setevent EVENT_BETH_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Female
 
@@ -108,7 +108,7 @@ JosePhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute27Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_27
 	setevent EVENT_JOSE_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -127,7 +127,7 @@ ReenaPhoneCallerScript:
 	sjump Phone_GenericCall_Female
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute27Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_27
 	setevent EVENT_REENA_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Female
 
@@ -150,7 +150,7 @@ JoeyPhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute30Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_30
 	setevent EVENT_JOEY_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -193,7 +193,7 @@ WadePhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute31Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_31
 	setevent EVENT_WADE_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -218,7 +218,7 @@ RalphPhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute32Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_32
 	setevent EVENT_RALPH_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -226,7 +226,7 @@ RalphPhoneCallerScript:
 	checkflag ENGINE_SWARM
 	iftrue Phone_GenericCall_Male
 	getmonname STRING_BUFFER_4, QWILFISH
-	getstring STRING_BUFFER_5, PhoneRoute32Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_32
 	setval FISHSWARM_QWILFISH
 	special ActivateFishingSwarm
 	sjump PhoneScript_SwarmFish
@@ -250,7 +250,7 @@ LizPhoneCallerScript:
 	sjump Phone_GenericCall_Female
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute32Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_32
 	setevent EVENT_LIZ_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Female
 
@@ -275,7 +275,7 @@ AnthonyPhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute33Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_33
 	setevent EVENT_ANTHONY_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -283,7 +283,7 @@ AnthonyPhoneCallerScript:
 	checkflag ENGINE_SWARM
 	iftrue Phone_GenericCall_Male
 	getmonname STRING_BUFFER_4, DUNSPARCE
-	getstring STRING_BUFFER_5, PhoneDarkCaveText
+	getlandmarkname STRING_BUFFER_5, LANDMARK_DARK_CAVE
 	swarm DARK_CAVE_VIOLET_ENTRANCE
 	sjump PhoneScript_SwarmCave
 
@@ -306,7 +306,7 @@ ToddPhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute34Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_34
 	setevent EVENT_TODD_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -333,7 +333,7 @@ GinaPhoneCallerScript:
 	sjump Phone_GenericCall_Female
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute34Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_34
 	setevent EVENT_GINA_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Female
 
@@ -356,7 +356,7 @@ IrwinPhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute35Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_35
 	setevent EVENT_IRWIN_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -377,7 +377,7 @@ ArniePhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute35Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_35
 	setevent EVENT_ARNIE_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -385,7 +385,7 @@ ArniePhoneCallerScript:
 	checkflag ENGINE_SWARM
 	iftrue Phone_GenericCall_Male
 	getmonname STRING_BUFFER_4, YANMA
-	getstring STRING_BUFFER_5, PhoneRoute35Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_35
 	swarm ROUTE_35
 	sjump PhoneScript_SwarmGrass
 
@@ -404,7 +404,7 @@ AlanPhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute36Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_36
 	setevent EVENT_ALAN_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -423,7 +423,7 @@ DanaPhoneCallerScript:
 	sjump Phone_GenericCall_Female
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute38Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_38
 	setevent EVENT_DANA_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Female
 
@@ -447,12 +447,12 @@ ChadPhoneCallerScript:
 	checkflag ENGINE_SWARM
 	iftrue Phone_GenericCall_Male
 	getmonname STRING_BUFFER_4, SNUBBULL
-	getstring STRING_BUFFER_5, PhoneRoute38Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_38
 	swarm ROUTE_38
 	sjump PhoneScript_SwarmGrass
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute38Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_38
 	setevent EVENT_CHAD_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -491,7 +491,7 @@ DerekPhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute39Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_39
 	setevent EVENT_DEREK_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -510,7 +510,7 @@ ChrisPhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute42Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_42
 	setevent EVENT_CHRIS_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -531,7 +531,7 @@ BrentPhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute43Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_43
 	setevent EVENT_BRENT_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -552,7 +552,7 @@ TiffanyPhoneCallerScript:
 	sjump Phone_GenericCall_Female
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute43Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_43
 	setevent EVENT_TIFFANY_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Female
 
@@ -571,7 +571,7 @@ VancePhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute44Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_44
 	setevent EVENT_VANCE_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -595,13 +595,13 @@ WiltonPhoneCallerScript:
 	checkflag ENGINE_SWARM
 	iftrue Phone_GenericCall_Male
 	getmonname STRING_BUFFER_4, REMORAID
-	getstring STRING_BUFFER_5, PhoneRoute44Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_44
 	setval FISHSWARM_REMORAID
 	special ActivateFishingSwarm
 	sjump PhoneScript_SwarmFish
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute44Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_44
 	setevent EVENT_WILTON_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -620,7 +620,7 @@ KenjiPhoneCallerScript:
 	sjump Phone_GenericCall_Male
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute45Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_45
 	setevent EVENT_KENJI_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -644,12 +644,12 @@ ParryPhoneCallerScript:
 	checkflag ENGINE_SWARM
 	iftrue Phone_GenericCall_Male
 	getmonname STRING_BUFFER_4, MARILL
-	getstring STRING_BUFFER_5, PhoneMtMortarText
+	getlandmarkname STRING_BUFFER_5, LANDMARK_MT_MORTAR
 	swarm MOUNT_MORTAR_1F_OUTSIDE
 	sjump PhoneScript_SwarmCave
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute45Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_45
 	setevent EVENT_PARRY_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Male
 
@@ -668,10 +668,8 @@ ErinPhoneCallerScript:
 	sjump Phone_GenericCall_Female
 
 .WantsBattle:
-	getstring STRING_BUFFER_5, PhoneRoute46Text
+	getlandmarkname STRING_BUFFER_5, LANDMARK_ROUTE_46
 	setevent EVENT_ERIN_READY_FOR_REMATCH
 	sjump PhoneScript_WantsToBattle_Female
 
 INCLUDE "engine/phone/scripts/generic.asm"
-
-INCLUDE "data/phone/text/landmarks.asm"
