@@ -393,3 +393,8 @@ SECTION "Stadium 2 Checksums", ROMX[$7DF8], BANK[$7F]
 ; If it is removed, also remove the "tools/stadium" command in the Makefile.
 
 	ds $208
+
+
+SECTION "European Mail", ROMX
+
+INCLUDE "engine/pokemon/european_mail.asm"

@@ -57,6 +57,14 @@ DEF MAIL_MSG_LENGTH    EQU 2 * MAIL_LINE_LENGTH
 DEF MAILBOX_CAPACITY   EQU 10
 DEF MAIL_STRUCT_LENGTH EQU $2f ; mailmsg struct
 
+; mail languages (European releases)
+	const_def
+	const MAIL_LANG_ENGLISH
+	const MAIL_LANG_FRENCH
+	const MAIL_LANG_GERMAN
+	const MAIL_LANG_ITALIAN
+	const MAIL_LANG_SPANISH
+
 ; held item effects
 	const_def
 	const HELD_NONE
