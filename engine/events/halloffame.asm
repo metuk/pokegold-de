@@ -392,9 +392,6 @@ _HallOfFamePC:
 .EmptyString:
 	db "@"
 
-.EmptyString2: ; unreferenced
-	db "RH-Meister@"
-
 .HOFMaster:
 	db "RH-Meister@"
 

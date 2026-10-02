@@ -362,14 +362,14 @@ _ActorNameText::
 
 _UsedMove1Text::
 	text_start
-	line "used @@"
+	line "ben. @@"
 
 _UsedMove2Text::
 	text_start
-	line "used @@"
+	line "ben. @@"
 
 _UsedInsteadText::
-	text "instead,"
+	text "stattdessen"
 	cont "@@"
 
 _MoveNameText::

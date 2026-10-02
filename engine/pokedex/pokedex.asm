@@ -1233,7 +1233,7 @@ Pokedex_DrawSearchScreenBG:
 	ret
 
 .Title:
-	db $3b, " SUCHE ", $3c, -1
+	db $3b, " Suche ", $3c, -1
 
 .TypeLeftRightArrows:
 	db $3d, "        ", $3e, -1

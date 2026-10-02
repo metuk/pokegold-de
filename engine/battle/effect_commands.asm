@@ -4580,7 +4580,7 @@ GetStatName:
 
 .Copy:
 	ld de, wStringBuffer2
-	ld bc, NAME_LENGTH - 1
+	ld bc, STRING_BUFFER_LENGTH
 	jp CopyBytes
 
 INCLUDE "data/battle/stat_names.asm"

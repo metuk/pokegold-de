@@ -926,6 +926,7 @@ TrademonStats_PrintSpeciesNumber:
 	hlcoord 10, 0
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 3
 	call PrintNum
+	ld [hl], ' '
 	ret
 
 TrademonStats_PrintSpeciesName:
