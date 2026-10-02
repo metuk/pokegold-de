@@ -184,7 +184,8 @@ MACRO mailmsg
 \1Line1::     ds MAIL_LINE_LENGTH
 \1LineBreak:: db ; '<NEXT>'
 \1Line2::     ds MAIL_LINE_LENGTH
-\1Author::    ds NAME_LENGTH - 1
+\1Author::    ds PLAYER_NAME_LENGTH
+\1Nationality:: dw
 \1AuthorID::  dw
 \1Species::   db
 \1Type::      db

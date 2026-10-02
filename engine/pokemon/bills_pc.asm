@@ -239,6 +239,21 @@ BillsPCDepositMenuHeader:
 	db "FREILASSEN@"
 	db "ZURÜCK@"
 
+BillsPCClearThreeBoxes:
+	hlcoord 0, 0
+	ld b, 4
+	ld c, 8
+	call ClearBox
+	hlcoord 0, 4
+	ld b, 10
+	ld c, 6
+	call ClearBox
+	hlcoord 0, 14
+	ld b, 2
+	ld c, 8
+	call ClearBox
+	ret
+
 _WithdrawPKMN:
 	ld hl, wOptions
 	ld a, [hl]
@@ -736,6 +751,7 @@ _MovePKMNWithoutMail:
 	call BillsPC_CheckSpaceInDestination
 	jr c, .no_space
 	call MovePKMNWithoutMail_InsertMon
+	farcall UpdateBoxChecksums
 	ld a, $0
 	ld [wJumptableIndex], a
 	ret
@@ -1465,26 +1481,30 @@ endr
 	jr .loop
 
 .OAM:
-	dbsprite  9, 5, 7, 1, $00, 0
-	dbsprite 10, 5, 7, 1, $01, 0
-	dbsprite 11, 5, 7, 1, $01, 0
-	dbsprite 12, 5, 7, 1, $01, 0
-	dbsprite 13, 5, 7, 1, $01, 0
-	dbsprite 14, 5, 7, 1, $01, 0
-	dbsprite 15, 5, 7, 1, $01, 0
-	dbsprite 16, 5, 7, 1, $01, 0
-	dbsprite 17, 5, 7, 1, $01, 0
-	dbsprite 18, 5, 7, 1, $02, 0
-	dbsprite  9, 6, 7, 1, $03, 0
-	dbsprite 10, 6, 7, 1, $04, 0
-	dbsprite 11, 6, 7, 1, $04, 0
-	dbsprite 12, 6, 7, 1, $04, 0
-	dbsprite 13, 6, 7, 1, $04, 0
-	dbsprite 14, 6, 7, 1, $04, 0
-	dbsprite 15, 6, 7, 1, $04, 0
-	dbsprite 16, 6, 7, 1, $04, 0
-	dbsprite 17, 6, 7, 1, $04, 0
-	dbsprite 18, 6, 7, 1, $05, 0
+	dbsprite 10, 4, 0, 6, $00, 0
+	dbsprite 11, 4, 0, 6, $00, 0
+	dbsprite 12, 4, 0, 6, $00, 0
+	dbsprite 13, 4, 0, 6, $00, 0
+	dbsprite 14, 4, 0, 6, $00, 0
+	dbsprite 15, 4, 0, 6, $00, 0
+	dbsprite 16, 4, 0, 6, $00, 0
+	dbsprite 17, 4, 0, 6, $00, 0
+	dbsprite 18, 4, 0, 6, $00, 0
+	dbsprite 18, 4, 7, 6, $00, 0
+	dbsprite 10, 7, 0, 1, $00, 64
+	dbsprite 11, 7, 0, 1, $00, 64
+	dbsprite 12, 7, 0, 1, $00, 64
+	dbsprite 13, 7, 0, 1, $00, 64
+	dbsprite 14, 7, 0, 1, $00, 64
+	dbsprite 15, 7, 0, 1, $00, 64
+	dbsprite 16, 7, 0, 1, $00, 64
+	dbsprite 17, 7, 0, 1, $00, 64
+	dbsprite 18, 7, 0, 1, $00, 64
+	dbsprite 18, 7, 7, 1, $00, 64
+	dbsprite  9, 5, 6, 6, $01, 0
+	dbsprite  9, 6, 6, 1, $01, 64
+	dbsprite 19, 5, 1, 6, $01, 32
+	dbsprite 19, 6, 1, 1, $01, 96
 	db -1
 
 BillsPC_UpdateInsertCursor:
@@ -1510,14 +1530,14 @@ endr
 
 .OAM:
 	dbsprite 10, 4, 0, 7, $06, 0
-	dbsprite 11, 5, 0, 3, $01, 0
-	dbsprite 12, 5, 0, 3, $01, 0
-	dbsprite 13, 5, 0, 3, $01, 0
-	dbsprite 14, 5, 0, 3, $01, 0
-	dbsprite 15, 5, 0, 3, $01, 0
-	dbsprite 16, 5, 0, 3, $01, 0
-	dbsprite 17, 5, 0, 3, $01, 0
-	dbsprite 18, 5, 0, 3, $01, 0
+	dbsprite 11, 5, 0, 3, $00, 64
+	dbsprite 12, 5, 0, 3, $00, 64
+	dbsprite 13, 5, 0, 3, $00, 64
+	dbsprite 14, 5, 0, 3, $00, 64
+	dbsprite 15, 5, 0, 3, $00, 64
+	dbsprite 16, 5, 0, 3, $00, 64
+	dbsprite 17, 5, 0, 3, $00, 64
+	dbsprite 18, 5, 0, 3, $00, 64
 	dbsprite 19, 4, 0, 7, $07, 0
 	db -1
 
@@ -1760,9 +1780,7 @@ DepositPokemon:
 	farcall RemoveMonFromPartyOrBox
 	ld a, [wCurPartySpecies]
 	call PlayMonCry
-	hlcoord 0, 0
-	lb bc, 15, 8
-	call ClearBox
+	call BillsPCClearThreeBoxes
 	hlcoord 8, 14
 	lb bc, 1, 3
 	call ClearBox
@@ -1771,14 +1789,12 @@ DepositPokemon:
 	call Textbox
 	call WaitBGMap
 	hlcoord 1, 16
-	ld de, PCString_Stored
+	ld de, wStringBuffer1
 	call PlaceString
 	ld l, c
 	ld h, b
-	ld de, wStringBuffer1
+	ld de, PCString_Stored
 	call PlaceString
-	ld a, '!'
-	ld [bc], a
 	ld c, 50
 	call DelayFrames
 	and a
@@ -1815,9 +1831,7 @@ TryWithdrawPokemon:
 	farcall RemoveMonFromPartyOrBox
 	ld a, [wCurPartySpecies]
 	call PlayMonCry
-	hlcoord 0, 0
-	lb bc, 15, 8
-	call ClearBox
+	call BillsPCClearThreeBoxes
 	hlcoord 8, 14
 	lb bc, 1, 3
 	call ClearBox
@@ -1826,14 +1840,12 @@ TryWithdrawPokemon:
 	call Textbox
 	call WaitBGMap
 	hlcoord 1, 16
-	ld de, PCString_Got
+	ld de, wStringBuffer1
 	call PlaceString
 	ld l, c
 	ld h, b
-	ld de, wStringBuffer1
+	ld de, PCString_Got
 	call PlaceString
-	ld a, '!'
-	ld [bc], a
 	ld c, 50
 	call DelayFrames
 	and a
@@ -1851,9 +1863,7 @@ TryWithdrawPokemon:
 	ret
 
 ReleasePKMN_ByePKMN:
-	hlcoord 0, 0
-	lb bc, 15, 8
-	call ClearBox
+	call BillsPCClearThreeBoxes
 	hlcoord 8, 14
 	lb bc, 1, 3
 	call ClearBox
@@ -1886,7 +1896,6 @@ ReleasePKMN_ByePKMN:
 	call PlaceString
 	ld l, c
 	ld h, b
-	inc hl
 	ld de, wStringBuffer1
 	call PlaceString
 	ld l, c
