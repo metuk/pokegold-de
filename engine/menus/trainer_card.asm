@@ -232,7 +232,7 @@ TrainerCard_PrintTopHalfOfCard:
 	hlcoord 2, 4
 	ld de, .ID_No
 	call TrainerCardSetup_PlaceTilemapString
-	hlcoord 7, 2
+	hlcoord 2, 2
 	ld de, wPlayerName
 	call PlaceString
 	hlcoord 5, 4
@@ -281,7 +281,7 @@ TrainerCard_Page1_PrintDexCaught_GameTime:
 	hlcoord 2, 10
 	ld de, .Dex_PlayTime
 	call PlaceString
-	hlcoord 12, 15
+	hlcoord 10, 15
 	ld de, .Badges
 	call PlaceString
 	ld hl, wPokedexCaught

@@ -410,7 +410,7 @@ LineChar::
 
 Paragraph::
 	push de
-	lda_coord TEXTBOX_INNERX + TEXTBOX_INNERW - 1, TEXTBOX_INNERY + TEXTBOX_INNERH
+	lda_coord TEXTBOX_INNERX + TEXTBOX_INNERW - 1, TEXTBOX_INNERY + TEXTBOX_INNERH - 1
 	push af
 
 	ld a, [wLinkMode]
@@ -425,7 +425,7 @@ Paragraph::
 	lb bc, TEXTBOX_INNERH - 1, TEXTBOX_INNERW
 	call ClearBox
 	pop af
-	ldcoord_a TEXTBOX_INNERX + TEXTBOX_INNERW - 1, TEXTBOX_INNERY + TEXTBOX_INNERH
+	ldcoord_a TEXTBOX_INNERX + TEXTBOX_INNERW - 1, TEXTBOX_INNERY + TEXTBOX_INNERH - 1
 	ld c, 20
 	call DelayFrames
 	hlcoord TEXTBOX_INNERX, TEXTBOX_INNERY

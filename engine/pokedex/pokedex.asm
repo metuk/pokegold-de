@@ -1283,7 +1283,7 @@ Pokedex_DrawSearchResultsScreenBG:
 
 Pokedex_PlaceSearchResultsTypeStrings:
 	ld a, [wDexSearchMonType1]
-	hlcoord 0, 14
+	hlcoord 1, 14
 	call Pokedex_PlaceTypeString
 	ld a, [wDexSearchMonType1]
 	ld b, a
@@ -1292,9 +1292,9 @@ Pokedex_PlaceSearchResultsTypeStrings:
 	jr z, .done
 	cp b
 	jr z, .done
-	hlcoord 2, 15
+	hlcoord 3, 15
 	call Pokedex_PlaceTypeString
-	hlcoord 1, 15
+	hlcoord 2, 15
 	ld [hl], '/'
 .done
 	ret

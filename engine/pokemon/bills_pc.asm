@@ -1004,7 +1004,7 @@ BillsPC_BoxName:
 .party
 	ld de, .PartyPKMN
 .print
-	hlcoord 10, 1
+	hlcoord 9, 1
 	call PlaceString
 	ret
 

@@ -54,7 +54,9 @@ PredefPointers::
 	add_predef PrintMonTypes
 	add_predef GetUnownLetter
 	add_predef LoadPoisonBGPals
-	add_predef DummyPredef2F
+DummyPredef2FPredef::
+	dw DummyPredef2F + 1 ; points into the middle of an instruction in the German release
+	db BANK(DummyPredef2F)
 	add_predef InitSGBBorder
 	add_predef LoadSGBLayout
 	add_predef Pokedex_GetArea
