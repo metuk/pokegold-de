@@ -302,9 +302,20 @@ InitPokegearTilemap:
 .Clock:
 	ld de, ClockTilemapRLE
 	call Pokegear_LoadTilemapRLE
-	hlcoord 13, 1
+	hlcoord 12, 1
 	ld de, .switch
 	call PlaceString
+	; patch the clock frame for the longer German text
+	hlcoord 11, 0
+	ld [hl], $30
+	inc hl
+	ld [hl], ' '
+	hlcoord 11, 1
+	ld [hl], ' '
+	hlcoord 11, 2
+	ld [hl], $32
+	inc hl
+	ld [hl], ' '
 	hlcoord 0, 12
 	lb bc, 4, 18
 	call Textbox
@@ -312,7 +323,7 @@ InitPokegearTilemap:
 	ret
 
 .switch
-	db "SWITCH▶@"
+	db " WEITER▶@"
 
 .Map:
 	ld a, [wPokegearMapPlayerIconLandmark]

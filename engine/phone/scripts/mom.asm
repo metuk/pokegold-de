@@ -47,22 +47,16 @@ MomPhoneInTown:
 	sjump MomSavingMoney
 
 .violet
-	getstring STRING_BUFFER_4, .text_sprout_tower
+	getlandmarkname STRING_BUFFER_4, LANDMARK_SPROUT_TOWER
 	sjump MomPhoneLandmark
-.text_sprout_tower
-	db "SPROUT TOWER@"
 
 .azalea
-	getstring STRING_BUFFER_4, .text_slowpoke_well
+	getlandmarkname STRING_BUFFER_4, LANDMARK_SLOWPOKE_WELL
 	sjump MomPhoneLandmark
-.text_slowpoke_well
-	db "SLOWPOKE WELL@"
 
 .goldenrod
-	getstring STRING_BUFFER_4, .text_radio_tower
+	getlandmarkname STRING_BUFFER_4, LANDMARK_RADIO_TOWER
 	sjump MomPhoneLandmark
-.text_radio_tower
-	db "RADIO TOWER@"
 
 MomPhoneOnRoute:
 	writetext MomOtherAreaText

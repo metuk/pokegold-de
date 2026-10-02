@@ -102,7 +102,7 @@ PrintPage2:
 
 GBPrinterStrings: ; used only for BANK(GBPrinterStrings)
 GBPrinterString_Null: db "@"
-GBPrinterString_CheckingLink: next "   PRÜFE LINK...@"
+GBPrinterString_CheckingLink: next "   Prüfe Link...@"
 GBPrinterString_Transmitting: next "   ÜBERTRAGUNG@"
 GBPrinterString_Printing: next "     DRUCKEN@"
 GBPrinterString_PrinterError1:

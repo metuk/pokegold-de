@@ -643,12 +643,6 @@ NamingScreen_AnimateCursor:
 
 NamingScreen_TryAddCharacter:
 	ld a, [wNamingScreenLastCharacter]
-	ld hl, Dakutens
-	cp 'ﾞ'
-	jr z, AddDakutenToCharacter
-	ld hl, Handakutens
-	cp 'ﾟ'
-	jr z, AddDakutenToCharacter
 
 MailComposition_TryAddCharacter:
 	ld a, [wNamingScreenMaxNameLength]
@@ -1319,14 +1313,9 @@ ComposeMail_GetCursorPosition:
 
 MailComposition_TryAddLastCharacter:
 	ld a, [wNamingScreenLastCharacter]
-	ld hl, Dakutens
-	cp 'ﾞ'
-	jr z, .add_dakuten
-	ld hl, Handakutens
-	cp 'ﾟ'
-	jp nz, MailComposition_TryAddCharacter
+	jp MailComposition_TryAddCharacter
 
-.add_dakuten
+.add_dakuten ; unreferenced
 	ld a, [wNamingScreenCurNameLength]
 	and a
 	ret z
